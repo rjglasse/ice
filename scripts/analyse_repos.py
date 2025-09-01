@@ -54,7 +54,7 @@ class GitCommitAnalyzer:
             # Get commit info and stats
             cmd = [
                 'git', 'log', f'--author={self.author_pattern}',
-                '--date=short', '--numstat',
+                '--date=iso', '--numstat',
                 '--pretty=format:%H%x09%an%x09%ad%x09%s'
             ]
             
@@ -86,7 +86,7 @@ class GitCommitAnalyzer:
                     current_commit = {
                         'commit': parts[0],
                         'author': parts[1],
-                        'date': parts[2],
+                        'datetime': parts[2],
                         'subject': parts[3],
                         'insertions': 0,
                         'deletions': 0,
@@ -124,7 +124,7 @@ class GitCommitAnalyzer:
     
     def export_csv(self, commits: List[Dict], output_file: Optional[str] = None):
         """Export commits to CSV format."""
-        fieldnames = ['commit', 'author', 'date', 'subject', 'insertions', 
+        fieldnames = ['commit', 'author', 'datetime', 'subject', 'insertions', 
                      'deletions', 'total', 'files_changed', 'fix']
         
         output = open(output_file, 'w', newline='') if output_file else sys.stdout

@@ -13,13 +13,13 @@
 # "fix", "fixes", "close", "closed", "resolve", "resolved" followed by "#<number>"
 #
 # Output format: CSV with columns:
-# commit,author,date,subject,insertions,deletions,total,fix
+# commit,author,datetime,subject,insertions,deletions,total,fix
 
-git log --author='[Gg]lassey' --date=short \
+git log --author='[Gg]lassey' --date=iso \
   --pretty=format:'COMMIT%x09%h%x09%an%x09%ad%x09%s' --numstat \
 | awk -F'\t' -v OFS=',' '
 function quote(s){ gsub(/"/,"\"\"",s); return "\"" s "\"" }
-BEGIN { print "commit,author,date,subject,insertions,deletions,total,fix" }
+BEGIN { print "commit,author,datetime,subject,insertions,deletions,total,fix" }
 $1=="COMMIT" {
   if (NR>1) {
     print commit, author, date, quote(subject), ins, del, ins+del, fix

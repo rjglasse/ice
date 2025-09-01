@@ -59,7 +59,7 @@ analyze_commits() {
     trap "rm -f $temp_file" EXIT
     
     # Use null-terminated format for robust parsing
-    git log --author="$AUTHOR_PATTERN" --date=short --numstat \
+    git log --author="$AUTHOR_PATTERN" --date=iso --numstat \
         --pretty=format:'%x00COMMIT%x00%H%x00%an%x00%ad%x00%s%x00' \
         | while IFS= read -r -d '' line || [[ -n "$line" ]]; do
         
@@ -126,7 +126,7 @@ analyze_commits() {
 # Main execution
 main() {
     if [[ "$OUTPUT_FORMAT" == "csv" ]]; then
-        echo "commit,author,date,subject,insertions,deletions,total,fix"
+        echo "commit,author,datetime,subject,insertions,deletions,total,fix"
     fi
     
     analyze_commits
