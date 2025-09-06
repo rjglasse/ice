@@ -1,6 +1,2826 @@
-author,commits,issues,commits_to_issues_ratio,total_changes,effort_category,nudge_message,issue_created
-glassey,20,12,1.6667,392,Balanced,"🎯 You're maintaining a good balance with 1.67 commit-to-issue ratio. Consider taking on one additional feature challenge. You have 11 open issues - a great opportunity to dive deeper into problem-solving!
+author,commits,issues,open_issues,closed_issues,references,closing_references,classification,nudge_message,issue_created
+aattar,5,1,1,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (5 commits for 1 issues, ratio: 5.0)
+- 🎯 **Completion**: Start completing issues (1 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
 
-## 📊 Class Distribution 
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
 
-**⚖️ Balanced: 100%** (you)",False
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+abhsax,7,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 6 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+adamven,5,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (5 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+adrianjw,3,6,0,6,6,2,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (3/6, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (2/6 issues, 33%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+aeozbek,7,5,0,5,5,2,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (2/5 issues, 40%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+agentzel,10,6,0,6,4,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 6 issues, ratio: 1.7)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (4/6 issues, 66%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+akanksh,3,5,0,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (3/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+akehurst,2,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (2 commits for 1 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+akuhnert,8,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+alialk,4,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (4 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+alperso,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+alstahle,10,6,0,6,6,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 6 issues, ratio: 1.7)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (4/6 issues, 66%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+alviny,5,7,0,7,7,7,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: More commits needed (5/7, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (7/7 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+alwinwn,6,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 1 issues, ratio: 6.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+anpingle,6,5,0,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+antonlen,10,7,0,7,9,9,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 7 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (9/7 issues, 128%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+arst,8,6,0,6,6,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 6 issues, ratio: 1.3)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/6 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+arvidbj,10,6,1,5,7,2,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 6 issues, ratio: 1.7)
+- ⚡ **Automation**: Good start, use closing keywords more often (2/5 issues, 40%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+arvwes,2,6,1,5,5,5,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (2/6, target: ≥1 commit per issue)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+atosun,2,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (2 commits for 1 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+avde,3,2,0,2,2,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 2 issues, ratio: 1.5)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/2 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+awahren,6,7,0,7,6,6,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: More commits needed (6/7, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/7 issues, 85%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+axelahm,6,8,1,7,6,6,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Good issue tracking! (8/5)
+- 💻 **Coding**: More commits needed (6/8, target: ≥1 commit per issue)
+- ⚡ **Automation**: Perfect use of closing keywords (6/7 issues, 85%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+axelbjor,11,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (11 commits for 1 issues, ratio: 11.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+badawood,10,9,4,5,8,8,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Good issue tracking! (9/5)
+- 💻 **Coding**: Good commit frequency (10 commits for 9 issues, ratio: 1.1)
+- ⚡ **Automation**: Perfect use of closing keywords (8/5 issues, 160%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+bajlo,3,5,0,5,5,2,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (3/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (2/5 issues, 40%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+bishrelt,4,2,1,1,3,2,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 2 issues, ratio: 2.0)
+- ⚡ **Automation**: Perfect use of closing keywords (2/1 issues, 200%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+bjorste,3,5,0,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (3/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+capf,7,9,0,9,3,3,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Good issue tracking! (9/5)
+- 💻 **Coding**: More commits needed (7/9, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (9 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (3/9 issues, 33%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+catyde,3,5,0,5,10,10,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (3/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (10/5 issues, 200%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+chhatbar,11,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (11 commits for 1 issues, ratio: 11.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+chkkour,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+ctorgrip,6,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+cwelen,6,5,0,5,5,3,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (3/5 issues, 60%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+daeo,5,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (5 commits for 5 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+dalindk,8,7,0,7,7,7,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 7 issues, ratio: 1.1)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (7/7 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+danahh,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+danogw,6,6,0,6,6,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/6 issues, 83%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+darinabd,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+dellam,7,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (7 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+didriku,10,8,0,8,9,9,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Good issue tracking! (8/5)
+- 💻 **Coding**: Good commit frequency (10 commits for 8 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (8 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (9/8 issues, 112%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+disoto,4,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (4 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+eahla,5,5,0,5,4,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (5 commits for 5 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/5 issues, 80%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+edwardas,1,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (1 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+eliasgr,5,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (5/6, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+elliotan,9,5,0,5,5,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (9 commits for 5 issues, ratio: 1.8)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/5 issues, 80%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+elsai,7,6,0,6,2,2,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 6 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (2/6 issues, 33%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+emmkab,1,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (1 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+emsands,1,5,0,5,5,5,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (1/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+erikrom,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+fabianto,10,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 5 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+fesj,8,4,0,4,4,4,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (4/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (8 commits for 4 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (4 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/4 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+filipron,6,3,0,3,3,3,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (3/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 3 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (3 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (3/3 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+flavius,1,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (1 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+folkesc,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+francesh,6,1,1,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 1 issues, ratio: 6.0)
+- 🎯 **Completion**: Start completing issues (1 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+fransny,11,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (11 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+gullblom,3,5,0,5,5,5,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (3/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hannazh,7,5,0,5,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/5 issues, 120%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hartm,9,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (9 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hermanha,3,2,0,2,2,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 2 issues, ratio: 1.5)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/2 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hfahlin,3,6,0,6,3,1,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (3/6, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (1/6 issues, 16%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hstorm,4,5,0,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (4/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hugoco,3,4,0,4,0,0,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (4/5, default: ~5)
+- 💻 **Coding**: More commits needed (3/4, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (4 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/4 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hultdin,4,0,0,0,2,2,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (4 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+hulundb,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+isakhem,6,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (6 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+isong,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jackak,1,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (1 commits for 1 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+janusson,2,2,2,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (2 commits for 2 issues, ratio: 1.0)
+- 🎯 **Completion**: Start completing issues (2 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jarr,3,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 1 issues, ratio: 3.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+javids,13,11,0,11,9,9,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Good issue tracking! (11/5)
+- 💻 **Coding**: Good commit frequency (13 commits for 11 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (11 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (9/11 issues, 81%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jensfoc,5,6,0,6,7,7,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (5/6, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (7/6 issues, 116%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jharj,4,5,4,1,1,1,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (4/5, target: ≥1 commit per issue)
+- 🎯 **Completion**: Close remaining issues to finish tasks (4 open, 1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (1/1 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jonaskvi,9,6,0,6,8,7,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (9 commits for 6 issues, ratio: 1.5)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (7/6 issues, 116%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jonsh,13,5,0,5,5,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (13 commits for 5 issues, ratio: 2.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/5 issues, 80%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+josjer,9,5,0,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (9 commits for 5 issues, ratio: 1.8)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jrislund,5,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (5 commits for 5 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+jtt,5,0,0,0,1,1,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (5 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+julch,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+julieda,3,7,2,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: More commits needed (3/7, target: ≥1 commit per issue)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+julina,7,5,0,5,6,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+kaj4,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+kajus,3,2,0,2,2,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 2 issues, ratio: 1.5)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/2 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+kante,4,2,0,2,2,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 2 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/2 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+karlham,5,7,0,7,10,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: More commits needed (5/7, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/7 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+kazan,9,7,0,7,7,7,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (9 commits for 7 issues, ratio: 1.3)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (7/7 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+kgharios,4,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (4 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+khaleghi,4,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (4 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+kimnor,8,7,0,7,8,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 7 issues, ratio: 1.1)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/7 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+korlot,1,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (1 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+kostiuk,5,5,0,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (5 commits for 5 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+laamiri,6,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (6 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+laxberg,6,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+lberglie,2,6,0,6,5,4,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (2/6, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (4/6 issues, 66%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+leben,6,5,0,5,6,3,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (3/5 issues, 60%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+leock,6,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 1 issues, ratio: 6.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+leonms,6,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+leosjos,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+lfax,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+lihanl,4,5,0,5,1,1,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (4/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (1/5 issues, 20%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+linnwan,2,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (2 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+linupet,3,6,0,6,1,1,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (3/6, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (1/6 issues, 16%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+linusnym,10,5,5,0,5,5,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 5 issues, ratio: 2.0)
+- 🎯 **Completion**: Start completing issues (5 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+lohag,8,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+lokehu,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+louisete,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+louiseul,8,5,0,5,4,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/5 issues, 80%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+lovwic,5,1,0,1,1,1,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (5 commits for 1 issues, ratio: 5.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (1/1 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+lucjan,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+ludw,3,4,1,3,1,1,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (4/5, default: ~5)
+- 💻 **Coding**: More commits needed (3/4, target: ≥1 commit per issue)
+- ⚡ **Automation**: Good start, use closing keywords more often (1/3 issues, 33%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+mahamad,2,0,0,0,1,1,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (2 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+maltehag,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+maltelu,11,7,0,7,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (11 commits for 7 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/7 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+marioo,7,1,0,1,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (7 commits for 1 issues, ratio: 7.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+mariuspa,2,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (2 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+markmal,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+markow,4,1,0,1,4,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 1 issues, ratio: 4.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/1 issues, 400%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+matfz,6,5,0,5,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+mbd,6,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+mbjors,6,3,0,3,4,3,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (3/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 3 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (3 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (3/3 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+mblomst,3,1,0,1,2,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 1 issues, ratio: 3.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/1 issues, 200%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+melvinvu,4,1,1,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 1 issues, ratio: 4.0)
+- 🎯 **Completion**: Start completing issues (1 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+meria,5,3,0,3,4,4,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (3/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (5 commits for 3 issues, ratio: 1.7)
+- ✅ **Completion**: Excellent - all issues completed (3 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/3 issues, 133%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+mikaeleb,2,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (2 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+milokr,2,6,5,1,2,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (2/6, target: ≥1 commit per issue)
+- 🎯 **Completion**: Close remaining issues to finish tasks (5 open, 1 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/1 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+morrish,0,1,1,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Start coding - issues need commits (0 commits, 1 issues)
+- 🎯 **Completion**: Start completing issues (1 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+msjolin,1,5,0,5,5,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: More commits needed (1/5, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+msorberg,6,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+nadjibi,1,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (1 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+nazaninf,6,2,0,2,5,5,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 2 issues, ratio: 3.0)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/2 issues, 250%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+nekerot,6,6,1,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+neojc,3,1,0,1,1,1,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 1 issues, ratio: 3.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (1/1 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+nganv,2,2,0,2,4,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (2 commits for 2 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/2 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+ngoka,1,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (1 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+nhg,2,2,0,2,2,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (2 commits for 2 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/2 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+nilhal,6,3,0,3,0,0,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (3/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 3 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (3 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/3 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+noelsol,3,6,6,0,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (3/6, target: ≥1 commit per issue)
+- 🎯 **Completion**: Start completing issues (6 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+nrosberg,3,3,0,3,0,0,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (3/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 3 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (3 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/3 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+oaydogan,4,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (4 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+ohogfors,4,2,0,2,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 2 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/2 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+ossianfr,6,2,0,2,2,1,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 2 issues, ratio: 3.0)
+- ✅ **Completion**: Excellent - all issues completed (2 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (1/2 issues, 50%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+otish,8,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 6 issues, ratio: 1.3)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+owalli,8,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+petroz,5,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (5 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+pfu,2,2,2,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (2 commits for 2 issues, ratio: 1.0)
+- 🎯 **Completion**: Start completing issues (2 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+phhedb,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+ponord,10,5,0,5,5,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 5 issues, ratio: 2.0)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+pouryaz,3,1,0,1,1,1,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 1 issues, ratio: 3.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (1/1 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+puhl,7,5,0,5,5,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+qingyou,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+rasnord,4,1,0,1,1,1,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 1 issues, ratio: 4.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (1/1 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+rjmartin,6,2,2,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (6 commits for 2 issues, ratio: 3.0)
+- 🎯 **Completion**: Start completing issues (2 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+robinfm,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+rsoderh,7,6,0,6,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 6 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/6 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+rufusc,4,3,0,3,3,3,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (3/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 3 issues, ratio: 1.3)
+- ✅ **Completion**: Excellent - all issues completed (3 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (3/3 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+saksberg,20,6,0,6,10,9,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (20 commits for 6 issues, ratio: 3.3)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (9/6 issues, 150%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+salmaam,7,6,0,6,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 6 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/6 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+sibelli,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+sixteno,9,4,0,4,4,4,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (4/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (9 commits for 4 issues, ratio: 2.2)
+- ✅ **Completion**: Excellent - all issues completed (4 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/4 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+skjo,5,5,1,4,4,4,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (5 commits for 5 issues, ratio: 1.0)
+- ⚡ **Automation**: Perfect use of closing keywords (4/4 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+sofiatl,7,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+sofiefu,8,5,0,5,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/5 issues, 120%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+sohw,9,6,0,6,7,7,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (9 commits for 6 issues, ratio: 1.5)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (7/6 issues, 116%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+somya,7,5,0,5,1,1,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 5 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (1/5 issues, 20%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+sssuresh,3,3,3,0,0,0,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (3/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 3 issues, ratio: 1.0)
+- 🎯 **Completion**: Start completing issues (3 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+stjpoli,1,1,1,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (1 commits for 1 issues, ratio: 1.0)
+- 🎯 **Completion**: Start completing issues (1 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+teovg,4,12,5,7,4,4,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Good issue tracking! (12/5)
+- 💻 **Coding**: More commits needed (4/12, target: ≥1 commit per issue)
+- ⚡ **Automation**: Good start, use closing keywords more often (4/7 issues, 57%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+teslenko,8,5,0,5,4,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (4/5 issues, 80%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+thlk,12,7,0,7,4,4,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (12 commits for 7 issues, ratio: 1.7)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (4/7 issues, 57%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+timbl,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+timfor,7,7,0,7,6,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (7 commits for 7 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/7 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+timhedl,4,6,6,0,0,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (4/6, target: ≥1 commit per issue)
+- 🎯 **Completion**: Start completing issues (6 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+tobwic,10,7,0,7,11,1,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (7/5 issues)
+- 💻 **Coding**: Good commit frequency (10 commits for 7 issues, ratio: 1.4)
+- ✅ **Completion**: Excellent - all issues completed (7 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (1/7 issues, 14%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+tsjia,8,5,0,5,5,0,📈 Developing Process,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow (0/5 issues properly closed)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- **📈 Developing Process: 17%** (<< you)
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+vbit,8,6,0,6,6,6,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 6 issues, ratio: 1.3)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (6/6 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+vgaroff,3,2,2,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (2/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (3 commits for 2 issues, ratio: 1.5)
+- 🎯 **Completion**: Start completing issues (2 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+vibb,9,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (9 commits for 5 issues, ratio: 1.8)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+viggoca,3,0,0,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (3 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+vigoran,8,0,0,0,1,1,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Create issues for each exercise to track progress (0/5 issues)
+- 💻 **Coding**: Active coding but consider planning with issues first (8 commits)
+- 🎯 **Completion**: No issues to track completion yet
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+visf,8,1,0,1,1,1,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (8 commits for 1 issues, ratio: 8.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (1/1 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+wekl,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+wilmerfh,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+wlindgr,6,6,0,6,4,3,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 6 issues, ratio: 1.0)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (3/6 issues, 50%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+wlt,6,5,0,5,5,5,🌟 Workflow Master,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (6 commits for 5 issues, ratio: 1.2)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (5/5 issues, 100%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- **🌟 Workflow Master: 26%** (<< you)
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+wnas,1,1,1,0,0,0,🎯 Getting Started,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (1 commits for 1 issues, ratio: 1.0)
+- 🎯 **Completion**: Start completing issues (1 open, 0 closed)
+- ⚡ **Automation**: Complete some issues to practice using closing keywords
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- **🎯 Getting Started: 28%** (<< you)
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+yea,4,6,0,6,3,3,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (6/5 issues)
+- 💻 **Coding**: More commits needed (4/6, target: ≥1 commit per issue)
+- ✅ **Completion**: Excellent - all issues completed (6 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (3/6 issues, 50%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+yloh,8,5,0,5,5,2,🚀 Strong Practitioner,"Here's how it went for your plan and process:
+- 📝 **Planning**: Well-balanced issue planning (5/5 issues)
+- 💻 **Coding**: Good commit frequency (8 commits for 5 issues, ratio: 1.6)
+- ✅ **Completion**: Excellent - all issues completed (5 closed)
+- ⚡ **Automation**: Good start, use closing keywords more often (2/5 issues, 40%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- **🚀 Strong Practitioner: 13%** (<< you)
+- 📈 Developing Process: 17%
+- 🌱 Learning Workflow: 13%
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True
+zixuanli,4,1,0,1,2,2,🌱 Learning Workflow,"Here's how it went for your plan and process:
+- 📝 **Planning**: Nice that you've made your own plan, but try making more issues (1/5, default: ~5)
+- 💻 **Coding**: Good commit frequency (4 commits for 1 issues, ratio: 4.0)
+- ✅ **Completion**: Excellent - all issues completed (1 closed)
+- ⚡ **Automation**: Perfect use of closing keywords (2/1 issues, 200%)
+
+📊 **Class Distribution**:
+Here's how the rest of the course did:
+- 🌟 Workflow Master: 26%
+- 🚀 Strong Practitioner: 13%
+- 📈 Developing Process: 17%
+- **🌱 Learning Workflow: 13%** (<< you)
+- 🎯 Getting Started: 28%
+
+Learn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)",True

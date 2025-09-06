@@ -3,24 +3,47 @@
 import os
 import csv
 import argparse
+import re
 from pathlib import Path
 from collections import defaultdict
+
+def count_issue_references(commit_subject):
+    """Count issue references in commit message, separating closing vs general references"""
+    # Pattern for closing references (fixes, closes, resolves, etc.)
+    closing_pattern = r'(?:fixes?|fixed|closes?|resolves?|completes?)\s*#(\d+)'
+    closing_matches = re.findall(closing_pattern, commit_subject, re.IGNORECASE)
+    
+    # Pattern for all issue references (#number)
+    general_pattern = r'#(\d+)'
+    general_matches = re.findall(general_pattern, commit_subject, re.IGNORECASE)
+    
+    # General references include closing references, so we don't double count
+    general_count = len(general_matches)
+    closing_count = len(closing_matches)
+    
+    return general_count, closing_count
 
 def read_commits_data(commits_file):
     """Read commits CSV and count commits per author"""
     commits_count = defaultdict(int)
     commits_details = defaultdict(list)
+    issue_references = defaultdict(int)
+    closing_references = defaultdict(int)
     
     try:
         with open(commits_file, 'r', newline='') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 author = row['author']
+                commit_subject = row['subject']
                 commits_count[author] += 1
+                general_refs, closing_refs = count_issue_references(commit_subject)
+                issue_references[author] += general_refs
+                closing_references[author] += closing_refs
                 commits_details[author].append({
                     'commit': row['commit'],
                     'datetime': row['datetime'],
-                    'subject': row['subject'],
+                    'subject': commit_subject,
                     'insertions': int(row['insertions']),
                     'deletions': int(row['deletions']),
                     'total': int(row['total'])
@@ -30,7 +53,7 @@ def read_commits_data(commits_file):
     except Exception as e:
         print(f"Error reading commits file: {e}")
     
-    return commits_count, commits_details
+    return commits_count, commits_details, issue_references, closing_references
 
 def read_issues_data(issues_file):
     """Read issues CSV and count issues per author"""
@@ -57,7 +80,7 @@ def read_issues_data(issues_file):
     
     return issues_count, issues_details
 
-def calculate_analysis(commits_count, commits_details, issues_count, issues_details):
+def calculate_analysis(commits_count, commits_details, issues_count, issues_details, issue_references, closing_references):
     """Calculate analysis metrics for each author"""
     all_authors = set(commits_count.keys()) | set(issues_count.keys())
     analysis_data = []
@@ -65,6 +88,8 @@ def calculate_analysis(commits_count, commits_details, issues_count, issues_deta
     for author in all_authors:
         commits = commits_count.get(author, 0)
         issues = issues_count.get(author, 0)
+        references = issue_references.get(author, 0)
+        closing_refs = closing_references.get(author, 0)
         
         # Calculate commits-to-issues ratio (higher is better)
         if issues > 0:
@@ -107,7 +132,9 @@ def calculate_analysis(commits_count, commits_details, issues_count, issues_deta
             'total_changes': total_changes,
             'avg_changes_per_commit': round(avg_changes_per_commit, 2),
             'open_issues': open_issues,
-            'closed_issues': closed_issues
+            'closed_issues': closed_issues,
+            'references': references,
+            'closing_references': closing_refs
         })
     
     # Sort by author name for consistent output
@@ -120,7 +147,8 @@ def write_analysis_csv(analysis_data, output_file):
     fieldnames = [
         'author', 'commits', 'issues', 'commits_to_issues_ratio',
         'total_insertions', 'total_deletions', 'total_changes',
-        'avg_changes_per_commit', 'open_issues', 'closed_issues'
+        'avg_changes_per_commit', 'open_issues', 'closed_issues', 
+        'references', 'closing_references'
     ]
     
     with open(output_file, 'w', newline='') as csvfile:
@@ -150,14 +178,14 @@ def main():
     print(f"Reading issues from: {issues_file}")
     
     # Read data from CSV files
-    commits_count, commits_details = read_commits_data(commits_file)
+    commits_count, commits_details, issue_references, closing_references = read_commits_data(commits_file)
     issues_count, issues_details = read_issues_data(issues_file)
     
     print(f"Found commits data for {len(commits_count)} authors")
     print(f"Found issues data for {len(issues_count)} authors")
     
     # Calculate analysis
-    analysis_data = calculate_analysis(commits_count, commits_details, issues_count, issues_details)
+    analysis_data = calculate_analysis(commits_count, commits_details, issues_count, issues_details, issue_references, closing_references)
     
     # Write results
     write_analysis_csv(analysis_data, output_file)

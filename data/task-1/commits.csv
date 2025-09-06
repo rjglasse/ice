@@ -1,21 +1,1045 @@
-commit,author,datetime,subject,insertions,deletions,total
-fdfdeea44545ddd928c132796075a9723163ad40,glassey,2025-08-27 14:37:24 +0200,Working on #2,1,1,2
-3af17e9aaf19383c8ee8cf6f3d5409dfbc468024,glassey,2025-08-27 14:34:29 +0200,Fixes #1,1,0,1
-56fe7b7c886c5517b218df1be448476c69cb36f4,glassey,2025-08-27 14:33:06 +0200,Made a change,1,0,1
-392793490aa7670831946671a9405b553cdf10b5,glassey,2025-08-27 14:27:27 +0200,"Complete first INDA assignment - warmup questions, HelloWorld, and Arithmetic class",50,13,63
-7b560e0309bc706f09a705917b26d9073a66108f,glassey,2025-08-26 22:35:02 +0200,'Sanitize files',25,17,42
-60acab7f5a089dbfef1f4f202cbeefb403c891c5,glassey,2025-08-26 22:22:30 +0200,'Sanitize files',14,4,18
-efdb472f2550306b4451f9c756be222012b2221e,glassey,2025-08-26 18:00:05 +0200,'Sanitize files',2,2,4
-6a537f12dda31d4d09607998b2c599708a7dc195,glassey,2025-08-26 17:55:29 +0200,'Sanitize files',30,5,35
-10109d3570de0768b8890c4c03321bf19d106a47,glassey,2024-09-02 23:40:21 +0200,'Sanitize files',33,20,53
-d6615e9dcca26ac5d42f3f917fe679bac6f6f8c7,glassey,2024-09-02 23:31:20 +0200,'Sanitize files',34,20,54
-daa063bb325919eed4d18b302028a54c1d5a21a8,glassey,2022-09-05 13:31:04 +0200,'Sanitize files',1,0,1
-40128fda69b1e02984feb1ab132632e658baac61,glassey,2022-09-05 13:28:57 +0200,'Sanitize files',9,10,19
-87389e2179d50fd0c66ac7ff5743307f39ced576,glassey,2022-09-05 13:24:43 +0200,'Sanitize files',17,18,35
-987fad259daa7efb7179d4db914b3ab1da44b927,glassey,2021-09-06 22:59:36 +0200,Rephrase text for Exercise 1.32,1,2,3
-4f1880929cad85dcdc8d7222445cdabd480b2a8c,glassey,2021-09-06 22:55:46 +0200,Fix dates and urls for 2021,5,5,10
-c8b81824100d0a0b5fe3dce4e8a0cd195d734c90,glassey,2020-08-30 16:10:45 +0200,Fix url in README,1,1,2
-4a1ec758cee87ecc80fcdb892306a69d28a5117e,glassey,2020-08-30 16:09:57 +0200,Fix text reflow in README,2,2,4
-5418abf41227948b7e28dc216a550c85828eb836,glassey,2020-08-30 16:07:45 +0200,Update for INDA20,18,13,31
-34c9ce92c6371d8364c1cc9a779874700624288a,glassey,2019-09-01 22:37:15 +0200,Update URLs for 2019,3,3,6
-3aa770e831476b7989959833d96574592596e0af,glassey,2018-09-02 20:59:12 +0200,update urls,4,4,8
+repository,commit,git_author,author,datetime,subject,insertions,deletions,total
+jharj-task-1,4f580f4eadb82cc38fd3c7f768a46b1720db7932,Johannnes,jharj,2025-09-03 19:27:48 +0200,"Done with all the excercises. Fixes #1,2,3,4,5",64,0,64
+jharj-task-1,e4676214471c841be53ae28a249eb09266106a1e,Johannnes,jharj,2025-09-03 18:16:53 +0200,Submitting answers,15,13,28
+jharj-task-1,b567b360f959c7ed5828a826c454380c67e9ac37,Johannes Harju,jharj,2025-09-03 18:03:41 +0200,Update README.md,1,1,2
+jharj-task-1,ff6d91f59c74430d41b16d2d4884659f567757de,Johannes Harju,jharj,2025-09-03 18:02:03 +0200,Update README.md,2,2,4
+hermanha-task-1,958c50f471bfe864a2b86342b8aa135fa23d3083,Herman Hallonqvist,hermanha,2025-09-02 09:27:12 +0200,check boxes,5,5,10
+hermanha-task-1,3f9a5dca2c4589037e40ef22cf741877a4b7e719,Herman Hallonqvist,hermanha,2025-09-02 09:01:53 +0200,"Fixes #2, simple Arithmetic operations",22,0,22
+hermanha-task-1,6243f98e923214fcde5887a4ad4ffc97932140a4,Herman Hallonqvist,hermanha,2025-09-02 08:46:33 +0200,"Fixes #1, simple Hello, World! script",7,0,7
+jrislund-task-1,ff1e84255f18849d26c62ec37d5353d0e233ae77,Johannes Rislund,jrislund,2025-09-03 21:36:13 +0200,Fixes #5,5,0,5
+jrislund-task-1,d1674c6a0c60182cd2d32abed777472b5782c829,Johannes Rislund,jrislund,2025-09-03 21:33:51 +0200,Fixes #4,5,0,5
+jrislund-task-1,2d00e3b5321c41c6766fbad88ec49a01382cf4cf,Johannes Rislund,jrislund,2025-09-03 21:32:04 +0200,Fixes #3,22,0,22
+jrislund-task-1,7e6382446281218139b0ea1609e55d021eb271b0,Johannes Rislund,jrislund,2025-09-03 21:24:56 +0200,Fixes #2,0,0,0
+jrislund-task-1,1232a86bf4ddae18d64effc56868c903022fec1d,Johannes Rislund,jrislund,2025-09-03 21:19:19 +0200,Fixes #1,22,13,35
+viggoca-task-1,283db3f9e2eb32f8ef62b06521e1c5809769f2ca,Viggo Carrefors,viggoca,2025-09-04 14:18:24 +0200,Exercise 1.2 to 1.5,31,0,31
+viggoca-task-1,c78d6d47b796569015f67fc45d1ec3eab1a7ffd3,Viggo Carrefors,viggoca,2025-09-04 14:06:04 +0200,exercise 1 completed,7,0,7
+viggoca-task-1,21532521bb734b94386c3316b3f48a572658185d,Viggo Carrefors,viggoca,2025-09-04 13:12:14 +0200,Warmup 1 completed,14,13,27
+fransny-task-1,22ddfb584cd1c3f01f4ad68b5030612cb4faee97,Frans Nygren,fransny,2025-09-04 10:50:45 +0200,modified file,33,0,33
+fransny-task-1,f7819aec7f006bdf65e0c3dbbd253cb0f451ee1b,Frans Nygren,fransny,2025-09-04 10:39:13 +0200,Modifying HelloWorld.java,1,1,2
+fransny-task-1,66cccd019c2114f16fb2627d799d24c83d0d3a9e,Frans Nygren,fransny,2025-09-03 18:00:37 +0200,modified HelloWorld.java,10,10,20
+fransny-task-1,6f99accdae7b0b196375019f0c0415190d13abc4,Frans Nygren,fransny,2025-09-03 17:37:22 +0200,Add HelloWorld.java,10,0,10
+fransny-task-1,1517e702f8eef88e024ed09cc957135ee6b8bf51,Frans Nygren,fransny,2025-09-03 18:01:20 +0200,Delete src/HelloWorld.java,0,1,1
+fransny-task-1,702c89e53d610e78505d7bc6b34d12e15d87a453,Frans Nygren,fransny,2025-09-03 17:57:22 +0200,Create HelloWorld.java,1,0,1
+fransny-task-1,322c700c0edd722eda0b8ef767fc3233affc32fb,Frans Nygren,fransny,2025-09-03 17:56:52 +0200,Delete src/HelloWorld.java,0,1,1
+fransny-task-1,475f4cf91ad143fc28f10476df33510e1d00a83e,Frans Nygren,fransny,2025-09-03 17:32:47 +0200,Create HelloWorld.java,1,0,1
+fransny-task-1,907daef470192be5d6a6706ad6406dbbda237b58,Frans Nygren,fransny,2025-09-03 12:20:37 +0200,Delete src/HelloWorld.java,0,1,1
+fransny-task-1,0590193ebfaea5a1896d67a509370937762f9fe7,Frans Nygren,fransny,2025-09-03 11:01:50 +0200,Create HelloWorld.java,1,0,1
+fransny-task-1,4e84ede8f1c7bc15683679ffe81a8985adf01b59,Frans Nygren,fransny,2025-09-02 16:26:10 +0200,Update README.md,20,7,27
+jarr-task-1,66aef4f4b2aecf482b12833a640197fc303ace97,Jonathan,jarr,2025-09-04 12:57:34 +0200,Add HelloWorld.java,5,0,5
+jarr-task-1,463e8b917862974344d11285a514fbf21cfe39b2,Jonathan,jarr,2025-09-04 12:55:19 +0200,committing...,29,0,29
+jarr-task-1,6f3aa16661a57c48cc915ff5c37549ac885d2e7e,Jonathan,jarr,2025-09-04 12:51:48 +0200,Add Helloworld and Arithmetic classes,0,0,0
+qingyou-task-1,f33713835db529806d8e88d2c4ad289fed7a66ad,apple wang,qingyou,2025-09-03 22:50:06 +0200,Gjorde task 1),50,0,50
+qingyou-task-1,634e2e218a7b24537f51a1f7f4e33164adcf527a,apple wang,qingyou,2025-09-03 20:08:50 +0200,Gjorde exercise helloworld,5,0,5
+qingyou-task-1,c3b5a4edf0720a350a38e012a6898b4f442386de,apple wang,qingyou,2025-09-03 16:27:56 +0200,Gjorde Warm 1,12,13,25
+nrosberg-task-1,e8bfc886665b9be6483b462899bc630b13e374ef,Nellie Rosberg,nrosberg,2025-09-04 11:01:28 +0200,"Completing task 1, hopefully...",38,0,38
+nrosberg-task-1,c442a3b4e3142869f6cf157aa24dbd5db6193cb4,Nellie Rosberg,nrosberg,2025-09-03 19:12:54 +0200,Trying to solve the problems.,1,1,2
+nrosberg-task-1,1b0cf60d0e9c36c6f74bd98bb9ebb721e4456222,Nellie Rosberg,nrosberg,2025-09-03 17:35:19 +0200,Small change,14,13,27
+danahh-task-1,6db0ff996ec9ea0be3de7d94ec24145cbab204a5,Danah Hariri,danahh,2025-09-04 18:22:26 +0200,Create Arithmetic.java,49,0,49
+danahh-task-1,55f98fd641ea6889c374f1776b26eb9f9b6d7be2,Danah Hariri,danahh,2025-09-04 00:57:51 +0200,Create HelloWorld.java,5,0,5
+danahh-task-1,f005ad4afec4cfed9348be494ee9b53f0b343e02,Danah Hariri,danahh,2025-09-04 00:38:06 +0200,Update README.md,13,13,26
+ossianfr-task-1,8de998b335321af4b26c4b163392649a72b93350,Ossian Franzén,ossianfr,2025-09-03 07:29:27 +0200,Checked the boxes in README,5,5,10
+ossianfr-task-1,4d057c4e24d76b90b5c16fb83719d19576f29cdc,Ossian Franzén,ossianfr,2025-09-02 15:34:59 +0200,Moved HelloWorld.java,7,0,7
+ossianfr-task-1,83f5bbda65ca8105c4b1585a77bbd72d82e76c19,Ossian Franzén,ossianfr,2025-09-02 15:33:55 +0200,Added all 3 methods in the Arithmetic class. Fixes #2,22,7,29
+ossianfr-task-1,3c4fe6ec38fab96f7746bf4a8443d8bf61b0490b,Ossian Franzén,ossianfr,2025-09-02 15:14:24 +0200,Issue #1,0,0,0
+ossianfr-task-1,6a8b92345998e6c5cd1e3f506eaf451ca1e799e7,Ossian Franzén,ossianfr,2025-09-02 14:58:40 +0200,Answered the questions in docs,13,13,26
+ossianfr-task-1,bd4726fb7ae5aaf5d3c58094c99b7c5f309bf519,Ossian Franzén,ossianfr,2025-09-02 14:31:00 +0200,Committed Hello,7,0,7
+rjmartin-task-1,1d1583143ac7571e01bebb84712e12863fb8c7a5,Ryan Jacob Martin,rjmartin,2025-09-05 09:05:26 +0200,Update README.md,3,3,6
+rjmartin-task-1,e2a022f54dbe6a925492aea80081b8037277652f,Ryan Jacob Martin,rjmartin,2025-09-04 23:43:35 +0200,Could not do it anyother way pls teach me boss,40,0,40
+rjmartin-task-1,9386c9eedb05376db1d1bd77372958499dea6b53,Ryan Jacob Martin,rjmartin,2025-09-04 22:24:58 +0200,Adding HelloWorld after major complications,7,0,7
+rjmartin-task-1,3f995117fed144a4e39532f11ed48158b4311895,Ryan Jacob Martin,rjmartin,2025-09-04 18:33:35 +0200,Rest of questions README.md,10,10,20
+rjmartin-task-1,ef7afea824216c28f93227a4ac0f5b7e10f66b31,Ryan Jacob Martin,rjmartin,2025-09-04 18:05:12 +0200,0.2 & 0.3 README.md,2,2,4
+rjmartin-task-1,566e992ca3db3073009b7095abf5c248afc2393d,Ryan Jacob Martin,rjmartin,2025-09-04 17:58:07 +0200,Exercise 0.1 README.md,2,2,4
+atosun-task-1,9151c373f616937295a49a09fe36664c887ec4cc,Aylin Tosun,atosun,2025-09-03 21:28:15 +0200,answered the questions,15,13,28
+atosun-task-1,3a6d9f96fd653f119c6f5762b09899f2655c2a5e,Aylin Tosun,atosun,2025-09-03 20:53:00 +0200,"Added Arithmetic class(sum, Difference, Average) and tested",50,0,50
+aattar-task-1,31ad313b167cc0bacd00304acae01420dfed0712,Alaa Attar,aattar,2025-09-04 10:57:13 +0200,Update Arithmetic.java,14,0,14
+aattar-task-1,040c8c5d35166827f760e15bac7bc8090ab9ac23,Alaa Attar,aattar,2025-09-04 10:39:39 +0200,Update Arithmetic.java,14,0,14
+aattar-task-1,c0f15011244a4e243923195a5ce412cba6c2c241,Alaa Attar,aattar,2025-09-04 10:15:45 +0200,Update Arithmetic.java,11,0,11
+aattar-task-1,bd73b3d4ecfaf1bbdcab6e844be9171423d92f4d,Alaa Attar,aattar,2025-09-04 09:38:57 +0200,Create Arithmetic.java,1,0,1
+aattar-task-1,9f9176ee77f6df35cc1b864b687c1c8d59233366,Alaa Attar,aattar,2025-09-04 09:37:34 +0200,Create HelloWorld.java,1,0,1
+laxberg-task-1,f4250636b3fc4a5760c715ba4f18a8c60d8423b4,Lucas Axberg,laxberg,2025-09-03 11:19:20 +0200,Fixes #6,9,0,9
+laxberg-task-1,9bbdc56f3104e5aab115ed958f1f8f13f0d4706f,Lucas Axberg,laxberg,2025-09-03 11:16:01 +0200,Fixes #5,9,0,9
+laxberg-task-1,9a536898e473114971f65de11296f195ba7b1726,Lucas Axberg,laxberg,2025-09-03 11:11:08 +0200,Fixes #4,18,0,18
+laxberg-task-1,3d92184014b1f149a30277cf7fc41912fba655b5,Lucas Axberg,laxberg,2025-09-03 11:10:16 +0200,Fixes #3,0,0,0
+laxberg-task-1,4e3a6b5c9dcbfaa23e320df1ecf956a391efd65c,Lucas Axberg,laxberg,2025-09-03 10:59:19 +0200,Fixes #2,7,0,7
+laxberg-task-1,3bcc0e3258720e5cf9902c6fd5e4076eb8016f91,Lucas Axberg,laxberg,2025-09-03 10:53:21 +0200,Fixes #1,13,13,26
+badawood-task-1,90759b313466a0293ecff73d7a61b667f021c2a8,Lamar Badawood,badawood,2025-09-05 02:16:00 +0200,Fixes #5: Added an average method,10,1,11
+badawood-task-1,23b346f11a7c2c8c461fb2839cdb61ee645eeeda,Lamar Badawood,badawood,2025-09-05 02:13:05 +0200,Fixes #4: Added a difference method,9,1,10
+badawood-task-1,1698cbef5e03b30b09e2daf8d5cecc0a454b63f3,Lamar Badawood,badawood,2025-09-05 01:57:36 +0200,Fixes #3: Added a sum method,15,2,17
+badawood-task-1,fb63d8edc2df0cceb74150bdade33fd3d301cf71,Lamar Badawood,badawood,2025-09-05 01:46:33 +0200,Fixes #2: Added a multiply method,0,24,24
+badawood-task-1,9065d9890725bed5604757a3dc6b249257816353,Lamar Badawood,badawood,2025-09-05 01:40:35 +0200,Fixes #5: Added an average method,8,1,9
+badawood-task-1,1ca6bd629ba50f3192c98682ec9d8dbeca8be66e,Lamar Badawood,badawood,2025-09-05 01:32:56 +0200,Fixes #4: Added a difference method,7,0,7
+badawood-task-1,163992ca6d759729fcb456463120d2bf8e99f644,Lamar Badawood,badawood,2025-09-05 01:25:48 +0200,Fixes #3: Added a sum method,1,1,2
+badawood-task-1,33fb75625037a69f97dff6430c8ce216f1196e55,Lamar Badawood,badawood,2025-09-04 23:47:42 +0200,Fixes #3: Created a method called sum,23,0,23
+badawood-task-1,0cafa59e013d127bc6802d60c13252507b4422e6,Lamar Badawood,badawood,2025-09-04 20:37:02 +0200,Exercise 1.1,5,0,5
+badawood-task-1,61ecb7ae1fe23411d3c61e9f7449f3aeffe99d21,Lamar Badawood,badawood,2025-09-04 19:11:49 +0200,Finished warmup1,14,14,28
+julina-task-1,29bf113807eb8bd3d97acdd530bd96c0859bd665,JulinaSavela,julina,2025-09-02 13:34:48 +0200,Fixes #5,16,0,16
+julina-task-1,b0446bf67fe42e421a6cf327b3bd2901c6855c5b,JulinaSavela,julina,2025-09-02 13:31:34 +0200,Fixes #4,3,12,15
+julina-task-1,015f35cb885509e5b849e6f551451513cd55131a,JulinaSavela,julina,2025-09-02 13:30:17 +0200,Fixes #3,16,0,16
+julina-task-1,843075eb154205ddbcaa005c27ac2f509fca2443,JulinaSavela,julina,2025-09-02 13:27:37 +0200,Fixes #2,3,0,3
+julina-task-1,3c56c686892553094481aa7d036ca711cf4a5464,JulinaSavela,julina,2025-09-02 13:25:44 +0200,Fixes #1,1,1,2
+julina-task-1,67a567a5cd6a13d7364cc3e14fd1ac47ddf68a47,JulinaSavela,julina,2025-09-02 13:24:06 +0200,Solves #1,6,0,6
+julina-task-1,31c64f3e12dfa9148198204b67b7b0a89e16f80a,JulinaSavela,julina,2025-09-02 11:21:34 +0200,Answered questions for Warmup 1,15,12,27
+nadjibi-task-1,b02bcb22f3426d6d180461a1f392cc29e370ef47,Arian Nadjibi,nadjibi,2025-09-04 11:19:57 +0200,INDA-25 task 1,72,13,85
+jtt-task-1,41c24c5764d202d7238f78bd5320e62a7bd0d4dd,jonathan,jtt,2025-09-05 00:48:37 +0200,Answers to docx,46,0,46
+jtt-task-1,13cac3a8fe87b8439496545f246f84f552e3c6fb,jonathan,jtt,2025-09-05 00:16:49 +0200,Update Arithmetic and HelloWorld,35,35,70
+jtt-task-1,78a726b619f6fe65bafc5bf70199d4add049777a,ionothon,jtt,2025-09-04 23:55:53 +0200,Done with my first exercise. Fixes #1,37,0,37
+jtt-task-1,4fe02630ae927708699bb7102c4cae319bf4fc69,Jonathan Tschig Trägårdh,jtt,2025-09-04 23:36:09 +0200,Create Arithmetic.java,30,0,30
+jtt-task-1,d59f69b3e19ccb7a3ac3c8a9fa45548b0183fb63,Jonathan Tschig Trägårdh,jtt,2025-09-04 23:13:38 +0200,Create HelloWorld.java,7,0,7
+nganv-task-1,3fd1026ae560ec7e6b53b80e696600111ca4b774,Ngan Vu,nganv,2025-09-04 22:13:35 +0200,Done with my exercises. Fixes #1 and #2,1,1,2
+nganv-task-1,0e3122d137207a6fb29718f751eed036d18e2c66,Ngan Vu,nganv,2025-09-04 22:07:40 +0200,Done with my exercises. Fixes #1 and #2,50,13,63
+wlindgr-task-1,3b63a1601791c9563b2796397483417aa2b5fa81,wlindgr,wlindgr,2025-09-04 19:59:10 +0200,Small fix,2,2,4
+wlindgr-task-1,e6de7996f3c32109e8da80e9249166ae0a567dc8,wlindgr,wlindgr,2025-09-04 16:24:41 +0200,Fixes #5 and #6,18,1,19
+wlindgr-task-1,4435a0ac74dfcf36658d20085ee0ac1a69d7f6df,wlindgr,wlindgr,2025-09-04 09:22:50 +0200,Fixes #4,13,1,14
+wlindgr-task-1,613dccb612beb4c5df20577418b98e46587c0760,wlindgr,wlindgr,2025-09-03 20:55:51 +0200,Fixes #3,0,0,0
+wlindgr-task-1,003fe5ddda6e75b648bb0d3cca362c9c2388d443,wlindgr,wlindgr,2025-09-03 20:52:28 +0200,Fixes 2,10,0,10
+wlindgr-task-1,d44ef5f4bed9276a4236c841ce43ce145ccbe1a6,wlindgr,wlindgr,2025-09-03 20:38:09 +0200,Warmup 1,14,13,27
+eliasgr-task-1,add310df3b120f6efa59bde973dd9c84f20dfd84,elias g,eliasgr,2025-09-03 21:54:01 +0200,"fixes #6, and changed a variable name to better reflect what it does",17,5,22
+eliasgr-task-1,d6faafc7edd8aadc0e695c9cb3065178f931a5ca,elias g,eliasgr,2025-09-03 21:41:55 +0200,fixes #5,15,2,17
+eliasgr-task-1,65d9e8180e332e6f30db26a84df545c2229ab068,elias g,eliasgr,2025-09-03 21:33:58 +0200,"fixes #3, fixes #4",19,0,19
+eliasgr-task-1,1bab51887cb3fcbdb92a029464faa75936a9681d,elias g,eliasgr,2025-09-03 21:08:54 +0200,fixes #2,7,0,7
+eliasgr-task-1,f56b5a078113d534b0783602328b0e6af9a738fc,elias g,eliasgr,2025-09-03 20:53:55 +0200,Fixes #1,12,12,24
+skjo-task-1,7fde4411a2997239c228bda9468c6ac92920c2ad,Matilda Skjonsberg,skjo,2025-09-05 17:54:18 +0200,Fixes #5,4,0,4
+skjo-task-1,f81dc0551de4af6394157db2b652b25edd55a680,Matilda Skjonsberg,skjo,2025-09-05 17:51:04 +0200,Fixes #4,4,0,4
+skjo-task-1,d309b5defba969a2745ff9bd18722aa7730146d1,Matilda Skjonsberg,skjo,2025-09-05 17:35:33 +0200,Fixes #3,17,0,17
+skjo-task-1,9726bcf7e9f57dcc3765d13c74c484c72cde33eb,Matilda Skjonsberg,skjo,2025-09-05 17:30:54 +0200,Fixes #2,0,0,0
+skjo-task-1,31b123dcdbe9882f5b84e176bd4df388b34b06d7,Matilda Skjonsberg,skjo,2025-09-05 15:14:35 +0200,copy-pasted HelloWorld program,7,0,7
+laamiri-task-1,2ce8f19dfa3e65d587b6f384a53e69e6db378ff3,Fatima Zahra Laamiri,laamiri,2025-09-04 12:29:27 +0200,Update Arithmetic.java,1,1,2
+laamiri-task-1,7ee3ca2c445e6178a025a5b0c6da13f3e827026b,Fatima Zahra Laamiri,laamiri,2025-09-04 11:43:12 +0200,Update Helloworld.java,1,1,2
+laamiri-task-1,5a89b9db4e5a580904a77aa80447e9b59cc34185,Fatima Zahra Laamiri,laamiri,2025-09-04 11:42:46 +0200,Update Arithmetic.java,11,6,17
+laamiri-task-1,594e81e45aa8b4b39e45afefd0556df086b142b1,Fatima Zahra Laamiri,laamiri,2025-09-04 10:24:23 +0200,Create Arithmetic.java,18,0,18
+laamiri-task-1,c0940532b61a122a55379e6abd7a7e707549b598,Fatima Zahra Laamiri,laamiri,2025-09-04 09:34:55 +0200,Update README.md,16,15,31
+laamiri-task-1,1795f9831c655c39afc2e93d6ab1acfa4969e67c,Fatima Zahra Laamiri,laamiri,2025-09-04 08:40:41 +0200,Update and rename src/README.md to Helloworld.java,7,1,8
+salmaam-task-1,c7b194c6e408d1396b63d946528b810e573ba672,salmaam,salmaam,2025-09-03 22:46:13 +0200,1.5 klar,9,1,10
+salmaam-task-1,37d0e8fe85c1ac7d90d7ef8bc0276b2c19de2bbf,salmaam,salmaam,2025-09-03 22:08:50 +0200,1.4 klar,9,5,14
+salmaam-task-1,aa74df7a932685d39c672811ceacaf6b6d2627a1,salmaam,salmaam,2025-09-03 21:43:27 +0200,1.2 och 1.3 klar,27,11,38
+salmaam-task-1,58be75959f4d20af9516431819d022c1eeb4a4ff,salmaam,salmaam,2025-09-03 16:21:57 +0200,1.2 klart,12,3,15
+salmaam-task-1,be47d4cef581486451625f71cd67f0ddfb562d95,salmaam,salmaam,2025-09-03 16:02:40 +0200,0.7 klar,14,13,27
+salmaam-task-1,6c28674eb1f37806f2f1dee1431a6f384ee1abb8,salmaam,salmaam,2025-09-03 15:47:58 +0200,0.1x klar,10,0,10
+salmaam-task-1,f9449c5f7439d81beb81478b61ddcbf78c55258c,salmaam,salmaam,2025-09-03 11:25:22 +0200, Uppgift 1 klar,7,0,7
+danogw-task-1,151d16b7664e375fb318b70612c702c12af0e079,Danogw,danogw,2025-09-05 03:01:07 +0200,Fixes #6,13,1,14
+danogw-task-1,d0fb0f1e91f5525dfc794810f390f2849ca821db,Danogw,danogw,2025-09-05 02:53:42 +0200,Fixes #5,16,3,19
+danogw-task-1,45d593a73abaa62740b1bf7a8a085369c632e426,Danogw,danogw,2025-09-05 02:40:27 +0200,Fixes #4,21,0,21
+danogw-task-1,0dbd0d9c30b90df599e5d8167df797cc06fd6df9,Daniel,danogw,2025-09-04 09:40:09 +0200,fixes #3,0,0,0
+danogw-task-1,b227993afec8403f27ec4a1622324464fd549e00,Daniel,danogw,2025-09-04 09:38:41 +0200,Fixes #2,7,0,7
+danogw-task-1,a1c4caf7004985f6451c87c81856bad3e1d05bc8,Daniel,danogw,2025-09-04 09:16:38 +0200,Fixes issue #1,13,13,26
+khaleghi-task-1,9d1b7c71354957700c46094e419069813151438a,Zahra Khaleghi,khaleghi,2025-09-06 17:21:57 +0200,Add HelloWorld.java,7,1,8
+khaleghi-task-1,3b15b9df5f6a7abc2f3c0f5c42c85302134ad9a0,Zahra Khaleghi,khaleghi,2025-09-06 17:18:58 +0200,Update Add HelloWorld.java,0,0,0
+khaleghi-task-1,c9b2058cc0288f15ea2d43d44baf386948ba5be2,Zahra Khaleghi,khaleghi,2025-09-06 17:18:05 +0200,Create Add HelloWorld.java,1,0,1
+khaleghi-task-1,69fb96dc86b217762d02d3d9cdb439042cacfa8c,Zahra Khaleghi,khaleghi,2025-09-06 17:04:28 +0200,answered exercises,14,13,27
+nekerot-task-1,b7657329b6313774a992f4224480d300e7e48a59,Noah Ekerot,nekerot,2025-09-03 16:45:19 +0200,fixes #6,5,0,5
+nekerot-task-1,d09a2238d00c8236cce859dc842bfca77e689794,Noah Ekerot,nekerot,2025-09-03 16:36:39 +0200,fixes #5,5,0,5
+nekerot-task-1,ffca79d09a76e34a791288bca0676a07c3ad37b6,Noah Ekerot,nekerot,2025-09-03 16:33:13 +0200,fixes #4,5,0,5
+nekerot-task-1,8d3ac6b98d71277d76bc09e7b16d4a56df84b02e,Noah Ekerot,nekerot,2025-09-03 16:10:37 +0200,fixes #3,3,0,3
+nekerot-task-1,b371fe521c88a6400eaff21732f2d73a6eecc5c0,Noah Ekerot,nekerot,2025-09-03 15:59:59 +0200,fixes #2,5,0,5
+nekerot-task-1,28d5f380d7de043f73347b22ca04eaec40d9f240,Noah Ekerot,nekerot,2025-09-03 11:18:16 +0200,warmup,14,13,27
+ngoka-task-1,ce71cfa0286e1db1019d9fbf6ef3c9b2d6ad9dd5,William Ngoka,ngoka,2025-09-04 12:48:46 +0200,finished task,78,0,78
+wilmerfh-task-1,031937e2cb4f1be1922c9977aaf4a12b848ccef4,Wilmer Fredriksson Handler,wilmerfh,2025-09-03 11:38:09 +0200,Fixes #5,8,1,9
+wilmerfh-task-1,5650d147b68d8829a544943d137992b8a64a6346,Wilmer Fredriksson Handler,wilmerfh,2025-09-03 11:34:06 +0200,Fixes #4,9,2,11
+wilmerfh-task-1,7cdd7fe4ed28f956c08510c6b33bdff91fbe8a52,Wilmer Fredriksson Handler,wilmerfh,2025-09-03 11:21:40 +0200,Fixes #3,18,0,18
+wilmerfh-task-1,032c884dd6e5a03fe13500fde22a167e0bf9b5ce,Wilmer Fredriksson Handler,wilmerfh,2025-09-03 11:10:50 +0200,Fixes #2,0,0,0
+wilmerfh-task-1,44da0ef5876debe6b14d79a290de99e0f8e101ab,Wilmer Fredriksson Handler,wilmerfh,2025-09-03 11:06:40 +0200,Fixes #1,7,0,7
+wilmerfh-task-1,7f053cf0b3414b4158f547067c7234e492cb6060,Wilmer Fredriksson Handler,wilmerfh,2025-09-03 10:48:51 +0200,answered questions,15,13,28
+pouryaz-task-1,11450d78acbe2d7884208a0cd0c10641c305ad52,pouryaz,pouryaz,2025-09-03 13:27:36 +0200,Done with my first exercise. Fixes #1,44,0,44
+pouryaz-task-1,517e84ccd1bf5b428c05b2a38a47577cb6ddbf8a,pouryaz,pouryaz,2025-09-02 21:45:07 +0200,Created HelloWorld,7,0,7
+pouryaz-task-1,fa8582ded81655e2e4493c1115589917b026c09b,Pourya Zerehizadeh,pouryaz,2025-09-02 10:05:43 +0200,Answered question in README.md,14,13,27
+puhl-task-1,05ba8eacffbb16c4f08fbb1c2e7159fe0cd34876,Jakob Puhl,puhl,2025-09-01 20:54:22 +0200,Add main method for testing,20,0,20
+puhl-task-1,d7cde332dfc860452eca65000e0c64a76cdd8ecb,Jakob Puhl,puhl,2025-09-01 20:48:52 +0200,Fix #5,4,0,4
+puhl-task-1,21c494c4afcaeb293bd32a0e615234ffea399b35,Jakob Puhl,puhl,2025-09-01 20:47:18 +0200,Fix #4,4,0,4
+puhl-task-1,9df7b69dd8dd7d8eb112b42b7967896ae3e3d0e8,Jakob Puhl,puhl,2025-09-01 20:45:52 +0200,Fix #3,3,1,4
+puhl-task-1,b8045c8e47057bdabfb84e07c6dc4e29e821a409,Jakob Puhl,puhl,2025-09-01 20:44:16 +0200,Fix #2,3,0,3
+puhl-task-1,657bda1fbe8d566a85b0dd60f076f1f82f034317,Jakob Puhl,puhl,2025-09-01 20:42:18 +0200,Fix #1,5,0,5
+puhl-task-1,0ae32e1ccbf1aa99642fb220874b99246245283f,Jakob Puhl,puhl,2025-09-01 20:32:51 +0200,Answer README.md questions,14,13,27
+lberglie-task-1,0465e45a43ea5dffbff84621e4e907ebb08c0845,Ludvig Berglie,lberglie,2025-09-05 02:38:35 +0200,"Completed 1.2, 1.3, 1.4, 1.5 (Closes #4, closes #5, closes #6, closes #7)",47,13,60
+lberglie-task-1,41a404bab009952632407c3fc917d91cd7ea16a7,Ludvig Berglie,lberglie,2025-09-04 22:04:49 +0200,HelloWorld assignment #2,19,13,32
+julieda-task-1,700dd34d968d9eba24fc2cc8b75b2ddc3b687d29,Julie Darweesh,julieda,2025-09-03 21:47:14 +0200,"Completed tasks 1.3, 1.4, and 1.5 in Arithmetic.java. Fixes #N1, #N2, #N3",32,0,32
+julieda-task-1,7aba931d6b40a4dc99a425f6f624e135ee58a14e,Julie Darweesh,julieda,2025-09-03 20:15:26 +0200,Create HelloWorld.java,5,0,5
+julieda-task-1,70c2a40dc4652ef729cf8ffc5d94b844c24df9a0,Julie Darweesh,julieda,2025-09-03 20:02:23 +0200,Update-README.md,18,13,31
+emsands-task-1,28be6c840331c198e1b5b749235827e70c4a44cf,advance-xd,emsands,2025-09-01 17:33:55 +0200,"Fixes #1, Fixes #2, Fixes #3, Fixes #4, Fixes #5, answers all the questions and check the checklist",46,18,64
+korlot-task-1,dfe0eced121db1a604bf4ab029b80f02f2c07163,FilipK,korlot,2025-09-04 23:10:31 +0200,"First two Java files, HelloWorld and Arithmetic ready for upload",63,13,76
+isong-task-1,9f631a720c6c7f6261f420048414a2f71a07348b,I S,isong,2025-09-05 02:28:23 +0200,Fixes #5: Add average method to Arithmetic.java,8,0,8
+isong-task-1,6c14001630ebf9f23432a421af9bbcb3387fa32b,I S,isong,2025-09-05 02:25:32 +0200,Fixes #4: Add difference method to Arithmetic.java,8,0,8
+isong-task-1,65b696a4b996704afca288515821fa66af67fccd,I S,isong,2025-09-05 02:20:56 +0200,Fixes #3: modified  Arithmetic.java for Exercise 1.3,15,2,17
+isong-task-1,904a9b2d9ef9a7f49cade566b16e5ecaf22ab7ae,I S,isong,2025-09-05 02:12:47 +0200,Fixes #2: Add Arithmetic.java for Exercise 1.2,5,0,5
+isong-task-1,6149ef6aebf078d5c8504541d8f74625d544ee05,I S,isong,2025-09-05 01:36:27 +0200,Fixes #1: Reference HelloWorld program,0,0,0
+isong-task-1,b6f3381f0ce41cd273d7db88613a736d66a27d3e,I S,isong,2025-09-05 01:22:10 +0200,Added Hello World and updated README,22,13,35
+isakhem-task-1,d77fa7ebb662a49e618200300802e694b408a2ee,Isak Hemmingsson,isakhem,2025-09-02 15:18:13 +0200,Added average method,8,0,8
+isakhem-task-1,fc1610ca30514ad27b2bfcd7c0304a57de9a09c9,Isak Hemmingsson,isakhem,2025-09-02 15:10:52 +0200,Difference method,7,0,7
+isakhem-task-1,827436ce0f20635c99441124e3d0b946d5a1ad4a,Isak Hemmingsson,isakhem,2025-09-02 14:57:35 +0200,Added method for sum,18,0,18
+isakhem-task-1,4ee01e563c13d45ca666270be9c9da807961a8e6,Isak Hemmingsson,isakhem,2025-09-02 14:26:39 +0200,Added HelloWorld.java,7,0,7
+isakhem-task-1,1756ea3e750d01d6828ddeb2ce98c3495e00009f,Isak Hemmingsson,isakhem,2025-09-02 14:04:46 +0200,Update README.md,5,5,10
+isakhem-task-1,9cdb874baa8c577b28c16e9bb74696afe981ae8d,Isak Hemmingsson,isakhem,2025-09-02 13:58:19 +0200,Update README.md,15,13,28
+wnas-task-1,e34ab5b0a5681fde277e4337b5fefc85fb16c8e9,Wilhelm Nässén,wnas,2025-09-02 10:46:02 +0200,Complete warmup exercises and programming tasks 1.1-1.5,45,15,60
+darinabd-task-1,cdf4782facc962a93a37ed76d4f5fd0c7681e235,Darin Abdullah,darinabd,2025-09-03 18:17:56 +0200,typ klar eller?,29,11,40
+darinabd-task-1,29a4bf789b3f6f9effb93305a1248b6f35d540b1,Darin Abdullah,darinabd,2025-09-03 11:06:16 +0200,Jag vill lägga till förändring,1,1,2
+darinabd-task-1,b8deb01e7a0af2668827cac08605c96a6bf92408,Darin Abdullah,darinabd,2025-09-03 10:34:40 +0200,start method,31,0,31
+owalli-task-1,be1451b71634cf2590f07a0d896c5be9cbef0c9f,Olle Wallin,owalli,2025-09-03 20:51:17 +0200,Update README.md,5,5,10
+owalli-task-1,e5742214c654359a488df48ae9110aa72edc2bae,olle,owalli,2025-09-03 20:49:38 +0200,Fixes #5,10,1,11
+owalli-task-1,5d49d99dafa46463983383e2fa44cface9ee19b0,olle,owalli,2025-09-03 20:42:58 +0200,Fixes #4,13,3,16
+owalli-task-1,59682efc943f813e47313bdf42151249c3aac330,olle,owalli,2025-09-03 20:37:53 +0200,Fixes #3,18,0,18
+owalli-task-1,521640df22c0de56990814bd4c932ec7d39e7943,olle,owalli,2025-09-03 13:36:20 +0200,Fixes #2,0,0,0
+owalli-task-1,c9aaf66d04836b63e14b5b9c9ab19be7474a952e,olle,owalli,2025-09-03 13:33:49 +0200,Fixes #1,1,1,2
+owalli-task-1,087284e3fd38a5a8faa33414954d196d2b5003e0,olle,owalli,2025-09-03 13:13:45 +0200,added helloworld,5,0,5
+owalli-task-1,a3b56e0110736805f81b3483aced1fe0c158f733,olle,owalli,2025-09-02 21:45:38 +0200,answered questions in docs,14,13,27
+akuhnert-task-1,306a279c721021d2771496abebb726ff3c4a545e,Alexander Kühnert,akuhnert,2025-09-03 13:06:09 +0200,Update README.md,5,5,10
+akuhnert-task-1,31446caf7dbe7ed48e6f54439dc2b91b1904a8f7,Alexander Kühnert,akuhnert,2025-09-03 13:03:56 +0200,Fixes #5,8,1,9
+akuhnert-task-1,ed534c848585d89d317c097d5cf69d349d8bbbf6,Alexander Kühnert,akuhnert,2025-09-03 12:58:54 +0200,Fixes #4,7,1,8
+akuhnert-task-1,6bf6ff982555bc046e32b401a628e49e456d171a,Alexander Kühnert,akuhnert,2025-09-03 12:56:05 +0200,Fixes #3,17,2,19
+akuhnert-task-1,fef91523096eb1930e63718b59a42ca7f2d952a7,Alexander Kühnert,akuhnert,2025-09-03 12:52:26 +0200,Fixes #2,3,0,3
+akuhnert-task-1,d9db935f29e492480d9640886ab8b647f0bd995e,Alexander Kühnert,akuhnert,2025-09-02 17:05:37 +0200,Added HelloWorld.java Fixes #1,0,1,1
+akuhnert-task-1,63260f819b2689bafbaa94ecd9c460aff4f3ae60,Alexander Kühnert,akuhnert,2025-09-02 17:03:01 +0200,Added HelloWorld.java,7,0,7
+akuhnert-task-1,f3628ac340d958d17a451f2e2e0647eea755cd43,Alexander Kühnert,akuhnert,2025-09-02 16:56:02 +0200,Update README.md,14,12,26
+eahla-task-1,2840b953147c6e9959a5b173fd3a8b38cac8a2f2,Ellinor,eahla,2025-09-04 01:30:20 +0200,"And of course, updating the README",4,4,8
+eahla-task-1,c0bd45e838a38bb7da666ff57e7f2432aff00f2e,Ellinor,eahla,2025-09-04 01:28:09 +0200,"Fixes #3, closes #4, Fixes #5",14,1,15
+eahla-task-1,c53880b10330b92e19d01253821e2a8c8533f842,Ellinor,eahla,2025-09-04 01:12:35 +0200,exercise 2,122,0,122
+eahla-task-1,33940f872c1b482cccd3d220157e7343b37ba6ee,Ellinor,eahla,2025-09-03 11:57:25 +0200,Fixes #1,9,1,10
+eahla-task-1,7d4ac54fa8f7feaf1b2cbb945ed1514fa8220548,Ellinor,eahla,2025-09-03 11:35:56 +0200,warmup 1,14,13,27
+phhedb-task-1,8bfca6c5593fe8261966295559093a2a00a69d30,phhedb,phhedb,2025-09-02 21:41:02 +0200,Done with the excercises and checklist,5,5,10
+phhedb-task-1,80c01afe72ab13b61bcf8de16b2596a3346e6b8c,phhedb,phhedb,2025-09-02 21:37:30 +0200,Fixes #5,6,1,7
+phhedb-task-1,d3b9144a6cc0a73a218c291fe471c1a16b9966ab,phhedb,phhedb,2025-09-02 21:33:07 +0200,Fixes #4,5,2,7
+phhedb-task-1,dabefdc05bc08fa4fe6a2bb486b577cef0d58c3d,phhedb,phhedb,2025-09-02 21:28:13 +0200,Fixes #3,17,1,18
+phhedb-task-1,e66eb8346b56cedba87d24f8dfa1f8a794f68b8c,phhedb,phhedb,2025-09-02 21:06:16 +0200,Fixes #2,3,0,3
+phhedb-task-1,db06bf24744e5c156e2d5739bf360c08ef2ccd52,phhedb,phhedb,2025-09-02 20:59:51 +0200,Fixes #1,6,0,6
+phhedb-task-1,744d34c3577c56a1dce83efc0a4e082cb4708d1d,phhedb,phhedb,2025-09-02 09:47:39 +0200,Completed Warmup 1,15,13,28
+cwelen-task-1,e58b7b3536ac4d9cd950700e1e0ddc4d0d5682f7,Carl Welén,cwelen,2025-09-05 16:09:50 +0200,Update README.md,5,5,10
+cwelen-task-1,dc4d76500f92413a6c7d98e95156b2fe68221345,Carl Welén,cwelen,2025-09-03 12:16:39 +0200,tog bort emoji,1,1,2
+cwelen-task-1,87a2b099abea6c9da3634af5c6b3f5e74106fb97,Carl Welén,cwelen,2025-09-03 12:13:33 +0200,fixes #5,6,30,36
+cwelen-task-1,d02c6bca3b09172f8f1d4195e78f7d4de9bafd0f,Carl Welén,cwelen,2025-09-02 18:28:10 +0200,"fixar #4, tror alla uppgifter är lösta ordentligt nu",13,0,13
+cwelen-task-1,5fad502048ece1b2e47041b36b6c30a334251613,Carl Welén,cwelen,2025-09-02 18:09:44 +0200,löser #3,24,0,24
+cwelen-task-1,1a4cc937336cbfd3fa38f656464673e35aabde97,Carl Welén,cwelen,2025-09-02 16:26:11 +0200,"Fixes #1 and fixes #2, forgot to create issues and commit when done with an exercise...",13,12,25
+linusnym-task-1,55b8ccc1c04ec67fb8e62d9c2e79ac057a505944,Linus Nyman,linusnym,2025-09-04 14:26:35 +0200,Checked off the checklist,4,4,8
+linusnym-task-1,bf4a1c11ebfdc1940afc4465a4ee15a15326be1d,Linus Nyman,linusnym,2025-09-04 14:25:17 +0200,Completed the assignment,15,5,20
+linusnym-task-1,350635e95f468aefbc963aaf290ff1afb66e8b98,Linus Nyman,linusnym,2025-09-04 14:16:49 +0200,Fixes #5,7,2,9
+linusnym-task-1,f12636cccae1d11217a81df2ad600e67d88a67f6,Linus Nyman,linusnym,2025-09-04 14:12:28 +0200,Fixes #4,7,2,9
+linusnym-task-1,50ff6f306116c5a0e2229affa094265b18452c26,Linus Nyman,linusnym,2025-09-04 14:09:24 +0200,Fixes #3,16,0,16
+linusnym-task-1,29d4f11e447a4f014bdf4b0e8373b7bfa11d5890,Linus Nyman,linusnym,2025-09-04 14:00:21 +0200,Fixes #2,8,0,8
+linusnym-task-1,dce41d880a190e1da0168f4a4b5f5a832de85a15,Linus Nyman,linusnym,2025-09-04 13:52:47 +0200,Fixes #1,1,1,2
+linusnym-task-1,f2afef47795e84c7bdabdf8c0762feb8a709b5ac,Linus Nyman,linusnym,2025-09-04 13:43:33 +0200,answers for the OLI material,6,0,6
+linusnym-task-1,2495bad0361a806bf598ccd4730f87bd4dd3fe4f,Linus Nyman,linusnym,2025-09-04 13:42:16 +0200,Warmup 1: answered the questions,14,13,27
+linusnym-task-1,1c8ac401e5807a830f2252117a35c948b9069574,Linus Nyman,linusnym,2025-09-04 12:40:53 +0200,added the HelloWorld class,7,0,7
+dellam-task-1,ccdf168c91c64ea5aaa08cc50a880263d971e9d0,Della Mellbourn,dellam,2025-09-04 13:49:24 +0200,"adding exercise 1.3, 1.4 and 1.5",15,2,17
+dellam-task-1,82e94a2f8bc5d5aa5613baf46a7f59e90ae8c66b,Della Mellbourn,dellam,2025-09-03 21:11:31 +0200,Add Arithmetic.java,13,0,13
+dellam-task-1,ff9b0efde6ff1f9a383be071c95363a763f6dec1,Della Mellbourn,dellam,2025-09-03 21:09:07 +0200,Add HelloWorld.java,7,0,7
+dellam-task-1,f62ec6582ea7e9e47607383b57ddda7f21ad0e27,Della Mellbourn,dellam,2025-09-03 16:09:12 +0200,Update README.md,7,5,12
+dellam-task-1,d142bc60c6e12d819de9dab3542be3d9d3c21fa0,Della Mellbourn,dellam,2025-09-03 15:56:12 +0200,Update README.md,7,7,14
+dellam-task-1,0c62aeb9e94a4f4c2236ea155de0a62b68cdb434,Della Mellbourn,dellam,2025-09-03 15:47:15 +0200,Update README.md,8,7,15
+dellam-task-1,00bb109fdf95c737c2ab688872d73964b9c5fb33,Della Mellbourn,dellam,2025-09-03 12:13:36 +0200,Create Arithmetic.java,1,0,1
+bjorste-task-1,dc2da17eec9fec320d587ba7565919295349b821,Johannes Björstedt,bjorste,2025-09-03 20:55:54 +0200,Update README.md,2,2,4
+bjorste-task-1,8d7c52901a19d4d3f5d12a49c1d73811d23fdb0f,Johannes Björstedt,bjorste,2025-09-03 20:46:58 +0200,Update README.md,4,4,8
+bjorste-task-1,8fc6fa9d3c4abc9f0adc56557f22c44a43d6b740,Johannes Bjorstedt,bjorste,2025-09-03 20:40:07 +0200,Done with HelloWorld.java,34,0,34
+lovwic-task-1,1ce1f49dc3a3ba0742c485e9d8d280179b30df7e,Lovisa Wicklander,lovwic,2025-09-03 16:13:35 +0200,Update README.md,4,4,8
+lovwic-task-1,2ee9f58db6f0d80aef3ece69436abf7494660302,lovwic,lovwic,2025-09-03 16:10:49 +0200,Fixes #1,40,0,40
+lovwic-task-1,b0fb10b76f2ca61153794d1599e14cbab6d89f70,lovwic,lovwic,2025-09-02 14:04:31 +0200,Exercise 1.1 Completed,8,0,8
+lovwic-task-1,5a1c1b7f35dc38e1035ff04c1b9a1c074e82dd28,Lovisa Wicklander,lovwic,2025-09-02 13:19:11 +0200,Update README.md,1,1,2
+lovwic-task-1,598b1c049018bddacfa67ef4001d3c2b05c41793,lovwic,lovwic,2025-09-02 12:13:15 +0200,Warmup 1 -- Code of Conduct Answered,16,13,29
+linupet-task-1,c95cd76efd43758b30e21dde09a98dae6526aa4c,Linus Pettersson,linupet,2025-09-03 16:37:25 +0200,task 1 complete,44,0,44
+linupet-task-1,cd432508987df8422324bdd9a1d054fc39a21e4b,Linus Pettersson,linupet,2025-09-03 13:40:24 +0200,"Fixes #1, Hello, World! script",7,0,7
+linupet-task-1,5b00ee3020d82df80cc82cdb63c909a3263c10e6,Linus Pettersson,linupet,2025-09-02 22:13:38 +0200,Update README.md,12,12,24
+jonsh-task-1,5d0946233bad31edf8b428c18fded88b01840397,Jonathan Hahne,jonsh,2025-09-02 18:06:00 +0200,Did the warmup afterwards #likeaboss 😎,13,13,26
+jonsh-task-1,1198693d1d01a8dca300df768ffe894f6d737e24,Jonathan Hahne,jonsh,2025-09-02 17:45:24 +0200,Fixed method names and removed test code,0,7,7
+jonsh-task-1,5bb35604c6bbc6876a901fd9780e2fa8139cd3c4,Jonathan Hahne,jonsh,2025-09-02 17:13:28 +0200,"Added Average method to Arithmetic.java code, Fixes #5",14,1,15
+jonsh-task-1,8cb273b101397f2b0786d34f28c24e35f334c4f0,Jonathan Hahne,jonsh,2025-09-02 17:06:00 +0200,Actually changed Arithmetic.java,1,7,8
+jonsh-task-1,a2182201cf1cb8d71fe6274aee3dfd289fe505e1,Jonathan Hahne,jonsh,2025-09-02 17:04:23 +0200,Removed unnecessary file and changed Arithmetic.java,14,1,15
+jonsh-task-1,60259c66b494cca23bf9cfef05eec95f4bbb3ec8,Jonathan Hahne,jonsh,2025-09-02 17:02:39 +0200,Removed Unnecessary file,0,6,6
+jonsh-task-1,d9ceb27de695843cf01720e884cf259f134ac6db,Jonathan Hahne,jonsh,2025-09-02 17:00:33 +0200,"Added method difference to Arithmetic.java, Fixes #4",6,0,6
+jonsh-task-1,51c0cdceb096298888a4f04d0a9bd7078effe99c,Jonathan Hahne,jonsh,2025-09-02 16:46:16 +0200,Completed #3,7,0,7
+jonsh-task-1,c6a225740306b94f3733182717406ffb25f8fb56,Jonathan Hahne,jonsh,2025-09-02 16:26:36 +0200,Added Artihmetic.java and Fixed #2,0,0,0
+jonsh-task-1,b1c9ea20b2894d44ad6d6aeed21e3d91526d1813,Jonathan Hahne,jonsh,2025-09-02 16:22:28 +0200,Help?,6,0,6
+jonsh-task-1,8384a0cb525957c6fdbc5c12bc67595bc9c12f07,Jonathan Hahne,jonsh,2025-09-02 16:20:18 +0200,Changed structure,0,7,7
+jonsh-task-1,534fcc502f2d94fc406fc9adebeca131a4a5b313,Jonathan Hahne,jonsh,2025-09-02 15:57:17 +0200,Fixes #1,7,0,7
+jonsh-task-1,45387699a3d482e7822c1b43661a46616b4dda0d,Jonathan Hahne,jonsh,2025-09-02 15:42:35 +0200,Created file,0,0,0
+aeozbek-task-1,0584f4731f767ee65a8e003fbf752315cbb8dc33,aeozbek,aeozbek,2025-09-03 16:31:40 +0200,Warmup 1 is done.,1,1,2
+aeozbek-task-1,188c736c16552871b6cfe6e17603bb447436457d,aeozbek,aeozbek,2025-09-03 16:30:47 +0200,Fixes #1.1,2,0,2
+aeozbek-task-1,d959a3d3a4b09b49eef7a66dcfa78a9080d6a84f,aeozbek,aeozbek,2025-09-03 16:29:54 +0200,"Fixes #1.2, #1.3, #1.4 and #1.5",1,0,1
+aeozbek-task-1,53c416f52cf02e464db15aadaace08c57658d916,aeozbek,aeozbek,2025-09-03 16:24:50 +0200,README.md reedited as I made a typo.,7,7,14
+aeozbek-task-1,50c8ae82b06b4b038571ea0a2c0dfd45f0baf905,aeozbek,aeozbek,2025-09-03 16:19:51 +0200,Redited Hello World file because I made a typo.,1,1,2
+aeozbek-task-1,f0f9b8d5013f6a084b31c3358efc16570a4409c8,aeozbek,aeozbek,2025-09-03 16:15:32 +0200,"Task 1 with all its exercises is done,",21,0,21
+aeozbek-task-1,693b98a26b53b6a64dd3f64df9881d8226d74c5e,aeozbek,aeozbek,2025-09-03 16:14:44 +0200,Task 1 with all its exercises are done.,14,13,27
+markow-task-1,eed4ad8342bd6471d65780b176da11a5440da491,Caroline Markowicz,markow,2025-09-03 22:14:22 +0200,Done with my first exercise. Fixes #1,3,3,6
+markow-task-1,10270f90688999e030163d916899ec76ebc8b58f,Caroline Markowicz,markow,2025-09-03 22:11:04 +0200,Done with my first exercise. Fixes #1,2,2,4
+markow-task-1,193ecefcec4b4adcba6cdf9e4339055a36e7254f,Caroline Markowicz,markow,2025-09-03 21:48:13 +0200,Done with my first exercise. Fixes #1,44,0,44
+markow-task-1,7dce454b26f1a6cb31c5c26105ab0f48c8d9193a,Caroline Markowicz,markow,2025-09-03 21:05:34 +0200,Fixes #1,14,13,27
+timhedl-task-1,dc9c4e8f399574d8cc56851bf767c2aaec1dba49,Tim Hedlund,timhedl,2025-09-02 14:51:27 +0200,i have made math!!!,29,0,29
+timhedl-task-1,c85784bba36fe27659f3b39406dd2421ef850d27,Tim Hedlund,timhedl,2025-09-02 14:23:00 +0200,I have made words now,8,0,8
+timhedl-task-1,9cd55786e10ffdc03ef502f09de37fe93bd3afba,Tim Hedlund,timhedl,2025-09-02 13:49:06 +0200,Prettyfied my README with cool *markdown*,4,4,8
+timhedl-task-1,ac166613bb7513de84bef104726dd9d87a5d9bf8,Tim Hedlund,timhedl,2025-09-02 13:40:53 +0200,wrote my answers in the README,14,13,27
+hugoco-task-1,ca05e456d3f733189d8d29870d260cd25f526ad7,Hugo Collander,hugoco,2025-09-04 20:40:31 +0200,Update Arithmetic.java,32,0,32
+hugoco-task-1,b6597a13c3126184e8ec95f16c3d9624af6a4e09,Hugo Collander,hugoco,2025-09-03 15:48:19 +0200,Create Arithmetic.java,1,0,1
+hugoco-task-1,64f196a4ed01f4bb7f7ddebf8cf4e28ca492bf11,Hugo Collander,hugoco,2025-09-03 15:30:52 +0200,Create HelloWorld.java,7,0,7
+marioo-task-1,d3538dddeee3e7db0aa7b2f32f76dd100cca535f,Mario Orrego,marioo,2025-09-03 12:10:36 +0200,saw that it was supposed not have static in the method,8,6,14
+marioo-task-1,f982e8fec42eaa2aad7ec259ffd98c42b10fc49a,Mario Orrego,marioo,2025-09-03 12:05:19 +0200,think I understand a bit more of static now,6,7,13
+marioo-task-1,45fe380685ed0686d3b69746bd7fefb581c37318,Mario Orrego,marioo,2025-09-03 10:45:52 +0200,corrected the last question,1,1,2
+marioo-task-1,892c51facf9381fa70445f5bf6eff4747e5b3853,Mario Orrego,marioo,2025-09-02 14:21:55 +0200,answered the questions,13,13,26
+marioo-task-1,ad2a0e47f686b364e1dc90e854b085d150b3add5,Mario Orrego,marioo,2025-09-02 14:02:56 +0200,Arithmetic,22,2,24
+marioo-task-1,4fb3c62171613eddf118402051743dcd1dd43c82,Mario Orrego,marioo,2025-09-02 10:15:40 +0200,added the arithmetic file,6,0,6
+marioo-task-1,8f230f97667edcb4c92a0587537161498b0502e8,Mario Orrego,marioo,2025-09-02 09:24:24 +0200,added HelloWorld,5,0,5
+lokehu-task-1,518ce7e2c4d4f86f99014ac888b984837617422f,Loke Hultcrantz,lokehu,2025-09-02 20:55:30 +0200,Fixes #5,7,2,9
+lokehu-task-1,523f40a31d56eba511ac93fab5e829d1b0ddb724,Loke Hultcrantz,lokehu,2025-09-02 20:36:53 +0200,fixes #4,8,5,13
+lokehu-task-1,15aeaa9ce17ae56b388f4d49d1568935f0a79391,Loke Hultcrantz,lokehu,2025-09-02 20:23:52 +0200,Realized these weren't supposed to come up,0,0,0
+lokehu-task-1,0e29530c437526b951f32c1201ae213d98d4a55f,Loke Hultcrantz,lokehu,2025-09-02 20:21:58 +0200,"Fixes #2, Fixes #3",19,0,19
+lokehu-task-1,795964fff297aee1632491cd815b8628712c6030,Loke Hultcrantz,lokehu,2025-09-02 19:54:33 +0200,My first commit got blasted by the gitignore. Loke hurts itself in its confusion,5,0,5
+lokehu-task-1,913b33ba6697238b1b06acffba2cc4faf5d5b6cc,Loke Hultcrantz,lokehu,2025-09-02 19:50:20 +0200,Fixes #1,15,13,28
+leosjos-task-1,47dd6f9345624703492a7e9e9be24e3bbb8f817d,Leo Sjöström,leosjos,2025-09-02 19:29:09 +0200,fixes #5,8,0,8
+leosjos-task-1,17effac94a81e2ba236f7a4817f3bddb53a24e9f,Leo Sjöström,leosjos,2025-09-02 19:23:03 +0200,fixes #4,14,2,16
+leosjos-task-1,469752343e9bf91ff2fafa521620724d82d5cdbf,Leo Sjöström,leosjos,2025-09-02 19:16:15 +0200,fixes #3,15,0,15
+leosjos-task-1,6eab2ebaa39a2982d3fad2a4963688b9db372c31,Leo Sjöström,leosjos,2025-09-02 19:04:06 +0200,fixes #2,0,0,0
+leosjos-task-1,33360e0d0b4e6eca21017173fa44814069d1d6da,Leo Sjöström,leosjos,2025-09-02 19:00:19 +0200,fixes #1,13,0,13
+leosjos-task-1,b1e56b688c3e06b1a33ddc264f494bf360a01a46,Leo Sjöström,leosjos,2025-09-02 18:20:52 +0200,Answer warmup 1,13,13,26
+kostiuk-task-1,6cee5ec070d51c818ee07970759659ea489013fc,Ivan Kostiuk,kostiuk,2025-09-02 20:26:06 +0200,Exercise 1.5 - Average,8,0,8
+kostiuk-task-1,dbd09fceee2ca173c75cbae95ab665ce803a7b21,Ivan Kostiuk,kostiuk,2025-09-02 20:21:51 +0200,Exercise 1.4 - Difference,10,2,12
+kostiuk-task-1,ac7af5bfb0be89ffed9e512dc5743e21edcfe29f,Ivan Kostiuk,kostiuk,2025-09-02 19:46:46 +0200,Exercise 1.3 - Sum,13,0,13
+kostiuk-task-1,82215f0c6d3c37eec2639fb73a98819cd49d4dcd,Ivan Kostiuk,kostiuk,2025-09-02 18:51:09 +0200,Exercise 1.1 - Hello World,5,0,5
+kostiuk-task-1,25b1dd1e18d939e920cecdcb2a566d707d5acc14,Ivan Kostiuk,kostiuk,2025-09-02 18:19:03 +0200,Answered README.md,16,13,29
+sofiatl-task-1,2f419a5d35f9925218f5fb040dede4e768d2f2dc,Sofia TegstenLasu,sofiatl,2025-09-03 16:49:18 +0200,Fixes #5,15,9,24
+sofiatl-task-1,a6fe497431aa4471bda7f74ffd782c457b2f055b,Sofia TegstenLasu,sofiatl,2025-09-03 16:44:14 +0200,Fixes #4,10,3,13
+sofiatl-task-1,4d35ea29499dac74108fc003fc8f156e59c201ec,Sofia TegstenLasu,sofiatl,2025-09-03 16:29:31 +0200,Fixes #3,27,0,27
+sofiatl-task-1,02d4ce5b8fee0b59951807893b939118129f75a0,Sofia TegstenLasu,sofiatl,2025-09-03 11:53:17 +0200,Fixes #2,0,0,0
+sofiatl-task-1,b05362b5693949b63a13b3d62194dc7e7e97f2a7,Sofia TegstenLasu,sofiatl,2025-09-03 11:41:24 +0200,Fixes #1,7,0,7
+sofiatl-task-1,37f2ef1ebee8ec8d00bcfc9cab261cadfeec6194,Sofia Tegsten Lasu,sofiatl,2025-09-03 11:05:23 +0200,Update README.md,1,1,2
+sofiatl-task-1,f3620cd828fe1866602445648ad6f1ae2f639b5a,Sofia Tegsten Lasu,sofiatl,2025-09-02 15:33:11 +0200,Update README.md,14,13,27
+sssuresh-task-1,cfa284b52d2ec8387793f55101cd8738a9971d89,Swastik Suresh,sssuresh,2025-09-05 01:50:14 +0200,"Added exercises 1.1, 1.2, and 1.3 in arithmetic file. Tested and everything worked",37,2,39
+sssuresh-task-1,f199201b6d85dfbd3c51908b4d854c51f17bd7c4,Swastik Suresh,sssuresh,2025-09-05 01:04:24 +0200,"Completed task 1.1 -Hello, World!",7,0,7
+sssuresh-task-1,ff6b4e79c6376c239f663d43ba98defba22250a4,Swastik Suresh,sssuresh,2025-09-04 19:56:42 +0200,Answered questions in readme file,14,13,27
+louiseul-task-1,71cc3ea1add93e6a53bf8b6068ca2ddbdf16ed3b,Louise Ulltjarn,louiseul,2025-09-04 14:32:35 +0200,created method average in the Arithmetic file. fixes #5,12,0,12
+louiseul-task-1,4cb301399485c5f29d5dcf331bfe29682d5db895,Louise Ulltjarn,louiseul,2025-09-04 14:23:15 +0200,Finished questions,9,9,18
+louiseul-task-1,b3002ea5b0738e1903bccbf8791cfceda1e7932d,Louise Ulltjarn,louiseul,2025-09-04 12:20:57 +0200,Added difference to the Arithmetic file fixes #4,10,2,12
+louiseul-task-1,1498bcc044118bf4ebc73a57f3cd9cc4af1c15ae,Louise Ulltjarn,louiseul,2025-09-04 11:32:26 +0200,Sum fixes #3,22,0,22
+louiseul-task-1,ae563eb8267f40b96a5aa05363198367a3c899c2,Louise Ulltjarn,louiseul,2025-09-04 10:56:05 +0200,added file arithmetic fixes #2,0,0,0
+louiseul-task-1,14b0453d9e84b6c771e9f36a4c5530f699ea6c53,Louise Ulltjarn,louiseul,2025-09-04 10:43:25 +0200,HelloWorld,7,0,7
+louiseul-task-1,042a15aec83bc37493252a7d2076cce03371436d,Louise Ulltjarn,louiseul,2025-09-03 14:35:02 +0200,changed answer to 0.1,1,1,2
+louiseul-task-1,c599b54865b59f34a38bb0ec89f9925262c741e7,Louise Ulltjarn,louiseul,2025-09-03 14:29:12 +0200,answered 0.1-0.6,7,7,14
+oaydogan-task-1,462b4e44cdf945457f2db013087c865d72715245,Onur Aydogan,oaydogan,2025-09-05 01:53:40 +0200,Add files via upload,7,1,8
+oaydogan-task-1,08a1360868e473a9b75060d94cf3f3360fce8676,Onur Aydogan,oaydogan,2025-09-04 14:53:57 +0200,Create Arithmetic.java,1,0,1
+oaydogan-task-1,1e52d14cd0b09c3ed500495dc6b584d605974d2d,Onur Aydogan,oaydogan,2025-09-03 19:16:44 +0200,Create HelloWorld.java,1,0,1
+oaydogan-task-1,cc7a6f743c0e0dfbf56fd17bf1f98c750494616d,Onur Aydogan,oaydogan,2025-09-03 12:26:01 +0200,Update README.md,15,13,28
+tsjia-task-1,5bf50f5e722b1d58441ba97e0d1227659f2969eb,Thomas Shuorong Jia,tsjia,2025-09-04 08:16:46 +0200,Update Arithmetic.java,12,5,17
+tsjia-task-1,3e5852ad313e589f0176d49bb7960f479c2f332b,thomas,tsjia,2025-09-02 19:46:53 +0200,I was too locked in i did #4 and #5 in the same time,15,3,18
+tsjia-task-1,c988eb3215212c03976d0ce87300e1428dbbd608,thomas,tsjia,2025-09-02 19:27:23 +0200,Arithmatics? #3,2,2,4
+tsjia-task-1,f2d11e6d008b77947b29935d70638e88ed3afa24,thomas,tsjia,2025-09-02 19:13:34 +0200,I tried my best #2,10,0,10
+tsjia-task-1,37f43fb09893d6eb3fad5f2ca6b84eb73f38ed07,thomas,tsjia,2025-09-02 18:28:42 +0200,yea debug,1,1,2
+tsjia-task-1,d20d62a9ebc4ebe167a7cf4b678be9010787dddc,thomas,tsjia,2025-09-02 18:12:49 +0200,TEST #1,4,2,6
+tsjia-task-1,713e288a998f0fb276af9aaa49303bb421fe63c9,thomas,tsjia,2025-09-02 18:00:10 +0200,dHELLOWORLDgit status,6,0,6
+tsjia-task-1,93174530fec1a006d8bb8fce4df8719858278444,thomas,tsjia,2025-09-02 17:43:58 +0200,danswered,13,13,26
+teslenko-task-1,3eaa3a2174fdf63c4a3331ce255a440b33a49d07,Michael,teslenko,2025-09-04 00:31:42 +0200,Checked all checkboxes!,5,5,10
+teslenko-task-1,883030e8f452b42c9bd65ef7e349d9d006ff2a6e,Michael,teslenko,2025-09-04 00:30:36 +0200,Fixes #5 (Added average method),8,0,8
+teslenko-task-1,f73d14b76ca010ea47b5436961bfd6fcb42d7922,Michael,teslenko,2025-09-04 00:27:26 +0200,Fixed #4 (Added difference method),9,1,10
+teslenko-task-1,da3a791ab885d6b5ec6598ec4a08d8fffb01a876,Michael,teslenko,2025-09-04 00:24:51 +0200,Fixed #3 (Added sum method and main method),12,1,13
+teslenko-task-1,2578706a056d02dfa2a895216c63865dc3cd0420,Michael,teslenko,2025-09-04 00:20:51 +0200,Fixed #2,3,0,3
+teslenko-task-1,78bacc6c8610f201bbd52c9aa754279813d2f301,Michael,teslenko,2025-09-04 00:08:10 +0200,Finished Warmup 1 task,14,13,27
+teslenko-task-1,6aef0316d1543c930ece8c923f199950c6f60eec,Michael,teslenko,2025-09-03 23:48:45 +0200,Tried out the OLI Torus example (1.2),7,0,7
+teslenko-task-1,0f6526b236a88af862aee599b60e79b875d95c18,Michael,teslenko,2025-09-03 23:42:42 +0200,repo setup,72,0,72
+noelsol-task-1,47970cc1d1f285ec279c5744f3cffbae3318a75f,Aida Habtemariam,noelsol,2025-09-03 12:36:03 +0200,Completed all the assignments here,14,2,16
+noelsol-task-1,8b2a067b72b2100bf1fe6f35e9945556493e16c1,Aida Habtemariam,noelsol,2025-09-03 11:55:38 +0200,"completed the second exercise, i keep trying to use python to do simple things like casting type.",20,0,20
+noelsol-task-1,7aaa963a867b4b06e59a34dfffb4b9e17dd3e9b8,Aida Habtemariam,noelsol,2025-09-03 11:41:31 +0200,Wrote the HelloWorld code,6,0,6
+nhg-task-1,b6ab1b1f42958d6e90fa7a256fb4731b64e1ec3e,Nikolina,nhg,2025-09-02 16:24:29 +0200,Fixes #2,132,0,132
+nhg-task-1,d980f59913f44e65129a08b1fb3c18eee19ef7b4,Nikolina,nhg,2025-09-02 15:18:12 +0200,Fixes #1,14,14,28
+capf-task-1,c5d27146154f1ffe599aa4a994088161f727495f,capf,capf,2025-09-04 13:41:32 +0200,Fixed answer,1,1,2
+capf-task-1,284eaff04eaae22e8d188a28940ee7f94831cbe0,capf,capf,2025-09-04 11:31:05 +0200,Updated answers again,1,1,2
+capf-task-1,388a3530570f146c17606cb79a3317bcc400901d,capf,capf,2025-09-04 11:30:10 +0200,Updated,13,13,26
+capf-task-1,f4b5903ac5618f8da35fa111a5afb9d936729236,capf,capf,2025-09-03 20:34:35 +0200,Fixed #9,13,4,17
+capf-task-1,fbf0c91e457b489e3a41bfe2ba7fcf7d3b786036,capf,capf,2025-09-03 16:20:30 +0200,Fixed #8,11,3,14
+capf-task-1,70110efb06aa1ed4c7efa53ba997414ede3dff7f,capf,capf,2025-09-02 21:06:16 +0200,Fixed #7,18,0,18
+capf-task-1,20beb8315ad467f35a4ddb1d14c8ab7042200f34,capf,capf,2025-09-02 17:44:12 +0200,HelloWorld,8,0,8
+alialk-task-1,e5f17cffcb549bca198425f030edce7d35432764,Bayan Alkhaled,alialk,2025-09-04 20:37:19 +0200,lade till public oxå,1,2,3
+alialk-task-1,232ab1ade20875c1fa8021055c5c97b87c808e4e,Bayan Alkhaled,alialk,2025-09-04 12:06:40 +0200,Done with the exercise,38,0,38
+alialk-task-1,4d5fd075d9ab8494ecea965f80fd48f88f07f917,Bayan Alkhaled,alialk,2025-09-04 07:40:54 +0200,done with exercise 1.1,7,0,7
+alialk-task-1,adc4fc428a0ffd39952ab971184363cb020a0e29,Ali Alkhaled,alialk,2025-09-03 20:22:23 +0200,answeared the questions,13,13,26
+anpingle-task-1,892baa95c57b96037ae44aad005890c56e95f5e3,Arnav Pingle,anpingle,2025-09-04 15:11:09 +0200,test,1,1,2
+anpingle-task-1,3eaf3535eccfefd527d813a028ebdf093a0b0e63,Arnav Pingle,anpingle,2025-09-04 15:10:33 +0200,test,1,1,2
+anpingle-task-1,130f28bab1935057be6b8b836294fadefe9111e7,Arnav Pingle,anpingle,2025-09-03 17:15:38 +0200,finished excercise 1.2 to 1.5,23,0,23
+anpingle-task-1,a8093d4358eae915afd29acb04fc9c55d15b55cc,Arnav Pingle,anpingle,2025-09-03 16:08:04 +0200,test,9,9,18
+anpingle-task-1,6509a5d25d252b944a0edb8bcb8e47e34cfc091c,Arnav Pingle,anpingle,2025-09-03 16:07:30 +0200,answered questions,5,5,10
+anpingle-task-1,b6a4e7b3ba0aa65c8aff7d1d6ce8cfc3fda364cf,Arnav Pingle,anpingle,2025-09-02 09:34:44 +0200,Finished Excercise 1,7,0,7
+chhatbar-task-1,49905fd4a04e32ea0db086ce0049027634331be9,Yash Chhatbar,chhatbar,2025-09-04 00:17:18 +0200,Update README.md,4,4,8
+chhatbar-task-1,7e5f1c4d17d14995b0d1f83687fa340aaa277de4,chhatbar,chhatbar,2025-09-04 00:10:11 +0200,updating arithmetic,0,4,4
+chhatbar-task-1,654c68ec1c2d9fe76ae0d14391ec9c7d6acfef6f,chhatbar,chhatbar,2025-09-04 00:01:27 +0200,adding arithmetic file,36,0,36
+chhatbar-task-1,3a77c2798fe92092f5f9af12a7b959668d2dd207,Yash Chhatbar,chhatbar,2025-09-03 22:39:43 +0200,Create Arithmetic.java,1,0,1
+chhatbar-task-1,bb9011744fd01bed7be77acb6addc064151e4a87,chhatbar,chhatbar,2025-09-03 22:38:23 +0200,updating code,3,0,3
+chhatbar-task-1,5ad2cba694390f6e3c8fa3169f0eae5ec8e73fe3,chhatbar,chhatbar,2025-09-03 22:29:41 +0200,updating hello world,1,1,2
+chhatbar-task-1,a850f3a7d8583b89b19e91044b98c2f5ad3121b1,chhatbar,chhatbar,2025-09-03 16:32:08 +0200,adding hello world assignment,3,0,3
+chhatbar-task-1,f7f53b5c8fffeef6cea19e036c0a281003edae5d,Yash Chhatbar,chhatbar,2025-09-03 16:07:07 +0200,Create HelloWorld.java,1,0,1
+chhatbar-task-1,35fd48706e453ec2f0e025548047f3bafc8493b1,Yash Chhatbar,chhatbar,2025-09-03 16:06:46 +0200,Delete Helloworld,0,1,1
+chhatbar-task-1,177d61f2fdf082fc845892ca1478f443feee53aa,Yash Chhatbar,chhatbar,2025-09-03 15:56:21 +0200,Create Helloworld,1,0,1
+chhatbar-task-1,a1865244fecbb18bf1faa654f9278d6df9e80dca,Yash Chhatbar,chhatbar,2025-09-02 21:23:33 +0200,Update README.md,12,10,22
+melvinvu-task-1,029785d884a89123937bbd4159152b3adf531ad7,Melvin Vu,melvinvu,2025-09-03 17:09:13 +0200,Answered 0.x exercises,14,13,27
+melvinvu-task-1,0e9cc7e572a2c30c1353d839254d117f1da0ef14,Melvin Vu,melvinvu,2025-09-02 10:09:34 +0200,Added arithmetic exercise,1,1,2
+melvinvu-task-1,f0ad43d46882823ddce74f0a54a96880dec01e53,Melvin Vu,melvinvu,2025-09-02 09:57:18 +0200,Arithmetic exercise added,42,0,42
+melvinvu-task-1,749aae4c7e4a0139c1fe2d34c1838c68fff6f7f7,Melvin Vu,melvinvu,2025-09-02 09:17:46 +0200,first task,6,0,6
+petroz-task-1,d1eeb0181455b905955a668dc18851be3cb7bd45,Petro Zhou,petroz,2025-09-03 17:24:35 +0200,Add average part (exercise 1.5),20,5,25
+petroz-task-1,ce22a5dc3b4ebddbe5ee0c3ec81c35724f8f4a0b,Petro Zhou,petroz,2025-09-03 17:15:19 +0200,Add difference part (exercise 1.4),27,6,33
+petroz-task-1,44022c0fd764a126b240f5a7bf366c58643f56e1,Petro Zhou,petroz,2025-09-03 16:56:03 +0200,Arithmetic.java,18,0,18
+petroz-task-1,c3b15b03102bbab1593e4a1aa27b559af428d572,Petro Zhou,petroz,2025-09-03 16:31:48 +0200,HelloWorld,5,0,5
+petroz-task-1,9888d61d7b3ecf71a788fcc09231f947e333ade6,Petro Zhou,petroz,2025-09-03 14:52:20 +0200,Answers to Warmup 1,13,13,26
+hannazh-task-1,0b94e68f693f8fd9cda6edc02fd562c44503f7ee,Hanna Zhang,hannazh,2025-09-04 12:03:39 +0200,Update README.md,13,13,26
+hannazh-task-1,2d601675e694f39676d4bae5db0b7cf3d25ff900,Hanna,hannazh,2025-09-04 09:57:10 +0200,Fixes #5,4,0,4
+hannazh-task-1,ae2794e6d9da96b4b58d6bee267e9fa2d35f6c82,Hanna,hannazh,2025-09-04 09:52:19 +0200,Refixes #4,4,2,6
+hannazh-task-1,dbe705702d2f513fa49690e7873345decd151f6a,Hanna,hannazh,2025-09-04 09:47:16 +0200,Fixes #4,4,0,4
+hannazh-task-1,612c1bd1f917d2bae428ec53fd9920675244b72f,Hanna,hannazh,2025-09-04 09:41:38 +0200,Fixes #3,4,1,5
+hannazh-task-1,2c74ddb0f85d8c074b2b2d8e38ce86c2b5013d81,Hanna,hannazh,2025-09-04 09:37:29 +0200,Fixes #2,3,0,3
+hannazh-task-1,62d8a59097ee5ec3b9b1cff3c029ccc7add7f176,Hanna,hannazh,2025-09-04 09:33:57 +0200,Fixes #1,6,0,6
+avde-task-1,e814ba08c1d54b369d46943baf6449c6d1d82aad,avde,avde,2025-09-04 18:57:42 +0200,Fixes #2,22,0,22
+avde-task-1,0cf43de65c59bd5929390494d2abe6661fb35e1b,avde,avde,2025-09-04 18:35:41 +0200,Fixes #1,7,0,7
+avde-task-1,97b2542c75dbb33e8650cc3d9b5dec1001746fa0,avde,avde,2025-09-04 18:21:09 +0200,docs/README.md,14,13,27
+mahamad-task-1,3fc586255258534a917152a61d29cf4209888018,mahamad,mahamad,2025-09-04 13:09:01 +0200,Fixes #2,30,0,30
+mahamad-task-1,94b23ec668afe746adede9d7d5dc9ee6ee4609b7,mahamad,mahamad,2025-09-04 12:12:32 +0200,"testing pushing git, done warmup 1",13,13,26
+didriku-task-1,0be6580ffc9d87c04391b46b9822a3937e23dd30,Didrik Uttersköld,didriku,2025-09-04 21:50:21 +0200,Fixes #8,1,1,2
+didriku-task-1,a8994eff6b30723254b8be26edba7f7907b37736,Didrik Uttersköld,didriku,2025-09-04 17:31:26 +0200,Fixes #7,0,7,7
+didriku-task-1,cb30cc10f594bd69c72e8a070d5091f526a63663,Didrik Uttersköld,didriku,2025-09-02 20:22:29 +0200,Fixes #6,1,1,2
+didriku-task-1,f9bd2d283f61111dcb5da2d18aa55e18558dc20a,Didrik Uttersköld,didriku,2025-09-02 20:13:40 +0200,Fixes #5,12,2,14
+didriku-task-1,86004beab0235dedf07c15925ed9021183aaaa8a,Didrik Uttersköld,didriku,2025-09-02 20:07:13 +0200,Fixes #4,4,1,5
+didriku-task-1,5e5dc1d9b33da770d7c2120e1122f2ec4bf96e92,Didrik Uttersköld,didriku,2025-09-02 20:03:45 +0200,Fixes,8,0,8
+didriku-task-1,f72d916b93dcd33bbe601ec3e74b40e50dd02843,Didrik Uttersköld,didriku,2025-09-02 19:59:38 +0200,Fixes #3,19,0,19
+didriku-task-1,5dadddde3bb4e7469aaa996615c2952252fe6081,Didrik Uttersköld,didriku,2025-09-02 18:52:55 +0200,Fixes #3,0,0,0
+didriku-task-1,497ca706d093449b330e748202bba461b8f597b4,Didrik Uttersköld,didriku,2025-09-02 18:51:29 +0200,Fixes #2,7,0,7
+didriku-task-1,08f60b02a5fc55e7e3dccd53194eb9f97d183ee3,Didrik Uttersköld,didriku,2025-09-02 18:46:25 +0200,Fixes #1,20,13,33
+alwinwn-task-1,d005aec475dbef3b4840436183e54e539896bf9e,Alwinwn,alwinwn,2025-09-04 00:58:07 +0200,"har nu löst allt, fastnade lite då jag glömde att ändra från int till double för average",13,14,27
+alwinwn-task-1,88a3143647a410ec70e8415988d611497384df48,Alwinwn,alwinwn,2025-09-04 00:45:47 +0200,fick subtraktion att funka genom att skriva samma sak fast med - istället för +. var dock svårt att se vart public int difference skulle vara innan jag löste det,24,1,25
+alwinwn-task-1,bea64f1c170f74a5e4400c331da3b6f71bc24e3a,Alwinwn,alwinwn,2025-09-04 00:19:40 +0200,strulade mycket pga att jag inte hade saker på rätt rader,20,0,20
+alwinwn-task-1,4d0ecb130ff17411b2206843ae5407702f124f31,Alwinwn,alwinwn,2025-09-03 22:35:43 +0200,"färdig med 1.1, fått den att säga hello world",7,0,7
+alwinwn-task-1,5992978f6bc069ef8372045e51d864398ae67432,Alwinwn,alwinwn,2025-09-03 22:11:37 +0200,italics added,1,1,2
+alwinwn-task-1,ca860208bdc39022319228cb3d9ba22d24bf70f5,Alwinwn,alwinwn,2025-09-03 22:01:10 +0200,"färdig warmup 1, har kvar markdown att göra",13,13,26
+sibelli-task-1,3241f203b20c5018a26310b8efeb4e605eb6bc65,Sibell,sibelli,2025-09-03 17:07:40 +0200,Done,1,1,2
+sibelli-task-1,0e0c06c603bffc0fc5831f047bed6dfbcc00706c,Sibell,sibelli,2025-09-03 16:40:35 +0200,Fixes #5,6,1,7
+sibelli-task-1,97210a4cd65d33c868f39843d71031495e086c99,Sibell,sibelli,2025-09-03 16:25:32 +0200,Fixes #4,7,0,7
+sibelli-task-1,8b299db89c97faec8ddc3ec399ce72d7a35ac388,Sibell,sibelli,2025-09-03 15:53:25 +0200,Fixes #3,16,0,16
+sibelli-task-1,3b6c0ae642c2fa4178a0401a0e204d7b27a8c46a,Sibell,sibelli,2025-09-03 15:45:37 +0200,Fixes #2,0,0,0
+sibelli-task-1,7602cc5b7a590328bfb78feb2edad09046ec584c,Sibell,sibelli,2025-09-03 15:42:54 +0200,Fixes #1,7,0,7
+sibelli-task-1,0e8c31be5b713266f6521292833f3aac2402ed57,Sibell,sibelli,2025-09-03 15:39:34 +0200,Löste Warmup 1,13,12,25
+vbit-task-1,1cea8f2e199a2e8628456bcbf0d15b3997394aa2,vbit,vbit,2025-09-04 13:31:29 +0200,Checked all boxes in the checklist.,5,5,10
+vbit-task-1,102094755227ba76ec797a12c17e821417b70558,vbit,vbit,2025-09-04 13:28:35 +0200,Done with all tasks. Fixes #6,7,2,9
+vbit-task-1,12e891d962e7b2a1e0e322c9b313fcc5dfbad414,vbit,vbit,2025-09-04 13:20:56 +0200,Fixes #5,8,3,11
+vbit-task-1,4c4381592b363c91c4caa252e5544ba77d30c659,vbit,vbit,2025-09-04 13:16:46 +0200,Fixes #4,19,0,19
+vbit-task-1,93377072cd23bd4538d151a4b56cb7e070ebdfe7,vbit,vbit,2025-09-04 13:12:18 +0200,Fixes #3,0,0,0
+vbit-task-1,4564b6df42e9c36184be5fec1b184b3141c0c7cf,vbit,vbit,2025-09-04 12:55:09 +0200,Fixes #2,0,1,1
+vbit-task-1,c84736a4af9b8f43877704df928543ed9473025f,vbit,vbit,2025-09-04 12:52:21 +0200,Fixes #1,7,0,7
+vbit-task-1,a84d0e0ee13563fb4a8efe505837da072e3dadb9,vbit,vbit,2025-09-04 12:36:26 +0200,Warmup 1 complete,13,13,26
+jensfoc-task-1,f63eded4cbc53dc522df1cccfba280c9fafee9b3,jensf,jensfoc,2025-09-04 11:07:47 +0200,"Fixes #5, fixes #6",1,0,1
+jensfoc-task-1,f361bd2f25bacf97853c1585f6847a2fe1851b51,jensf,jensfoc,2025-09-04 11:05:14 +0200,"Fixes #1, fixes #2, fixes #3, fixes #4, fixes#5",2,2,4
+jensfoc-task-1,16acc4bb1578d285cfaa6f37bc823e31e841dca1,jensf,jensfoc,2025-09-04 11:01:25 +0200,"1.4, 1.5",12,0,12
+jensfoc-task-1,5a77aeea8f319b4a14057782619b436a801401e4,jensf,jensfoc,2025-09-04 10:49:56 +0200,"1.1, 1.2 och 1.3",16,0,16
+jensfoc-task-1,c8a614ea69ad6dc2b8cb8ba176abdbe29e692767,jensf,jensfoc,2025-09-03 17:48:20 +0200,commited,13,13,26
+kimnor-task-1,fdc3ce87e22787adf33ae0e571c7d2fbe8ec2ce2,KIMN,kimnor,2025-09-03 20:00:28 +0200,fix #6 added functionality average that calculates te average of two doubles,7,3,10
+kimnor-task-1,5357848463c0b1a1b4e910d708230a77d12dc15a,KIMN,kimnor,2025-09-03 19:52:52 +0200,fix #5 added method difference that calculates the difference of two int:s,12,2,14
+kimnor-task-1,b784293074757c66b1ae131b7d919d4fea24a476,KIMN,kimnor,2025-09-03 19:38:04 +0200,fix #3 added functionality Arithmetic class and sum method that sums two numbers,16,0,16
+kimnor-task-1,62a39e0f50f9c3b6fa28210acd836d946a862d4e,KIMN,kimnor,2025-09-03 19:36:02 +0200,fix #3 added functionality Arithmetic class and sum method that sums two numbers,5,0,5
+kimnor-task-1,671aba44b42eee6a9597e1ed13d516f116ef2791,KIMN,kimnor,2025-09-03 16:12:02 +0200,fixing warmup #1 fixed formating error in nembered list,1,1,2
+kimnor-task-1,4671484eb6e8beacba7859fb3336ba7db31c2806,KIMN,kimnor,2025-09-03 16:10:47 +0200,fixing warmup #1 changed last type to float,1,1,2
+kimnor-task-1,457ff97516564e93d5a8c6d229205583dadded2e,KIMN,kimnor,2025-09-03 16:06:43 +0200,fixing warmup #1 a with the last tasks,10,9,19
+kimnor-task-1,a898a84c0adbfa9fbc4dfdb6ffcfc0db8dab5cce,KIMN,kimnor,2025-09-03 15:56:17 +0200,fixing warmup #1,7,5,12
+wekl-task-1,e57df5767daa7c7eab04bec62c9daf74332e04b8,wekl,wekl,2025-09-03 10:40:43 +0200,Fixed all (myabe),41,19,60
+wekl-task-1,747fbaa3f307d755909eef058650cd3fb8828f4e,wekl,wekl,2025-09-02 17:19:23 +0200,Fixes #5,10,5,15
+wekl-task-1,c1302267b3f1c65f26603d0ee99c7f29979b3382,wekl,wekl,2025-09-02 16:56:56 +0200,Fixes #4,5,10,15
+wekl-task-1,0aeb1b3c9f5873c7a56d1bda6f451d58abf43552,wekl,wekl,2025-09-02 16:44:46 +0200,Fixes #3,10,0,10
+wekl-task-1,2a9b064bbabad8ba569de2f4dd126927acacc038,wekl,wekl,2025-09-02 16:42:15 +0200,Fixes #2,9,0,9
+wekl-task-1,ea0b6080a4b325fdd27df7eba3d5a16a6e1b3d84,wekl,wekl,2025-09-02 15:52:46 +0200,fixes #1,7,7,14
+sohw-task-1,a344789ea61e2f84383264d3c0ee242854b3d30c,sofia,sohw,2025-09-04 10:08:45 +0200,Checklista,5,5,10
+sohw-task-1,a027baad6ac3ab0529c7713565521d3281c45353,sofia,sohw,2025-09-04 10:06:12 +0200,Fixes #6,1,1,2
+sohw-task-1,2e43bf2d3b8f28cf5ce701bcc4ea44e6ce5003c2,sofia,sohw,2025-09-04 10:05:02 +0200,Fixes #6#,2,0,2
+sohw-task-1,81421c54b220af9a26faa73416b674958cf72b50,sofia,sohw,2025-09-04 09:58:53 +0200,Fixes #5,26,4,30
+sohw-task-1,63522df2c525838f1d3b88f41f2b1d5a5a222486,sofia,sohw,2025-09-04 09:48:28 +0200,Fixes #4,14,1,15
+sohw-task-1,98040233ab1912145da1961697e3fa9a8cb28369,sofia,sohw,2025-09-04 09:40:58 +0200,Fixes #3,25,0,25
+sohw-task-1,0c391f791ef29f1a3f19eb8a69ca9646eaf8e553,sofia,sohw,2025-09-04 09:25:50 +0200,"Fixes #2 , lagt till fil för aritmetik",0,0,0
+sohw-task-1,97b02ab01feb39e0a67cdf1b926bb641fd9e7d0d,LapTop,sohw,2025-09-03 18:49:59 +0200,Fixes #1,7,0,7
+sohw-task-1,dd5b6dcbe994c262baa616da285225ed561e09c6,LapTop,sohw,2025-09-03 18:24:31 +0200,Svar på frågor,14,13,27
+zixuanli-task-1,2b24939365f0114b825363e38f90556dd06b74d2,zixuanli,zixuanli,2025-09-03 13:09:28 +0200,fixes #1,1,1,2
+zixuanli-task-1,8c651bcbaa9e8663a101414c979a5cfff7821d43,zixuanli,zixuanli,2025-09-03 12:20:32 +0200,Done with my exercise. Fixes #1,35,0,35
+zixuanli-task-1,a81763390f4a2654fe3fede84fa59c40ab6a4fa6,Zixuan Lin,zixuanli,2025-09-03 11:00:47 +0200,Update README.md,13,13,26
+zixuanli-task-1,ca19f61d0e798cd7a76d84cbe24ff319d644d23b,zixuanli,zixuanli,2025-09-03 10:26:57 +0200,Skapad HelloWorld,7,0,7
+filipron-task-1,8db85d97b86b1ea5339facd40d20eefa26f8efe1,Filip Rönström,filipron,2025-09-05 09:30:50 +0200,ändring av formattering,0,3,3
+filipron-task-1,7f381a156366cda4e06d080211ef466f46bf5e22,Filip Rönström,filipron,2025-09-03 12:02:09 +0200,Warmup task,14,14,28
+filipron-task-1,4b6cf6062b22d7d2567881a97de74e1a01ffcdf5,Filip Rönström,filipron,2025-09-03 10:22:12 +0200,Update README.md,5,5,10
+filipron-task-1,d6e4e12e902e949670a9bf95447d2faa1339db9a,Filip Rönström,filipron,2025-09-03 10:20:49 +0200,Fixes #3,20,17,37
+filipron-task-1,848c292e94d1a3fbb468f7c3f8158411bb3e67f6,Filip Rönström,filipron,2025-09-02 21:49:56 +0200,Fixes #2,32,0,32
+filipron-task-1,c8534334fc6d766612207191e448c74ec386d47c,Filip Rönström,filipron,2025-09-02 21:10:05 +0200,Fixes #1,6,0,6
+bishrelt-task-1,9d45a4a4ee77c6c5055e3dc54952ea886a7bb55d,Bishrelt Batmunkh,bishrelt,2025-09-05 08:13:53 +0200,Solves 1.4 bug,1,1,2
+bishrelt-task-1,ed04dc40cfbb545f7ef9fe10169413796334213c,Bishrelt Batmunkh,bishrelt,2025-09-04 16:44:29 +0200,Fixes #2,0,1,1
+bishrelt-task-1,09b80ccbbab9522c8d8579169516f02c2eaa8f55,Bishrelt Batmunkh,bishrelt,2025-09-04 16:39:49 +0200,Checked the boxes of README.md in bishrelt-task-1,5,5,10
+bishrelt-task-1,85c1ba9e3a59983e4578be2449ffbd67fb65b88b,Bishrelt Batmunkh,bishrelt,2025-09-04 16:27:58 +0200,Fixes #1 in inda-25/help and Answers #2 in inda-25/bishrelt-task-1,57,13,70
+mblomst-task-1,b00d9a42362b52d88a4d3c60aac5855376c61c16,mblomst,mblomst,2025-09-05 01:17:10 +0200,Filled out the checklist,1,1,2
+mblomst-task-1,d941f7a1869c959c1d658b8975decf7c4296df9f,mblomst,mblomst,2025-09-05 01:12:37 +0200,"Fixes#1, closes #1",2,2,4
+mblomst-task-1,597b896611f8b90a547cf05e5218cea63b8764de,mblomst,mblomst,2025-09-02 22:59:58 +0200,Git commit,209,2,211
+hulundb-task-1,d8f5af376bced325822c1f0efad9125cff5a8330,Hugo Lundberg,hulundb,2025-09-03 09:55:50 +0200,Arithemtic file completed,30,0,30
+hulundb-task-1,be2a1a23ea3e30e85b44d662d71d8f5c631bc5fb,Hugo Lundberg,hulundb,2025-09-03 09:18:09 +0200,Uppgift 1,7,0,7
+hulundb-task-1,98ae6b64df189909f27f370fa2c1b9fec68b4624,Hugo Lundberg,hulundb,2025-09-03 09:07:01 +0200,Questions answered,4,4,8
+akehurst-task-1,29d53c14aeb1a57afbf34cc42a80638c5cd0f594,akehurst,akehurst,2025-09-03 15:27:39 +0200,completed task-1,31,0,31
+akehurst-task-1,a727e61123dec93a4d229d6f732ce9cc88eed6fa,Oliver Akehurst,akehurst,2025-09-03 14:06:19 +0200,Update README.md,14,13,27
+flavius-task-1,4ec9e38e865c65e37a15f252ec4eed19a2555b4a,Flavius Nasman Farber,flavius,2025-09-04 21:54:24 +0200,Tried to do the task,28,0,28
+akanksh-task-1,76c7a5e7534adcc7ec9ca67b8f107615a99260f3,Akanksh,akanksh,2025-09-04 10:54:10 +0200,Dont with my first exercise,45,0,45
+akanksh-task-1,5cbf664319c808b5672932763b4693f77c33dd09,Akanksh Mahapatra,akanksh,2025-09-03 19:31:07 +0200,Update README.md,13,12,25
+akanksh-task-1,ccc2a2fba29a44de120e4e41e2cfd2443174ed0f,Akanksh Mahapatra,akanksh,2025-09-03 12:55:25 +0200,Update README.md,2,2,4
+rufusc-task-1,88a04e465e43fc81b6f854f0bbb2ea7e1d35eb8a,Rufus Chow,rufusc,2025-09-03 22:53:08 +0200,Added method for average,11,4,15
+rufusc-task-1,b11558a1ffd1eddcea6489fe449d3d4aa4028ba4,Rufus Chow,rufusc,2025-09-03 22:38:31 +0200,fixes #3,5,1,6
+rufusc-task-1,c35d90895be885f6076fcb86c9e659b282471a84,Rufus Chow,rufusc,2025-09-03 22:30:55 +0200,Fixes #2,14,0,14
+rufusc-task-1,e8e0c7094454a41c265834b221a6d3197564b0a2,Rufus Chow,rufusc,2025-09-03 22:18:46 +0200,Fixes #1,19,12,31
+axelahm-task-1,8437d2cf14b34f99950153dbf197359cbd0edbae,axelahm,axelahm,2025-09-03 11:03:29 +0200,"Added method for average, added test functionality for difference and average in the main method. Fixes #7",12,0,12
+axelahm-task-1,62e98390b3d0e8e6a02b41fd4b9fceb8b8b3002a,axelahm,axelahm,2025-09-03 10:50:20 +0200,Fixes #6,4,0,4
+axelahm-task-1,d1f6239fb954963c83420dc7b68cfb51e2c515e1,axelahm,axelahm,2025-09-03 10:46:53 +0200,"Added sum method to Arithmetic.java, Fixes #5",19,0,19
+axelahm-task-1,8b037be21e315352b2c3b0d7f04cdfa6e0b247e1,axelahm,axelahm,2025-09-03 10:33:26 +0200,"Added Arithmetic.java, Fixes #4",0,0,0
+axelahm-task-1,b7e82792e2b11f76d7054ded6e2f6b6206ec733a,axelahm,axelahm,2025-09-02 20:14:07 +0200,Fixes #3,16,13,29
+axelahm-task-1,39ce5059bb73f021d828c44297b3f2cde73f8841,axelahm,axelahm,2025-09-02 20:10:38 +0200,Added HelloWorld.java! Fixed #1,7,0,7
+arst-task-1,d6ef2407243f658a28fda89ff218d11b4ecc8243,Arvid Stridsman,arst,2025-09-04 11:33:23 +0200,Update README.md,5,5,10
+arst-task-1,0863cada8ca87af76f46c191b908c1b76a073e9b,Arvid Stridsman,arst,2025-09-03 20:19:06 +0200,Completed issue #5 and issue #6,13,3,16
+arst-task-1,aa9906abe2d96c717b0510d4cd0a7fd7f35e2897,Arvid Stridsman,arst,2025-09-03 20:06:32 +0200,Completed issue #4,15,1,16
+arst-task-1,5d3a47a9c305d5cd60b5c3ead975e55282296034,Arvid Stridsman,arst,2025-09-03 19:56:54 +0200,Completed issue #3,22,0,22
+arst-task-1,318669280de576600c98a6ab6696836511359e9d,Arvid Stridsman,arst,2025-09-03 17:16:38 +0200,Completed issue #2,0,0,0
+arst-task-1,efd2d829ec8bd1fb0f13bf484da7de715f5a21e2,Arvid Stridsman,arst,2025-09-03 17:10:19 +0200,Completet issue #1,1,1,2
+arst-task-1,82687291051846d96a77494f4331f36c4130a95e,Arvid Stridsman,arst,2025-09-03 16:13:25 +0200,added java code from oli module1 2.,9,0,9
+arst-task-1,6afa3821f982b0ba1fb7b121033173883917c757,Arvid,arst,2025-09-02 13:05:38 +0200,updated README.md with answers to questions,14,13,27
+visf-task-1,dddacca12be2ae1f29568a344a50d3c17fc7529d,vincentfs,visf,2025-09-02 14:35:31 +0200,Done and dusted,13,13,26
+visf-task-1,f66879ccf0f60f38365940b46aa81f6ed42fc972,vincentfs,visf,2025-09-02 14:23:15 +0200,Done and dusted,5,5,10
+visf-task-1,520e67dca9759721b6d1045c0c399f395ce5a252,vincentfs,visf,2025-09-02 14:20:32 +0200,"Fixes #1, 1.1-1.5 done",2,0,2
+visf-task-1,b3e3e28a4d9f75d15c5fe1c9ea9ddc599fcc8adc,vincentfs,visf,2025-09-02 14:10:28 +0200,1.1-1.5 Done,15,3,18
+visf-task-1,f04c788a2618d18685f726eab7026cbabd3612de,vincentfs,visf,2025-09-02 13:03:53 +0200,1.5 Done,4,5,9
+visf-task-1,f7b510fa158cdd9f380a4303eee5929c45a2ac5e,vincentfs,visf,2025-09-02 12:51:09 +0200,1.4 Done,4,7,11
+visf-task-1,13ce337e315341ef7cbfe76995fdcb9a12e4cc55,vincentfs,visf,2025-09-02 12:43:58 +0200,"1.2, 1.3 Done",19,0,19
+visf-task-1,c849aa90a6a6ef193857b7740cec174a81579324,vincentfs,visf,2025-09-02 11:24:20 +0200,1.1 Done,7,0,7
+mbjors-task-1,c5baa0ae55f1eb173e2eaab2d283090bad6b232b,Malte Björs,mbjors,2025-09-03 10:43:04 +0200,"Forgot to close the issue, Fixes #3",1,0,1
+mbjors-task-1,bdf2b841c93677a6b8ec356efc5a9cd1b5c5c0cb,Malte Björs,mbjors,2025-09-03 10:40:47 +0200,Adds an average method,5,0,5
+mbjors-task-1,17a49234fdfb1628ed8f24d82a3444446a8d5cfc,Malte Björs,mbjors,2025-09-03 10:34:05 +0200,"Main now prints result of a difference operation, simple methods done, Fixes #2",2,0,2
+mbjors-task-1,01c2c85e51e65dee43b97c47cfa80040e36ebd68,Malte Björs,mbjors,2025-09-03 10:28:33 +0200,"Adds a difference method, #2",4,0,4
+mbjors-task-1,a5afcd9a5cec7efe7565d9bc97ed4721b95e209c,Malte Björs,mbjors,2025-09-03 10:22:38 +0200,Adds sum method and main method.,15,0,15
+mbjors-task-1,6125e3b5b10fcd6dac6dd65bb1626e8da19e3f93,Malte Björs,mbjors,2025-09-02 18:09:44 +0200,Fixes #1 and warmup,18,13,31
+yloh-task-1,cb270637ea4dba45b62a4f0399d9770ddf0aa800,Yen Li Oh,yloh,2025-09-03 17:57:24 +0200,Fixes #1 #3 #4 #5,45,0,45
+yloh-task-1,c5f3685629121fbfa159baa8ac38b5a84e18de35,Yen Li Oh,yloh,2025-09-03 16:05:17 +0200,Fixes #2,1,0,1
+yloh-task-1,ff86f0de7f598d6604360a915fd3f5c1cd6e4b8a,Yen Li Oh,yloh,2025-09-03 11:22:17 +0200,Create HelloWorld.java,7,0,7
+yloh-task-1,27b0e340cdfd64bac6539458aeaff4a927ef6396,Yen Li Oh,yloh,2025-09-03 11:21:31 +0200,Delete HelloWorld.java,0,7,7
+yloh-task-1,c8b07ba37d7f5a7eaa0e80a8226713c9def3b3ff,Yen Li Oh,yloh,2025-09-03 11:19:46 +0200,Create Arithmetic.java,1,0,1
+yloh-task-1,553a6bb165133646e9032bef8955f7199c21e06a,Yen Li Oh,yloh,2025-09-03 11:16:35 +0200,Update HelloWorld.java,6,0,6
+yloh-task-1,9525d500786995f0987b7de6ebaa7c606e343aee,Yen Li Oh,yloh,2025-09-03 11:14:06 +0200,HelloWorld.java,1,0,1
+yloh-task-1,551f2203bc0a64c0622099651897407300e53bd6,Yen Li Oh,yloh,2025-09-02 19:10:52 +0200,Update README.md,13,13,26
+ponord-task-1,53038d5b3c77fc83b9ed8150805968adff064e70,Pontus Nordström,ponord,2025-09-03 10:55:12 +0200,removed unnecessary/misleading comment,1,1,2
+ponord-task-1,d8aa1c551d206eba2224cfe1f37c641cfa03d534,Pontus Nordström,ponord,2025-09-02 21:59:31 +0200,quick fix in README,5,5,10
+ponord-task-1,dd53477c299034536c1bb6488ac498b7af005aa3,Pontus Nordström,ponord,2025-09-02 21:57:31 +0200,cleaned up code & edited checklist in README,11,19,30
+ponord-task-1,4998514662df992e8d278ba66a6264f958ff37f6,Pontus Nordström,ponord,2025-09-02 21:48:18 +0200,"added an average method, tested & works. changed names of variables. closing #5.",19,4,23
+ponord-task-1,289ce9a978eb7eda1a7a3ddd0caef65a14c47144,Pontus Nordström,ponord,2025-09-02 21:28:16 +0200,"added difference method, tested & works. closing #4",14,4,18
+ponord-task-1,df583ce167850b2d87f233a676c633c609f26625,Pontus Nordström,ponord,2025-09-02 21:14:55 +0200,"finished exercise 1.3 & tested, closing #3",18,0,18
+ponord-task-1,4e23103126cf702d55c6bae9a982fca53bc8f28d,Pontus Nordström,ponord,2025-09-02 21:01:55 +0200,clarified meaning in docs,1,1,2
+ponord-task-1,87a8909fcdb000cc098e1593d6ea0591cd2ccf85,Pontus Nordström,ponord,2025-09-02 20:59:46 +0200,added answers in docs,14,13,27
+ponord-task-1,e3b72f48f09fd84a65b090f5d651a88bbcd4f226,Pontus Nordström,ponord,2025-09-02 20:42:12 +0200,"added arithmetic, closing #2",0,0,0
+ponord-task-1,486e64d27a13fd14c0f5914c803b49b8f5dc94e9,Pontus Nordström,ponord,2025-09-02 20:34:18 +0200,"first assignment done, closing #1",7,0,7
+jonaskvi-task-1,0cc1f7603f9317d5efffbc882ebc58924b9e6946,Jonas Kvist,jonaskvi,2025-09-02 11:23:08 +0200,changed type float to type double in  README warmup,1,1,2
+jonaskvi-task-1,31ca224c547c3c871485e7fb59bc59170a511b53,Jonas Kvist,jonaskvi,2025-09-02 11:14:04 +0200,"fixes #5, fixes #6",12,0,12
+jonaskvi-task-1,2a258fe22d1c908f04a53242bb14fb8107345e74,Jonas Kvist,jonaskvi,2025-09-02 10:39:48 +0200,fixed #4.,1,1,2
+jonaskvi-task-1,7e3a6bd97f2bb25b1c222b1b3f515b6bbbfb41e2,Jonas Kvist,jonaskvi,2025-09-02 10:38:32 +0200,"Fixed #3, #4",19,0,19
+jonaskvi-task-1,ffd41ca54744b5612d1c37009d16e558231b828d,Jonas Kvist,jonaskvi,2025-09-02 09:44:15 +0200,fixed #2,1,1,2
+jonaskvi-task-1,cb5704c4ff7c836c3fc5f9453ab3c41c47798cac,Jonas Kvist,jonaskvi,2025-09-02 09:43:42 +0200,fixed #1,1,0,1
+jonaskvi-task-1,e717ab9fa335cb37634af7a1adbe6ed2adf5c5a9,Jonas Kvist,jonaskvi,2025-09-02 09:42:52 +0200,fixed #1,1,0,1
+jonaskvi-task-1,f9dbc4fdb5c2c8dde3afdc4138ae9129a8f1c11a,Jonas Kvist,jonaskvi,2025-09-02 09:34:27 +0200,Completed Warmup 1,14,13,27
+jonaskvi-task-1,787b9e872eb6a34e8993ea434537b3bb272526c0,Jonas Kvist,jonaskvi,2025-09-02 09:04:33 +0200,Completed HelloWorld,6,0,6
+catyde-task-1,9d62dfd4f8f0f4da29ca60b551af34574d17fc85,Carl Tydén,catyde,2025-09-03 22:19:17 +0200,typo,1,1,2
+catyde-task-1,7b72e7c728fcaaeb6f195ca855bdf9291969020b,Carl Tydén,catyde,2025-09-03 22:13:31 +0200,"Fixes #1, Fixes #2, Fixes #3, Fixes #4, Fixes #5, Sorry for the big commit",0,0,0
+catyde-task-1,b9c632e421037ffc4613f7fb131c41678af4948b,Carl Tydén,catyde,2025-09-03 22:03:34 +0200,"Fixes #1, Fixes #2, Fixes #3, Fixes #4, Fixes #5, Sorry for the big commit",46,13,59
+erikrom-task-1,f88d3c70acc1b235ba2a878b88421924a008c05e,erikrom,erikrom,2025-09-02 19:38:19 +0200, complete exercise 1.5. Fixes #5,1,1,2
+erikrom-task-1,05bf9abc1662a4bf0ee4dd7d35e0fc33fc3ee426,erikrom,erikrom,2025-09-02 19:34:07 +0200, complete exercise 1.4. Fixes #4,14,2,16
+erikrom-task-1,b2fd6408b3f3736bb50574c9b41fc9caf6bb2773,erikrom,erikrom,2025-09-02 19:28:46 +0200, complete exercise 1.3. Fixes #3,9,3,12
+erikrom-task-1,0e0d0d57934ebd0fb7292ad70d35173d8a83b180,erikrom,erikrom,2025-09-02 19:23:59 +0200, complete exercise 1.2. Fixes #2,20,0,20
+erikrom-task-1,8e34cb80a7c391c31d7bb11a76761f84978c1f14,erikrom,erikrom,2025-09-02 19:10:11 +0200, complete exercise 1.1. Fixes #1,7,0,7
+erikrom-task-1,a7ae40682c4dee11e2f2a3c97d8b81e062c2f326,erikrom,erikrom,2025-09-02 18:46:06 +0200, what is this,14,13,27
+kaj4-task-1,11eaa2917cdf57ae1eb9e567267fdb4159b508ba,Kaj Li,kaj4,2025-09-02 15:09:34 +0200,Ticks the checklist in the main README file,5,5,10
+kaj4-task-1,a34dd23d2279d3267f75dc20671d81481376fe00,Kaj Li,kaj4,2025-09-02 15:07:39 +0200,Fixes #5,15,5,20
+kaj4-task-1,8184c6f5eb0678d53372be7fb5db52383cded9d9,Kaj Li,kaj4,2025-09-02 14:59:47 +0200,Fixes #4,14,2,16
+kaj4-task-1,76b7b249664c6522dff333356dd2281cb0965d7b,Kaj Li,kaj4,2025-09-02 14:51:48 +0200,Fixes #3,16,6,22
+kaj4-task-1,8c587cb2acf1294d86f6c4e5bf6364d0a9e79e33,Kaj Li,kaj4,2025-09-02 14:48:08 +0200,Fixes #2,23,0,23
+kaj4-task-1,adb26ddac004ae502c5901e8ce85f32aea76be17,Kaj Li,kaj4,2025-09-02 14:18:50 +0200,Fixes #1,5,0,5
+kaj4-task-1,913296b977501adfab960186bc5a0275cad087a2,Kaj Li,kaj4,2025-09-02 14:00:57 +0200,Completed warmup 1,13,13,26
+kazan-task-1,6357f4debf4192fbd76c7b57084efbd9cb49d579,Deniz Kazan,kazan,2025-09-04 14:24:04 +0200,Liten ändring2,7,13,20
+kazan-task-1,b98328ea3f4da69f911634e214fbd47bd21c0b79,Deniz Kazan,kazan,2025-09-04 14:20:22 +0200,Liten ändring,13,9,22
+kazan-task-1,1e9c5882f9953be2e8bc9814f915acb253805709,Deniz Kazan,kazan,2025-09-04 13:58:31 +0200,Fixes #1,2,2,4
+kazan-task-1,d9af121ecdb86516cfe6ebd1595a1fb1ee3ba71c,Deniz Kazan,kazan,2025-09-04 13:45:44 +0200,Fixes #7,8,1,9
+kazan-task-1,947b17b1b17f07478872c6ce81d4835ce09e1f8c,Deniz Kazan,kazan,2025-09-04 13:32:03 +0200,Fixes #6,11,0,11
+kazan-task-1,31389cec249b6ffe981177c88e73b10c865cfb23,Deniz Kazan,kazan,2025-09-04 11:48:06 +0200,Fixes #5,24,0,24
+kazan-task-1,06161a2ed3d593575becc05e7fbac2a3fd0d28ef,Deniz Kazan,kazan,2025-09-04 11:25:57 +0200,Fixes #3,0,0,0
+kazan-task-1,dc10f1d6fec5f4bca4cb14b433cd75d4de4cc68f,Deniz Kazan,kazan,2025-09-04 11:21:30 +0200,Fixes #4,8,0,8
+kazan-task-1,bef1739aaac646b33b62d54b06f73c31c49deaab,Deniz Kazan,kazan,2025-09-04 11:16:00 +0200,Fixes #2,2,0,2
+nilhal-task-1,581f1521572685946f05bf0f70af0570f5718601,EC-user,nilhal,2025-09-04 12:58:15 +0200,Finished 1.5. Doubles are neat,9,2,11
+nilhal-task-1,df17a34af8ffdfad70f58ab5b48556959d0202c3,EC-user,nilhal,2025-09-04 12:48:39 +0200,1.4 is out the door!,8,0,8
+nilhal-task-1,ee49490efddcbd89c0c19eeb9f0c3d9e59f21df9,EC-user,nilhal,2025-09-04 12:42:09 +0200,Finally got my brain around java addition. Hopefully the other stuff is just as easy,17,8,25
+nilhal-task-1,7f67308205a3ba6b915f4343a01fdf3b925fd0b3,EC-user,nilhal,2025-09-04 12:11:48 +0200,Created Arithmetic.java and copied example code,19,0,19
+nilhal-task-1,665a72c2edacea1c5ec59f758e4a433afd060264,EC-user,nilhal,2025-09-03 11:47:49 +0200,Completed my first real programming!,7,0,7
+nilhal-task-1,1ae6e0112063edf65a3d4986dcca71a63569efcb,EC-user,nilhal,2025-09-03 11:38:50 +0200,Read through the course instructions and Torus OLI and answered questions in README.md file,14,13,27
+vigoran-task-1,a8d74924a0aea3b84ab5bbbe774b0ed17fdc2a5d,Vigor Andersson,vigoran,2025-09-02 22:43:47 +0200,Refactoring the code in Arithmetic.java,7,3,10
+vigoran-task-1,7d1cb912ce3b4f98f2fd7980efdc76bdb735676c,Vigor Andersson,vigoran,2025-09-02 22:19:29 +0200,Made sure the checklist was done.,5,5,10
+vigoran-task-1,ac8396f65d25c6ff33abdd97658d5ca70ef677e7,Vigor Andersson,vigoran,2025-09-02 22:10:34 +0200,Fixes #31,2,2,4
+vigoran-task-1,bc8508928f11486f58cb83df7c7197d0ca50754c,Vigor Andersson,vigoran,2025-09-02 21:47:50 +0200,"Added sum(), difference() and average() to Arithmetic.java",29,0,29
+vigoran-task-1,19669ff942f67956f0623e25f8ab37ac998220b2,Vigor Andersson,vigoran,2025-09-02 21:27:30 +0200,Adding a new project called Arthimetic.java to src,0,0,0
+vigoran-task-1,98156d2de920a3162f5cd61fd364b287c9925b0d,Vigor Andersson,vigoran,2025-09-02 21:23:38 +0200,Finished the code for HelloWorld.java,7,1,8
+vigoran-task-1,6217693fa43b816792980001963f7140458e76c4,Vigor Andersson,vigoran,2025-09-02 21:16:53 +0200,Trying to add HelloWorld.java through the terminal.,1,0,1
+vigoran-task-1,a175d0b12ed20657e72c9e189d0a206f012fe581,Vigor Andersson,vigoran,2025-09-02 19:38:47 +0200,Answered all the questions in README.md in docs.,15,13,28
+tobwic-task-1,d6e5717609d8366a49d3442a185490a0bd9185fe,tobwic,tobwic,2025-09-05 07:59:11 +0200,fix #7 because no commit yet whoops,1,1,2
+tobwic-task-1,c853ee2008b48dab312ed6903b87696b236e9c65,tobwic,tobwic,2025-09-05 07:58:37 +0200,fix #6 because no commit yet whoops,1,1,2
+tobwic-task-1,9b6262e412a431fd50a1c555569976f521923bc7,tobwic,tobwic,2025-09-05 07:57:29 +0200,fix #3 because no commit yet whoops,1,1,2
+tobwic-task-1,dfc661be4c8128b88dab556e44087d0f4796e8df,tobwic,tobwic,2025-09-02 19:37:43 +0200,Checking boxes and tagging a commit to fix #5,5,5,10
+tobwic-task-1,82ce476c2e61dc5439bdd27ba617fe2fe14421d9,tobwic,tobwic,2025-09-02 19:32:05 +0200,fix #7,7,3,10
+tobwic-task-1,330f97e5cf437c82b8ea3c217fa7138d3c5f1e29,tobwic,tobwic,2025-09-02 19:23:51 +0200,fix #6 and some file reshuffling,8,45,53
+tobwic-task-1,20fbbe0e174a320ac28a6309e23ecd81ccdd0f2b,tobwic,tobwic,2025-09-02 19:11:35 +0200,fix #5,24,0,24
+tobwic-task-1,cd7d97371f607ad31105923736da029eace37686,tobwic,tobwic,2025-09-02 18:58:26 +0200,Fixes #3 #4,38,0,38
+tobwic-task-1,30a7705fc5894ba442acbb1b5a5fcd499be143cd,tobwic,tobwic,2025-09-02 18:53:19 +0200,Working on #1,7,0,7
+tobwic-task-1,9099219d451942b0356582bf80711ef0e8a5ac48,tobwic,tobwic,2025-09-02 11:10:38 +0200,Fix #1,17,13,30
+bajlo-task-1,8ac1d795d07a5298abc86ba4767c7f22785051de,Gabriele Bajlo,bajlo,2025-09-04 08:29:12 +0200,Completed checklist,3,3,6
+bajlo-task-1,898ac95fa9e949611d461203e0adadfa3e3e2d7f,Gabriele Bajlo,bajlo,2025-09-04 08:28:24 +0200,Fixes #5,12,4,16
+bajlo-task-1,fa5ddb81536e8f5bbfbce6336346990c320d100a,Gabriele Bajlo,bajlo,2025-09-03 22:05:22 +0200,Fixes #1 #2 #3 #4 Answered all the questions in the docs/README.md doc,50,15,65
+lihanl-task-1,7a6680005a2441da0997a6ae9c3ed13eeadac3ec,Lihan,lihanl,2025-09-04 16:11:33 +0200,donr helloworld,7,0,7
+lihanl-task-1,9136357cdb14aa758f062f919925e4489773625e,Lihan,lihanl,2025-09-04 10:37:44 +0200,Done with my first exercise. Fixes #1,38,0,38
+lihanl-task-1,332e0baeb9b99b70c010691d5c13b9f7a49ba306,Lihan,lihanl,2025-09-04 09:42:34 +0200,Added helloworld,0,0,0
+lihanl-task-1,4b3b530c983dccece02a7814805e382b58964e18,Lihan,lihanl,2025-09-03 21:18:46 +0200,update README.md,13,13,26
+teovg-task-1,b6690970e6a84efe51b97ba30653979032d553fc,blorbo,teovg,2025-09-03 22:24:53 +0200,"Closes #11, Closes #12; done with the assignment",23,6,29
+teovg-task-1,58029d90457e948bf9de20fe79f77e0046473063,blorbo,teovg,2025-09-03 17:06:49 +0200,"Fixes #7,10",20,0,20
+teovg-task-1,16baff7842230e7dcdac068041ddcda0f75b1b84,blorbo,teovg,2025-09-03 16:40:50 +0200,Fixed #6,5,0,5
+teovg-task-1,d152418e8cf6733a997e94550adb5538bd6440b9,blorbo,teovg,2025-09-03 15:56:34 +0200,Did Warmup 1 -- Code of Conduct,19,13,32
+axelbjor-task-1,8d2450587cbbb0311318773d8ebfbe9d1d8e23cf,axelbjor,axelbjor,2025-09-03 21:35:50 +0200,Solved problem with README file,12,68,80
+axelbjor-task-1,0d10482fe1222d961f2e72822976637ef9e6bde6,axelbjor,axelbjor,2025-09-03 21:28:58 +0200,Completed task code and removed comments in code,20,11,31
+axelbjor-task-1,68d78ee52d52cb80b042c7ae530540be10cb26e9,axelbjor,axelbjor,2025-09-03 20:34:38 +0200,Fixed code for sum,4,3,7
+axelbjor-task-1,100815d8f8b989a2349edb2c15b96cc2b326649c,Axel Björk,axelbjor,2025-09-03 17:21:55 +0200,Update README.md,1,1,2
+axelbjor-task-1,2463667d3af2ce072fb0bf9ae14a45f9781f42f0,axelbjor,axelbjor,2025-09-03 17:18:50 +0200,Answered the questions,56,0,56
+axelbjor-task-1,7cb293c3d37eee3b90d5529b35fd8d609feb7032,axelbjor,axelbjor,2025-09-03 17:07:51 +0200,Fixes in code,21,11,32
+axelbjor-task-1,351f4b7926f9eb63ff98514510df71e3f828a7ac,axelbjor,axelbjor,2025-09-03 16:47:47 +0200,Fix syntax,9,9,18
+axelbjor-task-1,dd24158f3d84723c07b97b0b96634ffb8d37541d,axelbjor,axelbjor,2025-09-03 16:45:00 +0200,Made file and added code,14,0,14
+axelbjor-task-1,6a512865612a435dc9d233c1b831f143ffd6ee42,axelbjor,axelbjor,2025-09-03 16:19:33 +0200,Wrote Java HelloWorld code,5,0,5
+axelbjor-task-1,0db9418c86c1d9be8ebb9094bddc8c06cc0f6636,axelbjor,axelbjor,2025-09-03 12:00:26 +0200,Added HelloWorld.java directory in src,0,0,0
+axelbjor-task-1,510222df053f91e87ffe817bdd0a099609f201a5,Axel Björk,axelbjor,2025-09-03 11:43:18 +0200,Update README.md,4,4,8
+kajus-task-1,9f2e0b85cbb3739a8daa4a055397455fe967075d,kajus,kajus,2025-09-05 09:22:39 +0200,Fixed typo,1,2,3
+kajus-task-1,27bca6895669a9cb6ae7219faacc5459d46e1d13,kajus,kajus,2025-09-02 11:41:34 +0200,"Fixes #2, Added Arithamtic.java and completetd the exercises",35,0,35
+kajus-task-1,946d21b39ff3376d9001744fd94cce47e7c90be7,kajus,kajus,2025-09-02 11:32:18 +0200,"Fixes #1, Added HelloWorld.java and answered questions",23,13,36
+janusson-task-1,60d3a620bb1f706222e9030aeff1ccd3cbf411f1,nelson,janusson,2025-09-04 20:37:01 +0200,added helloWorld class,8,0,8
+janusson-task-1,4cd49a86d82347d18ac258b333915fde0b11a63d,nelson,janusson,2025-09-04 20:36:00 +0200,added assignment and gradle for ease of use,497,0,497
+mikaeleb-task-1,df027fa7feb1a7f06124d8c923185be5f282aa48,Mikael Blome,mikaeleb,2025-09-03 18:34:36 +0200,exercise 1.1-1.5,40,0,40
+mikaeleb-task-1,beced61e2024325a3b4a178c0882ce06155f7cf2,Mikael Blome,mikaeleb,2025-09-03 14:57:01 +0200,test,9,0,9
+elsai-task-1,9b8048ebb5a4e5ab0410cceeccc03b9eb8c03b96,Elsa Illerström,elsai,2025-09-03 17:06:32 +0200,Update README.md,14,14,28
+elsai-task-1,9002d06ef0002440d54a73f4485a00406346e274,Elsa skola,elsai,2025-09-03 16:58:48 +0200,Fixes #1,1,0,1
+elsai-task-1,bc7c226e02b305f8f35fb0d1f3527f3885deee82,Elsa skola,elsai,2025-09-03 16:52:51 +0200,Fixes #1,5,3,8
+elsai-task-1,08c2bcf625105d4081e37d1f052cb86f4837941f,Elsa skola,elsai,2025-09-03 16:42:00 +0200,Done with exercise 1.5,6,1,7
+elsai-task-1,9cce642e4b356525b32bd3670c271a054f28eaac,Elsa skola,elsai,2025-09-03 16:20:45 +0200,Added difference method,14,2,16
+elsai-task-1,de190a1887844519edc949576eaea437377c879f,Elsa skola,elsai,2025-09-03 15:35:05 +0200,Added sum method,13,0,13
+elsai-task-1,bfcf0e26c9187409bb3e0fdbede5b45f9f4877ef,Elsa Illerström,elsai,2025-09-03 12:38:46 +0200,Create HelloWorld.java,3,0,3
+mbd-task-1,5c62b21782c5fd5e1994841b465f5149e8223a09,Madeleine Bour Dehmer,mbd,2025-09-02 15:46:42 +0200,Clean up spelling errors. Fixes #6,31,32,63
+mbd-task-1,8dbea7322b81497a7021df4835f07d81480567df,Madeleine Bour Dehmer,mbd,2025-09-02 15:10:52 +0200,Add average method. Fixes #5,9,1,10
+mbd-task-1,dbe0c21c443db00763d03ac0273744da3f2e215f,Madeleine Bour Dehmer,mbd,2025-09-02 14:53:28 +0200,Add difference method. Fixes #4,6,0,6
+mbd-task-1,2cdec225f04dc5f41d3532953ff91235dadfa33a,Madeleine Bour Dehmer,mbd,2025-09-02 14:44:29 +0200,Add Arithmetic class and sum method. Fixes #2. Fixes #3,15,0,15
+mbd-task-1,809d1af8411dadc3eec1ac169f864a2648e1caf0,Madeleine Bour Dehmer,mbd,2025-09-02 14:30:54 +0200,Add HelloWorld class. Fixes #1,6,0,6
+mbd-task-1,e83cb0fe9a88802b186ccae2c9ff872f93c882da,Madeleine Bour Dehmer,mbd,2025-09-02 11:23:42 +0200,Answer questions in README.md,16,13,29
+hfahlin-task-1,eaa46075d6f1ac3f16cb7a2023d136ef9a0cd886,Your Name,hfahlin,2025-09-04 13:14:55 +0200,Done with my first exercise. Fixes #1,3,1,4
+hfahlin-task-1,6d72da3cb185f4eceda462fb3e53623d70b3fd2c,Your Name,hfahlin,2025-09-04 12:57:23 +0200,Done with my first exercise. Fixes excercises  #1-#5,50,0,50
+hfahlin-task-1,f7558bf436e39317072dd9dc46708eafff10a8d9,Your Name,hfahlin,2025-09-04 09:32:51 +0200,"Answered the questions in this file,except one.",15,12,27
+pfu-task-1,04694b4e8ffd3880df7291ef6ba1ec86d2a3ce5d,Paulina Fulgencio,pfu,2025-09-05 13:33:39 +0200,Add Arithmetic file,0,0,0
+pfu-task-1,d791e7633c4149ae55e44dccfcb0a72b2d679363,Paulina Fulgencio,pfu,2025-09-05 09:26:55 +0200,Add file,7,0,7
+josjer-task-1,54c1e8f3f14fe250d021b1e5686cd4150897e560,Josephine Jerselius,josjer,2025-09-04 17:35:03 +0200,Update README.md,1,1,2
+josjer-task-1,9ef0ecabf3cb63077861fdf5767b508cec5ee496,Josephine Jerselius,josjer,2025-09-04 17:10:03 +0200,Update README.md,5,5,10
+josjer-task-1,9e261a48e323addd6cc521e558f49b7442acc147,Josephine Jerselius,josjer,2025-09-04 17:02:45 +0200,Update README.md,7,7,14
+josjer-task-1,02f57226a85ef4bd1f7adff58aaca681d7429a78,Josephine Jerselius,josjer,2025-09-04 16:59:04 +0200,Update README.md,7,7,14
+josjer-task-1,5b9a331a9f6e2d9f8db6e5d663387d2f159b49d1,Josephine Jerselius,josjer,2025-09-04 16:50:17 +0200,fixes all issues,11,2,13
+josjer-task-1,124054bb32d7d6860a89670cbec9cd23693af0cd,Josephine Jerselius,josjer,2025-09-04 16:42:08 +0200,adding java sum + dif,27,8,35
+josjer-task-1,93f6f2f663df8a51fcb5242919440267fdf525c6,Josephine Jerselius,josjer,2025-09-04 15:31:53 +0200,sum java,17,8,25
+josjer-task-1,1eefa30c442811ce04106fdf592cc9066c6f2e23,Josephine Jerselius,josjer,2025-09-04 15:02:10 +0200,no just kidding it was in the wrong but its fixed now,8,0,8
+josjer-task-1,02978d59fc6ad19067222d006c78a99b44ae2afc,Josephine Jerselius,josjer,2025-09-04 12:03:02 +0200,hello world in right spot,8,0,8
+neojc-task-1,f4ea876bb1d983d921defc5803e269b544913d67,Neo Johansson Carlberg,neojc,2025-09-04 10:41:18 +0200,Fixes #1,32,0,32
+neojc-task-1,cf1cd32f9a9f5e9816f6d8096b24111aae1e1533,Neo Johansson Carlberg,neojc,2025-09-04 10:34:34 +0200,Fixes 1,5,0,5
+neojc-task-1,d1f2e6daf609bd1e033e4d7d0577b0aadc2f1da7,Neo Johansson Carlberg,neojc,2025-09-04 10:33:28 +0200,Update README.md,14,13,27
+antonlen-task-1,6157c2e018969716f64dd5e0393581a0607d4a9a,Anton Lennström,antonlen,2025-09-02 14:59:28 +0200,Fixes #7,1,1,2
+antonlen-task-1,0de7a11690f064d900e2ce6b130322b591678ec8,Anton Lennström,antonlen,2025-09-02 14:51:28 +0200,Update checklist,3,3,6
+antonlen-task-1,3c1f61df3e9217f54dcced89a49725740e7e0f7b,Anton Lennström,antonlen,2025-09-02 14:49:33 +0200,Fixes #6,11,2,13
+antonlen-task-1,88164651ea80bebe8940d05752404d38ca340718,Anton Lennström,antonlen,2025-09-02 14:42:31 +0200,Fixes #5,12,5,17
+antonlen-task-1,aa58c4581b63c9c56c0ff7be0ee2ffb888601a1a,Anton Lennström,antonlen,2025-09-02 14:38:01 +0200,Fixes #4,13,2,15
+antonlen-task-1,016ea911f6aefeb90d5fb9311451b27b037e55d4,Anton Lennström,antonlen,2025-09-02 14:29:15 +0200,Updates README.md + Fixes #3,8,2,10
+antonlen-task-1,b88208f28a9792ce187ab2bd365e26e9a15420f5,Anton Lennström,antonlen,2025-09-02 14:27:01 +0200,Fixes #2,5,5,10
+antonlen-task-1,ad16a05f40df0689257ac2c5e2032d0a76b11c8e,antonlen,antonlen,2025-09-02 14:25:17 +0200,Fixes #2,5,0,5
+antonlen-task-1,3e9c7d110e52f0bdfee8d1a2d02f511f4ff7dbe6,Anton Lennström,antonlen,2025-09-02 14:05:27 +0200,Fixes #1,2,2,4
+antonlen-task-1,62e2acd9f6ab2f2e25269549ab18b39b918b1fa1,Anton Lennström,antonlen,2025-09-02 14:00:45 +0200,Fixes #1,14,13,27
+hstorm-task-1,aa69490332eade56fcedaa383c2e9cc6ccd96f08,Harald Storm,hstorm,2025-09-04 13:36:20 +0200,Exercise 1.5 completed,18,9,27
+hstorm-task-1,bf635ea8671f65fefb71fdfc7bd1c017a207a816,Harald Storm,hstorm,2025-09-04 11:14:37 +0200,Exercise 1.4 complete,7,0,7
+hstorm-task-1,c556f71c2af1f527d7ac0f6eb06ca70e4ba50746,Harald Storm,hstorm,2025-09-04 10:44:21 +0200,Exercise 1.3 complete,17,0,17
+hstorm-task-1,7a90c21b5cc00e1cfbbdfc8fb3c5b10a26a5ca81,Harald Storm,hstorm,2025-09-03 13:20:11 +0200,"Completes Exercise 1.1 -- Hello, World",7,0,7
+timfor-task-1,6b059f8b9ad3bf32dc5dcff05e7cf7f3b7f03711,Tim Forsell,timfor,2025-09-04 13:53:33 +0200,Add main in Arithmetic,14,1,15
+timfor-task-1,8c8c00d9ff6bd75f7daa08495f6cf71dbccd7a23,Tim Forsell,timfor,2025-09-03 22:18:11 +0200,Fix #6,14,13,27
+timfor-task-1,a69810aae622770f6b16f1fdd59a0634e54d3e93,Tim Forsell,timfor,2025-09-03 22:13:18 +0200,Fix #5,7,0,7
+timfor-task-1,39b8fd3bb6f21faf3bc1d53f31ab4821b2b7e28b,Tim Forsell,timfor,2025-09-03 22:11:11 +0200,Fix #4,8,0,8
+timfor-task-1,c91383a8bf1275aba21edadfb9c8a567f0b171d9,Tim Forsell,timfor,2025-09-03 22:09:15 +0200,Fix #3,7,1,8
+timfor-task-1,00c0b78ff1b23d069be860a62901dbea7f83684f,Tim Forsell,timfor,2025-09-03 22:06:13 +0200,Fix #2,4,0,4
+timfor-task-1,d6c4f84ae86185bb7063b84283f7c8a82da79092,Tim Forsell,timfor,2025-09-03 22:02:42 +0200,Fix #1,7,0,7
+alperso-task-1,f1d4e8a6911c26549628deb7f751cba3edb87470,alperso,alperso,2025-09-04 13:22:12 +0200,ls,35,0,35
+alperso-task-1,bdf4d3f357c53fae8aa0eb9262512bd050ad801b,Alper Solaiman,alperso,2025-09-03 10:51:03 +0200,Create HelloWorld.java,7,0,7
+alperso-task-1,67360a5841eab2d5a9c2468be4e714d4670a05ef,Alper Solaiman,alperso,2025-09-03 10:43:11 +0200,Answer ReadME files,13,13,26
+saksberg-task-1,33b6b7edaa2cd9521f75695aaa9be7ea51070bf8,Simon Aksberg,saksberg,2025-09-04 14:33:27 +0200,Fixes #5,4,4,8
+saksberg-task-1,81a034618ab4f551a43ed4d76a9e85c9d1204852,Simon Aksberg,saksberg,2025-09-04 14:28:32 +0200,Fixes #5,5,4,9
+saksberg-task-1,39c8f699c600f863378227550e51a4ac0d0cf483,Simon Aksberg,saksberg,2025-09-04 13:32:39 +0200,Fixed spelling mistakes + additions,2,2,4
+saksberg-task-1,2c82f9786f11a672f4f67506ecd2ae2b4ed30818,Simon Aksberg,saksberg,2025-09-04 13:23:42 +0200,Fixed spelling mistakes + additions,5,3,8
+saksberg-task-1,278763ea324786676b880ffee2716c50ff9af8b0,Simon Aksberg,saksberg,2025-09-04 13:17:27 +0200,Further clarifications and some additional text,5,3,8
+saksberg-task-1,a4989e89448f6f7f5b922098e35e047aff68430e,Simon Aksberg,saksberg,2025-09-04 13:14:14 +0200,Clarified an error message,1,1,2
+saksberg-task-1,f9e8d8b1039014392e80f210d9f5546a2b780634,Simon Aksberg,saksberg,2025-09-04 13:11:12 +0200,Fixes some markdown syntax,3,1,4
+saksberg-task-1,5a93e9ec0db3ab63efc5f4e7106087613ae1866f,Simon Aksberg,saksberg,2025-09-04 13:09:51 +0200,Added a document including reflections/takeaways from the week 1 assignments,21,0,21
+saksberg-task-1,c491a6122a1f91682ec08119e6a59eb8ddaeb194,Simon Aksberg,saksberg,2025-09-04 12:38:53 +0200,Fixes #1,8,1,9
+saksberg-task-1,1013246e06f89e146c361aa65075f21633bf9e4b,Simon Aksberg,saksberg,2025-09-04 12:32:37 +0200,Fixes #6,5,5,10
+saksberg-task-1,ad247338b4e2022477d31e500ced4871319914a3,Simon Aksberg,saksberg,2025-09-04 12:13:48 +0200,Fixes #5,10,0,10
+saksberg-task-1,2a836c7015ae94f70d1a0a4ee2c85fdb8e60a30a,Simon Aksberg,saksberg,2025-09-04 12:04:32 +0200,Fixes #4,13,3,16
+saksberg-task-1,58d575c21b7583832118d09d4a8bb4af95181448,Simon Aksberg,saksberg,2025-09-04 11:54:13 +0200,Fixes #3,28,11,39
+saksberg-task-1,a03aef45eca74d13138de1b0098532c2b3acf4b4,Simon Aksberg,saksberg,2025-09-03 12:23:14 +0200,Working on #2,15,0,15
+saksberg-task-1,6529e246e4cae25648bd1559545fa6aaf4302f65,Simon Aksberg,saksberg,2025-09-03 12:12:59 +0200,Fixes #2,0,0,0
+saksberg-task-1,3d7300d5ecc030915418cf73e5fc480c42d0e34d,Simon Aksberg,saksberg,2025-09-03 12:09:29 +0200,Prettified some answers,5,4,9
+saksberg-task-1,469357653578a80851a598c36dce9033b0be0b9d,Simon Aksberg,saksberg,2025-09-03 11:51:48 +0200,Answered a question I had missed,1,1,2
+saksberg-task-1,325050bb89f8f11326787d0b5b286d658fc40d53,Simon Aksberg,saksberg,2025-09-03 11:49:31 +0200,Answered a question I forgot,1,1,2
+saksberg-task-1,8df90b477645656fc321c4e9dd88c6c34ec1a1a5,Simon Aksberg,saksberg,2025-09-03 11:45:47 +0200,Fixes #1,5,0,5
+saksberg-task-1,5c252f79789a6443e4bb88f90f8eb09b6ac9fe7f,Simon Aksberg,saksberg,2025-09-03 11:28:02 +0200,Answers to the preparation questions,13,13,26
+louisete-task-1,b65a7374d8709c2be2898a420691fd640f032441,Louise Engbrink,louisete,2025-09-03 18:20:24 +0200,Fixes #5,22,15,37
+louisete-task-1,2454dae3b046d16a71ff644bdf59ab9e61721eb3,Louise Engbrink,louisete,2025-09-03 18:06:05 +0200,Fixes #4,14,2,16
+louisete-task-1,abe12a5181fe84d8a92df7c4c91066b4b56960a7,Louise Engbrink,louisete,2025-09-03 17:51:58 +0200,Fixes #3,22,0,22
+louisete-task-1,7ce68dd4fcaa0e22cf329fbe20747240c4e96f49,Louise Engbrink,louisete,2025-09-03 17:27:39 +0200,Fixes #1,0,0,0
+louisete-task-1,23c8e78145f41adbfb1c834fc4f1abd592ed5398,Louise Engbrink,louisete,2025-09-03 17:18:31 +0200,Fixes #1,7,0,7
+louisete-task-1,44683ec89cc17bcbe0f54b54ff391279f46b5df9,Louise Tornberg Engbrink,louisete,2025-09-03 16:33:30 +0200,Update README.md,15,13,28
+hultdin-task-1,551aa1a410f19c45fd295e8bfa710c19084db4c9,Melker Hultdin,hultdin,2025-09-03 22:40:03 +0200,Corrected capital letters. Final fix,2,2,4
+hultdin-task-1,a1ab98efbb722b9821cc4530f54808ed04d3318f,Melker Hultdin,hultdin,2025-09-03 22:38:19 +0200,Fixes #2,2,2,4
+hultdin-task-1,5685fe11b1176cee05b102bdd06eb04b499bab48,melker_h,hultdin,2025-09-03 22:30:29 +0200,Done with the first exercise. Fixes #1,43,0,43
+hultdin-task-1,0dd493ec2a7a19fd32798ddbb5647dd331b5a223,melker_h,hultdin,2025-09-03 22:27:03 +0200,Answered the questions,13,14,27
+timbl-task-1,593e1f41d9b9ed0d3ca77e5e8b19f933c074d2be,Tim Blomqvist,timbl,2025-09-03 20:56:41 +0200,Adding exercise 1.2-1.5,14,0,14
+timbl-task-1,d6f265adc6e0c8cb66e6469c41e52c0aeabbeb81,Tim Blomqvist,timbl,2025-09-03 20:30:40 +0200,Add exercise 1.1,7,0,7
+timbl-task-1,69aae47231413b883f6c1742bf6ba09d911b28f0,Tim Blomqvist,timbl,2025-09-03 18:02:38 +0200,Answer questions,13,13,26
+ludw-task-1,f870b1ce8582f21d7be2e66d176588ec6a59fe9f,Ludwig Laukka,ludw,2025-09-02 14:55:55 +0200,fixes #3,28,0,28
+ludw-task-1,3d062c6c6abb9a72da42252627ad01b319d59e4e,Ludwig Laukka,ludw,2025-09-02 14:17:09 +0200,fixes 2,7,0,7
+ludw-task-1,3158375d859cac8e37bc798707a6cf279b9311f3,Ludwig Laukka,ludw,2025-09-02 13:32:26 +0200,Warmup 1,18,12,30
+francesh-task-1,d42ed8fa0db8ffb96b5e4f988f1db116cbebe74b,francesh,francesh,2025-09-05 09:06:42 +0200,pusha allt,6874,0,6874
+francesh-task-1,1426f738a5de5b0a522a75cd501531b7ad939314,Frances Hamnqvist,francesh,2025-09-04 17:40:07 +0200,Task1,34,0,34
+francesh-task-1,f2714264fadd83ea2cd8d370177f97336003a409,Frances Hamnqvist,francesh,2025-09-03 20:16:21 +0200,Create HelloWorld.java,10,0,10
+francesh-task-1,7b3f1e20a4af71f164a9955a6c64ebae1d0af931,Frances Hamnqvist,francesh,2025-09-03 20:10:23 +0200,Update README.md,14,13,27
+francesh-task-1,2d81d51c59e006291bae453659b65ad5e92f675b,Frances Hamnqvist,francesh,2025-09-02 09:28:38 +0200,Delete PracticeAssignment_week0_francesh.zip,0,0,0
+francesh-task-1,30aafe3b91e9a1e974113a9f5cbc8363625e9ea4,Frances Hamnqvist,francesh,2025-09-02 09:26:04 +0200,Add files via upload,0,0,0
+disoto-task-1,801846732f79f566657b6f1b562a4e36e14dda10,Santosdisoto,disoto,2025-09-03 18:11:35 +0200,Completed 1.2 to 1.5!,31,0,31
+disoto-task-1,bc7f0b876642366f342f2009b5a017d4507e7c44,Santosdisoto,disoto,2025-09-03 17:04:31 +0200,Finished 1.1!,5,0,5
+disoto-task-1,c9ca460722e82435669f95b3f0cef19d7839da8d,Santosdisoto,disoto,2025-09-03 16:48:59 +0200,Added markdown to answers,9,8,17
+disoto-task-1,43e7f851a71d2b32a29c8fdf9ae0854e11e08e4e,Santosdisoto,disoto,2025-09-03 16:41:37 +0200,Filled in question document,13,13,26
+leock-task-1,89d5c49f0582831f164b1a37272d303350fb3c1a,Leo Chou Köhler,leock,2025-09-03 10:42:38 +0200,added the average method,9,0,9
+leock-task-1,4f235477b00e77f2fdf135ff013d0c9bcd8bee23,Leo Chou Köhler,leock,2025-09-03 10:37:49 +0200,added the difference method to the file,16,8,24
+leock-task-1,67481b213641898b799bc1f0a5a2f008156aaa25,Leo Chou Köhler,leock,2025-09-03 10:19:58 +0200,added the arithmetic file and class,19,0,19
+leock-task-1,0c861967c03b583c76a73da5f99f87905be1e291,Leo Chou Köhler,leock,2025-09-02 22:28:12 +0200,added a test comment,3,1,4
+leock-task-1,7122ce8d6ad0bdc5737cb7febb5da7cd144197e9,Leo Chou Köhler,leock,2025-09-02 22:25:29 +0200,added the java file to src and added the oli torus code,7,0,7
+leock-task-1,c962d123b556e7322ecbe0d142a63d1a5d014471,Leo Chou Köhler,leock,2025-09-02 22:00:42 +0200,Answered the docs file,10,7,17
+thlk-task-1,44f77999ec5c83f98a20f65ec52eef33a031a3ea,Theodor Laséen Kuhlström,thlk,2025-09-05 09:26:03 +0200,Fixes #7,0,0,0
+thlk-task-1,0d83fa619c44a2d21dd493a2219e95c37dca8caf,Theodor Laséen Kuhlström,thlk,2025-09-05 09:22:18 +0200,Fixes #7,0,46,46
+thlk-task-1,7dd35d80f10203e835533646a9cfde161f927a24,Theodor Laséen Kuhlström,thlk,2025-09-05 01:31:42 +0200,Delete src/hahahahaha.java,0,46,46
+thlk-task-1,c659f39ebbc61aa8388c165cdb5f0d9ef5039e3a,Theodor Laséen Kuhlström,thlk,2025-09-05 01:26:44 +0200,"Don't mind me, hehehe",46,0,46
+thlk-task-1,b8fb17a78c385f3c63f0e7e79029f5f02cc882ba,Theodor Laséen Kuhlström,thlk,2025-09-03 11:09:03 +0200,Update README.md,16,15,31
+thlk-task-1,0e14f4fb3ae647f48d27b84d84490acf726e3d2f,Theodor Laséen Kuhlström,thlk,2025-09-03 10:26:54 +0200,update,21,12,33
+thlk-task-1,52a4ef13556390d57a3c8a8cde64c66343912275,Theodor Laséen Kuhlström,thlk,2025-09-02 10:03:06 +0200,Fixes #6,3,3,6
+thlk-task-1,f8999e3ccf07b185d256357948e65efa57ebad15,Theodor Laséen Kuhlström,thlk,2025-09-02 10:01:16 +0200,Fixes #1,3,0,3
+thlk-task-1,c3aa844c0e1fade5a597cb9ce9a51adece119663,Theodor Laséen Kuhlström,thlk,2025-09-02 09:56:42 +0200,Fixes 1,8,1,9
+thlk-task-1,f77700e83229b9d1fabc68429d19605a5e6c9152,Theodor Laséen Kuhlström,thlk,2025-09-02 09:51:53 +0200,Fixes 1,5,0,5
+thlk-task-1,ddf8b180af037a6bcc7157087ff68582186e114a,Theodor Laséen Kuhlström,thlk,2025-09-02 09:46:46 +0200,Fixes 2,14,0,14
+thlk-task-1,a152e479cc528564e4bc4320802c164967119f2e,Theodor Laséen Kuhlström,thlk,2025-09-02 09:21:47 +0200,Fixes 1,5,0,5
+milokr-task-1,67024eecbe2c235b53a4c258d3286d0cf032805c,Milo,milokr,2025-09-02 09:26:42 +0200,fixes issue #2,3,1,4
+milokr-task-1,7a1ce8730f70e2eac5f2ab7d123485d43309e580,Milo,milokr,2025-09-02 09:25:21 +0200,fixes issue #1,5,0,5
+sixteno-task-1,e672c804fd674050a57eddc04cb14428f80a71f4,Sixten Österlund,sixteno,2025-09-03 21:15:18 +0200,"Added average method, exercise 1.5 done. Fixes #4",14,5,19
+sixteno-task-1,a16c576f46eeda6700b74c09e1f2d13c95069009,Sixten Österlund,sixteno,2025-09-03 20:11:35 +0200,"Exercise 1.4 completed, fixes #3",9,2,11
+sixteno-task-1,e787e5e4c80193def46f02a612f95fffc629b7cc,Sixten Österlund,sixteno,2025-09-03 20:04:45 +0200,"Sum exercise done, fixes #2",13,13,26
+sixteno-task-1,dc1518ff278109cbf8cca0e0e5d20708b544a938,Sixten Österlund,sixteno,2025-09-03 17:02:45 +0200,Added Java class and given main method,18,0,18
+sixteno-task-1,dc62f5ecc4c44b67255614b018ab77b3a58bf8a8,Sixten Österlund,sixteno,2025-09-03 16:59:20 +0200,Added file Arithmetic.java. Fixes #1,0,0,0
+sixteno-task-1,8ec34aa28b4aa5f5256fd619adac3ef281591a5d,Sixten Österlund,sixteno,2025-09-03 11:00:24 +0200,Created Hello World-program,7,0,7
+sixteno-task-1,a970bd1dcceb5c3ed4f6116e1c1e3722b365457d,Sixten Österlund,sixteno,2025-09-02 23:27:59 +0200,Forgot markdown in README.md,9,4,13
+sixteno-task-1,cf4733e022eb945b3ae3aaaed331cd4e2f84cbdf,Sixten Österlund,sixteno,2025-09-02 23:22:10 +0200,Small change in README.md,1,1,2
+sixteno-task-1,f1f6b5f280a7db73ed8f2a3b11240bdb324b012a,Sixten Österlund,sixteno,2025-09-02 23:19:05 +0200,Changed README.md,13,13,26
+emmkab-task-1,1b04dd9d707dc27e2ff3b08cea92d719cf987654,Emmanuel Bula Kabengele,emmkab,2025-09-03 23:37:24 +0200,emmkab-task-1,60,0,60
+rasnord-task-1,314e94a8945435336f9a3c06799da849d87656c2,Rasmus Nord,rasnord,2025-09-03 20:27:31 +0200,Removed the 'Hello' folder after moving 'HelloWorld.java' up one step in the directory.,0,0,0
+rasnord-task-1,2f4979d1e0ab9a541a34800f40a2191a941c58a7,Rasmus Nord,rasnord,2025-09-03 20:17:08 +0200,Fixes #1,34,0,34
+rasnord-task-1,5d0e966f0ac5e4df335a1f9dea769bd701a6f9e2,Rasmus Nord,rasnord,2025-09-03 18:31:24 +0200,Answered the questions in the README.md,14,13,27
+rasnord-task-1,24e036dcdb2ea8d00a29efa6baed90f59b53de95,Rasmus Nord,rasnord,2025-09-03 18:01:45 +0200,Added the HelloWorld.java file,7,0,7
+awahren-task-1,a41b17be18ffea5195437b96f24dfad9a3901252,Adam Wahren,awahren,2025-09-05 00:10:00 +0200,Fixes #7,16,5,21
+awahren-task-1,41d79a0dc3e91872b28977acae7623d32ee0186a,Adam Wahren,awahren,2025-09-04 23:51:35 +0200,FIXES #6,14,1,15
+awahren-task-1,6b656221af36a0a6fb1dd1793a8999ea4550602e,Adam Wahren,awahren,2025-09-04 23:31:49 +0200,FIXES #5,19,0,19
+awahren-task-1,8bfcd5e05dfed322b045273af3e3d98ac32d8284,Adam Wahren,awahren,2025-09-04 21:53:15 +0200,FIXES #4,0,0,0
+awahren-task-1,588c72e49899d561883c59a8733da996d5fb521d,Adam Wahren,awahren,2025-09-03 23:17:12 +0200,FIXES #3,6,0,6
+awahren-task-1,5390c48fc553521d69b879b886f01e175b8c0140,Adam Wahren,awahren,2025-09-03 23:01:21 +0200,FIXES #1,15,15,30
+dalindk-task-1,0c328841f9d33b8468b7e95f713fcd131d7d5bee,MrGreenScout,dalindk,2025-09-03 10:56:17 +0200,"Fixes #7: Configured arithmetic methods for tests, and added tests",13,4,17
+dalindk-task-1,f493e062b16d30f35a64e6ae0cee78ee16c85d53,MrGreenScout,dalindk,2025-09-03 10:48:25 +0200,Fixes #5: Added average-method,10,0,10
+dalindk-task-1,1fd797b45feff1dfd3fd5676ec14ff984df74b0e,MrGreenScout,dalindk,2025-09-03 10:46:46 +0200,Fixes #4: Added difference-method,11,1,12
+dalindk-task-1,4cedfbdef2463cd7f8620216e7e84cd19131bd40,MrGreenScout,dalindk,2025-09-03 10:44:47 +0200,Fixes #6: Fixed sum-method,2,2,4
+dalindk-task-1,0d792ecea85f5052ac307ffd38e8f4ffa01ea534,MrGreenScout,dalindk,2025-09-03 10:42:36 +0200,Fixes #3: Created sum-method,10,1,11
+dalindk-task-1,2e8624d582adcd9efb916904d94ab3519f27f5da,MrGreenScout,dalindk,2025-09-03 10:40:26 +0200,Fixes #2: Added Arithmetic.java,9,0,9
+dalindk-task-1,877962f184f77ef78b7062dafe21e55978774e51,MrGreenScout,dalindk,2025-09-03 10:37:00 +0200,Fixes #1: Creating HelloWorld.java,15,0,15
+dalindk-task-1,25e44702e2bed5f2fa23a322b4823213c2f245d9,David Lindkvist,dalindk,2025-09-02 15:21:12 +0200,Update README.md,15,13,28
+nazaninf-task-1,3e27b1ce01814aa6431bc9ff3f39e4ae0930da58,nazaninf,nazaninf,2025-09-04 11:40:59 +0200,"Done with my first task, Exercises 0.x-1.5. Fixes #1",2,2,4
+nazaninf-task-1,9a3275e049a840290803e19be126e420b3b11460,nazaninf,nazaninf,2025-09-04 11:34:08 +0200,Done with 1.3-1.5 Fixes #2,1,1,2
+nazaninf-task-1,c7c1f2d72850c840bb6e4ab6e180b350ac18b3b8,nazaninf,nazaninf,2025-09-04 11:30:21 +0200,Done with 1.3-1.5 Fixes #2,1,1,2
+nazaninf-task-1,c9c181930435ba354e7da91cb693fc2325a12ec1,nazaninf,nazaninf,2025-09-04 11:08:27 +0200,Done with my Exercise 1.2  Fixes #2,44,0,44
+nazaninf-task-1,2f21337b191aef6415c72d8c34b2341b1b425d39,nazaninf,nazaninf,2025-09-04 10:58:52 +0200,Done with my first exercise. Fixes #2,7,0,7
+nazaninf-task-1,12d52950a2a3eeb526bd253920725ebdf0b58108,Nazanin Farahani,nazaninf,2025-09-04 00:29:32 +0200,Update README.md,16,15,31
+elliotan-task-1,b26c571a523def970a43eaa2fd5de3beeb7aca35,Elliot,elliotan,2025-09-02 16:40:28 +0200,"Fixed issue with average, bad math ;)",2,2,4
+elliotan-task-1,263f07ecf6e07bd91f21ad872541f89661ea7a53,Elliot Anderson,elliotan,2025-09-02 11:10:58 +0200,Update README.md,5,5,10
+elliotan-task-1,d3a3e76d503c43a29f26d46537fe0a44890f47e8,Elliot Anderson,elliotan,2025-09-02 11:10:33 +0200,Update README.md,5,5,10
+elliotan-task-1,03c0392480c9e3b10fd7dd11f0587f2665de76be,Elliot,elliotan,2025-09-02 11:09:03 +0200,Fixed #5 thus completed #2 and made the code actually run :),12,3,15
+elliotan-task-1,2033f52d04d2267c85a16bc697652357bcd028fd,Elliot,elliotan,2025-09-02 10:49:51 +0200,Fixes #4,5,0,5
+elliotan-task-1,ac39a3be4164a12f062ab20ea2029dafadf3ac62,Elliot,elliotan,2025-09-02 10:49:24 +0200,Fixes #3,10,0,10
+elliotan-task-1,b7d0ab3e949766b7d1a953686db9757bea40d176,Elliot,elliotan,2025-09-02 10:47:58 +0200,Changed tab size in Hello World,3,3,6
+elliotan-task-1,fbea8d181cdb72508206f59b2a5359c10b46acbc,Elliot,elliotan,2025-09-02 10:34:29 +0200,Fixes #1,13,0,13
+elliotan-task-1,93ba0a9bccf9265a786f1686355161894f84e38d,Elliot Anderson,elliotan,2025-09-02 10:09:05 +0200,Update README.md,14,12,26
+mariuspa-task-1,8b98ecff7acf8698a11f856cfcb757a33a5e2c1f,mariu,mariuspa,2025-09-03 13:19:22 +0200,Added HelloWorld.java and Arithmetic.java,46,0,46
+mariuspa-task-1,85b7d1d74e71b75336d2e5ad7fc90484e9cd9179,mariu,mariuspa,2025-09-03 12:41:15 +0200,updated README.md,16,13,29
+maltelu-task-1,b1d706e761aac5e5cc89bf5749f81e032236286c,Malte Lundmark,maltelu,2025-09-02 22:33:50 +0200,Update README.md,3,3,6
+maltelu-task-1,453fffa06584de47865df9a8bb951c1fbfd4c75c,Malte_Lundmark,maltelu,2025-09-02 22:29:16 +0200,That is average done and working,9,0,9
+maltelu-task-1,0dc794f6197574a4fe3b4f73be8208b0db9ab2d2,Malte_Lundmark,maltelu,2025-09-02 22:19:09 +0200,Difference delen är fixad nu och inget är trasigt än,11,1,12
+maltelu-task-1,e8b4a14fa5ceb1d0716902f25aebc4d38559f253,Malte_Lundmark,maltelu,2025-09-02 21:10:23 +0200,Working code with the test,7,1,8
+maltelu-task-1,c8f1f591e910890c6eb484bed65ccf443737feb1,Malte_Lundmark,maltelu,2025-09-02 19:17:20 +0200,skapat metoden tror jag,7,0,7
+maltelu-task-1,a3cdb3971cd288127271a7bf3225877f7f0c1a87,Malte_Lundmark,maltelu,2025-09-02 17:38:11 +0200,Adding the file,0,0,0
+maltelu-task-1,b33f839f357df41233fdbb3f4920caa911792629,Malte_Lundmark,maltelu,2025-09-02 17:22:38 +0200,adding the code,7,0,7
+maltelu-task-1,d8ee6c50fd8cd4d0d9ae428671f14c60bda96dc7,Malte_Lundmark,maltelu,2025-09-02 17:11:43 +0200,creating the document,0,0,0
+maltelu-task-1,b864943e872e83082e2b99024da604cfdef10dc2,Malte Lundmark,maltelu,2025-09-02 16:31:14 +0200,Update README.md,1,1,2
+maltelu-task-1,81d3effc851802887e9f73d3089369cb45bbc32e,Malte_Lundmark,maltelu,2025-09-02 16:28:28 +0200,Questions should now be answered,14,13,27
+maltelu-task-1,6fe4897eecfde80d9c73cf7672833da34e757b1f,Malte Lundmark,maltelu,2025-09-02 14:51:49 +0200,Update README.md,1,1,2
+alviny-task-1,a7a4f9c35e82ebe5039318f73dde30c5053de84e,alviny,alviny,2025-09-03 10:32:05 +0200,closes #7,5,2,7
+alviny-task-1,108ea1577549d915394eef5db8b08f43a06923be,alviny,alviny,2025-09-03 10:26:12 +0200,closes #6,6,3,9
+alviny-task-1,5384b530d60dd098633dca8b56d345419f28b7f5,alviny,alviny,2025-09-03 10:22:38 +0200,"closes #4, closes #5",19,0,19
+alviny-task-1,f3d06c5edab928b4e90b4a2f97066e9b069c022b,alviny,alviny,2025-09-02 16:42:47 +0200,fixes #3,6,0,6
+alviny-task-1,d05cdca60c80e6732dddbbe9d8e5c32481ef5814,alviny,alviny,2025-09-02 16:40:28 +0200,"closes #1, closes #2",17,15,32
+vgaroff-task-1,ceb0541577d101e2ed65ce9f2665f398b5550a97,vgaroff,vgaroff,2025-09-02 20:44:44 +0200,finished product of exercise 1.3-1.5,38,0,38
+vgaroff-task-1,2d9791675252d158df3046b74f22d6534f7362cd,vgaroff,vgaroff,2025-09-02 19:43:09 +0200,Creating the HelloWorld.java file,9,0,9
+vgaroff-task-1,b8f039ca4aa30302dd2679b033c481ab36e86326,vgaroff,vgaroff,2025-09-02 19:34:53 +0200,answering the README.md f,14,13,27
+javids-task-1,28e0b93a5e63b19aa9b072ca79f10403ac879306,Javid Sarwari,javids,2025-09-04 14:23:10 +0200,Fixes #11,1,1,2
+javids-task-1,dccd7e81c194ebd7b9bb7530fc653a512362ef94,Javid Sarwari,javids,2025-09-04 14:19:14 +0200,Fixes #10,1,1,2
+javids-task-1,c44de7b9befc5f1ebbe9d85bba59eb3414da53ad,Javid Sarwari,javids,2025-09-04 14:18:15 +0200,Fixes #9,1,1,2
+javids-task-1,305e706383ff86cc2bc6947cf51d59822e435767,Javid Sarwari,javids,2025-09-04 14:16:38 +0200,Fixes #8,2,2,4
+javids-task-1,9b661b83202b7197eb111e0757ea5df050f6a2f5,Javid Sarwari,javids,2025-09-04 14:14:43 +0200,Fixes #7,2,2,4
+javids-task-1,581dd0ab5959e92dc4eef76399b6de92914ad89f,Javid Sarwari,javids,2025-09-04 14:11:33 +0200,Fixes #6,1,1,2
+javids-task-1,7361e692a5af06cd0113f54980369788f75a20e9,Javid Sarwari,javids,2025-09-04 09:47:24 +0200,Fixes #1.5,2,2,4
+javids-task-1,b4f47e068094e9c2b79b52ae736a856c140ed6c5,Javid Sarwari,javids,2025-09-04 09:43:58 +0200,Fixes 1.2,1,1,2
+javids-task-1,a5ffe807a33bcd334cffc95d51aef66cf97a3d53,Javid Sarwari,javids,2025-09-04 09:40:02 +0200,Fixes 1.1,1,1,2
+javids-task-1,34c7eff1f36c8fb936d17d961278ba565ee06a95,Javid Sarwari,javids,2025-09-04 09:34:44 +0200,Fixes #0,6,12,18
+javids-task-1,ba72f23587917f3aaed57ef2361a319e20bfd72e,Javid Sarwari,javids,2025-09-03 21:10:55 +0200,"Fixes 1.2 ,1.3 ,1.4 ,1.5",41,0,41
+javids-task-1,9d58e45eaa37a9d4c984fab3fecbc1f2aec107e4,Javid Sarwari,javids,2025-09-03 20:14:41 +0200,Fixes 1.1,9,0,9
+javids-task-1,7ccbd4c8b5d267d62679d9ddf3647541280cb85b,Javid Sarwari,javids,2025-09-03 20:07:21 +0200,Fixes #0,13,10,23
+hartm-task-1,b9fcc4f6d4190523c6c6edd10fe69ebfbd73ac65,Marcus Hartman,hartm,2025-09-04 12:22:26 +0200,Delete src/test.java,0,1,1
+hartm-task-1,a24ca9a6569622b40c8d3b50d4dc04f6f9185386,Marcus Hartman,hartm,2025-09-03 21:42:04 +0200,new testfile,1,0,1
+hartm-task-1,c244f464cf78243f5f89c1c15ee44d03c45b67ea,Marcus Hartman,hartm,2025-09-03 17:23:00 +0200,modified arithmetic,8,4,12
+hartm-task-1,f334522726b129d15448aa7acb4313b0e86ae5cb,Marcus Hartman,hartm,2025-09-03 16:37:19 +0200,readme answers,14,13,27
+hartm-task-1,0089e43583c8c79681921baba36d173b6f85479f,Marcus Hartman,hartm,2025-09-03 13:23:02 +0200,added arithmetic,20,0,20
+hartm-task-1,7d92b41a910262577e535dd497e36967c46f4920,Marcus Hartman,hartm,2025-09-03 13:11:19 +0200,added arithemetic file,0,0,0
+hartm-task-1,d8144e2127e0b559872be23ce6dc721e47b292ec,Marcus Hartman,hartm,2025-09-03 13:05:37 +0200,add correct file,6,5,11
+hartm-task-1,4df3b226436dd3181e5d581029f8b85f2c632a42,Marcus Hartman,hartm,2025-09-03 12:59:28 +0200,make changes,4,0,4
+hartm-task-1,b438c98f5a2e3eb967aa410763f32bd1078938a7,Marcus Hartman,hartm,2025-09-03 12:06:28 +0200,Create HelloWorld.java,1,0,1
+folkesc-task-1,6141351c84ef77bc95fe9e013517381606b2519f,Folke Schönberg,folkesc,2025-09-03 09:26:53 +0200,Answer document,13,13,26
+folkesc-task-1,d5af86d4e3270f2310160ecb471275ccc6f8afce,Folke Schönberg,folkesc,2025-09-03 08:23:07 +0200,Fixes #5,5,0,5
+folkesc-task-1,cdb56eceba32eb8ddfebb0d9858ec210cf078f08,Folke Schönberg,folkesc,2025-09-03 08:22:13 +0200,Fixes #4,5,0,5
+folkesc-task-1,81862a3cfa52f7637fab7e5756b416728ff4890a,Folke Schönberg,folkesc,2025-09-03 08:20:56 +0200,Fixes #3,4,1,5
+folkesc-task-1,1a13661f24605daa6db027886dd0aa0a836c860b,Folke Schönberg,folkesc,2025-09-03 08:18:46 +0200,Fixes #2,5,0,5
+folkesc-task-1,3166c1747568233b9e8f576ab3c48fa02f2a6495,Folke Schönberg,folkesc,2025-09-03 08:17:31 +0200,Fixes #1,5,0,5
+otish-task-1,1a0992aabd0ff3588939f5e4a941241e4333e7eb,Otis Hamrén,otish,2025-09-04 11:18:16 +0200,Update README.md,2,2,4
+otish-task-1,815f6ba16ea4dd4895ae9e9779f00d62f4e5c26f,Otis Hamrén,otish,2025-09-04 11:03:19 +0200,Update README.md,13,13,26
+otish-task-1,d3ee3701f2d6de18e67c796cc90a1adb5521bf27,Otis hamrén,otish,2025-09-04 06:40:35 +0200,Fixes #6,18,7,25
+otish-task-1,290579cfea2e8bcf2317d0145a502ab1a4934e91,Otis hamrén,otish,2025-09-04 04:53:54 +0200,Fixes #5,4,4,8
+otish-task-1,57c5485c140bd81cc2fd8328ea0d76fee92661d4,Otis hamrén,otish,2025-09-04 04:41:47 +0200,Fixes #4,4,4,8
+otish-task-1,c0bce4e8de045a78a61f9840bf5246b9060f68b9,Otis hamrén,otish,2025-09-04 04:31:54 +0200,Fixes #3,25,0,25
+otish-task-1,49c598ad889c3623ffe74a4c81679b19dba204b0,Otis hamrén,otish,2025-09-03 21:28:46 +0200,Fixes #2,0,0,0
+otish-task-1,7867754bbfb42e65de768f54e2ca13dd34bba214,Otis hamrén,otish,2025-09-03 20:58:03 +0200,Fixes #1,7,0,7
+julch-task-1,2a87e542ee0db68c842d4db1fe11ffb6c1007020,Julia Cunha Hedin,julch,2025-09-04 19:01:18 +0200,.,1,1,2
+julch-task-1,45ea42e48c1c1e5a9597619ae7906414d53de1d7,Julia Cunha Hedin,julch,2025-09-04 18:57:13 +0200,Fixes #5,6,2,8
+julch-task-1,f8d07cc94c22139dc2cd7917526acea2f32f5722,Julia Cunha Hedin,julch,2025-09-04 18:53:50 +0200,Fixes #4,6,3,9
+julch-task-1,e6e62f29381bfbf87911057a4570db3dcc77fc02,Julia Cunha Hedin,julch,2025-09-04 18:51:07 +0200,Fixes #3,20,0,20
+julch-task-1,85dc9038f4997641248a44e291ed643c896aa9b7,Julia Cunha Hedin,julch,2025-09-04 17:02:02 +0200,Fixes #2,0,0,0
+julch-task-1,3a2498e62adddded7c9449fe0f74dc32db24a824,Julia Cunha Hedin,julch,2025-09-04 16:58:07 +0200,Fixes #1,5,0,5
+julch-task-1,4ac7331e3662c7a4e92207fab6d1489ed6402b46,Julia Cunha Hedin,julch,2025-09-04 16:44:34 +0200,docs questions,12,12,24
+gullblom-task-1,88dce394681ffc9e7144f1cfed65d3bc493d69f2,Arvid Gullblom,gullblom,2025-09-04 21:05:15 +0200,"fixes #2, fixes #3, fixes #4, fixes #5",20,0,20
+gullblom-task-1,0a4379083f32377bb1ecfacee104290efb73a3c2,Arvid Gullblom,gullblom,2025-09-02 16:06:51 +0200,Fixes #1,5,0,5
+gullblom-task-1,b525008ca2cbe4cf1deb44609693c0f69c639ea7,Arvid Gullblom,gullblom,2025-09-02 15:54:01 +0200,Warmup 1,14,13,27
+matfz-task-1,cdd45a02c718f06a2e030b4f43e5c7018dd3898e,matfz,matfz,2025-09-05 07:41:18 +0200,Fixed missing answer in Warmup 1,2,2,4
+matfz-task-1,a50d1a3c6b5df2894603f71fb740a47dc98946ff,matfz,matfz,2025-09-04 22:40:57 +0200,Fixes 1.5,6,2,8
+matfz-task-1,0759ce69d16ad70d6e67f5549e2d8020a77c00b5,matfz,matfz,2025-09-04 22:36:36 +0200,Fixes 1.4,6,2,8
+matfz-task-1,66d6ea4fcdd717a4a541a63edefcecd2b7556cfa,matfz,matfz,2025-09-04 22:33:19 +0200,Fixes 1.3,18,0,18
+matfz-task-1,cf8c66b6b78709583f6abec0c92e025defc9d520,matfz,matfz,2025-09-04 22:10:09 +0200,Fixes 1.2,0,0,0
+matfz-task-1,f8ea7decd9d60321b2c82d653e90ca52b0fb7ed8,matfz,matfz,2025-09-04 22:09:03 +0200,Fixes 1.1,21,7,28
+meria-task-1,ef9642ccaa95be398a53b6f5c60cdd0fbaf86dfa,meria,meria,2025-09-03 19:26:23 +0200,"""Apparently I had made an src file. Got rid of it""",0,0,0
+meria-task-1,24e4656a24f89807c6ea2b6e897104d0c3c40f63,meria,meria,2025-09-03 19:22:54 +0200,"Fixes #3, Fixes #2, Fixes #1",0,1,1
+meria-task-1,f183224fed822f4f6b329707220892fb75c01863,meria,meria,2025-09-03 19:13:50 +0200,"Fixes #1,2 and 3",39,0,39
+meria-task-1,3ce390f666eb88d974a6954c768e37b1dfc52d74,meria,meria,2025-09-03 16:00:18 +0200,moved Hello to src,6,0,6
+meria-task-1,bbdc3a58baba53fdd97e302524747191f7329c30,meria,meria,2025-09-02 01:08:00 +0200,Warmup 1,13,13,26
+arvwes-task-1,6fa2c8334427257495c5cf77c9c430ab79565b69,lenarv,arvwes,2025-09-02 17:10:53 +0200,"compleated all exercises. Fixes #1. Fixes #2, Fixes #3, Fixes #4,Fixes #5",31,0,31
+arvwes-task-1,e92e42ccbd6da408e172c238d1f1f9161781573a,lenarv,arvwes,2025-09-02 16:41:00 +0200,"compleated Exercise 1.1 -- Hello, World!",7,0,7
+rsoderh-task-1,f4799e61c0c11ce35c6f24fd7406ca373f880de8,laxsjo,rsoderh,2025-09-03 10:25:13 +0200,Exercise 1.5: Add `Arithmetic.average`,4,0,4
+rsoderh-task-1,2cf367fd32dbbb20e1d8083570097256f0f4f43d,laxsjo,rsoderh,2025-09-03 10:20:32 +0200,Exercise 1.4: Add `Arithmetic.difference`,5,0,5
+rsoderh-task-1,26fd05443b4e75a2c6ae51017a1bbb7c4170ef04,laxsjo,rsoderh,2025-09-02 10:13:33 +0200,Exercise 1.3: Add `Arithmetic.sum` and `main`,14,1,15
+rsoderh-task-1,341ab54d096e4607c8e43dbe8093f0b6b1fd6de9,laxsjo,rsoderh,2025-09-02 10:11:47 +0200,Exercise 1.2: Add empty Arithmetic.java,3,0,3
+rsoderh-task-1,338787d76200cd3e6604bff89c70f43953ee207b,laxsjo,rsoderh,2025-09-02 10:04:18 +0200,Exercise 1.1: Add HelloWorld.java,5,0,5
+rsoderh-task-1,5b2784ca781d5492e114b9c9af417ad25a04e4a0,laxsjo,rsoderh,2025-09-02 09:42:46 +0200,Warmup 1: Answer Exercise 0.1-0.7,16,13,29
+rsoderh-task-1,61a97eab669048732cb02ecc1c1bec2b685253c1,laxsjo,rsoderh,2025-09-02 14:41:55 +0200,Add flake.nix and direnv config,86,0,86
+wlt-task-1,ab319a26751001e4c608e7c60173e123043e46c1,William Lind Tibbelin,wlt,2025-09-03 16:42:48 +0200,Fixes #5,9,0,9
+wlt-task-1,79ccf59c0c145a2c0bd4850b718188d96f5fa7df,William Lind Tibbelin,wlt,2025-09-03 16:29:51 +0200,Fixes #4,10,0,10
+wlt-task-1,f236bbf8b28fee10d586ddad765e9f5061c72d5a,William Lind Tibbelin,wlt,2025-09-03 16:13:26 +0200,Fixes #3,13,0,13
+wlt-task-1,097b317a749eee80dbc7175eaccad240366111f0,William Lind Tibbelin,wlt,2025-09-03 15:45:53 +0200,Fixes #2,0,0,0
+wlt-task-1,25fe1c7c2f7d42809769a177ec9221d578967ae3,William Lind Tibbelin,wlt,2025-09-03 15:33:28 +0200,Fixes #1,5,0,5
+wlt-task-1,efb66358a88e49d557ce634c2e8dfe00d850d4ea,William Lind Tibbelin,wlt,2025-09-03 15:04:43 +0200,Submit answers to questions,14,13,27
+msjolin-task-1,6e80f861891d875ab75c31cd474037f35a4703e4,Martin Sjölin,msjolin,2025-09-04 21:43:09 +0200,"Finish #1,#2,#3,#4,#5",63,14,77
+ctorgrip-task-1,e8e613c8506930ec43834c3df34e2481c1ec0ed4,Cristopher T,ctorgrip,2025-09-03 16:25:20 +0200,Fixes #6,8,0,8
+ctorgrip-task-1,acc71ff60f5ac6efd4e9711f32725c3d57f71b10,Cristopher T,ctorgrip,2025-09-03 16:21:35 +0200,Fixes #5,12,2,14
+ctorgrip-task-1,f50c5d3359d73498d3e1a3faa9084a75e759a52a,Cristopher T,ctorgrip,2025-09-03 16:17:35 +0200,Fixes #4,12,0,12
+ctorgrip-task-1,90e43accbd0f8626742741355ead225ca9190804,Cristopher T,ctorgrip,2025-09-03 16:10:40 +0200,Fixes #3,0,0,0
+ctorgrip-task-1,af4976ec7cd8684674689445d50256a5d2e6f980,Cristopher T,ctorgrip,2025-09-03 16:09:18 +0200,"Fixes #2, hello world!",7,0,7
+ctorgrip-task-1,913b1732224ea6cbd2bf871a79d9c3840033652d,Cristopher T,ctorgrip,2025-09-03 16:04:10 +0200,Fixes #1,15,13,28
+ohogfors-task-1,0d1332c38d91186dc9bf5fd70c6bbae4094df840,Oskar Högfors,ohogfors,2025-09-04 18:15:40 +0200,answers to docs,15,14,29
+ohogfors-task-1,def50edf94a1da72c80b679827da01c3126810dd,Oskar Högfors,ohogfors,2025-09-03 22:48:22 +0200,samtliga funktioner,30,7,37
+ohogfors-task-1,ee8c9e71ee49a1453a2edc00985b1e889fde93ec,Oskar Högfors,ohogfors,2025-09-03 20:53:55 +0200,Sum funktion,16,0,16
+ohogfors-task-1,d477dfb60804cf311bde4873680208ecad178243,Oskar Högfors,ohogfors,2025-09-03 17:19:39 +0200,HelloWorld klar,6,0,6
+lfax-task-1,91220f2330ddbbddfd439e251885dedf69ffa528,Ludvig Faxander,lfax,2025-09-03 12:19:24 +0200,fixes #5,7,2,9
+lfax-task-1,97ef59e4c5046e468e6556b907079959dde60a98,Ludvig Faxander,lfax,2025-09-03 12:13:55 +0200,fixes #4,11,2,13
+lfax-task-1,e643c96c472f64861224ad8c721c6cbf825e591f,Ludvig Faxander,lfax,2025-09-03 11:58:18 +0200,fixes #3,14,1,15
+lfax-task-1,0918c6085d0b4d1c68a017877aaaf829f46ac4b1,Ludvig Faxander,lfax,2025-09-03 11:48:53 +0200,fixes #2,3,0,3
+lfax-task-1,592a6a45135d546c7ee81b851c9a4029949fe4d7,Ludvig Faxander,lfax,2025-09-03 11:46:23 +0200,fixes #1,7,0,7
+lfax-task-1,5171e0dc49ddeaef79913202d4b1db87c282e5c5,Ludvig Faxander,lfax,2025-09-03 11:39:30 +0200,Answer for questions in readme,13,13,26
+robinfm-task-1,649bf01884956325076eb4b4b977a29602243c49,root,robinfm,2025-09-02 09:56:24 +0200,Fixes #5,15,0,15
+robinfm-task-1,d1820aee0c2544aa5085394267e1b72a0c0c2e86,root,robinfm,2025-09-02 09:46:12 +0200,Fixes #4,0,1,1
+robinfm-task-1,09a8722e078de72b902334058aa3ab228b4b7568,root,robinfm,2025-09-02 09:44:56 +0200,Fixes 4,10,0,10
+robinfm-task-1,86cb9e8712faacaef4d6d77f3f13fdec106fdab5,root,robinfm,2025-09-02 09:30:36 +0200,Fixes #3,19,0,19
+robinfm-task-1,288b5c6346b5b6e670f42b70be4506a18b1d908d,root,robinfm,2025-09-02 08:46:20 +0200,Fixes #2,0,0,0
+robinfm-task-1,49e55e8f13dc903decf9b9fc46c9dff5c535d67b,root,robinfm,2025-09-01 22:46:35 +0200,Fixes #1,7,0,7
+robinfm-task-1,efac19c576633164cfd030dfd2007be173c6fbf7,root,robinfm,2025-09-01 22:32:51 +0200,Answered the questions,13,13,26
+leonms-task-1,5b852510bdc4c77f7c20feb4d4ef0c88c0431508,Leon,leonms,2025-09-03 15:41:48 +0200,did README in docs fixes #6,5,5,10
+leonms-task-1,5364bae92edd69cab3f782d4c7444a76eb4f293c,Leon,leonms,2025-09-03 13:37:55 +0200,fixes #5,7,0,7
+leonms-task-1,e60c3b0ddef02e860626fb20656377f605c928ba,Leon,leonms,2025-09-03 13:30:45 +0200,fixes #4,7,1,8
+leonms-task-1,405a1d03738758b967b263fb935e483995e7d86f,Leon,leonms,2025-09-03 11:40:47 +0200,fixes #3,17,0,17
+leonms-task-1,37cba83dd357113c7a0db422b3caec183342c07c,Leon,leonms,2025-09-03 11:12:29 +0200,added Arithmetic fixes #2,1,0,1
+leonms-task-1,6b5a1c13cf6d50e08a2b11d50520f821b7b88b67,Leon,leonms,2025-09-03 10:59:32 +0200,fixes #1,22,9,31
+maltehag-task-1,383e61bead8f97650498a812528cb28090d45aa9,Malte Hagström,maltehag,2025-09-03 22:45:11 +0200,"Fixed #4, Fixed #5",20,3,23
+maltehag-task-1,23e1e812f242a960644d365d3f0651384de171f4,Malte Hagström,maltehag,2025-09-03 22:08:37 +0200,Fixed #3,19,2,21
+maltehag-task-1,dd4689937b2af44a46604a6717efce50db700a88,Malte Hagström,maltehag,2025-09-03 21:25:25 +0200,Fixed #1,0,0,0
+maltehag-task-1,d8b1cb2ad585a16e4905f0dc55fe425f4e94f2f8,Malte Hagström,maltehag,2025-09-03 21:15:58 +0200,Fixed #2,0,0,0
+maltehag-task-1,dd469deabd048790c2b79b224702a1a518e4b6d1,Malte Hagström,maltehag,2025-09-03 18:59:43 +0200,changed an answer,1,1,2
+maltehag-task-1,727a5bb00be8192b3f5ca4e5e27198dda133150e,Malte Hagström,maltehag,2025-09-03 18:31:24 +0200,Answered the README,15,13,28
+maltehag-task-1,b77778babfa50f31327b11b5d8d9f8f059aa5490,Malte Hagström,maltehag,2025-09-03 17:56:38 +0200,Hello World works,7,0,7
+adamven-task-1,9d4b4b86234121572314a188725b4bb9b6f24add,Adam Vennersten,adamven,2025-09-05 16:14:51 +0200,Gjort ändringar i arithmetic,20,14,34
+adamven-task-1,f7e2b168e48c52456f7cb90e5d8ae958239c3113,Adam Vennersten,adamven,2025-09-05 15:43:31 +0200,Svarat på frågorna,70,14,84
+adamven-task-1,b0943024008093be509355da1cf702943a82bc94,Adam Vennersten,adamven,2025-09-03 21:06:47 +0200,Update Arithmetic.java,24,0,24
+adamven-task-1,2e3004dba1e7687d0b2b9691100af67c3b18d4c1,Adam Vennersten,adamven,2025-09-03 20:44:55 +0200,Create Arithmetic.java,1,0,1
+adamven-task-1,28f1ff63493efc8bf05ee4c24552de98862f795a,Adam Vennersten,adamven,2025-09-03 20:33:02 +0200,Create HelloWorld.java,7,0,7
+vibb-task-1,4434e57a2fd2853b22c108a94ad14fede04dcc7e,Vincent Beck Boren,vibb,2025-09-03 10:59:07 +0200,Added main method,8,0,8
+vibb-task-1,0503398c0f0d68e710ab6eed7d7d62fdd5a4f488,Vincent Beck Boren,vibb,2025-09-03 10:26:48 +0200,Fixes #5,4,0,4
+vibb-task-1,b1e32db8735eebcd0e93dd6a5bd0e3c975a5c4d4,Vincent Beck Boren,vibb,2025-09-03 10:22:51 +0200,Fixes #4,4,0,4
+vibb-task-1,5446635bea00c290a903571d549f35fa542f5041,Vincent Beck Boren,vibb,2025-09-03 10:18:50 +0200,Fixes #3,5,0,5
+vibb-task-1,f835e07fde1b22fcd4de720c564bc932f30f8db9,Vincent Beck Boren,vibb,2025-09-03 10:14:00 +0200,Fixes#2,0,0,0
+vibb-task-1,30c20edae2ebcfc965935ac4f3a72473d56aa0d1,Vincent Beck Boren,vibb,2025-09-03 08:11:08 +0200,Fixes #1,2,4,6
+vibb-task-1,fc3b2bea5cdba3cb65f54a9e0d3030937cb76d02,Vincent Beck Boren,vibb,2025-09-02 13:20:15 +0200,Modified Hello World file,5,3,8
+vibb-task-1,5fd6eea506b25e3161c0d9b8ce6f495cff35a283,Vincent Beck Boren,vibb,2025-09-02 13:17:46 +0200,Created Hello World file,5,0,5
+vibb-task-1,59d318483a7cb63295d92a528e7fbca597422e7d,Vincent Beck Boren,vibb,2025-09-02 13:02:26 +0200,answered questions in README,16,15,31
+lohag-task-1,ec96796eca3e2978991bc7035298f54ff68779c2,Lo Häggström,lohag,2025-09-03 12:04:08 +0200,Update README.md,5,5,10
+lohag-task-1,63de071f72542cf8ff9cade4b9ec9e7e309e33c8,Lo Häggström,lohag,2025-09-03 12:03:27 +0200,Fixes #5,19,32,51
+lohag-task-1,7f5869af5bd2cce7aca8cba1f57e6e2a6ea4a3ee,Lo Häggström,lohag,2025-09-03 11:58:01 +0200,Fixes #4,15,0,15
+lohag-task-1,f71f97a7b7732e50c100549d5f71094cd434b159,Lo Häggström,lohag,2025-09-03 11:53:27 +0200,Fixes #3,19,1,20
+lohag-task-1,f5f234e867663e3ca8c48ac4c03f804b63aa6cd4,Lo Häggström,lohag,2025-09-03 11:11:10 +0200,Fixes #2,16,0,16
+lohag-task-1,6114b943082e3184673435c7dd27bda9b6eff82f,Lo Häggström,lohag,2025-09-03 11:04:36 +0200,Fixes #1,0,1,1
+lohag-task-1,b81c55fd1200804ec872149f6c1524e4eeb03afd,Lo Häggström,lohag,2025-09-03 11:01:31 +0200,Answered the exercise questions,14,13,27
+lohag-task-1,fd40464201b9ef9d562e6a9b1dbf4794efed4cf7,Lo Häggström,lohag,2025-09-03 10:46:06 +0200,Added file from Introduction module,7,0,7
+yea-task-1,b1dabad700ffd878199b676e7a0f7a6f90a7b08f,Yassin,yea,2025-09-03 16:12:36 +0200,"Whoops, the issues were numbered wrong because of 'My first issue', either way the rest of issues are now fixed",26,16,42
+yea-task-1,088f6230ab683e9a45f705cc917ff4862a5f2054,Yassin,yea,2025-09-03 16:00:45 +0200,Fixes #4,9,0,9
+yea-task-1,015a96217112a441b9272bfce073dc54d5a0a2e8,Yassin,yea,2025-09-03 15:13:57 +0200,Fixes #3,14,0,14
+yea-task-1,b9d3d5d79c7e1a9cec02d470c33b4fcd27147b31,Yassin,yea,2025-09-03 15:12:32 +0200,Fixes #1,7,0,7
+agentzel-task-1,e1286a957b10829e49363ee4b5e0925ab3af28a3,Anton Gentzel,agentzel,2025-09-05 08:09:52 +0200,Made Arithmetic class public,1,1,2
+agentzel-task-1,92d3ff9789f66212038d255e76fe7e60b0d6c61b,Anton Gentzel,agentzel,2025-09-02 13:15:54 +0200,"Fixes #6, comments code, minor formatting changes",7,4,11
+agentzel-task-1,6c37f7bc333920bdce3262d2b1317cbc044c460b,Anton Gentzel,agentzel,2025-09-02 13:08:16 +0200,"Fixes #5, Adds a method for getting the average of 2 numbers (doubles)",6,0,6
+agentzel-task-1,a9cbe281110dbcd53df2c87947118bb948ea536e,Anton Gentzel,agentzel,2025-09-02 12:42:03 +0200,Fixes #4 (and also changes one letter on a comment),1,3,4
+agentzel-task-1,d7cd91a495db36d7c431e4a4a45fde551cd7d240,Anton Gentzel,agentzel,2025-09-02 12:00:36 +0200,Added difference method and changed the main method for testing,9,3,12
+agentzel-task-1,ced37ead8912c536ec907c63e95001b07691c7ed,Anton Gentzel,agentzel,2025-09-02 11:38:28 +0200,"Adds ""sum"" method, Fixes #3",22,0,22
+agentzel-task-1,4c85abb52a0894df8668c7ce17ff5705c7762024,Anton Gentzel,agentzel,2025-09-02 10:01:41 +0200,Added Arithmetic.java,0,0,0
+agentzel-task-1,18f518901b43dc17f9885ff3640e6ac1f67716b7,Anton Gentzel,agentzel,2025-09-02 09:53:08 +0200,Added comment stating source for HelloWorld.java code,2,1,3
+agentzel-task-1,53206ad31c00263eba0af2828852461328515842,Anton Gentzel,agentzel,2025-09-02 09:51:10 +0200,"Added HelloWorld.java file, aswell as the code from OLI Torus",6,0,6
+agentzel-task-1,533345e4f4b71697906117aeabd9d9dc284dee59,Anton Gentzel,agentzel,2025-09-02 09:26:21 +0200,completes warmup 1,15,13,28
+abhsax-task-1,f88b1fe1b67b2fef4d99d965d22afb7c7da1ac19,abhsax,abhsax,2025-09-04 16:56:31 +0200,Fixes #7,4,4,8
+abhsax-task-1,26ca9a2dd9ce81368deb7a3a667b31dbdac9ba56,abhsax,abhsax,2025-09-03 11:02:54 +0200,Fixes #6,9,0,9
+abhsax-task-1,4c257ea4c3a80ee207803c96b9d67639814111ec,abhsax,abhsax,2025-09-03 10:31:56 +0200,Fixes #5,9,1,10
+abhsax-task-1,f9029d6c81faf13c8a39f959dc2605c3b2e47780,abhsax,abhsax,2025-09-03 10:24:51 +0200,Fixes #4,17,0,17
+abhsax-task-1,21942eced3d4e532d0f974d44a376f96b2cc5875,abhsax,abhsax,2025-09-02 20:59:40 +0200,Fixes #3,0,0,0
+abhsax-task-1,c2783f1f71d876f597565996bf8d28998b8a9ac9,abhsax,abhsax,2025-09-02 20:57:13 +0200,Fixes #2,7,0,7
+abhsax-task-1,328b957868cde1e428ead94b3301ef7cce6baf64,abhsax,abhsax,2025-09-02 20:47:27 +0200,Answered the questions,14,13,27
+alstahle-task-1,d53453abe8236e574a34d62d9077bb7c180beb50,Alex Sthle,alstahle,2025-09-05 11:34:36 +0200,"Update for issue  1.3, 1.4, 1.5",18,12,30
+alstahle-task-1,53eaa2dd40421470e906925c1e0c39459fe8c7ff,Alex Sthle,alstahle,2025-09-04 10:54:50 +0200,Fixes #1.5,4,4,8
+alstahle-task-1,73e8154c4ee744f2e0bb2e22c6b0796aff0cd6cf,Alex Sthle,alstahle,2025-09-04 10:51:12 +0200,Readjustments #1.4,1,1,2
+alstahle-task-1,5b418495c6131d0d57a2475b18bebfa25cceccfc,Alex Sthle,alstahle,2025-09-04 10:38:04 +0200,Fixes #1.4,2,2,4
+alstahle-task-1,c7c0a5faba2e88f533f1844a8a8dc9c7a37d0d97,Alex Sthle,alstahle,2025-09-04 10:32:17 +0200,Fixes issue #1.3,11,7,18
+alstahle-task-1,80d05c6ca0b6fcde3b76248482e0cb654512c33b,Alex Sthle,alstahle,2025-09-03 21:36:41 +0200,fixes #1.1,14,0,14
+alstahle-task-1,0c19eb17193dc4d40e8ae14eedf3a6d48ecd95d8,Alex Sthle,alstahle,2025-09-03 20:39:26 +0200,fixes #1.1,7,0,7
+alstahle-task-1,3a3bc7f135b01c4b8e3af803dd7b90db8e12cd57,Alex Sthle,alstahle,2025-09-03 11:37:42 +0200,fixes warmup,10,281,291
+alstahle-task-1,3d1fd84f88ae5be73a2b0c55448149847decde38,Alex Sthle,alstahle,2025-09-02 09:47:06 +0200,Readjustments README,1,1,2
+alstahle-task-1,6e88602ba4e550ddea5ac81867ded1b6e37b397f,Alex Sthle,alstahle,2025-09-02 09:28:16 +0200,updated docs README,14,13,27
+fabianto-task-1,81a28f4170fe76d9245b678cfaeb8eade0b7a7e5,root,fabianto,2025-09-04 17:02:57 +0200,Edited the checklist in the README file and fully completed task 1 :),4,4,8
+fabianto-task-1,9d65d1aa839953b05d142e4f3d89c636eeef5923,root,fabianto,2025-09-04 17:00:25 +0200,Fixes #5,8,2,10
+fabianto-task-1,eabc90f55821cc79f0f2b9c915467a75b755af10,root,fabianto,2025-09-04 16:49:21 +0200,Fixes #4,6,0,6
+fabianto-task-1,26810f25fc035442a9b197af3e5f240509ff0510,root,fabianto,2025-09-04 16:31:37 +0200,Fixes #3,1,8,9
+fabianto-task-1,d2d922870f7380e1b734e7bff5fd2fd53f8f4909,root,fabianto,2025-09-04 16:23:42 +0200,Fixes 2,18,0,18
+fabianto-task-1,54663eba345c198b76ee0cb8b90920db2fd383bd,root,fabianto,2025-09-03 16:37:24 +0200,Added the Hello World test program to the HelloWorld file,8,0,8
+fabianto-task-1,4a678c9546875b966090349c0a77c05021a41e9b,root,fabianto,2025-09-03 15:44:56 +0200,Fixes #2,0,0,0
+fabianto-task-1,2ed2ff57d4e5998c9edef4c00a50f49f5fbc2901,root,fabianto,2025-09-03 10:44:31 +0200,Fixes #1,0,0,0
+fabianto-task-1,3107a039162cff1f906150e06956e47bc71c2a9a,root,fabianto,2025-09-03 10:34:00 +0200,Completed warmup 1,14,13,27
+fabianto-task-1,f6ffa22c62fbd7182d9ef496edbee5ac772ba540,root,fabianto,2025-09-03 10:16:11 +0200,Checked the box for cloning the repository,1,1,2
+stjpoli-task-1,3d96d0719c6284e004b570673ef4db66b6637510,Stelios Theodor Johannes Poli,stjpoli,2025-09-03 12:36:04 +0200,First commit for task1,39,1,40
+kgharios-task-1,98744d381cb0585236d092f0a7881162d1e3e3fa,Kristian Gharios,kgharios,2025-09-04 17:58:15 +0200,added the printls,18,8,26
+kgharios-task-1,41c5e44660613839d133995ade62ce93ab0daee6,Kristian Gharios,kgharios,2025-09-03 11:21:00 +0200,lade till space på return a + b,1,1,2
+kgharios-task-1,d58f23ba16fbf7d1a725796dae2aa77f146275a6,Kristian Gharios,kgharios,2025-09-03 11:12:33 +0200,commit igen för glömde spara,25,0,25
+kgharios-task-1,4e2fa2a3cffe4661a31715ffdaa9d27fa2bcf16f,Kristian Gharios,kgharios,2025-09-03 11:06:11 +0200,"""första excercise 1.5""",20,13,33
+leben-task-1,703d40fbe623514ab41909ad4312d1409fa022eb,Leonard Bengtsson,leben,2025-09-02 13:52:06 +0200,Add `Arithmetic::average` method. Completes exercise 1.5. Closes #5.,4,0,4
+leben-task-1,fd86255c1c7c812b1b5fc27b94fdb9c4286f1be8,Leonard Bengtsson,leben,2025-09-02 13:50:54 +0200,Add `Arithmetic::difference` method. Completes exercise 1.4 (see #5).,4,0,4
+leben-task-1,83155267bdcaeb524a04a6b5ea06c4d7f8998f50,Leonard Bengtsson,leben,2025-09-02 13:50:24 +0200,Add `Arithmetic::sum` method. Completes exercise 1.3 (see #5).,15,0,15
+leben-task-1,a65e3878d096545f2581241cc192cd4630a692de,Leonard Bengtsson,leben,2025-09-02 13:25:45 +0200,Add `Arithmetic` class. Completes exercise 1.2 (see #5).,5,0,5
+leben-task-1,5429e7de297ca459b20cd2850602c6c70f804f75,Leonard Bengtsson,leben,2025-09-02 13:21:37 +0200,Create basic Hello World program. Closes #4,5,0,5
+leben-task-1,ce5c8bbdc7c474a82698fc94c24b7cda822c213c,Leonard Bengtsson,leben,2025-09-02 11:51:28 +0200,Closes #1. Answer Code of Conduct quiz questions.,16,13,29
+lucjan-task-1,1b5f5a17b4ca5b632824d3a34400fb1796d168c0,Lucas Jansson,lucjan,2025-09-03 11:39:29 +0200,Update assignment checklist,5,5,10
+lucjan-task-1,597ee0a48bd660ac9012a6bbe9424ae55f13b5b4,Lucas Jansson,lucjan,2025-09-03 11:31:50 +0200,Fixes #5,4,0,4
+lucjan-task-1,4e36eb62ba6eb16190b49c39688a7410280ddc1c,Lucas Jansson,lucjan,2025-09-03 11:26:01 +0200,Fixes #4,4,0,4
+lucjan-task-1,52bdd23b15fa41da7e7b18aed2cbb371d871b37b,Lucas Jansson,lucjan,2025-09-03 11:24:15 +0200,Fixes #3,18,0,18
+lucjan-task-1,e4b28558248fdbd31eb03f5eebb5031320041f92,Lucas Jansson,lucjan,2025-09-03 11:15:40 +0200,Fixes #2,0,0,0
+lucjan-task-1,8b1b38dd0f24a29bf338fa43c89ec8673465bcbb,Lucas Jansson,lucjan,2025-09-03 11:13:04 +0200,Fixes #1,6,0,6
+lucjan-task-1,1511a03b87069df43316f7335e955588a46422c1,Lucas Jansson,lucjan,2025-09-03 10:50:35 +0200,Complete Warmup 1,20,20,40
+fesj-task-1,9fd0adda9f094f35d5f35e9f6b90005b09895314,Felix Sjödin,fesj,2025-09-03 11:49:01 +0200,check boxes in checklist,5,5,10
+fesj-task-1,cd94947d06efbde651a6a35779b58268c9287c45,Felix Sjödin,fesj,2025-09-03 11:46:50 +0200,Fixes #4,8,0,8
+fesj-task-1,a3faf16e75eab1374bd41cb8625f766308ed9196,Felix Sjödin,fesj,2025-09-03 11:40:16 +0200,Fixes #3,10,2,12
+fesj-task-1,10f314757d20c5a4f415805b1f7c4647baa12748,Felix Sjödin,fesj,2025-09-03 11:37:24 +0200,remove static keyword from sum method,1,1,2
+fesj-task-1,d9172b0d228c716bcc9498792bb1480a73003057,Felix Sjödin,fesj,2025-09-03 11:30:56 +0200,Fixes #2,14,0,14
+fesj-task-1,604c0469c5a7d1651f0d018b05b785f82e9771d4,Felix Sjödin,fesj,2025-09-03 11:18:19 +0200,Fixes #1,0,0,0
+fesj-task-1,0e73021491071857632825acaf3a7f9363f184e1,Felix Sjödin,fesj,2025-09-03 10:52:53 +0200,add HelloWorld program,5,0,5
+fesj-task-1,2dda0ba81ffbb4decbf1c93b8a7decf2601410e5,Felix Sjödin,fesj,2025-09-03 10:50:15 +0200,answer questions in README,15,12,27
+karlham-task-1,5ddce93e6950cdc1b9dabe8b50ae98eb63b01f10,Karl Hamberg,karlham,2025-09-02 15:43:54 +0200,fix #7,5,5,10
+karlham-task-1,d6e2d759ed54f4b12ccdfbc7372b1ee89224c558,Karl Hamberg,karlham,2025-09-02 15:41:10 +0200,fix #6,6,5,11
+karlham-task-1,61b0f6a84f8b09e8df363b966fcca2d721b94750,Karl Hamberg,karlham,2025-09-02 15:14:29 +0200,fix #3 fix #4 fix #5 - fixades i förra commite,1,0,1
+karlham-task-1,1705c7f373354f39066e319f5a80e8bd1323ec1f,Karl Hamberg,karlham,2025-09-02 15:11:06 +0200,fix #2 #3 #4 #5,20,0,20
+karlham-task-1,27dab48ef6f9e160d30075e3b770637135add9fd,Karl Hamberg,karlham,2025-09-02 14:39:59 +0200,"fix #1, och lite av warmup1",15,9,24
+linnwan-task-1,5c8766f91d93cfac3173b7cee02d0dbfe48ce6f6,Linn,linnwan,2025-09-04 10:40:07 +0200,Fixed the test line in Main,1,1,2
+linnwan-task-1,56870662482fab337becb44d2c4581ffaa6e2b36,Linn,linnwan,2025-09-03 20:36:44 +0200,"Edited docs/README.md, made and coded java files",44,13,57
+somya-task-1,68e945cb3734478bf2a51e7a84d97af0dc4d61c4,Somya,somya,2025-09-05 10:41:27 +0200,Tog bort main metoden i Arthmetic.java,1,4,5
+somya-task-1,b45cb199bee8e40ee1cec5f44258409e816cd667,Somya Tanwar,somya,2025-09-05 10:29:57 +0200,Delete docs/README.md,0,57,57
+somya-task-1,2bea5ecd0a9d77bf90b7e48be6fe2ee21d4bf1a4,Somya,somya,2025-09-05 10:28:56 +0200,Rättade Exersize 0.7,57,0,57
+somya-task-1,05d79f66691c7a1292ad2a01710a0cc3811a8814,Somya Tanwar,somya,2025-09-04 12:05:30 +0200,fixes #2,4,0,4
+somya-task-1,6d040487aa2a5a348ebf0fccddddd04c3837b30b,Somya Tanwar,somya,2025-09-04 11:59:47 +0200,Add files via upload,17,0,17
+somya-task-1,002baa1a2f93a030d66b78af3abe07d252225609,Somya Tanwar,somya,2025-09-04 11:40:35 +0200,Add files via upload,7,0,7
+somya-task-1,7efd34cff3200dcbb046af983317ec22f807dad4,Somya Tanwar,somya,2025-09-03 12:16:29 +0200,Update README.md,14,13,27
+arvidbj-task-1,f97f6a79eca6640591e882bd0d68f4f98f2d0bd7,Arvid Bjorne,arvidbj,2025-09-03 12:09:30 +0200,Fixes #2345,2,3,5
+arvidbj-task-1,3606df97c4a518d523e7d8c7d62b50bc308fdd82,Arvid Bjorne,arvidbj,2025-09-03 12:07:32 +0200,Added an average function that gives the average between 2 values Fixes #6,1,0,1
+arvidbj-task-1,fc151087c4d6721700c1ff3083a0ff6fe43142a9,Arvid Bjorne,arvidbj,2025-09-03 12:05:57 +0200,Added an average function that gives the average between 2 values #6,6,0,6
+arvidbj-task-1,3544e03439ec17c0f4061ff1f0c90d2ef7d0dd55,Arvid Bjorne,arvidbj,2025-09-03 12:03:09 +0200,Added a difference function  #5,6,0,6
+arvidbj-task-1,7bf205c4b12f252a7554f7f6dbb6b16de320bd64,Arvid Bjorne,arvidbj,2025-09-03 11:59:00 +0200,Added the main function and the sum function inside a class #4,14,0,14
+arvidbj-task-1,da8d14be0b8e4df7369cb9550dc40c41976bed53,Arvid Bjorne,arvidbj,2025-09-03 11:48:00 +0200,Created file Arithmetic.java #3,0,0,0
+arvidbj-task-1,860907e54d4141b11df6e65a87cf8bda1c032532,Arvid Bjorne,arvidbj,2025-09-03 11:41:32 +0200,"Exercise 1.1 -- Hello, World! #2",5,0,5
+arvidbj-task-1,1c640c86a47e08286aa747ac9210b0a66c6cff20,Arvid Bjorne,arvidbj,2025-09-03 11:29:06 +0200,Answered questions in the README.md,1,1,2
+arvidbj-task-1,00c8e6eff7e455fd220a1a8e0cd6d7958500f8d7,Arvid Bjorne,arvidbj,2025-09-03 11:25:03 +0200,Answered questions in the README.md,2,2,4
+arvidbj-task-1,00101636e296680f45540e9e468484d9e46c1f92,Arvid Bjorne,arvidbj,2025-09-03 11:22:46 +0200,Answered questions in the README.md,16,13,29
+jackak-task-1,8f63887dca3d703183ec742bd8715b4952e86852,jackak,jackak,2025-09-04 21:18:22 +0200,Fixed #N,34,0,34
+kante-task-1,8b9125233b5abad2de7a7ef85f56f47e42499b1a,kante,kante,2025-09-04 15:13:59 +0200,Check boxes,5,6,11
+kante-task-1,6c2ebc3c4a71b9d8c9cc055d677e2cdf140bc2ad,kante,kante,2025-09-04 09:30:17 +0200,Fixes #2,15,0,15
+kante-task-1,5bb6831b1e020af6d8963b5163585843669835a4,kante,kante,2025-09-03 18:36:19 +0200,Hello World! Fixes #1,8,0,8
+kante-task-1,a582c5625c37240eb3a96027acaf07b05fbc884a,kante,kante,2025-09-03 18:16:25 +0200,add answers to  README,13,13,26
+msorberg-task-1,6ba4d8d44da5996297fc5f612cc630b80d048eaf,Marcus Sörberg,msorberg,2025-09-03 16:03:26 +0200,Fixed #6,12,0,12
+msorberg-task-1,63086a13510cbdee62291db7629a2e997f93a1bc,Marcus Sörberg,msorberg,2025-09-03 15:54:06 +0200,Fixed #5,12,0,12
+msorberg-task-1,15278469990ba0801d7af28fff4bc67ad73d5cd2,Marcus Sörberg,msorberg,2025-09-03 12:04:48 +0200,Fixes #4,19,0,19
+msorberg-task-1,0acc943785ada7d89f7f2f4e616f943c1a3115aa,Marcus Sörberg,msorberg,2025-09-03 11:57:45 +0200,Fixes #3,13,13,26
+msorberg-task-1,9df2805b94bd9c272a348434eb8f766d19353d97,Marcus Sörberg,msorberg,2025-09-03 11:25:19 +0200,Fixes #2,0,0,0
+msorberg-task-1,543eee91ac5778fb130c1500dcd67451c3619bae,Marcus Sörberg,msorberg,2025-09-03 11:22:59 +0200,Fixes #1,7,0,7
+daeo-task-1,4a2de6d90f75d6ee780bef7cc30b94ab351b3a15,Daniel,daeo,2025-09-02 10:16:44 +0200,Fixes #5,8,2,10
+daeo-task-1,703996547e25429ee72029bac9172035ffbfa5a5,Daniel,daeo,2025-09-02 10:04:10 +0200,Fixes #4,6,2,8
+daeo-task-1,574c3a373dd5420ca885e40b14a18cb1cd0f524e,Daniel,daeo,2025-09-02 10:00:19 +0200,Fixes #3,18,1,19
+daeo-task-1,d029f50cd0013175edf67c7103ba22d7d360ac5d,Daniel,daeo,2025-09-02 09:54:08 +0200,Fixes #2,2,0,2
+daeo-task-1,58270b95d435ae46450b405adac55934add061db,Daniel,daeo,2025-09-02 09:42:51 +0200,Fixes #1,20,13,33
+edwardas-task-1,e58e1e0f0f9a44e6d4e751f8163aee422b825adc,Edward,edwardas,2025-09-05 00:48:56 +0200,Task done,59,12,71
+markmal-task-1,80371cab70389c1bf13550311db9045ee11043b6,markmal,markmal,2025-09-03 20:43:58 +0200,Done with the assignment,4,3,7
+markmal-task-1,0593ef85cc076323b3b81bf23996f348177e62be,markmal,markmal,2025-09-03 20:36:27 +0200,Test,45,16,61
+markmal-task-1,8c0d15920324f00ef935c95c6308e196d1aa63d7,markmal,markmal,2025-09-03 10:47:26 +0200,Test,1,1,2
+adrianjw-task-1,3f88caf889d596bbc32351da3b6d1f9cdac60b33,AdrianJWe,adrianjw,2025-09-03 16:47:23 +0200,"Completed Exercises 1.2–1.5, #3, #4, #5, #6",33,0,33
+adrianjw-task-1,c16867217f19978ef2dcb0f1daed4d20841526be,AdrianJWe,adrianjw,2025-09-03 12:49:09 +0200,Fixed #2,6,0,6
+adrianjw-task-1,122e3f06ef0a1d8cf388ebae6ade3aaedf288f3e,AdrianJWe,adrianjw,2025-09-01 18:40:14 +0200,Fixed #1,14,13,27
+chkkour-task-1,33efe92effd7c76ab14ba54bc9cbd6e7a0c81a60,Hicham Chkkour,chkkour,2025-09-04 15:13:33 +0200,Update README.md,15,21,36
+chkkour-task-1,2d2bf9c779ec57f0e789b3fb9f8a73037fd9aae5,Hicham Chkkour,chkkour,2025-09-04 15:08:00 +0200,Add files via upload,26,0,26
+chkkour-task-1,b5c700e5dbccb91ce712dc4095dda7452e9a96bc,Hicham Chkkour,chkkour,2025-09-04 14:59:11 +0200,Add files via upload,7,0,7
+sofiefu-task-1,2ed943d4d09633637d23e4f7f367adadebf4d22f,sofie114,sofiefu,2025-09-02 17:25:18 +0200,"finished now, Fixes #5",7,3,10
+sofiefu-task-1,be0953f1607fa2ff47d226a689189c9f2450aea9,sofie114,sofiefu,2025-09-02 17:23:19 +0200,Fixes #4,5,0,5
+sofiefu-task-1,6e0c553dee3415f58ace8e5608a292cc8cea46f4,sofie114,sofiefu,2025-09-02 17:21:53 +0200,Fixes #3,17,0,17
+sofiefu-task-1,84f77155d8bfe587110046454bdc1c683e367ae6,sofie114,sofiefu,2025-09-02 17:17:31 +0200,Fixes #2,0,1,1
+sofiefu-task-1,8625505517beb9e5637282f8935fe403eedc9f72,sofie114,sofiefu,2025-09-02 17:17:03 +0200,Fixes #1,1,0,1
+sofiefu-task-1,6cf04484646a0687f8a41367821c23b193e55217,sofie114,sofiefu,2025-09-02 12:00:21 +0200,Fixes #1,0,0,0
+sofiefu-task-1,8c6aebaf71037975ad4a1250aa32400d2c568c07,sofie114,sofiefu,2025-09-02 11:53:20 +0200,exerise 1.1,7,0,7
+sofiefu-task-1,f89e9968b969f0ddf16b1fad1d72fc0fc22252b9,sofie114,sofiefu,2025-09-02 11:48:33 +0200,warmup 1,14,14,28

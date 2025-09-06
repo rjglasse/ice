@@ -18,9 +18,11 @@ def read_nudges_data(nudges_file):
                     'author': row['author'],
                     'commits': int(row['commits']),
                     'issues': int(row['issues']),
-                    'commits_to_issues_ratio': row['commits_to_issues_ratio'],
-                    'total_changes': int(row['total_changes']),
-                    'effort_category': row['effort_category'],
+                    'open_issues': int(row['open_issues']),
+                    'closed_issues': int(row['closed_issues']),
+                    'references': int(row['references']),
+                    'closing_references': int(row['closing_references']),
+                    'classification': row['classification'],
                     'nudge_message': row['nudge_message'],
                     'issue_created': row.get('issue_created', 'False').lower() == 'true'
                 })
@@ -33,17 +35,9 @@ def read_nudges_data(nudges_file):
     
     return nudges_data
 
-def generate_issue_title(effort_category):
-    """Generate issue title based on effort category"""
-    title_templates = {
-        "Excellent": "🌟 Plan and process was outstanding - keep the momentum!",
-        "Good": "👍 Plan and process was solid - ready for the next challenge?",
-        "Balanced": "⚖️ Plan and process was steady - time to level up!",
-        "Moderate": "🌱 Plan and process was promising - let's build consistency!",
-        "Low": "💪 Plan and process was a great start - every journey begins!"
-    }
-    
-    return title_templates.get(effort_category, f"📝 Plan and process was {effort_category.lower()} - feedback time!")
+def generate_issue_title(classification):
+    """Generate issue title based on classification"""
+    return f"{classification}"
 
 def find_author_repo(author, repos_dir, task):
     """Find the repository path for a given author"""
@@ -100,35 +94,13 @@ def create_issue(repo_path, title, body, dry_run=False):
         os.chdir(original_dir)
 
 def format_issue_body(nudge_data):
-    """Format the issue body with nudge feedback and metrics"""
-    author = nudge_data['author']
-    commits = nudge_data['commits']
-    issues = nudge_data['issues']
-    ratio = nudge_data['commits_to_issues_ratio']
-    changes = nudge_data['total_changes']
-    category = nudge_data['effort_category']
-    message = nudge_data['nudge_message']
-    
-    body = f"""## 🚀 Performance Summary
-
-**Effort Category:** {category}  
-**Commits:** {commits}  
-**Issues Created:** {issues}  
-**Commit-to-Issue Ratio:** {ratio}  
-**Total Changes:** {changes} lines of code 
-
-## 💖 Feedback
-
-{message}
-
-"""
-    
-    return body
+    """Format the issue body with nudge message"""
+    return nudge_data['nudge_message']
 
 def update_nudges_csv(nudges_file, nudges_data):
     """Update the nudges CSV file with the latest issue_created status"""
-    fieldnames = ['author', 'commits', 'issues', 'commits_to_issues_ratio', 
-                  'total_changes', 'effort_category', 'nudge_message', 'issue_created']
+    fieldnames = ['author', 'commits', 'issues', 'open_issues', 'closed_issues', 
+                  'references', 'closing_references', 'classification', 'nudge_message', 'issue_created']
     
     with open(nudges_file, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -138,9 +110,11 @@ def update_nudges_csv(nudges_file, nudges_data):
                 'author': nudge['author'],
                 'commits': nudge['commits'],
                 'issues': nudge['issues'],
-                'commits_to_issues_ratio': nudge['commits_to_issues_ratio'],
-                'total_changes': nudge['total_changes'],
-                'effort_category': nudge['effort_category'],
+                'open_issues': nudge['open_issues'],
+                'closed_issues': nudge['closed_issues'],
+                'references': nudge['references'],
+                'closing_references': nudge['closing_references'],
+                'classification': nudge['classification'],
                 'nudge_message': nudge['nudge_message'],
                 'issue_created': nudge['issue_created']
             })
@@ -152,6 +126,7 @@ def main():
     parser.add_argument('--repos-dir', default='repos', help='Directory containing repositories')
     parser.add_argument('--nudges-file', default='nudges.csv', help='Input nudges CSV filename')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be done without actually creating issues')
+    parser.add_argument('--student', help='Target only one specific student (author name)')
     
     args = parser.parse_args()
     
@@ -175,6 +150,14 @@ def main():
         print("No nudges data found. Please run nudges.py first.")
         return
     
+    # Filter for specific student if requested
+    if args.student:
+        nudges_data = [nudge for nudge in nudges_data if nudge['author'] == args.student]
+        if not nudges_data:
+            print(f"No nudge data found for student: {args.student}")
+            return
+        print(f"Targeting specific student: {args.student}")
+    
     print(f"Found nudges for {len(nudges_data)} authors")
     
     # Create issues for each author
@@ -184,9 +167,9 @@ def main():
     
     for nudge in nudges_data:
         author = nudge['author']
-        category = nudge['effort_category']
+        classification = nudge['classification']
         
-        print(f"\nProcessing {author} ({category})...")
+        print(f"\nProcessing {author} ({classification})...")
         
         # Check if issue has already been created
         if nudge['issue_created']:
@@ -203,7 +186,7 @@ def main():
         print(f"  📁 Found repo: {repo_path}")
         
         # Generate issue title and body
-        title = generate_issue_title(category)
+        title = generate_issue_title(classification)
         body = format_issue_body(nudge)
         
         # Create the issue

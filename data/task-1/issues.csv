@@ -1,13 +1,707 @@
-repository,author,number,title,state,createdAt
-glassey-task-1,glassey,12,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T19:12:26Z
-glassey-task-1,glassey,11,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T16:03:17Z
-glassey-task-1,glassey,10,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T16:02:26Z
-glassey-task-1,glassey,9,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T16:00:55Z
-glassey-task-1,glassey,8,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T15:59:18Z
-glassey-task-1,glassey,7,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T15:29:01Z
-glassey-task-1,glassey,6,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T15:22:35Z
-glassey-task-1,glassey,5,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T15:17:58Z
-glassey-task-1,glassey,4,⚖️ Plan and process was steady - time to level up!,OPEN,2025-09-01T14:51:05Z
-glassey-task-1,glassey,3,Part One,OPEN,2025-08-28T07:06:17Z
-glassey-task-1,glassey,2,Exercise 1.2 -- Arthimetic.java!,OPEN,2025-08-27T12:36:30Z
-glassey-task-1,glassey,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-08-27T12:01:50Z
+repository,issue_creator,author,number,title,state,createdAt
+jharj-task-1,jharj,jharj,5,Exercise 1.5 -- Average,OPEN,2025-09-03T17:25:32Z
+jharj-task-1,jharj,jharj,4,Exercise 1.4 -- Difference,OPEN,2025-09-03T17:25:30Z
+jharj-task-1,jharj,jharj,3,Exercise 1.3 -- Sum,OPEN,2025-09-03T17:25:28Z
+jharj-task-1,jharj,jharj,2,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-03T17:25:25Z
+jharj-task-1,jharj,jharj,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T17:25:02Z
+hermanha-task-1,hermanha,hermanha,2,Excercise 1.2 to 1.5 - Arithmetic operations,CLOSED,2025-09-02T06:38:25Z
+hermanha-task-1,hermanha,hermanha,1,"Excercise 1.1 - Hello, World!",CLOSED,2025-09-02T06:36:55Z
+jrislund-task-1,jrislund,jrislund,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T19:35:39Z
+jrislund-task-1,jrislund,jrislund,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T19:32:14Z
+jrislund-task-1,jrislund,jrislund,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T19:25:17Z
+jrislund-task-1,jrislund,jrislund,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T19:23:45Z
+jrislund-task-1,jrislund,jrislund,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T19:15:25Z
+jarr-task-1,jarr,jarr,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T10:05:42Z
+nrosberg-task-1,nrosberg,nrosberg,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T20:40:33Z
+nrosberg-task-1,nrosberg,nrosberg,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T20:40:14Z
+nrosberg-task-1,nrosberg,nrosberg,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T15:43:37Z
+ossianfr-task-1,ossianfr,ossianfr,2,Create methods,CLOSED,2025-09-02T13:16:37Z
+ossianfr-task-1,ossianfr,ossianfr,1,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T13:08:00Z
+rjmartin-task-1,rjmartin,rjmartin,2,Can not add to repo,OPEN,2025-09-04T19:23:56Z
+rjmartin-task-1,rjmartin,rjmartin,1,The Plan,OPEN,2025-09-04T16:34:26Z
+atosun-task-1,atosun,atosun,1,something,CLOSED,2025-09-03T19:30:54Z
+aattar-task-1,aattar,aattar,1,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-03T12:06:18Z
+laxberg-task-1,laxberg,laxberg,6,Complete 'Exercise 1.5',CLOSED,2025-09-03T08:39:40Z
+laxberg-task-1,laxberg,laxberg,5,Complete 'Exercise 1.4',CLOSED,2025-09-03T08:39:24Z
+laxberg-task-1,laxberg,laxberg,4,Complete 'Exercise 1.3',CLOSED,2025-09-03T08:39:02Z
+laxberg-task-1,laxberg,laxberg,3,Complete 'Exercise 1.2',CLOSED,2025-09-03T08:38:39Z
+laxberg-task-1,laxberg,laxberg,2,Complete 'Exercise 1.1',CLOSED,2025-09-03T08:37:45Z
+laxberg-task-1,laxberg,laxberg,1,Complete 'Warmup 1',CLOSED,2025-09-03T08:37:15Z
+badawood-task-1,badawood,badawood,9,Exercise 1.4 -- Difference,OPEN,2025-09-04T23:49:08Z
+badawood-task-1,badawood,badawood,8,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-04T23:48:28Z
+badawood-task-1,badawood,badawood,7,Exercise 1.5 -- Average,OPEN,2025-09-04T22:27:26Z
+badawood-task-1,badawood,badawood,6,Exercise 1.3 -- Sum,OPEN,2025-09-04T22:27:03Z
+badawood-task-1,badawood,badawood,5,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T22:26:46Z
+badawood-task-1,badawood,badawood,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T21:49:53Z
+badawood-task-1,badawood,badawood,3,Exercise 1.3 -- Sum,CLOSED,2025-09-04T20:40:32Z
+badawood-task-1,badawood,badawood,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T18:46:41Z
+badawood-task-1,badawood,badawood,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T18:08:42Z
+julina-task-1,julina,julina,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T09:56:44Z
+julina-task-1,julina,julina,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T09:56:37Z
+julina-task-1,julina,julina,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T09:56:16Z
+julina-task-1,julina,julina,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T09:55:30Z
+julina-task-1,julina,julina,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T09:55:19Z
+nganv-task-1,nganv,nganv,2,Task 1,CLOSED,2025-09-03T16:46:25Z
+nganv-task-1,nganv,nganv,1,Task 1: My first issue,CLOSED,2025-09-03T14:13:47Z
+wlindgr-task-1,wlindgr,wlindgr,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T18:42:52Z
+wlindgr-task-1,wlindgr,wlindgr,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T18:42:47Z
+wlindgr-task-1,wlindgr,wlindgr,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T18:42:43Z
+wlindgr-task-1,wlindgr,wlindgr,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T18:42:36Z
+wlindgr-task-1,wlindgr,wlindgr,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T18:41:17Z
+wlindgr-task-1,wlindgr,wlindgr,1,Task 1: My First Issue,CLOSED,2025-09-03T18:39:18Z
+eliasgr-task-1,eliasgr,eliasgr,6,Exercise 1.5,CLOSED,2025-09-03T19:02:38Z
+eliasgr-task-1,eliasgr,eliasgr,5,Exercise 1.4,CLOSED,2025-09-03T19:02:29Z
+eliasgr-task-1,eliasgr,eliasgr,4,Exercise 1.3,CLOSED,2025-09-03T19:02:20Z
+eliasgr-task-1,eliasgr,eliasgr,3,Exercise 1.2,CLOSED,2025-09-03T19:01:54Z
+eliasgr-task-1,eliasgr,eliasgr,2,Exercise 1.1,CLOSED,2025-09-03T19:01:44Z
+eliasgr-task-1,eliasgr,eliasgr,1,Warmup,CLOSED,2025-09-03T18:47:53Z
+skjo-task-1,skjo,skjo,5,Create average method,CLOSED,2025-09-05T15:28:54Z
+skjo-task-1,skjo,skjo,4,Create difference method,CLOSED,2025-09-05T15:28:33Z
+skjo-task-1,skjo,skjo,3,Create sum method,CLOSED,2025-09-05T15:28:09Z
+skjo-task-1,skjo,skjo,2,Create Arithmetic.java,CLOSED,2025-09-05T15:26:22Z
+skjo-task-1,skjo,skjo,1,Task 1: My first issue,OPEN,2025-09-05T14:11:28Z
+salmaam-task-1,salmaam,salmaam,6,Exercise 1.4 -- Difference,CLOSED,2025-09-03T19:45:46Z
+salmaam-task-1,salmaam,salmaam,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T08:57:50Z
+salmaam-task-1,salmaam,salmaam,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T08:57:41Z
+salmaam-task-1,salmaam,salmaam,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T08:57:28Z
+salmaam-task-1,salmaam,salmaam,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T08:20:07Z
+salmaam-task-1,salmaam,salmaam,1,Task 1: My first issue,CLOSED,2025-09-03T08:15:19Z
+danogw-task-1,danogw,danogw,6,submit average,CLOSED,2025-09-04T06:46:03Z
+danogw-task-1,danogw,danogw,5,submit difference,CLOSED,2025-09-04T06:45:54Z
+danogw-task-1,danogw,danogw,4,submit sum,CLOSED,2025-09-04T06:45:39Z
+danogw-task-1,danogw,danogw,3,submit Arithmetic.java,CLOSED,2025-09-04T06:45:29Z
+danogw-task-1,danogw,danogw,2,"submit Hello, World!",CLOSED,2025-09-04T06:44:01Z
+danogw-task-1,danogw,danogw,1,Submit answers to questions in readme.md,CLOSED,2025-09-04T06:33:16Z
+nekerot-task-1,nekerot,nekerot,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:37:18Z
+nekerot-task-1,nekerot,nekerot,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:33:53Z
+nekerot-task-1,nekerot,nekerot,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:11:20Z
+nekerot-task-1,nekerot,nekerot,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T14:02:08Z
+nekerot-task-1,nekerot,nekerot,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:31:02Z
+nekerot-task-1,nekerot,nekerot,1,Task 1: My first issue,OPEN,2025-09-03T09:30:18Z
+wilmerfh-task-1,wilmerfh,wilmerfh,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T09:34:39Z
+wilmerfh-task-1,wilmerfh,wilmerfh,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T09:22:24Z
+wilmerfh-task-1,wilmerfh,wilmerfh,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T09:15:07Z
+wilmerfh-task-1,wilmerfh,wilmerfh,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:07:46Z
+wilmerfh-task-1,wilmerfh,wilmerfh,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T08:53:44Z
+pouryaz-task-1,pouryaz,pouryaz,1,Finish exercises 1.2  - 1.5,CLOSED,2025-09-02T19:58:26Z
+puhl-task-1,puhl,puhl,5,Exercise 1.5 -- Average,CLOSED,2025-09-01T18:45:36Z
+puhl-task-1,puhl,puhl,4,Exercise 1.4 -- Difference,CLOSED,2025-09-01T18:45:30Z
+puhl-task-1,puhl,puhl,3,Exercise 1.3 -- Sum,CLOSED,2025-09-01T18:45:16Z
+puhl-task-1,puhl,puhl,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-01T18:43:58Z
+puhl-task-1,puhl,puhl,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-01T18:41:20Z
+lberglie-task-1,lberglie,lberglie,7,Exercise 1.5 -- Average,CLOSED,2025-09-05T00:06:43Z
+lberglie-task-1,lberglie,lberglie,6,Exercise 1.3 -- Sum,CLOSED,2025-09-05T00:06:33Z
+lberglie-task-1,lberglie,lberglie,5,Exercise 1.4 -- Difference,CLOSED,2025-09-05T00:06:14Z
+lberglie-task-1,lberglie,lberglie,4,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T20:15:53Z
+lberglie-task-1,lberglie,lberglie,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T18:49:27Z
+lberglie-task-1,lberglie,lberglie,1,Task 1: My first issue,CLOSED,2025-09-04T18:17:45Z
+julieda-task-1,julieda,julieda,7,Exercise 1.5 -- Average,CLOSED,2025-09-03T19:33:31Z
+julieda-task-1,julieda,julieda,6,Exercise 1.4 -- Difference,CLOSED,2025-09-03T19:31:33Z
+julieda-task-1,julieda,julieda,5,Exercise 1.3 -- Sum,CLOSED,2025-09-03T19:17:58Z
+julieda-task-1,julieda,julieda,4,Exercise 1.2 -- Arithmetic.java,CLOSED,2025-09-03T18:45:27Z
+julieda-task-1,julieda,julieda,3,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T18:08:01Z
+julieda-task-1,julieda,julieda,2,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-03T18:05:42Z
+julieda-task-1,julieda,julieda,1,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-01T22:36:00Z
+emsands-task-1,emsands,emsands,5,Exercise 1.5 -- Average,CLOSED,2025-09-01T15:23:36Z
+emsands-task-1,emsands,emsands,4,Exercise 1.4 -- Difference,CLOSED,2025-09-01T15:23:34Z
+emsands-task-1,emsands,emsands,3,Exercise 1.3 -- Sum,CLOSED,2025-09-01T15:23:31Z
+emsands-task-1,emsands,emsands,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-01T15:23:29Z
+emsands-task-1,emsands,emsands,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-01T15:23:25Z
+isong-task-1,isong,isong,5,Exercise 1.5 -- Average,CLOSED,2025-09-05T00:27:47Z
+isong-task-1,isong,isong,4,Exercise 1.4 -- Difference,CLOSED,2025-09-05T00:21:20Z
+isong-task-1,isong,isong,3,Exercise 1.3 -- Sum,CLOSED,2025-09-05T00:13:12Z
+isong-task-1,isong,isong,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-05T00:07:29Z
+isong-task-1,isong,isong,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T23:34:31Z
+wnas-task-1,wnas,wnas,1,Task 1: My first issue,OPEN,2025-09-02T08:52:31Z
+owalli-task-1,owalli,owalli,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T18:44:30Z
+owalli-task-1,owalli,owalli,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T18:38:57Z
+owalli-task-1,owalli,owalli,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T11:36:29Z
+owalli-task-1,owalli,owalli,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T11:34:00Z
+owalli-task-1,owalli,owalli,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T11:31:58Z
+akuhnert-task-1,akuhnert,akuhnert,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T11:03:31Z
+akuhnert-task-1,akuhnert,akuhnert,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T10:56:23Z
+akuhnert-task-1,akuhnert,akuhnert,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T10:55:59Z
+akuhnert-task-1,akuhnert,akuhnert,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T10:50:35Z
+akuhnert-task-1,akuhnert,akuhnert,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T15:01:44Z
+eahla-task-1,eahla,eahla,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T23:19:29Z
+eahla-task-1,eahla,eahla,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T23:18:38Z
+eahla-task-1,eahla,eahla,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T23:18:23Z
+eahla-task-1,eahla,eahla,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T10:02:14Z
+eahla-task-1,eahla,eahla,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:41:43Z
+phhedb-task-1,phhedb,phhedb,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T19:33:49Z
+phhedb-task-1,phhedb,phhedb,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T19:28:44Z
+phhedb-task-1,phhedb,phhedb,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T19:15:32Z
+phhedb-task-1,phhedb,phhedb,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T19:02:34Z
+phhedb-task-1,phhedb,phhedb,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T18:55:21Z
+cwelen-task-1,cwelen,cwelen,5,Inser att jag lagt alla klasser för sig i varje java fil.,CLOSED,2025-09-03T10:07:19Z
+cwelen-task-1,cwelen,cwelen,4,Exercise 1.5 -- Average,CLOSED,2025-09-02T16:11:17Z
+cwelen-task-1,cwelen,cwelen,3,Exercise 1.4 -- Difference,CLOSED,2025-09-02T14:28:48Z
+cwelen-task-1,cwelen,cwelen,2,Exercise 1.3 -- Sum,CLOSED,2025-09-02T11:50:16Z
+cwelen-task-1,cwelen,cwelen,1,Task 1: My first issue,CLOSED,2025-09-02T11:22:54Z
+linusnym-task-1,linusnym,linusnym,5,Exercise 1.5 -- Average,OPEN,2025-09-04T12:13:58Z
+linusnym-task-1,linusnym,linusnym,4,Exercise 1.4 -- Difference,OPEN,2025-09-04T12:10:56Z
+linusnym-task-1,linusnym,linusnym,3,Exercise 1.3 -- Sum,OPEN,2025-09-04T12:05:02Z
+linusnym-task-1,linusnym,linusnym,2,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-04T11:55:11Z
+linusnym-task-1,linusnym,linusnym,1,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-04T11:50:47Z
+bjorste-task-1,bjorste,bjorste,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T18:54:04Z
+bjorste-task-1,bjorste,bjorste,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T18:53:54Z
+bjorste-task-1,bjorste,bjorste,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T18:53:44Z
+bjorste-task-1,bjorste,bjorste,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T18:53:31Z
+bjorste-task-1,bjorste,bjorste,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T18:53:05Z
+lovwic-task-1,lovwic,lovwic,1,Exercise 1.1-1.5 ,CLOSED,2025-09-03T13:59:41Z
+linupet-task-1,linupet,linupet,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:21:31Z
+linupet-task-1,linupet,linupet,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:12:19Z
+linupet-task-1,linupet,linupet,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:11:01Z
+linupet-task-1,linupet,linupet,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:10:11Z
+linupet-task-1,linupet,linupet,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T11:43:15Z
+linupet-task-1,linupet,linupet,1,task 1: my first issue,CLOSED,2025-09-03T10:33:49Z
+jonsh-task-1,jonsh,jonsh,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T15:06:22Z
+jonsh-task-1,jonsh,jonsh,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T14:53:37Z
+jonsh-task-1,jonsh,jonsh,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T14:27:08Z
+jonsh-task-1,jonsh,jonsh,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T14:24:34Z
+jonsh-task-1,jonsh,jonsh,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T13:45:28Z
+aeozbek-task-1,aeozbek,aeozbek,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T13:47:20Z
+aeozbek-task-1,aeozbek,aeozbek,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T13:46:37Z
+aeozbek-task-1,aeozbek,aeozbek,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T13:46:01Z
+aeozbek-task-1,aeozbek,aeozbek,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T13:45:16Z
+aeozbek-task-1,aeozbek,aeozbek,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T13:43:30Z
+markow-task-1,markow,markow,1,Assignment,CLOSED,2025-09-03T18:57:53Z
+timhedl-task-1,timhedl,timhedl,6,i made average excercise 1.5 ,OPEN,2025-09-02T12:49:43Z
+timhedl-task-1,timhedl,timhedl,5,1.4 i made minus!,OPEN,2025-09-02T12:46:37Z
+timhedl-task-1,timhedl,timhedl,4,i have done 1.3 yay!,OPEN,2025-09-02T12:43:08Z
+timhedl-task-1,timhedl,timhedl,3,i am starting excersice 1.2,OPEN,2025-09-02T12:24:34Z
+timhedl-task-1,timhedl,timhedl,2,Issue for 1.1,OPEN,2025-09-02T12:22:26Z
+timhedl-task-1,timhedl,timhedl,1,I will solve these problems!,OPEN,2025-09-02T11:39:39Z
+hugoco-task-1,hugoco,hugoco,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T16:53:28Z
+hugoco-task-1,hugoco,hugoco,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T16:53:25Z
+hugoco-task-1,hugoco,hugoco,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T16:53:23Z
+hugoco-task-1,hugoco,hugoco,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T16:53:03Z
+marioo-task-1,marioo,marioo,1,My first issue,CLOSED,2025-09-02T11:35:15Z
+lokehu-task-1,lokehu,lokehu,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T18:55:11Z
+lokehu-task-1,lokehu,lokehu,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T18:25:59Z
+lokehu-task-1,lokehu,lokehu,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T18:10:07Z
+lokehu-task-1,lokehu,lokehu,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T17:57:54Z
+lokehu-task-1,lokehu,lokehu,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T17:48:29Z
+leosjos-task-1,leosjos,leosjos,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T17:24:12Z
+leosjos-task-1,leosjos,leosjos,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T17:16:46Z
+leosjos-task-1,leosjos,leosjos,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T17:03:38Z
+leosjos-task-1,leosjos,leosjos,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T17:01:00Z
+leosjos-task-1,leosjos,leosjos,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T16:21:22Z
+kostiuk-task-1,kostiuk,kostiuk,5,Exercise 1.5 - Average,CLOSED,2025-09-02T18:31:30Z
+kostiuk-task-1,kostiuk,kostiuk,4,Exercise 1.4 - Difference,CLOSED,2025-09-02T18:31:13Z
+kostiuk-task-1,kostiuk,kostiuk,3,Exercise 1.3 - Sum,CLOSED,2025-09-02T18:30:52Z
+kostiuk-task-1,kostiuk,kostiuk,2,Exercise 1.2 - Arithmetic.java,CLOSED,2025-09-02T18:30:20Z
+kostiuk-task-1,kostiuk,kostiuk,1,"Exercise 1.1 - Hello, World!",CLOSED,2025-09-02T18:29:47Z
+sofiatl-task-1,sofiatl,sofiatl,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T09:10:54Z
+sofiatl-task-1,sofiatl,sofiatl,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T09:10:23Z
+sofiatl-task-1,sofiatl,sofiatl,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T09:09:34Z
+sofiatl-task-1,sofiatl,sofiatl,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:09:14Z
+sofiatl-task-1,sofiatl,sofiatl,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:08:48Z
+sssuresh-task-1,sssuresh,sssuresh,3,Exercise 1.4 -- Difference,OPEN,2025-09-04T23:25:31Z
+sssuresh-task-1,sssuresh,sssuresh,2,Exercise 1.3 -- Sum,OPEN,2025-09-04T23:15:43Z
+sssuresh-task-1,sssuresh,sssuresh,1,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-04T23:05:43Z
+louiseul-task-1,louiseul,louiseul,5,average,CLOSED,2025-09-04T08:52:55Z
+louiseul-task-1,louiseul,louiseul,4,difference,CLOSED,2025-09-04T08:52:35Z
+louiseul-task-1,louiseul,louiseul,3,Sum,CLOSED,2025-09-04T08:52:19Z
+louiseul-task-1,louiseul,louiseul,2,Arithmetic,CLOSED,2025-09-04T08:51:55Z
+louiseul-task-1,louiseul,louiseul,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T08:34:26Z
+tsjia-task-1,tsjia,tsjia,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T17:44:54Z
+tsjia-task-1,tsjia,tsjia,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T17:29:09Z
+tsjia-task-1,tsjia,tsjia,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T17:26:58Z
+tsjia-task-1,tsjia,tsjia,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T16:32:44Z
+tsjia-task-1,tsjia,tsjia,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T15:50:57Z
+teslenko-task-1,teslenko,teslenko,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T22:19:26Z
+teslenko-task-1,teslenko,teslenko,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T22:18:06Z
+teslenko-task-1,teslenko,teslenko,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T22:17:38Z
+teslenko-task-1,teslenko,teslenko,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T22:15:32Z
+teslenko-task-1,teslenko,teslenko,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T22:14:43Z
+noelsol-task-1,noelsol,noelsol,6,Exercise 1.5 -- Average,OPEN,2025-09-03T09:21:16Z
+noelsol-task-1,noelsol,noelsol,5,Exercise 1.4 -- Difference,OPEN,2025-09-03T09:20:03Z
+noelsol-task-1,noelsol,noelsol,4,Exercise 1.3 -- Sum,OPEN,2025-09-03T09:19:27Z
+noelsol-task-1,noelsol,noelsol,3,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-03T09:18:12Z
+noelsol-task-1,noelsol,noelsol,2,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-03T09:17:37Z
+noelsol-task-1,noelsol,noelsol,1,exercise 1.1 Write HelloWorld program,OPEN,2025-09-03T09:14:57Z
+nhg-task-1,nhg,nhg,2,Complete the Java programming,CLOSED,2025-09-02T13:17:43Z
+nhg-task-1,nhg,nhg,1,Complete Questions,CLOSED,2025-09-02T13:16:05Z
+capf-task-1,capf,capf,9,Exercise 1.5 -- Average,CLOSED,2025-09-03T18:21:56Z
+capf-task-1,capf,capf,8,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:16:39Z
+capf-task-1,capf,capf,7,Exercise 1.3 -- Sum,CLOSED,2025-09-02T19:04:06Z
+capf-task-1,capf,capf,6,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T16:35:20Z
+capf-task-1,capf,capf,5,Send Troubleshooting Issue,CLOSED,2025-09-02T15:28:20Z
+capf-task-1,capf,capf,4,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T15:22:17Z
+capf-task-1,capf,capf,3,Fixes #1,CLOSED,2025-09-02T06:59:58Z
+capf-task-1,capf,capf,2,Test,CLOSED,2025-09-02T06:43:06Z
+capf-task-1,capf,capf,1,Test Issue,CLOSED,2025-09-01T21:02:41Z
+anpingle-task-1,anpingle,anpingle,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T15:10:00Z
+anpingle-task-1,anpingle,anpingle,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T15:08:08Z
+anpingle-task-1,anpingle,anpingle,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T15:07:53Z
+anpingle-task-1,anpingle,anpingle,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T15:07:26Z
+anpingle-task-1,anpingle,anpingle,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T07:29:06Z
+chhatbar-task-1,chhatbar,chhatbar,1,Exercise 1.3 -- Sum,CLOSED,2025-09-03T21:08:54Z
+melvinvu-task-1,melvinvu,melvinvu,1,Task 1: Issue(s),OPEN,2025-09-02T08:00:49Z
+hannazh-task-1,hannazh,hannazh,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T16:53:27Z
+hannazh-task-1,hannazh,hannazh,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T16:53:18Z
+hannazh-task-1,hannazh,hannazh,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T16:53:10Z
+hannazh-task-1,hannazh,hannazh,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T16:53:02Z
+hannazh-task-1,hannazh,hannazh,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T16:52:52Z
+avde-task-1,avde,avde,2,Exercise 1.2-1.5,CLOSED,2025-09-04T16:40:17Z
+avde-task-1,avde,avde,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T16:29:37Z
+didriku-task-1,didriku,didriku,8,Final fix (hopefully),CLOSED,2025-09-04T19:47:12Z
+didriku-task-1,didriku,didriku,7,"Removing test ""Hello"" from src",CLOSED,2025-09-04T15:30:15Z
+didriku-task-1,didriku,didriku,6,Spelling in README.md,CLOSED,2025-09-02T18:18:03Z
+didriku-task-1,didriku,didriku,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T18:07:56Z
+didriku-task-1,didriku,didriku,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T18:02:55Z
+didriku-task-1,didriku,didriku,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T16:51:52Z
+didriku-task-1,didriku,didriku,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T16:50:11Z
+didriku-task-1,didriku,didriku,1,Warmup 1 & Code from OLI Torus,CLOSED,2025-09-02T16:46:05Z
+alwinwn-task-1,alwinwn,alwinwn,1,The Plan,CLOSED,2025-09-03T19:15:50Z
+sibelli-task-1,sibelli,sibelli,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:25:55Z
+sibelli-task-1,sibelli,sibelli,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T13:58:11Z
+sibelli-task-1,sibelli,sibelli,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T13:46:04Z
+sibelli-task-1,sibelli,sibelli,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T12:34:35Z
+sibelli-task-1,sibelli,sibelli,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T12:24:24Z
+vbit-task-1,vbit,vbit,6,Exercise 1.5 -- Average,CLOSED,2025-09-04T11:22:12Z
+vbit-task-1,vbit,vbit,5,Exercise 1.4 -- Difference,CLOSED,2025-09-04T11:17:13Z
+vbit-task-1,vbit,vbit,4,Exercise 1.3 -- Sum,CLOSED,2025-09-04T11:12:36Z
+vbit-task-1,vbit,vbit,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T10:55:58Z
+vbit-task-1,vbit,vbit,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T10:37:53Z
+vbit-task-1,vbit,vbit,1,Task 1: My first issue,CLOSED,2025-09-04T10:37:22Z
+jensfoc-task-1,jensfoc,jensfoc,6,Exercise 1.5 -- Average,CLOSED,2025-09-04T09:06:36Z
+jensfoc-task-1,jensfoc,jensfoc,5,Exercise 1.4 -- Difference,CLOSED,2025-09-04T08:51:15Z
+jensfoc-task-1,jensfoc,jensfoc,4,Exercise 1.3 -- Sum,CLOSED,2025-09-04T07:45:54Z
+jensfoc-task-1,jensfoc,jensfoc,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T07:39:53Z
+jensfoc-task-1,jensfoc,jensfoc,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T07:39:24Z
+jensfoc-task-1,jensfoc,jensfoc,1,Task 1: My first issue,CLOSED,2025-09-03T15:58:55Z
+kimnor-task-1,kimnor,kimnor,7,controll check before app release that git is pushed #8 ,CLOSED,2025-09-03T14:41:36Z
+kimnor-task-1,kimnor,kimnor,6,fix #6 Implement feature Average according to specification 1.4,CLOSED,2025-09-03T14:40:30Z
+kimnor-task-1,kimnor,kimnor,5,fix #5 Implement  Differens feature according to 2.4 specification,CLOSED,2025-09-03T14:39:46Z
+kimnor-task-1,kimnor,kimnor,4,fix #4   Implement feature Sum according to specification 1.2,CLOSED,2025-09-03T14:38:37Z
+kimnor-task-1,kimnor,kimnor,3,fix #3 Excersize 1.2 add feature Arithmetic.java,CLOSED,2025-09-03T14:24:02Z
+kimnor-task-1,kimnor,kimnor,2,fix #2. Add feature Arithmetic.java as described in specification 1.2,CLOSED,2025-09-03T14:19:04Z
+kimnor-task-1,kimnor,kimnor,1,fix #1 . Add new info in  Q/A page (Warmup 1 ),CLOSED,2025-09-03T14:15:04Z
+wekl-task-1,wekl,wekl,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T14:57:18Z
+wekl-task-1,wekl,wekl,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T14:49:16Z
+wekl-task-1,wekl,wekl,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T14:43:11Z
+wekl-task-1,wekl,wekl,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T13:53:34Z
+wekl-task-1,wekl,wekl,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T13:45:22Z
+sohw-task-1,sohw,sohw,6,lägg till kommentarer,CLOSED,2025-09-04T08:01:48Z
+sohw-task-1,sohw,sohw,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T07:50:32Z
+sohw-task-1,sohw,sohw,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T07:42:59Z
+sohw-task-1,sohw,sohw,3,Exercise 1.3 -- Sum,CLOSED,2025-09-04T07:31:00Z
+sohw-task-1,sohw,sohw,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T07:22:38Z
+sohw-task-1,sohw,sohw,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T16:49:40Z
+zixuanli-task-1,zixuanli,zixuanli,1,Exercise ,CLOSED,2025-09-03T10:15:22Z
+filipron-task-1,filipron,filipron,3,Exercise 1.5 -- Average,CLOSED,2025-09-03T08:19:14Z
+filipron-task-1,filipron,filipron,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T19:12:01Z
+filipron-task-1,filipron,filipron,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T18:58:44Z
+bishrelt-task-1,bishrelt,bishrelt,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T13:26:34Z
+bishrelt-task-1,bishrelt,bishrelt,1,Plan,OPEN,2025-09-04T08:34:45Z
+mblomst-task-1,mblomst,mblomst,1,Issue,CLOSED,2025-09-04T23:03:18Z
+akehurst-task-1,akehurst,akehurst,1,task-1,CLOSED,2025-09-03T13:23:54Z
+akanksh-task-1,akanksh,akanksh,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T08:39:28Z
+akanksh-task-1,akanksh,akanksh,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T08:39:21Z
+akanksh-task-1,akanksh,akanksh,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T08:39:04Z
+akanksh-task-1,akanksh,akanksh,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T08:38:50Z
+akanksh-task-1,akanksh,akanksh,1,Exercise 1.3 -- Sum,CLOSED,2025-09-04T08:38:15Z
+rufusc-task-1,rufusc,rufusc,3,Exercise 1.4 -- Difference,CLOSED,2025-09-03T20:33:30Z
+rufusc-task-1,rufusc,rufusc,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T20:20:29Z
+rufusc-task-1,rufusc,rufusc,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T20:10:00Z
+axelahm-task-1,axelahm,axelahm,8,Task 1 Error: summary of error here,OPEN,2025-09-03T09:05:11Z
+axelahm-task-1,axelahm,axelahm,7,Exercise 1.5 -- Average,CLOSED,2025-09-03T05:58:50Z
+axelahm-task-1,axelahm,axelahm,6,Exercise 1.4 -- Difference,CLOSED,2025-09-03T05:58:38Z
+axelahm-task-1,axelahm,axelahm,5,Exercise 1.3 -- Sum,CLOSED,2025-09-03T05:58:22Z
+axelahm-task-1,axelahm,axelahm,4,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T05:58:10Z
+axelahm-task-1,axelahm,axelahm,3,Push the Warmup exercise,CLOSED,2025-09-02T18:13:33Z
+axelahm-task-1,axelahm,axelahm,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T18:06:10Z
+axelahm-task-1,axelahm,axelahm,1,Task 1: My first issue,CLOSED,2025-09-02T18:03:01Z
+arst-task-1,arst,arst,6,Mistake from exercise 1.4,CLOSED,2025-09-03T18:13:44Z
+arst-task-1,arst,arst,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T18:07:35Z
+arst-task-1,arst,arst,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T18:00:47Z
+arst-task-1,arst,arst,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T15:17:08Z
+arst-task-1,arst,arst,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T15:11:52Z
+arst-task-1,arst,arst,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T15:06:45Z
+visf-task-1,visf,visf,1,1.1-1.5,CLOSED,2025-09-02T12:17:51Z
+mbjors-task-1,mbjors,mbjors,3,Exercise 1.5 -- Average,CLOSED,2025-09-03T08:34:55Z
+mbjors-task-1,mbjors,mbjors,2,"Exercise 1.2, 1.3, 1.4 -- Simple arithmetic, sum and difference.",CLOSED,2025-09-02T16:11:50Z
+mbjors-task-1,mbjors,mbjors,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T16:06:33Z
+yloh-task-1,yloh,yloh,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:08:59Z
+yloh-task-1,yloh,yloh,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:08:22Z
+yloh-task-1,yloh,yloh,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:07:59Z
+yloh-task-1,yloh,yloh,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:17:46Z
+yloh-task-1,yloh,yloh,1,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:16:48Z
+ponord-task-1,ponord,ponord,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T19:45:47Z
+ponord-task-1,ponord,ponord,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T19:18:49Z
+ponord-task-1,ponord,ponord,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T19:03:39Z
+ponord-task-1,ponord,ponord,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T18:36:24Z
+ponord-task-1,ponord,ponord,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T18:14:06Z
+jonaskvi-task-1,jonaskvi,jonaskvi,6,Exercise 1.5 -- Average,CLOSED,2025-09-02T09:07:58Z
+jonaskvi-task-1,jonaskvi,jonaskvi,5,Exercise 1.4 -- Difference,CLOSED,2025-09-02T09:05:26Z
+jonaskvi-task-1,jonaskvi,jonaskvi,4,Exercise 1.3 -- Sum,CLOSED,2025-09-02T08:37:10Z
+jonaskvi-task-1,jonaskvi,jonaskvi,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T08:23:40Z
+jonaskvi-task-1,jonaskvi,jonaskvi,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T07:38:57Z
+jonaskvi-task-1,jonaskvi,jonaskvi,1,Task 1: My first issue,CLOSED,2025-09-02T07:38:37Z
+catyde-task-1,catyde,catyde,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T19:38:07Z
+catyde-task-1,catyde,catyde,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T19:37:56Z
+catyde-task-1,catyde,catyde,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T19:37:45Z
+catyde-task-1,catyde,catyde,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T19:37:29Z
+catyde-task-1,catyde,catyde,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T19:37:20Z
+erikrom-task-1,erikrom,erikrom,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T17:33:27Z
+erikrom-task-1,erikrom,erikrom,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T17:24:24Z
+erikrom-task-1,erikrom,erikrom,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T17:24:17Z
+erikrom-task-1,erikrom,erikrom,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T17:10:23Z
+erikrom-task-1,erikrom,erikrom,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T16:46:33Z
+kaj4-task-1,kaj4,kaj4,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T13:00:29Z
+kaj4-task-1,kaj4,kaj4,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T12:54:50Z
+kaj4-task-1,kaj4,kaj4,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T12:48:40Z
+kaj4-task-1,kaj4,kaj4,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T12:21:21Z
+kaj4-task-1,kaj4,kaj4,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T12:13:47Z
+kazan-task-1,kazan,kazan,7,Exercise 1.5 -- Average,CLOSED,2025-09-04T11:29:20Z
+kazan-task-1,kazan,kazan,6,Exercise 1.4 -- Difference,CLOSED,2025-09-04T11:06:58Z
+kazan-task-1,kazan,kazan,5,Exercise 1.3 -- Sum,CLOSED,2025-09-04T09:27:06Z
+kazan-task-1,kazan,kazan,4,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T09:18:50Z
+kazan-task-1,kazan,kazan,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T09:06:25Z
+kazan-task-1,kazan,kazan,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T08:51:17Z
+kazan-task-1,kazan,kazan,1,Task 1: My First Issue,CLOSED,2025-09-03T15:19:07Z
+nilhal-task-1,nilhal,nilhal,3,Task 3 Sum,CLOSED,2025-09-04T10:13:29Z
+nilhal-task-1,nilhal,nilhal,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:46:25Z
+nilhal-task-1,nilhal,nilhal,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:45:44Z
+tobwic-task-1,tobwic,tobwic,7,Exercise 1.5 -- Average,CLOSED,2025-09-02T17:24:40Z
+tobwic-task-1,tobwic,tobwic,6,Exercise 1.4 -- Difference,CLOSED,2025-09-02T17:10:37Z
+tobwic-task-1,tobwic,tobwic,5,Exercise 1.3 -- Sum,CLOSED,2025-09-02T17:01:37Z
+tobwic-task-1,tobwic,tobwic,4,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T16:56:29Z
+tobwic-task-1,tobwic,tobwic,3,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T16:18:46Z
+tobwic-task-1,tobwic,tobwic,2,Finish warm-up 2,CLOSED,2025-09-02T09:05:17Z
+tobwic-task-1,tobwic,tobwic,1,Finish warm-up 1,CLOSED,2025-09-02T09:05:09Z
+bajlo-task-1,bajlo,bajlo,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T19:59:38Z
+bajlo-task-1,bajlo,bajlo,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T19:57:52Z
+bajlo-task-1,bajlo,bajlo,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T19:55:01Z
+bajlo-task-1,bajlo,bajlo,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T19:52:17Z
+bajlo-task-1,bajlo,bajlo,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T19:50:06Z
+lihanl-task-1,lihanl,lihanl,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T08:22:58Z
+lihanl-task-1,lihanl,lihanl,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T08:22:51Z
+lihanl-task-1,lihanl,lihanl,3,Exercise 1.3 -- Sum,CLOSED,2025-09-04T08:22:40Z
+lihanl-task-1,lihanl,lihanl,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T07:47:29Z
+lihanl-task-1,lihanl,lihanl,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T19:22:51Z
+teovg-task-1,teovg,teovg,12,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:52:46Z
+teovg-task-1,teovg,teovg,11,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:52:34Z
+teovg-task-1,teovg,teovg,10,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:52:18Z
+teovg-task-1,teovg,teovg,9,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T14:50:54Z
+teovg-task-1,teovg,teovg,8,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T14:46:54Z
+teovg-task-1,teovg,teovg,7,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T14:44:16Z
+teovg-task-1,teovg,teovg,6,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T14:35:40Z
+teovg-task-1,teovg,teovg,5,Task 1 Error: etc. is spelt as et c in multiple places,OPEN,2025-09-03T13:44:27Z
+teovg-task-1,teovg,teovg,4,Task 1 Error: grammatically spelt as gramatically,OPEN,2025-09-03T08:53:30Z
+teovg-task-1,teovg,teovg,3,Task 1: My first issue,OPEN,2025-09-03T08:42:19Z
+teovg-task-1,teovg,teovg,2,Task 1 Error: Arithmetic misspelled as arihmetic,OPEN,2025-09-03T08:39:19Z
+teovg-task-1,teovg,teovg,1,"Task 1 Error: carefully is misspelled as ""carefuly""",OPEN,2025-09-03T08:35:48Z
+axelbjor-task-1,axelbjor,axelbjor,1,Task 1: README.md nt pushing new code,CLOSED,2025-09-03T15:24:18Z
+kajus-task-1,kajus,kajus,2,Exercise 1.2 - 1.5,CLOSED,2025-09-02T09:35:16Z
+kajus-task-1,kajus,kajus,1,Warmup 1 and Exercise 1.1,CLOSED,2025-09-02T07:38:26Z
+janusson-task-1,janusson,janusson,2,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-04T17:17:55Z
+janusson-task-1,janusson,janusson,1,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-04T17:15:49Z
+elsai-task-1,elsai,elsai,6,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T14:44:33Z
+elsai-task-1,elsai,elsai,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:42:55Z
+elsai-task-1,elsai,elsai,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:42:50Z
+elsai-task-1,elsai,elsai,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:42:41Z
+elsai-task-1,elsai,elsai,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T13:54:56Z
+elsai-task-1,elsai,elsai,1,Task 1: My first issue,CLOSED,2025-09-03T10:35:03Z
+mbd-task-1,mbd,mbd,6,Task 1 Error: README.md spelling errors etc.,CLOSED,2025-09-02T13:23:21Z
+mbd-task-1,mbd,mbd,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T12:58:33Z
+mbd-task-1,mbd,mbd,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T12:46:55Z
+mbd-task-1,mbd,mbd,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T12:37:58Z
+mbd-task-1,mbd,mbd,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T12:32:57Z
+mbd-task-1,mbd,mbd,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T12:28:28Z
+hfahlin-task-1,hfahlin,hfahlin,6,Exercise 1.5 -- Average,CLOSED,2025-09-04T10:38:54Z
+hfahlin-task-1,hfahlin,hfahlin,5,Exercise 1.4 -- Difference,CLOSED,2025-09-04T10:24:17Z
+hfahlin-task-1,hfahlin,hfahlin,4,Exercise 1.3 -- Sum,CLOSED,2025-09-04T10:17:22Z
+hfahlin-task-1,hfahlin,hfahlin,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T09:12:11Z
+hfahlin-task-1,hfahlin,hfahlin,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T09:07:23Z
+hfahlin-task-1,hfahlin,hfahlin,1,Filled in docs document ,CLOSED,2025-09-04T07:29:12Z
+pfu-task-1,pfu,pfu,2,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-04T20:56:41Z
+pfu-task-1,pfu,pfu,1,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-04T20:53:12Z
+josjer-task-1,josjer,josjer,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T14:46:07Z
+josjer-task-1,josjer,josjer,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T14:45:55Z
+josjer-task-1,josjer,josjer,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T14:45:28Z
+josjer-task-1,josjer,josjer,2,* program stillin wrong directory,CLOSED,2025-09-04T12:46:41Z
+josjer-task-1,josjer,josjer,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T15:32:18Z
+neojc-task-1,neojc,neojc,1,Task 1: My first issue,CLOSED,2025-09-04T08:21:33Z
+antonlen-task-1,antonlen,antonlen,7,The average function is not correct,CLOSED,2025-09-02T12:59:06Z
+antonlen-task-1,antonlen,antonlen,6,Exercise 1.5 -- Average,CLOSED,2025-09-02T12:17:46Z
+antonlen-task-1,antonlen,antonlen,5,Exercise 1.4 -- Difference,CLOSED,2025-09-02T12:16:57Z
+antonlen-task-1,antonlen,antonlen,4,Exercise 1.3 -- Sum,CLOSED,2025-09-02T12:15:15Z
+antonlen-task-1,antonlen,antonlen,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T12:15:03Z
+antonlen-task-1,antonlen,antonlen,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T12:08:00Z
+antonlen-task-1,antonlen,antonlen,1,Answer questions in README.md,CLOSED,2025-09-02T12:00:05Z
+hstorm-task-1,hstorm,hstorm,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T09:15:45Z
+hstorm-task-1,hstorm,hstorm,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T08:47:10Z
+hstorm-task-1,hstorm,hstorm,3,Exercise 1.3 -- Sum,CLOSED,2025-09-04T08:46:16Z
+hstorm-task-1,hstorm,hstorm,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T11:24:19Z
+hstorm-task-1,hstorm,hstorm,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T08:19:28Z
+timfor-task-1,timfor,timfor,7,Add main to Arithmetic ,CLOSED,2025-09-04T11:45:27Z
+timfor-task-1,timfor,timfor,6,Update README,CLOSED,2025-09-03T20:16:31Z
+timfor-task-1,timfor,timfor,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T20:11:34Z
+timfor-task-1,timfor,timfor,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T20:09:39Z
+timfor-task-1,timfor,timfor,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T20:08:07Z
+timfor-task-1,timfor,timfor,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T20:04:14Z
+timfor-task-1,timfor,timfor,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T19:59:45Z
+saksberg-task-1,saksberg,saksberg,6,#6 Check all tasks are done,CLOSED,2025-09-04T10:33:24Z
+saksberg-task-1,saksberg,saksberg,5,#5 Exercise 1.5 -- Average,CLOSED,2025-09-04T10:08:02Z
+saksberg-task-1,saksberg,saksberg,4,#4 Exercise 1.4 -- Difference,CLOSED,2025-09-04T09:55:18Z
+saksberg-task-1,saksberg,saksberg,3,#3 Exercise 1.3 -- Sum,CLOSED,2025-09-04T09:49:28Z
+saksberg-task-1,saksberg,saksberg,2,#2 Exercise 1.2 -- Arithmetic.java,CLOSED,2025-09-03T09:54:47Z
+saksberg-task-1,saksberg,saksberg,1,"#1 Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:36:11Z
+louisete-task-1,louisete,louisete,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T15:14:21Z
+louisete-task-1,louisete,louisete,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T15:14:13Z
+louisete-task-1,louisete,louisete,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T15:14:02Z
+louisete-task-1,louisete,louisete,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T15:13:49Z
+louisete-task-1,louisete,louisete,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T15:13:23Z
+ludw-task-1,ludw,ludw,4,computer is bad,OPEN,2025-09-04T12:54:03Z
+ludw-task-1,ludw,ludw,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T12:15:46Z
+ludw-task-1,ludw,ludw,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T12:15:27Z
+ludw-task-1,ludw,ludw,1,My ssh doesn't work,CLOSED,2025-09-02T10:59:32Z
+francesh-task-1,francesh,francesh,1,Task 1: My first issue,OPEN,2025-09-03T18:12:51Z
+leock-task-1,leock,leock,1,Task 1: My first issue,CLOSED,2025-09-02T20:06:08Z
+thlk-task-1,thlk,thlk,7,"""Task 1: My first issue"".",CLOSED,2025-09-05T07:21:33Z
+thlk-task-1,thlk,thlk,6,Exercise 1.5 -- Average,CLOSED,2025-09-02T07:59:08Z
+thlk-task-1,thlk,thlk,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T07:52:51Z
+thlk-task-1,thlk,thlk,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T07:51:26Z
+thlk-task-1,thlk,thlk,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T07:34:20Z
+thlk-task-1,thlk,thlk,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T07:27:10Z
+thlk-task-1,thlk,thlk,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T07:18:45Z
+milokr-task-1,milokr,milokr,6,Exercise 1.5 -- Average,OPEN,2025-09-02T07:45:12Z
+milokr-task-1,milokr,milokr,5,Exercise 1.4 -- Difference,OPEN,2025-09-02T07:45:03Z
+milokr-task-1,milokr,milokr,4,Exercise 1.3 -- Sum,OPEN,2025-09-02T07:35:20Z
+milokr-task-1,milokr,milokr,3,Exercise 1.2 -- Arithmetic.java!,OPEN,2025-09-02T07:35:15Z
+milokr-task-1,milokr,milokr,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T07:14:19Z
+milokr-task-1,milokr,milokr,1,Task 1: My first issue,OPEN,2025-09-02T07:14:14Z
+sixteno-task-1,sixteno,sixteno,4,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:53:23Z
+sixteno-task-1,sixteno,sixteno,3,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:51:55Z
+sixteno-task-1,sixteno,sixteno,2,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:49:48Z
+sixteno-task-1,sixteno,sixteno,1,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T14:45:41Z
+rasnord-task-1,rasnord,rasnord,1,Plan,CLOSED,2025-09-03T18:14:56Z
+awahren-task-1,awahren,awahren,7,Exercise 1.5 -- Average,CLOSED,2025-09-04T21:54:03Z
+awahren-task-1,awahren,awahren,6,Exercise 1.4 -- Difference,CLOSED,2025-09-04T21:34:46Z
+awahren-task-1,awahren,awahren,5,Exercise 1.3 -- Sum,CLOSED,2025-09-04T21:31:32Z
+awahren-task-1,awahren,awahren,4,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T19:49:41Z
+awahren-task-1,awahren,awahren,3,Exercise 1.1 HELLOWORLD,CLOSED,2025-09-03T21:05:56Z
+awahren-task-1,awahren,awahren,2,HE HE HE ,CLOSED,2025-09-03T21:04:50Z
+awahren-task-1,awahren,awahren,1,Warmup 1,CLOSED,2025-09-03T15:07:33Z
+morrish-task-1,morrish,morrish,1,"Exercise 1.1 -- Hello, World!",OPEN,2025-09-03T20:54:40Z
+dalindk-task-1,dalindk,dalindk,7,Add tests to Arithmetic.java,CLOSED,2025-09-03T08:49:54Z
+dalindk-task-1,dalindk,dalindk,6,Fix sum-method,CLOSED,2025-09-03T08:43:54Z
+dalindk-task-1,dalindk,dalindk,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T08:21:25Z
+dalindk-task-1,dalindk,dalindk,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T08:20:41Z
+dalindk-task-1,dalindk,dalindk,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T08:19:57Z
+dalindk-task-1,dalindk,dalindk,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-01T16:34:45Z
+dalindk-task-1,dalindk,dalindk,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-01T16:33:27Z
+nazaninf-task-1,nazaninf,nazaninf,2,Plan for Module 1 exercises,CLOSED,2025-09-04T08:36:02Z
+nazaninf-task-1,nazaninf,nazaninf,1,Task 1: My first issue,CLOSED,2025-09-04T07:10:06Z
+elliotan-task-1,elliotan,elliotan,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T08:44:55Z
+elliotan-task-1,elliotan,elliotan,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T08:44:49Z
+elliotan-task-1,elliotan,elliotan,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T08:44:43Z
+elliotan-task-1,elliotan,elliotan,2,"Add Addition (Sum), Subtraction (Difference) and Average",CLOSED,2025-09-02T07:08:50Z
+elliotan-task-1,elliotan,elliotan,1,Create HelloWorld.java and Arithmetic.java,CLOSED,2025-09-02T07:06:07Z
+maltelu-task-1,maltelu,maltelu,7,Exercise 1.5 -- Average,CLOSED,2025-09-02T14:27:46Z
+maltelu-task-1,maltelu,maltelu,6,Exercise 1.4 -- Difference,CLOSED,2025-09-02T14:27:34Z
+maltelu-task-1,maltelu,maltelu,5,Exercise 1.3 -- Sum,CLOSED,2025-09-02T14:27:25Z
+maltelu-task-1,maltelu,maltelu,4,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T14:27:12Z
+maltelu-task-1,maltelu,maltelu,3,Hello World program,CLOSED,2025-09-02T14:26:15Z
+maltelu-task-1,maltelu,maltelu,2,Answer the questions,CLOSED,2025-09-02T14:21:40Z
+maltelu-task-1,maltelu,maltelu,1,OLI material,CLOSED,2025-09-02T11:15:01Z
+alviny-task-1,alviny,alviny,7,Exercise 1.5 -- Average is incomplete,CLOSED,2025-09-02T14:03:22Z
+alviny-task-1,alviny,alviny,6,Exercise 1.4 -- Difference is incomplete,CLOSED,2025-09-02T14:03:09Z
+alviny-task-1,alviny,alviny,5,Exercise 1.3 -- Sum is incomplete,CLOSED,2025-09-02T14:02:55Z
+alviny-task-1,alviny,alviny,4,Exercise 1.2 -- Arithmetic.java! is incomplete,CLOSED,2025-09-02T14:02:41Z
+alviny-task-1,alviny,alviny,3,"Exercise 1.1 -- Hello, World! is incomplete",CLOSED,2025-09-02T13:54:21Z
+alviny-task-1,alviny,alviny,2,Warmup 2 is incomplete,CLOSED,2025-09-02T13:05:42Z
+alviny-task-1,alviny,alviny,1,Warmup 1 is incomplete,CLOSED,2025-09-02T13:05:29Z
+vgaroff-task-1,vgaroff,vgaroff,2,"make a method for sum, difference and average",OPEN,2025-09-02T18:43:19Z
+vgaroff-task-1,vgaroff,vgaroff,1,Planning something i think,OPEN,2025-09-02T17:50:51Z
+javids-task-1,javids,javids,11,Exercise #1.5,CLOSED,2025-09-04T12:09:05Z
+javids-task-1,javids,javids,10,Exercise #1.4,CLOSED,2025-09-04T12:08:53Z
+javids-task-1,javids,javids,9,Exercise #1.3,CLOSED,2025-09-04T12:08:44Z
+javids-task-1,javids,javids,8,Exercise #1.2,CLOSED,2025-09-04T12:08:34Z
+javids-task-1,javids,javids,7,Exercise #1.1,CLOSED,2025-09-04T12:08:00Z
+javids-task-1,javids,javids,6,Exersice #1,CLOSED,2025-09-04T12:07:36Z
+javids-task-1,javids,javids,5,completed exercises,CLOSED,2025-09-04T08:13:09Z
+javids-task-1,javids,javids,4,Exercise 1.5 -- Average,CLOSED,2025-09-04T07:45:48Z
+javids-task-1,javids,javids,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T07:41:28Z
+javids-task-1,javids,javids,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T07:38:19Z
+javids-task-1,javids,javids,1,README.md,CLOSED,2025-09-04T07:31:41Z
+folkesc-task-1,folkesc,folkesc,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T06:22:29Z
+folkesc-task-1,folkesc,folkesc,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T06:21:58Z
+folkesc-task-1,folkesc,folkesc,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T06:20:34Z
+folkesc-task-1,folkesc,folkesc,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T06:17:48Z
+folkesc-task-1,folkesc,folkesc,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T06:16:12Z
+otish-task-1,otish,otish,6,About how to check the assignment ,CLOSED,2025-09-04T04:24:59Z
+otish-task-1,otish,otish,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T02:42:44Z
+otish-task-1,otish,otish,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T02:33:22Z
+otish-task-1,otish,otish,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T19:32:17Z
+otish-task-1,otish,otish,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T19:12:51Z
+otish-task-1,otish,otish,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T18:49:00Z
+julch-task-1,julch,julch,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T16:54:33Z
+julch-task-1,julch,julch,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T16:51:42Z
+julch-task-1,julch,julch,3,Exercise 1.3 -- Sum,CLOSED,2025-09-04T16:49:02Z
+julch-task-1,julch,julch,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T14:59:23Z
+julch-task-1,julch,julch,1,Exercise 1.1,CLOSED,2025-09-04T14:55:58Z
+gullblom-task-1,gullblom,gullblom,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T14:08:48Z
+gullblom-task-1,gullblom,gullblom,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T14:08:32Z
+gullblom-task-1,gullblom,gullblom,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T14:08:18Z
+gullblom-task-1,gullblom,gullblom,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T14:07:46Z
+gullblom-task-1,gullblom,gullblom,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T13:59:35Z
+matfz-task-1,matfz,matfz,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T15:33:36Z
+matfz-task-1,matfz,matfz,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T15:33:26Z
+matfz-task-1,matfz,matfz,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T15:33:12Z
+matfz-task-1,matfz,matfz,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T15:32:49Z
+matfz-task-1,matfz,matfz,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T15:31:54Z
+meria-task-1,meria,meria,3,Finish this weeks assignment,CLOSED,2025-09-02T07:53:58Z
+meria-task-1,meria,meria,2,Hello world,CLOSED,2025-09-02T07:53:38Z
+meria-task-1,meria,meria,1,Finish prep,CLOSED,2025-09-02T07:51:58Z
+arvwes-task-1,arvwes,arvwes,6,Missing .class files,OPEN,2025-09-04T13:21:56Z
+arvwes-task-1,arvwes,arvwes,5,Exercise 1.4 -- Difference,CLOSED,2025-09-02T15:09:16Z
+arvwes-task-1,arvwes,arvwes,4,Exercise 1.5 -- Average,CLOSED,2025-09-02T15:05:34Z
+arvwes-task-1,arvwes,arvwes,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T15:03:33Z
+arvwes-task-1,arvwes,arvwes,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T14:55:04Z
+arvwes-task-1,arvwes,arvwes,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T14:45:38Z
+rsoderh-task-1,rsoderh,rsoderh,6,Exercise 1.5 -- Average,CLOSED,2025-09-02T07:59:46Z
+rsoderh-task-1,rsoderh,rsoderh,5,Exercise 1.4 -- Difference,CLOSED,2025-09-02T07:58:25Z
+rsoderh-task-1,rsoderh,rsoderh,4,Exercise 1.3 -- Sum,CLOSED,2025-09-02T07:56:31Z
+rsoderh-task-1,rsoderh,rsoderh,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T07:54:25Z
+rsoderh-task-1,rsoderh,rsoderh,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T07:53:21Z
+rsoderh-task-1,rsoderh,rsoderh,1,Complete Task 1,CLOSED,2025-09-02T07:01:45Z
+wlt-task-1,wlt,wlt,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:30:05Z
+wlt-task-1,wlt,wlt,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:13:52Z
+wlt-task-1,wlt,wlt,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T13:46:27Z
+wlt-task-1,wlt,wlt,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T13:34:36Z
+wlt-task-1,wlt,wlt,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T13:20:31Z
+msjolin-task-1,msjolin,msjolin,5,exerises 1.3,CLOSED,2025-09-03T08:29:08Z
+msjolin-task-1,msjolin,msjolin,4,exersies 1.2,CLOSED,2025-09-03T08:29:00Z
+msjolin-task-1,msjolin,msjolin,3,exercises 1.1 ,CLOSED,2025-09-03T08:28:04Z
+msjolin-task-1,msjolin,msjolin,2,warm up 2,CLOSED,2025-09-03T08:27:43Z
+msjolin-task-1,msjolin,msjolin,1,warm up 1 ,CLOSED,2025-09-03T08:27:25Z
+ctorgrip-task-1,ctorgrip,ctorgrip,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:30:06Z
+ctorgrip-task-1,ctorgrip,ctorgrip,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T14:26:21Z
+ctorgrip-task-1,ctorgrip,ctorgrip,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T14:15:50Z
+ctorgrip-task-1,ctorgrip,ctorgrip,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T14:14:32Z
+ctorgrip-task-1,ctorgrip,ctorgrip,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T14:09:47Z
+ctorgrip-task-1,ctorgrip,ctorgrip,1,Exercises 0.x -- My first issue and more!,CLOSED,2025-09-03T14:07:56Z
+ohogfors-task-1,ohogfors,ohogfors,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T15:40:54Z
+ohogfors-task-1,ohogfors,ohogfors,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T14:28:12Z
+lfax-task-1,lfax,lfax,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T10:14:12Z
+lfax-task-1,lfax,lfax,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T09:59:44Z
+lfax-task-1,lfax,lfax,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T09:49:13Z
+lfax-task-1,lfax,lfax,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:47:36Z
+lfax-task-1,lfax,lfax,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:44:10Z
+robinfm-task-1,robinfm,robinfm,5,Exercise 1.5 -- Average,CLOSED,2025-09-01T20:50:18Z
+robinfm-task-1,robinfm,robinfm,4,Exercise 1.4 -- Difference,CLOSED,2025-09-01T20:49:27Z
+robinfm-task-1,robinfm,robinfm,3,Exercise 1.3 -- Sum,CLOSED,2025-09-01T20:48:45Z
+robinfm-task-1,robinfm,robinfm,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-01T20:48:08Z
+robinfm-task-1,robinfm,robinfm,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-01T20:37:46Z
+leonms-task-1,leonms,leonms,6,Answer the README in docs,CLOSED,2025-09-03T13:40:53Z
+leonms-task-1,leonms,leonms,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T11:31:16Z
+leonms-task-1,leonms,leonms,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T11:19:51Z
+leonms-task-1,leonms,leonms,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T09:13:15Z
+leonms-task-1,leonms,leonms,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:02:05Z
+leonms-task-1,leonms,leonms,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T08:12:53Z
+maltehag-task-1,maltehag,maltehag,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T20:34:26Z
+maltehag-task-1,maltehag,maltehag,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T20:08:53Z
+maltehag-task-1,maltehag,maltehag,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T19:25:58Z
+maltehag-task-1,maltehag,maltehag,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T19:09:58Z
+maltehag-task-1,maltehag,maltehag,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T19:08:49Z
+vibb-task-1,vibb,vibb,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T08:24:36Z
+vibb-task-1,vibb,vibb,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T08:19:20Z
+vibb-task-1,vibb,vibb,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T08:14:30Z
+vibb-task-1,vibb,vibb,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T08:10:44Z
+vibb-task-1,vibb,vibb,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T06:05:58Z
+lohag-task-1,lohag,lohag,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T09:58:24Z
+lohag-task-1,lohag,lohag,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T09:54:14Z
+lohag-task-1,lohag,lohag,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T09:11:17Z
+lohag-task-1,lohag,lohag,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:05:29Z
+lohag-task-1,lohag,lohag,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:01:53Z
+yea-task-1,yea,yea,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T14:02:37Z
+yea-task-1,yea,yea,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T13:11:05Z
+yea-task-1,yea,yea,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T13:09:26Z
+yea-task-1,yea,yea,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T13:08:43Z
+yea-task-1,yea,yea,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T11:40:32Z
+yea-task-1,yea,yea,1,Task 1: My first issue,CLOSED,2025-09-03T11:34:47Z
+agentzel-task-1,agentzel,agentzel,6,Comment code,CLOSED,2025-09-02T11:23:47Z
+agentzel-task-1,agentzel,agentzel,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T09:52:12Z
+agentzel-task-1,agentzel,agentzel,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T09:48:02Z
+agentzel-task-1,agentzel,agentzel,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T09:33:02Z
+agentzel-task-1,agentzel,agentzel,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T09:30:51Z
+agentzel-task-1,agentzel,agentzel,1,Task 1: Complete ,CLOSED,2025-09-02T09:28:33Z
+abhsax-task-1,abhsax,abhsax,7,Exercise 1.5 -- Average,CLOSED,2025-09-04T14:51:44Z
+abhsax-task-1,abhsax,abhsax,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T08:33:03Z
+abhsax-task-1,abhsax,abhsax,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T08:28:24Z
+abhsax-task-1,abhsax,abhsax,4,Exercise 1.3 -- Sum,CLOSED,2025-09-02T19:05:06Z
+abhsax-task-1,abhsax,abhsax,3,Exercise 1.2 -- Arthimetic.java!,CLOSED,2025-09-02T18:57:48Z
+abhsax-task-1,abhsax,abhsax,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T18:50:25Z
+alstahle-task-1,alstahle,alstahle,6,Exercise 1.5 -- Average,CLOSED,2025-09-04T08:46:59Z
+alstahle-task-1,alstahle,alstahle,5,Exercise 1.4 -- Difference,CLOSED,2025-09-04T08:36:04Z
+alstahle-task-1,alstahle,alstahle,4,Exercise 1.3 -- Sum,CLOSED,2025-09-04T08:30:53Z
+alstahle-task-1,alstahle,alstahle,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T18:42:18Z
+alstahle-task-1,alstahle,alstahle,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T18:28:49Z
+alstahle-task-1,alstahle,alstahle,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T08:13:00Z
+fabianto-task-1,fabianto,fabianto,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T14:52:33Z
+fabianto-task-1,fabianto,fabianto,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T14:46:02Z
+fabianto-task-1,fabianto,fabianto,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T13:48:07Z
+fabianto-task-1,fabianto,fabianto,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T08:45:57Z
+fabianto-task-1,fabianto,fabianto,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T08:41:05Z
+stjpoli-task-1,stjpoli,stjpoli,1,Task 1: My first isssue,OPEN,2025-09-03T09:06:15Z
+leben-task-1,leben,leben,5,Exercises 1.2-1.5,CLOSED,2025-09-02T09:59:30Z
+leben-task-1,leben,leben,4,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T09:55:18Z
+leben-task-1,leben,leben,3,Task 1: My first issue,CLOSED,2025-09-02T09:45:59Z
+leben-task-1,leben,leben,2,"Complete Warmup 2 -- 🎵 Help, I need somebody 🎶",CLOSED,2025-09-02T09:44:36Z
+leben-task-1,leben,leben,1,Complete Warmup 1 -- Code of Conduct,CLOSED,2025-09-02T09:42:52Z
+lucjan-task-1,lucjan,lucjan,5,Exercise 1.5 -- Average,CLOSED,2025-09-03T09:26:19Z
+lucjan-task-1,lucjan,lucjan,4,Exercise 1.4 -- Difference,CLOSED,2025-09-03T09:24:43Z
+lucjan-task-1,lucjan,lucjan,3,Exercise 1.3 -- Sum,CLOSED,2025-09-03T09:18:00Z
+lucjan-task-1,lucjan,lucjan,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:13:48Z
+lucjan-task-1,lucjan,lucjan,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:05:34Z
+fesj-task-1,fesj,fesj,4,Exercise 1.5 -- Average,CLOSED,2025-09-03T09:42:23Z
+fesj-task-1,fesj,fesj,3,Exercise 1.4 -- Difference,CLOSED,2025-09-03T09:31:43Z
+fesj-task-1,fesj,fesj,2,Exercise 1.3 -- Sum,CLOSED,2025-09-03T09:19:25Z
+fesj-task-1,fesj,fesj,1,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:15:11Z
+karlham-task-1,karlham,karlham,7,metod namn = uppgift namn,CLOSED,2025-09-02T13:40:02Z
+karlham-task-1,karlham,karlham,6,Warmup Qs,CLOSED,2025-09-02T13:39:32Z
+karlham-task-1,karlham,karlham,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T07:45:34Z
+karlham-task-1,karlham,karlham,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T07:45:23Z
+karlham-task-1,karlham,karlham,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T07:45:06Z
+karlham-task-1,karlham,karlham,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T07:44:42Z
+karlham-task-1,karlham,karlham,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T07:40:50Z
+somya-task-1,somya,somya,5,Exercise 1.5 -- Average,CLOSED,2025-09-04T09:58:35Z
+somya-task-1,somya,somya,4,Exercise 1.4 -- Difference,CLOSED,2025-09-04T09:53:43Z
+somya-task-1,somya,somya,3,Exercise 1.3 -- Sum,CLOSED,2025-09-04T08:43:15Z
+somya-task-1,somya,somya,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-04T08:09:47Z
+somya-task-1,somya,somya,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-04T06:28:20Z
+arvidbj-task-1,arvidbj,arvidbj,6,Excercise 1.5,CLOSED,2025-09-03T10:03:37Z
+arvidbj-task-1,arvidbj,arvidbj,5,Excercise 1.4,CLOSED,2025-09-03T09:59:29Z
+arvidbj-task-1,arvidbj,arvidbj,4,Excercise 1.3,CLOSED,2025-09-03T09:53:25Z
+arvidbj-task-1,arvidbj,arvidbj,3,Excercise 1.2 -- Arithmetic,CLOSED,2025-09-03T09:45:54Z
+arvidbj-task-1,arvidbj,arvidbj,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:35:34Z
+arvidbj-task-1,arvidbj,arvidbj,1,Task 1: My first issue,OPEN,2025-09-03T09:30:07Z
+jackak-task-1,jackak,jackak,1,First issue,CLOSED,2025-09-04T19:12:14Z
+kante-task-1,kante,kante,2,Exercise 1.2 to 1.5 -- We need some arithmetics in here!,CLOSED,2025-09-04T07:29:49Z
+kante-task-1,kante,kante,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T16:20:36Z
+msorberg-task-1,msorberg,msorberg,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T13:55:09Z
+msorberg-task-1,msorberg,msorberg,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T13:51:24Z
+msorberg-task-1,msorberg,msorberg,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T10:03:37Z
+msorberg-task-1,msorberg,msorberg,3,Warmup 1 -- Code of Conduct,CLOSED,2025-09-03T09:57:31Z
+msorberg-task-1,msorberg,msorberg,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T09:24:21Z
+msorberg-task-1,msorberg,msorberg,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-03T09:22:14Z
+daeo-task-1,daeo,daeo,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T08:07:23Z
+daeo-task-1,daeo,daeo,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T08:00:52Z
+daeo-task-1,daeo,daeo,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T07:54:35Z
+daeo-task-1,daeo,daeo,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T07:53:45Z
+daeo-task-1,daeo,daeo,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T07:36:14Z
+adrianjw-task-1,adrianjw,adrianjw,6,Exercise 1.5 -- Average,CLOSED,2025-09-03T10:53:20Z
+adrianjw-task-1,adrianjw,adrianjw,5,Exercise 1.4 -- Difference,CLOSED,2025-09-03T10:53:11Z
+adrianjw-task-1,adrianjw,adrianjw,4,Exercise 1.3 -- Sum,CLOSED,2025-09-03T10:53:00Z
+adrianjw-task-1,adrianjw,adrianjw,3,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-03T10:50:47Z
+adrianjw-task-1,adrianjw,adrianjw,2,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-01T16:45:09Z
+adrianjw-task-1,adrianjw,adrianjw,1,Task 0,CLOSED,2025-09-01T16:36:06Z
+sofiefu-task-1,sofiefu,sofiefu,5,Exercise 1.5 -- Average,CLOSED,2025-09-02T15:23:51Z
+sofiefu-task-1,sofiefu,sofiefu,4,Exercise 1.4 -- Difference,CLOSED,2025-09-02T15:22:33Z
+sofiefu-task-1,sofiefu,sofiefu,3,Exercise 1.3 -- Sum,CLOSED,2025-09-02T15:17:49Z
+sofiefu-task-1,sofiefu,sofiefu,2,Exercise 1.2 -- Arithmetic.java!,CLOSED,2025-09-02T15:12:49Z
+sofiefu-task-1,sofiefu,sofiefu,1,"Exercise 1.1 -- Hello, World!",CLOSED,2025-09-02T09:50:51Z

@@ -5,7 +5,10 @@ import subprocess
 import csv
 import argparse
 import re
+import sys
 from pathlib import Path
+
+from context import teachers
 
 def find_task_repos(repos_dir, task_pattern):
     """Find all task directories that are git repositories"""
@@ -21,8 +24,15 @@ def find_task_repos(repos_dir, task_pattern):
     return task_repos
 
 def get_commit_data(repo_path, expected_author):
-    """Extract commit data from a git repository, filtering by expected author"""
+    """Extract commit data from a git repository, filtering out teacher commits"""
     commits = []
+    
+    # Extract repository name from path for identification
+    repo_name = Path(repo_path).name
+    
+    # Use the repository owner (expected_author) as canonical student identity
+    # instead of git commit author to handle cases where students use different git identities
+    canonical_student = expected_author
     
     # Change to repository directory
     os.chdir(repo_path)
@@ -59,12 +69,15 @@ def get_commit_data(repo_path, expected_author):
                         pass
                 i += 1
             
-            # Only include commits from the expected author (case-insensitive partial match)
-            if expected_author.lower() in author.lower():
+            # Only include commits that are NOT from teachers (filter out teacher commits)
+            is_teacher_commit = any(teacher.lower() in author.lower() for teacher in teachers)
+            if not is_teacher_commit:
                 total = insertions + deletions
                 commits.append({
+                    'repository': repo_name,
                     'commit': commit_hash,
-                    'author': author,
+                    'git_author': author,  # Keep original git author for reference
+                    'author': canonical_student,  # Use repository owner as canonical student identity
                     'datetime': datetime,
                     'subject': subject,
                     'insertions': insertions,
@@ -110,7 +123,7 @@ def main():
     
     # Write to CSV
     with open(output_file, 'w', newline='') as csvfile:
-        fieldnames = ['commit', 'author', 'datetime', 'subject', 'insertions', 'deletions', 'total']
+        fieldnames = ['repository', 'commit', 'git_author', 'author', 'datetime', 'subject', 'insertions', 'deletions', 'total']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         
         writer.writeheader()

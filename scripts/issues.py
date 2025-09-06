@@ -5,7 +5,10 @@ import subprocess
 import csv
 import json
 import argparse
+import sys
 from pathlib import Path
+
+from context import teachers
 
 def find_task_repos(repos_dir, task_pattern):
     """Find all task directories that are git repositories"""
@@ -56,22 +59,32 @@ def get_issues_data(repo_path, expected_author, task_pattern, base_url, namespac
     try:
         # Setup remote if needed
         setup_git_remote(repo_path, expected_author, task_pattern, base_url, namespace)
-        # Run gh issue list command
-        cmd = ['gh', 'issue', 'list', '--state', 'all', '--json', 'number,title,state,createdAt']
+        # Run gh issue list command  
+        cmd = ['gh', 'issue', 'list', '--state', 'all', '--json', 'number,title,state,createdAt,author']
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         
         if result.stdout.strip():
             issues_data = json.loads(result.stdout)
             
             for issue in issues_data:
-                issues.append({
-                    'repository': os.path.basename(repo_path),
-                    'author': expected_author,
-                    'number': issue['number'],
-                    'title': issue['title'],
-                    'state': issue['state'],
-                    'createdAt': issue['createdAt']
-                })
+                # Filter out teacher repositories
+                is_teacher_repo = any(teacher.lower() in expected_author.lower() for teacher in teachers)
+                if not is_teacher_repo:
+                    # Get actual issue creator
+                    actual_author = issue.get('author', {}).get('login', 'unknown') if issue.get('author') else 'unknown'
+                    
+                    # Filter out issues created by teachers
+                    is_teacher_issue = any(teacher.lower() in actual_author.lower() for teacher in teachers)
+                    if not is_teacher_issue:
+                        issues.append({
+                            'repository': os.path.basename(repo_path),
+                            'issue_creator': actual_author,  # Who actually created the issue
+                            'author': expected_author,  # Repository owner (canonical student identity)
+                            'number': issue['number'],
+                            'title': issue['title'],
+                            'state': issue['state'],
+                            'createdAt': issue['createdAt']
+                        })
     
     except subprocess.CalledProcessError as e:
         if "no git remotes found" in e.stderr:
@@ -122,7 +135,7 @@ def main():
     # Write to CSV
     if all_issues:
         with open(output_file, 'w', newline='') as csvfile:
-            fieldnames = ['repository', 'author', 'number', 'title', 'state', 'createdAt']
+            fieldnames = ['repository', 'issue_creator', 'author', 'number', 'title', 'state', 'createdAt']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             
             writer.writeheader()
@@ -135,7 +148,7 @@ def main():
         print("No issues found in any repository")
         # Still create empty CSV with headers
         with open(output_file, 'w', newline='') as csvfile:
-            fieldnames = ['repository', 'author', 'number', 'title', 'state', 'createdAt']
+            fieldnames = ['repository', 'issue_creator', 'author', 'number', 'title', 'state', 'createdAt']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
 
