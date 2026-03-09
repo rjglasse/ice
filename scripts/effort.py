@@ -9,8 +9,9 @@ from collections import defaultdict
 
 def count_issue_references(commit_subject):
     """Count issue references in commit message, separating closing vs general references"""
-    # Pattern for closing references (fixes, closes, resolves, etc.)
-    closing_pattern = r'(?:fixes?|fixed|closes?|resolves?|completes?)\s*#(\d+)'
+    # Pattern for closing references using all official GitHub closing keywords
+    # Official keywords: close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved
+    closing_pattern = r'(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\s*#(\d+)'
     closing_matches = re.findall(closing_pattern, commit_subject, re.IGNORECASE)
     
     # Pattern for all issue references (#number)

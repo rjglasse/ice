@@ -48,9 +48,7 @@ def classify_workflow_performance(author_data, expected_exercises):
     """Classify student workflow performance into categories"""
     commits = author_data['commits']
     issues = author_data['issues']
-    open_issues = author_data['open_issues']
     closed_issues = author_data['closed_issues']
-    # references = author_data['references']
     closing_references = author_data['closing_references']
     
     # Calculate workflow scores
@@ -61,20 +59,20 @@ def classify_workflow_performance(author_data, expected_exercises):
     overall_score = issue_score * 0.45 + commit_score * 0.25 + closing_score * 0.3
 
     # Underplanning penalty
-    if issues < expected_exercises:
-        overall_score *= 0.5  # Penalize underplanning
+    if issues < (expected_exercises / 2):
+        overall_score *= 0.5
 
     # Classify based on overall workflow mastery
     if overall_score >= 0.95:
-        return "🌟 Workflow Master"  # Excellent across all dimensions
+        return "🌟 Workflow Master"
     elif overall_score >= 0.75:
-        return "🚀 Strong Practitioner"  # Good overall workflow
+        return "🚀 Strong Practitioner"
     elif overall_score >= 0.50:
-        return "📈 Developing Process"  # Basic workflow, needs improvement
+        return "📈 Developing Process"
     elif overall_score >= 0.25:
-        return "🌱 Learning Workflow"  # Starting to understand process
+        return "🌱 Learning Workflow"
     else:
-        return "🎯 Getting Started"  # Beginning their journey
+        return "🎯 Getting Started"
 
 def generate_nudge_message(author_data, task_name, expected_exercises):
     """Generate workflow-focused nudge message"""
@@ -133,7 +131,7 @@ def generate_nudge_message(author_data, task_name, expected_exercises):
     
     # 5. Professional Workflow (Closing references)
     if closing_references == 0 and closed_issues > 0:
-        nudges.append(f"⚡ **Automation**: Use closing keywords like 'Fixes #1' to automate workflow ({closing_references}/{closed_issues} issues properly closed)")
+        nudges.append(f"⚡ **Automation**: Use closing keywords like 'Fixes # 1' to automate workflow ({closing_references}/{closed_issues} issues properly closed)")
     elif closing_references > 0 and closed_issues > 0:
         closing_percentage = int((closing_references / closed_issues) * 100)
         if closing_percentage >= 80:
