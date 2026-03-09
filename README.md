@@ -1,6 +1,6 @@
 # ICE
 
-ICE analyzes student workflow data for programming assignments and turns it into feedback. This repository tracks the analysis scripts and configuration only; local `repos/` and `data/` directories are working data and are ignored by Git.
+Issues, Commits, Effort (ICE) analyses student Git/Github behaviour and generates nudges as actionable feedback. Student-facing guidance lives in [ice-guide.md](/Users/ric/dev/ice/ice-guide.md).
 
 ## What ICE measures
 
@@ -19,6 +19,13 @@ ICE evaluates workflow across five dimensions:
 - A local `repos/` directory containing student repositories
 
 The scripts assume repositories are arranged under `repos/` in a student-first layout such as `repos/alice/alice-task-1`.
+
+## Configuration
+
+Edit [scripts/context.py](/Users/ric/dev/ice/scripts/context.py) to set:
+- `course_start_date`
+- `teachers` used for filtering
+- `tasks` with deadlines and expected exercise counts
 
 ## Quick Start
 
@@ -44,13 +51,6 @@ python3 scripts/feedback.py task-1
 python3 scripts/feedback.py task-1 --student username
 ```
 
-## Configuration
-
-Edit [scripts/context.py](/Users/ric/dev/ice/scripts/context.py) to set:
-- `course_start_date`
-- `teachers` used for filtering
-- `tasks` with deadlines and expected exercise counts
-
 ## Outputs
 
 Generated files are written to `data/<task>/`:
@@ -58,18 +58,3 @@ Generated files are written to `data/<task>/`:
 - `issues.csv`: issue metadata collected through `gh`
 - `effort.csv`: per-student workflow metrics
 - `nudges.csv`: per-student feedback ready for issue creation
-
-`data/` is intentionally ignored by Git.
-
-## Tracked Files
-
-The tracked scripts in this repo are:
-- `scripts/commits.py`
-- `scripts/context.py`
-- `scripts/effort.py`
-- `scripts/feedback.py`
-- `scripts/issues.py`
-- `scripts/nudges.py`
-
-Student-facing guidance lives in [ice-guide.md](/Users/ric/dev/ice/ice-guide.md).
-The generated nudges should reference that guide.
