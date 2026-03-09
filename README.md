@@ -1,83 +1,75 @@
-# ICE - Issue, Commit, Effort Analysis
+# ICE
 
-A comprehensive workflow analysis system for programming education that helps students develop professional software development practices through automated feedback.
+ICE analyzes student workflow data for programming assignments and turns it into feedback. This repository tracks the analysis scripts and configuration only; local `repos/` and `data/` directories are working data and are ignored by Git.
 
-## Overview
+## What ICE measures
 
-ICE analyzes student coding workflows across five key dimensions:
-- **📝 Planning**: Issue creation and task breakdown
-- **💻 Coding**: Commit frequency and development activity  
-- **✅ Completion**: Issue closure and task completion
-- **🔗 Traceability**: Linking commits to issues
-- **⚡ Automation**: Using closing keywords for workflow automation
+ICE evaluates workflow across five dimensions:
+- Planning through issue creation
+- Coding activity through commits
+- Completion through issue state
+- Traceability through issue references in commit messages
+- Automation through closing keywords such as `Fixes #12`
+
+## Prerequisites
+
+- Python 3
+- `git`
+- GitHub CLI (`gh`) for `scripts/issues.py` and `scripts/feedback.py`
+- A local `repos/` directory containing student repositories
+
+The scripts assume repositories are arranged under `repos/` in a student-first layout such as `repos/alice/alice-task-1`.
 
 ## Quick Start
 
-1. **Extract data** from student repositories:
-   ```bash
-   python3 scripts/commits.py task-1
-   python3 scripts/issues.py task-1
-   python3 scripts/effort.py task-1
-   ```
+1. Extract raw data for a task:
 
-2. **Generate comprehensive feedback**:
-   ```bash
-   python3 scripts/nudges.py task-1
-   ```
+```bash
+python3 scripts/commits.py task-1
+python3 scripts/issues.py task-1
+```
 
-3. **Create GitHub issues** with feedback:
-   ```bash
-   # Preview what will be created
-   python3 scripts/feedback.py task-1 --dry-run
-   
-   # Create issues for all students
-   python3 scripts/feedback.py task-1
-   
-   # Target specific student
-   python3 scripts/feedback.py task-1 --student username
-   ```
+2. Derive metrics and generate nudges:
 
-## Workflow Classification
+```bash
+python3 scripts/effort.py task-1
+python3 scripts/nudges.py task-1
+```
 
-Students are classified into five tiers based on their workflow performance:
+3. Preview or publish feedback issues:
 
-- **🌟 Workflow Master** (47%): Excellent across all workflow dimensions
-- **🚀 Strong Practitioner** (11%): Good overall workflow with minor improvements needed
-- **📈 Developing Process** (2%): Basic workflow established, consistency needed
-- **🌱 Learning Workflow** (14%): Understanding workflow basics, needs development
-- **🎯 Getting Started** (23%): Beginning their workflow journey
-
-## Student Guide
-
-Students receive personalized feedback and can learn more about improving their workflow at: 
-[ICE Workflow Guide](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)
+```bash
+python3 scripts/feedback.py task-1 --dry-run
+python3 scripts/feedback.py task-1
+python3 scripts/feedback.py task-1 --student username
+```
 
 ## Configuration
 
-Update `scripts/context.py` with:
-- Teacher names for filtering
-- Expected exercises per task
-- Task definitions and requirements
+Edit [scripts/context.py](/Users/ric/dev/ice/scripts/context.py) to set:
+- `course_start_date`
+- `teachers` used for filtering
+- `tasks` with deadlines and expected exercise counts
 
-## Output Files
+## Outputs
 
-Results are saved to `data/{task-name}/`:
-- `commits.csv` - Git commit data with teacher filtering
-- `issues.csv` - GitHub issue data with identity resolution  
-- `effort.csv` - Comprehensive workflow metrics
-- `nudges.csv` - Personalized feedback with peer context
+Generated files are written to `data/<task>/`:
+- `commits.csv`: filtered commit data
+- `issues.csv`: issue metadata collected through `gh`
+- `effort.csv`: per-student workflow metrics
+- `nudges.csv`: per-student feedback ready for issue creation
 
-## Repository Structure
+`data/` is intentionally ignored by Git.
 
-```
-ice/
-├── scripts/           # Analysis and feedback scripts
-│   ├── context.py    # Course configuration
-│   ├── commits.py    # Git commit extraction
-│   ├── issues.py     # GitHub issues analysis
-│   ├── effort.py     # Workflow metrics calculation
-│   ├── nudges.py     # Feedback generation
-│   └── feedback.py   # GitHub issue creation
-├── repos/            # Student repositories (empty after cleanup)
-├── data/             # Analysis results by task
-└── ICE-Guide.md      # Student workflow guide
+## Tracked Files
+
+The tracked scripts in this repo are:
+- `scripts/commits.py`
+- `scripts/context.py`
+- `scripts/effort.py`
+- `scripts/feedback.py`
+- `scripts/issues.py`
+- `scripts/nudges.py`
+
+Student-facing guidance lives in [ice-guide.md](/Users/ric/dev/ice/ice-guide.md).
+The generated nudges should reference that guide.

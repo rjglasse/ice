@@ -229,9 +229,10 @@ def main():
         base_nudge = generate_nudge_message(author_data, args.task, expected_exercises)
         distribution_summary = format_distribution_summary(classification_counts, classification)
         
-        # Combine nudge with distribution and add guide link (formatted as markdown)
-        guide_link = "\n\nLearn more about ICE analysis [here](https://gits-15.sys.kth.se/inda-25/course-instructions/blob/main/ice-guide.md)"
-        full_message = base_nudge + distribution_summary + guide_link
+        # Feedback issues are posted to student repositories, so keep the guide
+        # reference repo-agnostic instead of linking to this repo directly.
+        guide_note = "\n\nSee `ice-guide.md` in the ICE repository for the full workflow guide."
+        full_message = base_nudge + distribution_summary + guide_note
         
         nudges_data.append({
             'author': author,
