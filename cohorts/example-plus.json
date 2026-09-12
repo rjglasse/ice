@@ -1,0 +1,20 @@
+{
+  "year": 2026,
+  "org": "inda-26-plus",
+  "host": "gits-15.sys.kth.se",
+  "course_start": "2026-08-31",
+  "students_file": "students/2026-plus/students.txt",
+  "default_plan": false,
+  "nudge_model": "v2",
+  "notes": "Template for a separately managed group (plus track). Copy to cohorts/2026-plus.json and pass --cohort 2026-plus to every script. year: the course year, used by cross-year tables. default_plan false: the task READMEs carry no pre-filled issue links, so every issue is the student's own plan and the planning line is worded that way. exercises per task: the number of parts an issue could cover (1 for a single free-form assignment); the deadline is the cutoff at the end of the exercise day. discover.py fills deadline and exercises from the READMEs when it can; a value typed here wins.",
+  "tasks": {
+    "task-1": {
+      "deadline": "2026-09-05",
+      "exercises": 1
+    },
+    "task-2": {
+      "deadline": "2026-09-12",
+      "exercises": 1
+    }
+  }
+}

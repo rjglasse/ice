@@ -67,7 +67,7 @@ def run(task, cohort, repos_dir=None, quiet=False):
     repos_dir = Path(repos_dir) if repos_dir else cohort.repos_dir
     out_file = cohort.task_data_dir(task) / 'issues.csv'
     repos = find_task_repos(repos_dir, task)
-    print(f"[issues] {cohort.year}/{task}: {len(repos)} repositories under {repos_dir}")
+    print(f"[issues] {cohort.name}/{task}: {len(repos)} repositories under {repos_dir}")
     all_issues = []
     for repo_path, student in repos:
         found = get_issues_data(repo_path, student, cohort)

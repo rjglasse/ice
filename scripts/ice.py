@@ -69,7 +69,8 @@ def main():
     p.add_argument('--skip-issues', action='store_true', help='skip the gh issue extraction')
     p.add_argument('--post', action='store_true', help='post nudge issues to student repos (default: dry run)')
     p.add_argument('--group', help='usernames/emails file for the inactive-students group check')
-    p.add_argument('--baseline', type=int, default=2025)
+    p.add_argument('--baseline', default=None, help='baseline cohort for the comparison (default 2025 for a year cohort; '
+                                                     'a named cohort such as 2026-plus skips the comparison unless given)')
     p.add_argument('--baseline-task', help='baseline task to compare against if tasks moved')
     p.add_argument('--allow-baseline-rewrite', action='store_true')
     p.add_argument('-q', '--quiet', action='store_true', help='less per-student output')
@@ -77,18 +78,19 @@ def main():
     a = p.parse_args()
 
     cohort = context.load(a.cohort)
-    baseline = context.load(a.baseline)
+    baseline = context.load(a.baseline) if a.baseline else (context.load(2025) if cohort.is_year else None)
     task = a.task
     t0 = time.time()
 
-    banner(f"ICE {cohort.year}/{task}  (org {cohort.org}, baseline {baseline.year})")
+    banner(f"ICE {cohort.name}/{task}  (org {cohort.org}, baseline {baseline.name if baseline else 'none'}"
+           f"{'' if cohort.default_plan else ', no default plan'})")
     if cohort.year != context.current_year() and not a.allow_baseline_rewrite:
-        sys.exit(f"[ice] {cohort.year} is not the current cohort ({context.current_year()}). "
+        sys.exit(f"[ice] {cohort.name} is not in the current year ({context.current_year()}). "
                  f"Re-extracting would overwrite baseline data; pass --allow-baseline-rewrite if you really mean it.")
     if cohort.task(task) is None:
-        print(f"[ice] WARNING: {task} is not defined in cohorts/{cohort.year}.json (no deadline filter, 5 exercises assumed)")
+        print(f"[ice] WARNING: {task} is not defined in cohorts/{cohort.name}.json (no deadline filter, 5 exercises assumed)")
     elif cohort.is_provisional(task):
-        print(f"[ice] WARNING: {task} deadline/exercise count are PROVISIONAL in cohorts/{cohort.year}.json: "
+        print(f"[ice] WARNING: {task} deadline/exercise count are PROVISIONAL in cohorts/{cohort.name}.json: "
               f"{cohort.task(task)}. Check the task README and remove the 'provisional' flag.")
     problems = check_tools(cohort, not a.no_clone, not a.skip_issues)
     for pr in problems:
@@ -113,8 +115,8 @@ def main():
         print(f"[ice] {change}")
     if new_teachers or (change and not change.startswith('KEPT')):
         cohort.save()
-        cohort = context.load(cohort.year)
-        print(f"[ice] saved cohorts/{cohort.year}.json")
+        cohort = context.load(cohort.name)
+        print(f"[ice] saved cohorts/{cohort.name}.json")
 
     banner('2. commits')
     commits.run(task, cohort, quiet=a.quiet)
@@ -128,23 +130,26 @@ def main():
     banner('6. inactive students')
     inactive.run(task, cohort, a.group)
 
-    banner('7. task mapping')
-    mapping = context.ROOT / 'docs' / 'task-mapping' / f'{task}.md'
-    if mapping.exists():
-        print(f"[ice] {mapping} exists (edit the 'comparable' column if not done)")
+    if baseline is None:
+        banner('7-8. task mapping and comparison skipped (named cohort without --baseline)')
     else:
-        try:
-            task_diff.run(task, cohort, baseline, mapping.parent, 'inda-master')
-        except SystemExit as e:
-            print(f"[ice] task_diff skipped: {e}")
+        banner('7. task mapping')
+        mapping = context.ROOT / 'docs' / 'task-mapping' / f'{task}.md'
+        if mapping.exists():
+            print(f"[ice] {mapping} exists (edit the 'comparable' column if not done)")
+        else:
+            try:
+                task_diff.run(task, cohort, baseline, mapping.parent, 'inda-master')
+            except SystemExit as e:
+                print(f"[ice] task_diff skipped: {e}")
 
-    banner(f'8. compare with {baseline.year}')
-    compare.run(task, cohort, baseline, a.baseline_task, quiet=True)
-    compare.run(None, cohort, baseline, all_tasks=True, quiet=True)
+        banner(f'8. compare with {baseline.name}')
+        compare.run(task, cohort, baseline, a.baseline_task, quiet=True)
+        compare.run(None, cohort, baseline, all_tasks=True, quiet=True)
     done_tasks = sorted((p.name for p in cohort.data_dir.glob('task-*') if (p / 'commits.csv').exists()),
                         key=lambda t: int(t.split('-')[1]))
     dd1337 = [t for t in done_tasks if int(t.split('-')[1]) <= 9]
-    if dd1337:
+    if dd1337 and cohort.is_year:
         print(f"[ice] history across cohorts for {', '.join(dd1337)}")
         try:
             history.run(cohort.year, dd1337)
@@ -155,8 +160,8 @@ def main():
     feedback.run(task, cohort, post=a.post)
 
     banner(f"done in {time.time() - t0:.0f}s")
-    print(f"Review: data/{cohort.year}/{task}/compare.md and nudges.csv")
-    print(f"Then:   git add data/{cohort.year} reports docs && git commit -m 'Weekly run {cohort.year} {task}'")
+    print(f"Review: data/{cohort.name}/{task}/" + ("compare.md and nudges.csv" if baseline else "nudges.csv"))
+    print(f"Then:   git add data/{cohort.name} reports docs && git commit -m 'Weekly run {cohort.name} {task}'")
     if not a.post:
         print(f"Post:   python3 scripts/ice.py {task} --no-clone --skip-issues --post   (or feedback.py {task} --post)")
 

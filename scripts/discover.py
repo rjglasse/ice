@@ -222,8 +222,11 @@ def apply_task(cohort, task, found, force=False):
         if current.get('exercises') != found['exercises']:
             diffs.append(f"exercises config {current.get('exercises')} vs README {found['exercises']}")
         return ('KEPT manual config; ' + '; '.join(diffs)) if diffs else None
+    exercises = found['exercises']
+    if exercises == 0:  # README without "Exercise N.M" headings (free-form task): keep the manual value, else 1
+        exercises = (current or {}).get('exercises') or 1
     entry = {'deadline': found['deadline'] or (current or {}).get('deadline'),
-             'exercises': found['exercises'],
+             'exercises': exercises,
              'exercise_date': found['exercise_date'],
              'exercise_list': found['exercise_list'],
              'link_titles': found['link_titles'],
@@ -243,7 +246,7 @@ def apply_teachers(cohort, teachers):
 
 
 def write_students(cohort, students):
-    path = cohort.students_file or (context.ROOT / 'students' / str(cohort.year) / 'students.txt')
+    path = cohort.students_file or (context.ROOT / 'students' / cohort.name / 'students.txt')
     path.parent.mkdir(parents=True, exist_ok=True)
     old = set(path.read_text().split()) if path.exists() else set()
     path.write_text('\n'.join(students) + '\n', encoding='utf-8')
@@ -269,7 +272,7 @@ def main():
         teachers = discover_teachers(cohort)
         new = apply_teachers(cohort, teachers)
         if new:
-            print(f"[discover] new teachers for cohorts/{cohort.year}.json: {' '.join(new)}")
+            print(f"[discover] new teachers for cohorts/{cohort.name}.json: {' '.join(new)}")
             changed = True
         if a.students:
             students = discover_students(cohort, teachers + cohort.teachers)
@@ -287,7 +290,7 @@ def main():
             changed = changed or not msg.startswith('KEPT')
     if a.write and changed:
         cohort.save()
-        print(f"[discover] saved cohorts/{cohort.year}.json")
+        print(f"[discover] saved cohorts/{cohort.name}.json")
     elif changed:
         print("[discover] (dry run: add --write to save)")
 

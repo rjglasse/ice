@@ -38,8 +38,8 @@ Then:
 
 ## Individual steps
 
-Every step is a script that takes the task name and `--cohort YEAR` (default: the year in
-`cohorts/current`). Outputs go to `data/<year>/<task>/`.
+Every step is a script that takes the task name and `--cohort NAME` (default: the name in
+`cohorts/current`, normally the year). Outputs go to `data/<name>/<task>/`.
 
 | Step | Script | Output |
 |---|---|---|
@@ -85,6 +85,14 @@ Every step is a script that takes the task name and `--cohort YEAR` (default: th
 - Leave `--post` to the course responsible. Posting is the only step that touches student
   repositories, and each posted row is marked in `nudges.csv` so a second run would skip it,
   but a stray post is still a real issue in a student's repo.
+
+## A separately managed group
+
+A plus-track group runs as its own cohort (`cohorts/2026-plus.json`, copied from
+`cohorts/example-plus.json`) with `--cohort 2026-plus` on every command; see the README section
+"A separately managed group". Its weekly run is the same command with that flag, minus the
+comparison steps. Its nudges are the v2 model with `default_plan: false`, so nothing in the
+regular cohort's messages or data changes.
 
 ## The student guide
 

@@ -251,7 +251,7 @@ def run(task, cohort, baseline, baseline_task=None, as_delivered=False, all_task
             print(text)
         print(f"[compare] wrote {out}")
     if all_tasks and results:
-        rep = context.ROOT / 'reports' / f'compare-{cohort.year}-vs-{baseline.year}.md'
+        rep = context.ROOT / 'reports' / f'compare-{cohort.name}-vs-{baseline.name}.md'
         rep.parent.mkdir(exist_ok=True)
         rep.write_text(render_overview(results, cohort, baseline, as_delivered), encoding='utf-8')
         print(f"[compare] wrote {rep}")

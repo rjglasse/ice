@@ -76,7 +76,7 @@ def run(task, cohort, output='effort.csv', strict=False):
     rows = calculate(commits, issues, strict)
     out = d / output
     write_csv(out, rows, FIELDS)
-    print(f"[effort] {cohort.year}/{task}: {len(rows)} students -> {out}")
+    print(f"[effort] {cohort.name}/{task}: {len(rows)} students -> {out}")
     return out
 
 

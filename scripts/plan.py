@@ -35,7 +35,9 @@ def make_classifier(cohort, task):
     n_task = exercise_numbers(task)
     link_titles = t.get('link_titles')
     listed = t.get('exercise_list')
-    if not link_titles or not listed:  # manual config: discover from clones or the template README
+    if not cohort.default_plan:  # no pre-filled issue links in this cohort: nothing can be a "default" issue
+        link_titles, listed = [], []
+    elif not link_titles or not listed:  # manual config: discover from clones or the template README
         import discover
         found = discover.discover_task(cohort, task, verbose=False) or {}
         link_titles = link_titles or found.get('link_titles', [])
@@ -64,7 +66,7 @@ def make_classifier(cohort, task):
         ns = norm(s)
         if ns in defaults or (s.startswith('"') and any(d.startswith(ns) for d in defaults)):
             return 'default', found
-        if len(found) == 1 and not defaults:  # no link titles known: fall back to heading match
+        if len(found) == 1 and not defaults and cohort.default_plan:  # no link titles known: fall back to heading match
             ref = titles.get(next(iter(found)), '')
             core = re.sub(r'^exercise\s+[\d.]+\s*(--|-|—|:)?\s*', '', low)
             if ref and core.strip('`') == ref.lower().strip('`'):
@@ -131,7 +133,7 @@ def run(task, cohort, quiet=False):
     from collections import Counter
     styles = Counter(r['plan_style'] for r in rows)
     n = len(rows) or 1
-    print(f"[plan] {cohort.year}/{task}: {len(rows)} students -> {out}")
+    print(f"[plan] {cohort.name}/{task}: {len(rows)} students -> {out}")
     for s in ['default-complete', 'default-partial', 'mixed', 'own', 'none']:
         print(f"  {s:17} {styles[s]:4} ({100 * styles[s] // n}%)")
     with_issues = [r for r in rows if r['issues'] > 0]
@@ -158,7 +160,7 @@ def trend(cohort, tasks):
         rows = features(read_csv(d / 'commits.csv'), read_csv(d / 'issues.csv'), classify, expected)
         per_task[t] = {r['author']: r for r in rows}
     tasks = [t for t in tasks if t in per_task]
-    L = [f"# Plan styles by task, {cohort.year}", '',
+    L = [f"# Plan styles by task, {cohort.name}", '',
          "Style from issue titles versus the README's pre-filled link titles (`plan.py`). Students with ≥1 commit or issue.", '',
          "| Task | n | " + " | ".join(STYLES) + " | all issues before first commit | ≥1 issue referenced by a commit |",
          "|---|---|" + "---|" * (len(STYLES) + 2)]
@@ -188,7 +190,7 @@ def trend(cohort, tasks):
     L += ['', f"Own/mixed planners next week: stayed own/mixed {stay_own}, switched to the default links {to_default}, "
           f"no plan {sum(trans[(s, 'none')] for s in ('own', 'mixed'))}."]
     text = '\n'.join(L) + '\n'
-    out = context.ROOT / 'reports' / f'plan-styles-{cohort.year}.md'
+    out = context.ROOT / 'reports' / f'plan-styles-{cohort.name}.md'
     out.parent.mkdir(exist_ok=True)
     out.write_text(text, encoding='utf-8')
     print(text)

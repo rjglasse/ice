@@ -90,7 +90,7 @@ def run(task, cohort, repos_dir=None, quiet=False):
     out_file = out_dir / 'commits.csv'
 
     repos = find_task_repos(repos_dir, task)
-    print(f"[commits] {cohort.year}/{task}: {len(repos)} repositories under {repos_dir}")
+    print(f"[commits] {cohort.name}/{task}: {len(repos)} repositories under {repos_dir}")
     all_commits = []
     for repo_path, student in repos:
         if not quiet:
@@ -102,7 +102,7 @@ def run(task, cohort, repos_dir=None, quiet=False):
     late = sum(1 for c in all_commits if c['after_deadline'])
     print(f"[commits] from {cohort.course_start_date}; deadline {cohort.deadline(task) or 'none'}: {late} commits after it (kept, flagged); teachers filtered: {len(cohort.teachers)} names")
     if cohort.is_provisional(task):
-        print(f"[commits] WARNING: deadline for {task} is PROVISIONAL in cohorts/{cohort.year}.json - verify against the task README")
+        print(f"[commits] WARNING: deadline for {task} is PROVISIONAL in cohorts/{cohort.name}.json - verify against the task README")
     return out_file
 
 

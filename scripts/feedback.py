@@ -83,7 +83,7 @@ def run(task, cohort, post=False, student=None, limit=None, edit=False):
         targets = [r for r in rows if r['author'] == student]
         if not targets:
             raise SystemExit(f"[feedback] no nudge row for {student}")
-    print(f"[feedback] {cohort.year}/{task}: {len(targets)} students, repos in {cohort.repos_dir} ({'POSTING' if post else 'dry run'})")
+    print(f"[feedback] {cohort.name}/{task}: {len(targets)} students, repos in {cohort.repos_dir} ({'POSTING' if post else 'dry run'})")
 
     created = skipped = failed = 0
     for r in targets:

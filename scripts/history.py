@@ -38,6 +38,7 @@ def per_student(cohort, tasks, metric):
 def run(focal_year, tasks, metric='commits', years=None):
     years = years or context.available_years()
     focal = context.load(focal_year)
+    focal_year = focal.year  # --cohort may arrive as a string ('2026' or a named cohort)
     data = {}
     skipped = []
     for y in years:

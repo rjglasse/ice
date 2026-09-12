@@ -49,7 +49,7 @@ def run(task, cohort, group_file=None):
 
     inactive = [r['author'] for r in results if not r['has_commits']]
     late_only = [r['author'] for r in results if r['has_commits'] and r['commit_count'] == r['late_commits']]
-    print(f"[inactive] {cohort.year}/{task}: {len(results)} repos, {len(inactive)} with no commits, "
+    print(f"[inactive] {cohort.name}/{task}: {len(results)} repos, {len(inactive)} with no commits, "
           f"{len(late_only)} with commits only after the deadline -> {out}")
 
     by_author = {r['author']: r for r in results}

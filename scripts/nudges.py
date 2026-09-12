@@ -83,19 +83,22 @@ def classify_workflow_performance(a, expected_exercises):
     return classify_score(workflow_score(a, expected_exercises))
 
 
-def coding_completion_automation_lines(a):
-    """The three lines shared by both models (2025 wording)."""
+def coding_completion_automation_lines(a, plural=False):
+    """The three lines shared by both models (2025 wording). With plural=True (v2, IMP-25)
+    the commit/issue counts are pluralised correctly ("1 commit"); v1 keeps the 2025 text."""
     commits, issues = a['commits'], a['issues']
     open_issues, closed_issues, closing_references = a['open_issues'], a['closed_issues'], a['closing_references']
+    n_commits = f"{commits} commit" + ("" if plural and commits == 1 else "s")
+    n_issues = f"{issues} issue" + ("" if plural and issues == 1 else "s")
     L = []
     if commits == 0 and issues > 0:
-        L.append(f"💻 **Coding**: Start coding - issues need commits ({commits} commits, {issues} issues)")
+        L.append(f"💻 **Coding**: Start coding - issues need commits ({n_commits}, {n_issues})")
     elif commits < issues:
         L.append(f"💻 **Coding**: More commits needed ({commits}/{issues}, target: ≥1 commit per issue)")
     elif commits >= issues and issues > 0:
-        L.append(f"💻 **Coding**: Good commit frequency ({commits} commits for {issues} issues, ratio: {round(commits / issues, 1)})")
+        L.append(f"💻 **Coding**: Good commit frequency ({n_commits} for {n_issues}, ratio: {round(commits / issues, 1)})")
     elif commits > 0 and issues == 0:
-        L.append(f"💻 **Coding**: Active coding but consider planning with issues first ({commits} commits)")
+        L.append(f"💻 **Coding**: Active coding but consider planning with issues first ({n_commits})")
 
     if open_issues > 0 and closed_issues > 0:
         L.append(f"🎯 **Completion**: Close remaining issues to finish tasks ({open_issues} open, {closed_issues} closed)")
@@ -157,7 +160,7 @@ def plan_breadth(p, expected):
     real = int(p['issues']) - int(p['warmup_issues'])
     covered = int(p['covered'])
     units = max(real, covered)
-    narrow = real < 2 and covered < expected / 2
+    narrow = real < 2 and covered < expected / 2 and expected > 1  # a one-exercise task is covered by one issue
     return real, covered, units, narrow
 
 
@@ -192,10 +195,19 @@ def workflow_score_v2(a, p, expected):
     return (plan_score * 0.45 + commit_score * 0.25 + closing_score * 0.3) * penalty
 
 
-def planning_line_v2(p, expected):
+def planning_line_v2(p, expected, default_plan=True):
     style = p['plan_style']
     real, covered, units, narrow = plan_breadth(p, expected)
     s = 's' if real != 1 else ''
+    if not default_plan:  # cohort without pre-filled issue links (IMP-27): the plan is always the student's own
+        if style == 'none':
+            return ("📝 **Planning**: No plan yet. Before you start, open an issue for each part of the task "
+                    "in your own words; that is the plan we look for.")
+        cov = f", covering {covered} of the {expected} parts" if covered and expected > 1 else ""
+        if narrow:
+            return (f"📝 **Planning**: You made a plan: {real} issue{s}{cov}. Good start; most of the task ran "
+                    f"without an issue, so next time give each part of the task one too and your progress will show.")
+        return f"📝 **Planning**: You made your own plan: {real} issue{s}{cov}. That's the idea, a plan in your words that you then work through."
     if style == 'none':
         return (f"📝 **Planning**: No plan yet. The {expected} exercise links give you a ready-made one, "
                 f"or write your own issues, whichever suits you.")
@@ -244,27 +256,38 @@ def movement_reason(a, p, prev):
             else f"fewer issues were closed with keywords ({min(c, n)} of {n})")
 
 
+def class_sentence(counts):
+    """One picture of the class (IMP-26): top share, the next rung, the cumulative share computed
+    from counts (not from rounded percentages), and the bottom share."""
+    total = sum(counts.values()) or 1
+    n = {c: counts.get(c, 0) for c in CATEGORIES}
+    top = round(100 * n[CATEGORIES[0]] / total)
+    second = round(100 * n[CATEGORIES[1]] / total)
+    upper = round(100 * (n[CATEGORIES[0]] + n[CATEGORIES[1]]) / total)
+    low = round(100 * n[CATEGORIES[4]] / total)
+    return (f"Class this week: {top}% are Workflow Master and another {second}% Strong Practitioner, "
+            f"so {upper}% are at that level or above. {low}% are still Getting Started.")
+
+
 def where_you_are_v2(classification, counts, previous_classification, reason, streak):
     total = sum(counts.values()) or 1
-    pct = {c: round(100 * counts.get(c, 0) / total) for c in CATEGORIES}
-    top, upper, low = pct[CATEGORIES[0]], pct[CATEGORIES[0]] + pct[CATEGORIES[1]], pct[CATEGORIES[4]]
+    top = round(100 * counts.get(CATEGORIES[0], 0) / total)
     head = "\n\n📊 **Where you are**\n"
     if previous_classification is None:
-        return (head + f"You start in **{classification}**. This week {top}% of the class reached Workflow Master, "
-                f"{upper}% are at Strong Practitioner or above, and {low}% are still Getting Started. "
+        return (head + f"You start in **{classification}**. {class_sentence(counts)} "
                 f"Next week's feedback will show how you moved.")
     if classification == previous_classification:
         if classification == CATEGORIES[0] and streak >= 2:
             line = f"**{classification}**, {streak} weeks running. {top}% of the class are here with you."
+        elif reason == "same footing as last week":
+            line = f"**{classification}**, as last week. {class_sentence(counts)}"
         else:
-            line = f"**{classification}**, as last week ({reason})."
-            line += f" Class this week: {top}% Workflow Master, {upper}% Strong Practitioner or above, {low}% Getting Started."
+            line = f"**{classification}**, as last week ({reason}). {class_sentence(counts)}"
         return head + line
     arrow = f"**{previous_classification} → {classification}** since last week ({reason})."
-    return head + arrow + f"\nClass this week: {top}% Workflow Master, {upper}% Strong Practitioner or above, {low}% Getting Started."
+    return head + arrow + "\n" + class_sentence(counts)
 
 
-# ----------------------------------------------------------------------------- driver
 def previous_task(cohort, task):
     n = int(task.split('-')[1])
     prev = f'task-{n - 1}'
@@ -290,7 +313,7 @@ def load_previous(cohort, task):
     return out
 
 
-def build_nudges(effort_data, task, expected, model='v1', plan_rows=None, previous=None):
+def build_nudges(effort_data, task, expected, model='v1', plan_rows=None, previous=None, default_plan=True):
     plan_rows = plan_rows or {}
     previous = previous or {}
     rows = []
@@ -313,7 +336,7 @@ def build_nudges(effort_data, task, expected, model='v1', plan_rows=None, previo
         streak = (prev['streak'] + 1) if prev and prev_c == c else 1
         if model == 'v2' and p:
             body = "Here's how it went for your plan and process:\n" + "\n".join(
-                f"- {l}" for l in [planning_line_v2(p, expected)] + coding_completion_automation_lines(a))
+                f"- {l}" for l in [planning_line_v2(p, expected, default_plan)] + coding_completion_automation_lines(a, plural=True))
             reason = movement_reason(a, p, prev if prev and prev.get('effort') and prev.get('plan') else None)
             if reason == "small changes across the board" and prev_c == c:
                 reason = "same footing as last week"
@@ -338,8 +361,11 @@ def build_nudges(effort_data, task, expected, model='v1', plan_rows=None, previo
 def run(task, cohort, quiet=False):
     expected = cohort.expected_exercises(task)
     model = cohort.raw.get('nudge_model', 'v1')
+    if not cohort.default_plan and model != 'v2':
+        print(f"[nudges] cohorts/{cohort.name}.json has default_plan false: the v1 model assumes the exercise links, using v2")
+        model = 'v2'
     if cohort.task(task) is None:
-        print(f"[nudges] WARNING: {task} not in cohorts/{cohort.year}.json, using {expected} expected exercises")
+        print(f"[nudges] WARNING: {task} not in cohorts/{cohort.name}.json, using {expected} expected exercises")
     elif cohort.is_provisional(task):
         print(f"[nudges] WARNING: exercise count for {task} is PROVISIONAL ({expected}) - verify against the task README")
     d = cohort.task_data_dir(task)
@@ -354,7 +380,7 @@ def run(task, cohort, quiet=False):
         plan_rows = {r['author']: r for r in plan.run(task, cohort, quiet=True)}
     previous = load_previous(cohort, task) if model == 'v2' else {}
 
-    rows, counts = build_nudges(effort_data, task, expected, model, plan_rows, previous)
+    rows, counts = build_nudges(effort_data, task, expected, model, plan_rows, previous, cohort.default_plan)
     out = d / 'nudges.csv'
     if out.exists():  # keep what has already been posted
         posted = {r['author']: r for r in read_csv(out) if str(r.get('issue_created', '')).lower() == 'true'}
@@ -365,7 +391,7 @@ def run(task, cohort, quiet=False):
         if posted:
             print(f"[nudges] {len(posted)} students already posted; flags kept (use feedback.py --edit to update their issue)")
     write_csv(out, rows, FIELDS)
-    print(f"[nudges] {cohort.year}/{task}: {len(rows)} students, model {model}, expected exercises {expected}"
+    print(f"[nudges] {cohort.name}/{task}: {len(rows)} students, model {model}, expected exercises {expected}"
           + (f", previous task {previous_task(cohort, task)} ({len(previous)} students)" if previous else "") + f" -> {out}")
     total = sum(counts.values()) or 1
     for c in CATEGORIES:

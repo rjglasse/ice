@@ -112,7 +112,7 @@ def run(task, cohort, baseline, out_dir, template_org):
             lines.append(f"| {n_num} {n_title} | {b_num} {base_by[b_num]} | {score:.2f} | {flag} | |")
     for b_num in removed:
         lines.append(f"| (removed) | {b_num} {base_by[b_num]} | | no | |")
-    lines += ["", f"Expected exercises in cohorts/{cohort.year}.json: {cohort.expected_exercises(task)}"
+    lines += ["", f"Expected exercises in cohorts/{cohort.name}.json: {cohort.expected_exercises(task)}"
               f"{' (PROVISIONAL)' if cohort.is_provisional(task) else ''}; README lists {len([i for i in new_items if i[2].startswith('Exercise')])} exercises"
               f" + {len([i for i in new_items if not i[2].startswith('Exercise')])} warmups."]
 

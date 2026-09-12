@@ -50,10 +50,21 @@ the public repository; `compare.py` and `history.py` report the missing data and
 Posting needs `--post` and is the course responsible's call: it writes an issue into every
 student repository. Do not add it while trying things out.
 
-ICE is configured for the regular-track organisation (`inda-26`) only. Plus-track students
-do alternative tasks in other repositories and are not in the dataset (see
-`docs/study-2026.md`); running ICE on another organisation would need its own cohort config,
-and the loader currently keys cohorts by year.
+## A separately managed group (plus track)
+
+A group with its own organisation and free-form tasks, without the pre-filled issue links,
+runs as its own cohort and never touches the regular one:
+
+1. Copy `cohorts/example-plus.json` to `cohorts/2026-plus.json` and set `org`, `course_start`
+   and the tasks (deadline, and `exercises` = the number of parts of the task, 1 for a single
+   assignment). `year` is the course year; `default_plan: false` says there are no links.
+2. Pass `--cohort 2026-plus` to every script: `python3 scripts/discover.py --students --write
+   --cohort 2026-plus`, then `python3 scripts/ice.py task-N --cohort 2026-plus`.
+
+Data, clones and the student list live under `data/2026-plus/`, `repos/2026-plus/` and
+`students/2026-plus/`. With no default plan every issue counts as the student's own plan (a
+used plan is a full plan, as in the v2 model) and the planning line is worded accordingly; the
+comparison with 2025 and the cross-year history are skipped for a named cohort.
 
 ## Layout
 
@@ -97,13 +108,15 @@ nudged cohort from the paper; none of them is ever re-extracted by the tooling. 
 | `task_diff.py` | exercise-level diff of a task README between years |
 | `context.py`, `common.py` | cohort loader and shared helpers |
 
-All scripts take the task name and `--cohort YEAR`; `-h` documents the rest.
+All scripts take the task name and `--cohort NAME` (a year, or a name like `2026-plus`); `-h` documents the rest.
 
 ## Configuration
 
 `cohorts/2026.json` needs `org`, `course_start` and `students_file` (`host` defaults to
-`gits-15.sys.kth.se`; `nudge_model` selects the v1 or v2 message model, default v1). Everything
-else is discovered on the first weekly run and written back: task deadlines and exercise counts from
+`gits-15.sys.kth.se`; `nudge_model` selects the v1 or v2 message model, default v1;
+`default_plan: false` for a cohort whose READMEs have no issue links; a cohort whose name is
+not a year, such as `2026-plus`, states its `year`). Everything else is discovered on the
+first weekly run and written back: task deadlines and exercise counts from
 the task READMEs (majority vote across clones guards against edited READMEs), teachers from
 the organisation's admins and the authors of template commits, students from the
 organisation's `<user>-task-N` repositories. A value you type into the JSON wins over

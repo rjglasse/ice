@@ -13,6 +13,10 @@ Invariants:
   `docs/improvements.md` with the date, because it can move the 2026 numbers.
 - A manual value in `cohorts/<year>.json` wins over `discover.py`; discovery only fills
   missing or `provisional` entries.
+- A cohort is keyed by its config file name. Year cohorts (`2026`) are the study; a named cohort
+  (`2026-plus`, copied from `cohorts/example-plus.json`) is a separately managed group with its
+  own `data/`, `repos/` and `students/` folders, skipped by the cross-year tables. `default_plan`
+  must stay true for the year cohorts: false switches the v2 planning wording to own-plan style.
 - `feedback.py` is the only script that writes to student repositories. Dry run is the default;
   never add `--post` on the user's behalf.
 - The `repos/` directory is gitignored and large. `data/`, `students/` and `feedback/` are
