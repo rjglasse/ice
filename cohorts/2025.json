@@ -1,0 +1,82 @@
+{
+  "year": 2025,
+  "org": "inda-25",
+  "host": "gits-15.sys.kth.se",
+  "course_start": "2025-09-01",
+  "students_file": "students/2025/dd1338-students.txt",
+  "notes": "Cohort studied in the ITiCSE 2026 paper. Tasks 1-9 are DD1337 (autumn), 10-18 are DD1338 (spring).",
+  "tasks": {
+    "task-1": {
+      "deadline": "2025-09-06",
+      "exercises": 5
+    },
+    "task-2": {
+      "deadline": "2025-09-13",
+      "exercises": 8
+    },
+    "task-3": {
+      "deadline": "2025-09-20",
+      "exercises": 6
+    },
+    "task-4": {
+      "deadline": "2025-09-27",
+      "exercises": 13
+    },
+    "task-5": {
+      "deadline": "2025-10-04",
+      "exercises": 12
+    },
+    "task-6": {
+      "deadline": "2025-10-11",
+      "exercises": 10
+    },
+    "task-7": {
+      "deadline": "2025-11-01",
+      "exercises": 8
+    },
+    "task-8": {
+      "deadline": "2025-11-08",
+      "exercises": 3
+    },
+    "task-9": {
+      "deadline": "2025-11-15",
+      "exercises": 9
+    },
+    "task-10": {
+      "deadline": "2025-11-22",
+      "exercises": 6
+    },
+    "task-11": {
+      "deadline": "2025-11-29",
+      "exercises": 5
+    },
+    "task-12": {
+      "deadline": "2025-12-06",
+      "exercises": 10
+    },
+    "task-13": {
+      "deadline": "2026-01-17",
+      "exercises": 9
+    },
+    "task-14": {
+      "deadline": "2026-01-24",
+      "exercises": 8
+    },
+    "task-15": {
+      "deadline": "2026-01-31",
+      "exercises": 5
+    },
+    "task-16": {
+      "deadline": "2026-02-07",
+      "exercises": 3
+    },
+    "task-17": {
+      "deadline": "2026-02-14",
+      "exercises": 2
+    },
+    "task-18": {
+      "deadline": "2026-02-21",
+      "exercises": 3
+    }
+  }
+}

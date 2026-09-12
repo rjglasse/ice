@@ -1,8 +1,18 @@
-/repos
-/data
-
+# student repository clones (large, re-cloned weekly with repobee)
+/repos/
+# OS / editor noise
+.DS_Store
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
+# tooling-only worktree built by scripts/publish.py
+/.public/
+
+# never in the public repository: student data and everything derived from it
+/data/
+/students/
+/feedback/
+/reports/
+/report/
+/paper/
+/.public/

@@ -1,75 +1,48 @@
 #!/usr/bin/env python3
+"""Extract commit data for one task from the cohort's student repositories.
 
-import os
-import subprocess
-import csv
+Output: data/<year>/<task>/commits.csv with one row per included commit.
+Filtering (unchanged from the 2025 run, to keep years comparable):
+  * merges excluded
+  * commits by anyone on the teacher list excluded (substring match on git author)
+  * commits before course start excluded; commits after the task deadline are KEPT and
+    flagged in the after_deadline column (feedback counts them, compare.py does not)
+  * the repository owner (folder name) is used as the canonical student identity, so a
+    student committing under another git name/email is still counted
+"""
+
 import argparse
-import re
-import sys
-from pathlib import Path
+import subprocess
 from datetime import datetime as dt
+from pathlib import Path
 
-from context import teachers, course_start_date, tasks
+import context
+from common import find_task_repos, parse_git_datetime, write_csv
 
-def find_task_repos(repos_dir, task_pattern):
-    """Find all task directories that are git repositories"""
-    task_repos = []
-    for root, dirs, files in os.walk(repos_dir):
-        for d in dirs:
-            if task_pattern in d and os.path.exists(os.path.join(root, d, '.git')):
-                # Extract author name from folder structure (e.g., adamven/adamven-task-1 -> adamven)
-                repo_path = os.path.join(root, d)
-                relative_path = os.path.relpath(repo_path, repos_dir)
-                author_name = relative_path.split(os.sep)[0]  # First part of path is author
-                task_repos.append((repo_path, author_name))
-    return task_repos
+FIELDS = ['repository', 'commit', 'git_author', 'author', 'datetime', 'subject', 'insertions', 'deletions', 'total', 'after_deadline']
 
-def get_commit_data(repo_path, expected_author, task_name):
-    """Extract commit data from a git repository, filtering out teacher commits and applying date filters"""
+
+def get_commit_data(repo_path, student, task_name, cohort, verbose=True):
     commits = []
-    total_commits = 0
-    teacher_filtered = 0
-    date_filtered = 0
-    
-    # Extract repository name from path for identification
+    total = teacher_filtered = date_filtered = late = 0
     repo_name = Path(repo_path).name
-    
-    # Use the repository owner (expected_author) as canonical student identity
-    # instead of git commit author to handle cases where students use different git identities
-    canonical_student = expected_author
+    course_start = dt.fromisoformat(cohort.course_start_date)
+    deadline = cohort.deadline(task_name)
 
-    # Get date filtering bounds
-    course_start = dt.fromisoformat(course_start_date)
-    task_deadline = None
-    if task_name in tasks:
-        task_deadline = dt.fromisoformat(tasks[task_name]["deadline"])
-    
-    # Change to repository directory
-    os.chdir(repo_path)
-    
-    # Get commit data with numstat for accurate line counts
-    cmd = ['git', 'log', '--pretty=format:%H|%an|%ai|%s', '--numstat', '--no-merges']
+    cmd = ['git', '-C', repo_path, 'log', '--pretty=format:%H|%an|%ai|%s', '--numstat', '--no-merges']
     result = subprocess.run(cmd, capture_output=True, text=True)
-    # print(result.stdout)  # Comment out debug output
-    
     if result.returncode != 0:
-        print(f"Error processing {repo_path}: {result.stderr}")
+        print(f"Error processing {repo_path}: {result.stderr.strip()}")
         return commits
-    
+
     lines = result.stdout.strip().split('\n')
     i = 0
-    
     while i < len(lines):
         line = lines[i].strip()
-        
-        # Check if this is a commit line (contains pipe separators)
         if '|' in line and len(line.split('|')) >= 4:
-            total_commits += 1
+            total += 1
             commit_hash, author, datetime, subject = line.split('|', 3)
-            insertions = 0
-            deletions = 0
-            
-            # Process following numstat lines
+            insertions = deletions = 0
             i += 1
             while i < len(lines) and lines[i].strip() and '|' not in lines[i]:
                 parts = lines[i].strip().split('\t')
@@ -80,105 +53,68 @@ def get_commit_data(repo_path, expected_author, task_name):
                     except ValueError:
                         pass
                 i += 1
-            
 
-            # Parse commit date and apply date filtering
-            # Convert git date format to ISO format (remove timezone for comparison)
-            # Format: "2025-09-26 00:10:16 +0200"
-            date_part = datetime.split(' +')[0].split(' -')[0]  # Remove timezone part
-            commit_date_obj = dt.fromisoformat(date_part)
-
-            # Check if commit is within valid date range
-            is_valid_date = commit_date_obj >= course_start
-            if task_deadline:
-                is_valid_date = is_valid_date and commit_date_obj <= task_deadline
-
-            if not is_valid_date:
+            when = parse_git_datetime(datetime)
+            if when < course_start:
                 date_filtered += 1
-                i += 1
                 continue
-
-            # Check if this is a teacher commit
-            is_teacher_commit = any(teacher.lower() in author.lower() for teacher in teachers)
-            if is_teacher_commit:
+            after_deadline = bool(deadline and when > deadline)
+            if after_deadline:
+                late += 1
+            if cohort.is_teacher(author):
                 teacher_filtered += 1
-                i += 1
                 continue
-            
-            # Include this commit
-            total = insertions + deletions
             commits.append({
                 'repository': repo_name,
                 'commit': commit_hash,
-                'git_author': author,  # Keep original git author for reference
-                'author': canonical_student,  # Use repository owner as canonical student identity
+                'git_author': author,
+                'author': student,
                 'datetime': datetime,
                 'subject': subject,
                 'insertions': insertions,
                 'deletions': deletions,
-                'total': total
+                'total': insertions + deletions,
+                'after_deadline': after_deadline,
             })
         else:
             i += 1
 
-    # Print filtering summary
-    if total_commits > 0:
-        print(f"    Total commits processed: {total_commits}")
-        print(f"    Filtered out (teachers): {teacher_filtered}")
-        print(f"    Filtered out (dates): {date_filtered}")
-        print(f"    Included: {len(commits)}")
-
+    if verbose and total:
+        print(f"    commits: {total} total, {teacher_filtered} teacher, {date_filtered} before course start, {late} after deadline, {len(commits)} kept")
     return commits
 
-def main():
-    parser = argparse.ArgumentParser(description='Extract commit data from task repositories')
-    parser.add_argument('task', help='Task pattern to search for (e.g., task-1, task-2, generictask)')
-    parser.add_argument('--repos-dir', default='repos', help='Directory containing repositories')
-    parser.add_argument('--data-dir', default='data', help='Directory to store output CSV files')
-    
-    args = parser.parse_args()
-    
-    script_dir = Path(__file__).parent
-    base_dir = script_dir.parent
-    repos_dir = base_dir / args.repos_dir
-    
-    # Create output directory structure
-    output_dir = base_dir / args.data_dir / args.task
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / 'commits.csv'
-    
-    # Find all task repositories
-    task_repos = find_task_repos(str(repos_dir), args.task)
-    print(f"Found {len(task_repos)} {args.task} repositories")
-    
-    # Collect all commits
+
+def run(task, cohort, repos_dir=None, quiet=False):
+    repos_dir = Path(repos_dir) if repos_dir else cohort.repos_dir
+    out_dir = cohort.task_data_dir(task)
+    out_file = out_dir / 'commits.csv'
+
+    repos = find_task_repos(repos_dir, task)
+    print(f"[commits] {cohort.year}/{task}: {len(repos)} repositories under {repos_dir}")
     all_commits = []
-    original_dir = os.getcwd()
-    
-    for repo_path, expected_author in task_repos:
-        print(f"Processing repository: {repo_path} (expected author: {expected_author})")
-        commits = get_commit_data(repo_path, expected_author, args.task)
-        all_commits.extend(commits)
-        os.chdir(original_dir)
-    
-    # Write to CSV
-    with open(output_file, 'w', newline='') as csvfile:
-        fieldnames = ['repository', 'commit', 'git_author', 'author', 'datetime', 'subject', 'insertions', 'deletions', 'total']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        
-        writer.writeheader()
-        for commit in all_commits:
-            writer.writerow(commit)
-    
-    print(f"\nCommit data extracted to {output_file}")
-    print(f"Total filtered commits found: {len(all_commits)}")
-    print(f"\nFiltering applied:")
-    print(f"  Course start date: {course_start_date}")
-    if args.task in tasks:
-        print(f"  Task deadline: {tasks[args.task]['deadline']}")
-    else:
-        print(f"  Task deadline: Not defined for {args.task}")
-    print(f"  Teachers filtered: {len(teachers)} teacher names")
+    for repo_path, student in repos:
+        if not quiet:
+            print(f"  {student}")
+        all_commits.extend(get_commit_data(repo_path, student, task, cohort, verbose=not quiet))
+
+    write_csv(out_file, all_commits, FIELDS)
+    print(f"[commits] wrote {len(all_commits)} commits from {len({c['author'] for c in all_commits})} students to {out_file}")
+    late = sum(1 for c in all_commits if c['after_deadline'])
+    print(f"[commits] from {cohort.course_start_date}; deadline {cohort.deadline(task) or 'none'}: {late} commits after it (kept, flagged); teachers filtered: {len(cohort.teachers)} names")
+    if cohort.is_provisional(task):
+        print(f"[commits] WARNING: deadline for {task} is PROVISIONAL in cohorts/{cohort.year}.json - verify against the task README")
+    return out_file
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument('task', help='task name, e.g. task-1')
+    p.add_argument('--repos-dir', help='override repos directory (default repos/<year>)')
+    p.add_argument('-q', '--quiet', action='store_true', help='one line per script instead of per repo')
+    context.add_cohort_arg(p)
+    args = p.parse_args()
+    run(args.task, context.load(args.cohort), args.repos_dir, args.quiet)
+
 
 if __name__ == '__main__':
     main()

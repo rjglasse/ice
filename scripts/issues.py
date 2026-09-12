@@ -1,156 +1,93 @@
 #!/usr/bin/env python3
+"""Extract issue metadata for one task via the GitHub CLI (gh), one repo at a time.
 
-import os
-import subprocess
-import csv
-import json
+Output: data/<year>/<task>/issues.csv. Issues created by teachers are excluded
+(substring match on the creator login); the repository owner is the canonical student.
+Requires `gh auth status` to show the cohort host as logged in.
+"""
+
 import argparse
-import sys
+import json
+import subprocess
 from pathlib import Path
 
-from context import teachers
+import context
+from common import find_task_repos, write_csv
 
-def find_task_repos(repos_dir, task_pattern):
-    """Find all task directories that are git repositories"""
-    task_repos = []
-    for root, dirs, files in os.walk(repos_dir):
-        for d in dirs:
-            if task_pattern in d and os.path.exists(os.path.join(root, d, '.git')):
-                # Extract author name from folder structure (e.g., adamven/adamven-task-1 -> adamven)
-                repo_path = os.path.join(root, d)
-                relative_path = os.path.relpath(repo_path, repos_dir)
-                author_name = relative_path.split(os.sep)[0]  # First part of path is author
-                task_repos.append((repo_path, author_name))
-    return task_repos
+FIELDS = ['repository', 'issue_creator', 'author', 'number', 'title', 'state', 'createdAt', 'closedAt']
 
-def setup_git_remote(repo_path, expected_author, task_pattern, base_url, namespace):
-    """Setup git remote if not already configured"""
-    try:
-        # Check if remote already exists
-        result = subprocess.run(['git', 'remote', '-v'], capture_output=True, text=True, check=True)
-        if 'origin' in result.stdout:
-            print(f"  Remote already configured")
-            return True
-            
-        # Extract repo name from path (e.g., glassey-task-1)
-        repo_name = os.path.basename(repo_path)
-        
-        # Construct remote URL: gits-15.sys.kth.se:inda-25/glassey-task-1.git
-        remote_url = f"{base_url}:{namespace}/{repo_name}.git"
-        
-        # Add the remote
-        add_result = subprocess.run(['git', 'remote', 'add', 'origin', remote_url], 
-                                  capture_output=True, text=True, check=True)
-        print(f"  Added remote: {remote_url}")
+
+def ensure_remote(repo_path, cohort):
+    r = subprocess.run(['git', '-C', repo_path, 'remote', '-v'], capture_output=True, text=True)
+    if 'origin' in r.stdout:
         return True
-        
-    except subprocess.CalledProcessError as e:
-        print(f"  Error setting up remote: {e.stderr}")
+    url = f"{cohort.host}:{cohort.org}/{Path(repo_path).name}.git"
+    a = subprocess.run(['git', '-C', repo_path, 'remote', 'add', 'origin', url], capture_output=True, text=True)
+    if a.returncode != 0:
+        print(f"  could not add remote {url}: {a.stderr.strip()}")
         return False
+    print(f"  added remote {url}")
+    return True
 
-def get_issues_data(repo_path, expected_author, task_pattern, base_url, namespace):
-    """Extract GitHub issues data from a repository using gh CLI"""
+
+def get_issues_data(repo_path, student, cohort):
     issues = []
-    
-    # Change to repository directory
-    original_dir = os.getcwd()
-    os.chdir(repo_path)
-    
+    if cohort.is_teacher(student):
+        return issues
+    if not ensure_remote(repo_path, cohort):
+        return issues
+    cmd = ['gh', 'issue', 'list', '--state', 'all', '--limit', '500',
+           '--json', 'number,title,state,createdAt,closedAt,author']
     try:
-        # Setup remote if needed
-        setup_git_remote(repo_path, expected_author, task_pattern, base_url, namespace)
-        # Run gh issue list command  
-        cmd = ['gh', 'issue', 'list', '--state', 'all', '--json', 'number,title,state,createdAt,author']
-        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-        
-        if result.stdout.strip():
-            issues_data = json.loads(result.stdout)
-            
-            for issue in issues_data:
-                # Filter out teacher repositories
-                is_teacher_repo = any(teacher.lower() in expected_author.lower() for teacher in teachers)
-                if not is_teacher_repo:
-                    # Get actual issue creator
-                    actual_author = issue.get('author', {}).get('login', 'unknown') if issue.get('author') else 'unknown'
-                    
-                    # Filter out issues created by teachers
-                    is_teacher_issue = any(teacher.lower() in actual_author.lower() for teacher in teachers)
-                    if not is_teacher_issue:
-                        issues.append({
-                            'repository': os.path.basename(repo_path),
-                            'issue_creator': actual_author,  # Who actually created the issue
-                            'author': expected_author,  # Repository owner (canonical student identity)
-                            'number': issue['number'],
-                            'title': issue['title'],
-                            'state': issue['state'],
-                            'createdAt': issue['createdAt']
-                        })
-    
+        r = subprocess.run(cmd, capture_output=True, text=True, check=True, cwd=repo_path)
     except subprocess.CalledProcessError as e:
-        if "no git remotes found" in e.stderr:
-            print(f"  No GitHub remote configured (local repo only)")
-        else:
-            print(f"  Error running gh CLI in {repo_path}: {e.stderr}")
-    except json.JSONDecodeError as e:
-        print(f"  Error parsing JSON from {repo_path}: {e}")
-    except Exception as e:
-        print(f"  Unexpected error in {repo_path}: {e}")
-    finally:
-        os.chdir(original_dir)
-    
+        msg = e.stderr.strip()
+        print(f"  gh failed in {repo_path}: {msg[:200]}")
+        return issues
+    if not r.stdout.strip():
+        return issues
+    for issue in json.loads(r.stdout):
+        creator = (issue.get('author') or {}).get('login', 'unknown')
+        if cohort.is_teacher(creator):
+            continue
+        issues.append({
+            'repository': Path(repo_path).name,
+            'issue_creator': creator,
+            'author': student,
+            'number': issue['number'],
+            'title': issue['title'],
+            'state': issue['state'],
+            'createdAt': issue.get('createdAt', ''),
+            'closedAt': issue.get('closedAt') or '',
+        })
     return issues
 
-def main():
-    parser = argparse.ArgumentParser(description='Extract GitHub/GitLab issues data from task repositories')
-    parser.add_argument('task', help='Task pattern to search for (e.g., task-1, task-2, generictask)')
-    parser.add_argument('--repos-dir', default='repos', help='Directory containing repositories')
-    parser.add_argument('--data-dir', default='data', help='Directory to store output CSV files')
-    parser.add_argument('--base-url', default='gits-15.sys.kth.se', help='Git server base URL')
-    parser.add_argument('--namespace', default='inda-25', help='GitLab namespace/group')
-    
-    args = parser.parse_args()
-    
-    script_dir = Path(__file__).parent
-    base_dir = script_dir.parent
-    repos_dir = base_dir / args.repos_dir
-    
-    # Create output directory structure
-    output_dir = base_dir / args.data_dir / args.task
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / 'issues.csv'
-    
-    # Find all task repositories
-    task_repos = find_task_repos(str(repos_dir), args.task)
-    print(f"Found {len(task_repos)} {args.task} repositories")
-    
-    # Collect all issues
+
+def run(task, cohort, repos_dir=None, quiet=False):
+    repos_dir = Path(repos_dir) if repos_dir else cohort.repos_dir
+    out_file = cohort.task_data_dir(task) / 'issues.csv'
+    repos = find_task_repos(repos_dir, task)
+    print(f"[issues] {cohort.year}/{task}: {len(repos)} repositories under {repos_dir}")
     all_issues = []
-    
-    for repo_path, expected_author in task_repos:
-        print(f"Processing repository: {repo_path} (expected author: {expected_author})")
-        issues = get_issues_data(repo_path, expected_author, args.task, args.base_url, args.namespace)
-        print(f"  Found {len(issues)} issues")
-        all_issues.extend(issues)
-    
-    # Write to CSV
-    if all_issues:
-        with open(output_file, 'w', newline='') as csvfile:
-            fieldnames = ['repository', 'issue_creator', 'author', 'number', 'title', 'state', 'createdAt']
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            
-            writer.writeheader()
-            for issue in all_issues:
-                writer.writerow(issue)
-        
-        print(f"Issues data extracted to {output_file}")
-        print(f"Total issues found: {len(all_issues)}")
-    else:
-        print("No issues found in any repository")
-        # Still create empty CSV with headers
-        with open(output_file, 'w', newline='') as csvfile:
-            fieldnames = ['repository', 'issue_creator', 'author', 'number', 'title', 'state', 'createdAt']
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            writer.writeheader()
+    for repo_path, student in repos:
+        found = get_issues_data(repo_path, student, cohort)
+        if not quiet:
+            print(f"  {student}: {len(found)} issues")
+        all_issues.extend(found)
+    write_csv(out_file, all_issues, FIELDS)
+    print(f"[issues] wrote {len(all_issues)} issues from {len({i['author'] for i in all_issues})} students to {out_file}")
+    return out_file
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument('task', help='task name, e.g. task-1')
+    p.add_argument('--repos-dir', help='override repos directory (default repos/<year>)')
+    p.add_argument('-q', '--quiet', action='store_true')
+    context.add_cohort_arg(p)
+    args = p.parse_args()
+    run(args.task, context.load(args.cohort), args.repos_dir, args.quiet)
+
 
 if __name__ == '__main__':
     main()

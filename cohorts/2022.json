@@ -1,0 +1,45 @@
+{
+  "year": 2022,
+  "org": "inda-22",
+  "host": "gits-15.sys.kth.se",
+  "course_start": "2022-09-05",
+  "notes": "Historical control cohort (no nudges). Data imported 2026-09-05 from ~/dev/ice_history_of_inda/data/22 (tasks 1-9, commits + issues).",
+  "tasks": {
+    "task-1": {
+      "deadline": "2022-09-10",
+      "exercises": 5
+    },
+    "task-2": {
+      "deadline": "2022-09-17",
+      "exercises": 8
+    },
+    "task-3": {
+      "deadline": "2022-09-24",
+      "exercises": 6
+    },
+    "task-4": {
+      "deadline": "2022-10-01",
+      "exercises": 13
+    },
+    "task-5": {
+      "deadline": "2022-10-08",
+      "exercises": 12
+    },
+    "task-6": {
+      "deadline": "2022-10-15",
+      "exercises": 10
+    },
+    "task-7": {
+      "deadline": "2022-11-05",
+      "exercises": 8
+    },
+    "task-8": {
+      "deadline": "2022-11-12",
+      "exercises": 3
+    },
+    "task-9": {
+      "deadline": "2022-11-19",
+      "exercises": 9
+    }
+  }
+}

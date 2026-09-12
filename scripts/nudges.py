@@ -1,269 +1,390 @@
 #!/usr/bin/env python3
+"""Classify each student's workflow for one task and generate the nudge message.
 
-import os
-import csv
+Two models live here, selected by "nudge_model" in cohorts/<year>.json:
+
+  v1  the 2025 model (paper). Planning = issue count / exercises, with a 50% penalty when
+      issues < exercises/2; five categories; message lists planning, coding, completion,
+      automation; cohort block = the five-rung class distribution.
+  v2  from 2026 (docs/improvements.md IMP-18). Planning judges the plan the student chose:
+      the default links, a partial use of them, their own issues, or a mix (scripts/plan.py).
+      An own or mixed plan that is used (referenced from commits or closed) counts as a full
+      plan; the underplanning penalty applies only to a partially used default plan or no
+      plan. Cohort block = "Where you are": the student's own movement since the previous
+      task plus three class numbers (IMP-12, option 2).
+
+compare.py always uses v1 so that years stay comparable; nudges.csv records both scores.
+Output: data/<year>/<task>/nudges.csv.
+"""
+
 import argparse
-import sys
-from pathlib import Path
 
-from context import tasks
+import context
+from common import read_csv, write_csv
+
+FIELDS = ['author', 'commits', 'issues', 'open_issues', 'closed_issues', 'references', 'closing_references',
+          'plan_style', 'covered', 'linked_issues', 'score_v1', 'classification_v1', 'score', 'classification',
+          'previous_classification', 'streak', 'nudge_message', 'issue_created', 'issue_url']
+
+CATEGORIES = ["🌟 Workflow Master", "🚀 Strong Practitioner", "📈 Developing Process",
+              "🌱 Learning Workflow", "🎯 Getting Started"]
+
+GUIDE_URL = "https://gits-15.sys.kth.se/inda-26/course-instructions/blob/master/ice-guide.md"
+# v1 footer wording (2025) is kept in the v1 renderer; v2 links the published guide (IMP-5).
+GUIDE_NOTE = f"\n\nSee the [ICE workflow guide]({GUIDE_URL}) for the full explanation."
+
 
 def read_effort_data(effort_file):
-    """Read effort CSV and return list of author data"""
-    effort_data = []
-    
-    try:
-        with open(effort_file, 'r', newline='') as csvfile:
-            reader = csv.DictReader(csvfile)
-            for row in reader:
-                # Handle infinite ratios
-                ratio = row['commits_to_issues_ratio']
-                if ratio == 'inf':
-                    ratio_value = float('inf')
-                else:
-                    ratio_value = float(ratio)
-                
-                effort_data.append({
-                    'author': row['author'],
-                    'commits': int(row['commits']),
-                    'issues': int(row['issues']),
-                    'commits_to_issues_ratio': ratio_value,
-                    'total_changes': int(row['total_changes']),
-                    'avg_changes_per_commit': float(row['avg_changes_per_commit']),
-                    'open_issues': int(row['open_issues']),
-                    'closed_issues': int(row['closed_issues']),
-                    'references': int(row['references']),
-                    'closing_references': int(row['closing_references'])
-                })
-    except FileNotFoundError:
-        print(f"Error: Effort file not found: {effort_file}")
-        return []
-    except Exception as e:
-        print(f"Error reading effort file: {e}")
-        return []
-    
-    return effort_data
+    rows = []
+    for r in read_csv(effort_file):
+        ratio = r['commits_to_issues_ratio']
+        rows.append({
+            'author': r['author'],
+            'commits': int(r['commits']),
+            'issues': int(r['issues']),
+            'commits_to_issues_ratio': float('inf') if ratio == 'inf' else float(ratio),
+            'total_changes': int(r['total_changes']),
+            'avg_changes_per_commit': float(r['avg_changes_per_commit']),
+            'open_issues': int(r['open_issues']),
+            'closed_issues': int(r['closed_issues']),
+            'references': int(r['references']),
+            'closing_references': int(r['closing_references']),
+        })
+    return rows
 
-def classify_workflow_performance(author_data, expected_exercises):
-    """Classify student workflow performance into categories"""
-    commits = author_data['commits']
-    issues = author_data['issues']
-    closed_issues = author_data['closed_issues']
-    closing_references = author_data['closing_references']
-    
-    # Calculate workflow scores
+
+# ----------------------------------------------------------------------------- v1 (2025)
+def workflow_score(a, expected_exercises):
+    """2025 model. Kept unchanged for cross-year comparison."""
+    commits, issues = a['commits'], a['issues']
+    closed_issues, closing_references = a['closed_issues'], a['closing_references']
     issue_score = min(issues / expected_exercises, 1.0) if expected_exercises > 0 else 0
     commit_score = min(commits / max(issues, 1), 1.0) if issues > 0 else (1.0 if commits > 0 else 0)
     closing_score = closing_references / max(closed_issues, 1) if closed_issues > 0 else 0
+    overall = issue_score * 0.45 + commit_score * 0.25 + closing_score * 0.3
+    if issues < (expected_exercises / 2):   # n.b. task-1 of 2025 did not have the "/ 2"
+        overall *= 0.5
+    return overall
 
-    overall_score = issue_score * 0.45 + commit_score * 0.25 + closing_score * 0.3
 
-    # Underplanning penalty
-    if issues < (expected_exercises / 2):
-        overall_score *= 0.5
+def classify_score(score):
+    if score >= 0.95:
+        return CATEGORIES[0]
+    elif score >= 0.75:
+        return CATEGORIES[1]
+    elif score >= 0.50:
+        return CATEGORIES[2]
+    elif score >= 0.25:
+        return CATEGORIES[3]
+    return CATEGORIES[4]
 
-    # Classify based on overall workflow mastery
-    if overall_score >= 0.95:
-        return "🌟 Workflow Master"
-    elif overall_score >= 0.75:
-        return "🚀 Strong Practitioner"
-    elif overall_score >= 0.50:
-        return "📈 Developing Process"
-    elif overall_score >= 0.25:
-        return "🌱 Learning Workflow"
-    else:
-        return "🎯 Getting Started"
 
-def generate_nudge_message(author_data, task_name, expected_exercises):
-    """Generate workflow-focused nudge message"""
-    author = author_data['author']
-    commits = author_data['commits']
-    issues = author_data['issues']
-    open_issues = author_data['open_issues']
-    closed_issues = author_data['closed_issues']
-    references = author_data['references']
-    closing_references = author_data['closing_references']
-    
-    nudges = []
-    
-    # Always provide comprehensive feedback across all dimensions
-    
-    # 1. Planning (Issues vs exercises)
-    if issues == 0:
-        nudges.append(f"📝 **Planning**: Create issues for each exercise to track progress ({issues}/{expected_exercises} issues)")
-    elif issues < expected_exercises:
-        nudges.append(f"📝 **Planning**: Nice that you've made your own plan, but try making more issues ({issues}/{expected_exercises}, default: ~{expected_exercises})")
-    elif issues > expected_exercises + 2:
-        nudges.append(f"📝 **Planning**: Good issue tracking! ({issues}/{expected_exercises})")
-    else:
-        nudges.append(f"📝 **Planning**: Well-balanced issue planning ({issues}/{expected_exercises} issues)")
-    
-    # 2. Coding Activity (Commits to issues ratio)
+def classify_workflow_performance(a, expected_exercises):
+    return classify_score(workflow_score(a, expected_exercises))
+
+
+def coding_completion_automation_lines(a):
+    """The three lines shared by both models (2025 wording)."""
+    commits, issues = a['commits'], a['issues']
+    open_issues, closed_issues, closing_references = a['open_issues'], a['closed_issues'], a['closing_references']
+    L = []
     if commits == 0 and issues > 0:
-        nudges.append(f"💻 **Coding**: Start coding - issues need commits ({commits} commits, {issues} issues)")
+        L.append(f"💻 **Coding**: Start coding - issues need commits ({commits} commits, {issues} issues)")
     elif commits < issues:
-        nudges.append(f"💻 **Coding**: More commits needed ({commits}/{issues}, target: ≥1 commit per issue)")
+        L.append(f"💻 **Coding**: More commits needed ({commits}/{issues}, target: ≥1 commit per issue)")
     elif commits >= issues and issues > 0:
-        ratio = round(commits / issues, 1)
-        nudges.append(f"💻 **Coding**: Good commit frequency ({commits} commits for {issues} issues, ratio: {ratio})")
+        L.append(f"💻 **Coding**: Good commit frequency ({commits} commits for {issues} issues, ratio: {round(commits / issues, 1)})")
     elif commits > 0 and issues == 0:
-        nudges.append(f"💻 **Coding**: Active coding but consider planning with issues first ({commits} commits)")
-    
-    # 3. Completion (Issue states)
-    if open_issues > closed_issues and closed_issues > 0:
-        nudges.append(f"🎯 **Completion**: Close remaining issues to finish tasks ({open_issues} open, {closed_issues} closed)")
+        L.append(f"💻 **Coding**: Active coding but consider planning with issues first ({commits} commits)")
+
+    if open_issues > 0 and closed_issues > 0:
+        L.append(f"🎯 **Completion**: Close remaining issues to finish tasks ({open_issues} open, {closed_issues} closed)")
     elif open_issues > 0 and closed_issues == 0:
-        nudges.append(f"🎯 **Completion**: Start completing issues ({open_issues} open, {closed_issues} closed)")
+        L.append(f"🎯 **Completion**: Start completing issues ({open_issues} open, {closed_issues} closed)")
     elif closed_issues > 0 and open_issues == 0:
-        nudges.append(f"✅ **Completion**: Excellent - all issues completed ({closed_issues} closed)")
-    elif closed_issues == 0 and open_issues == 0:
-        nudges.append(f"🎯 **Completion**: No issues to track completion yet")
-    
-    # 4. Traceability (Issue references)
-    # if references == 0 and commits > 0:
-    #     nudges.append(f"🔗 **Traceability**: Link commits to issues ({references}/{commits} commits reference issues)")
-    # elif references > 0 and commits > 0:
-    #     ref_percentage = int((references / commits) * 100)
-    #     if ref_percentage >= 80:
-    #         nudges.append(f"🔗 **Traceability**: Excellent issue referencing ({references}/{commits} commits, {ref_percentage}%)")
-    #     else:
-    #         nudges.append(f"🔗 **Traceability**: Good progress, reference issues more often ({references}/{commits} commits, {ref_percentage}%)")
-    
-    # 5. Professional Workflow (Closing references)
-    if closing_references == 0 and closed_issues > 0:
-        nudges.append(f"⚡ **Automation**: Use closing keywords like 'Fixes # 1' to automate workflow ({closing_references}/{closed_issues} issues properly closed)")
-    elif closing_references > 0 and closed_issues > 0:
-        closing_percentage = int((closing_references / closed_issues) * 100)
-        if closing_percentage >= 80:
-            nudges.append(f"⚡ **Automation**: Perfect use of closing keywords ({closing_references}/{closed_issues} issues, {closing_percentage}%)")
-        else:
-            nudges.append(f"⚡ **Automation**: Good start, use closing keywords more often ({closing_references}/{closed_issues} issues, {closing_percentage}%)")
-    elif closed_issues == 0:
-        nudges.append(f"⚡ **Automation**: Complete some issues to practice using closing keywords")
-    
-    # Format as markdown bullet points with opening sentence
-    if nudges:
-        return "Here's how it went for your plan and process:\n" + "\n".join(f"- {nudge}" for nudge in nudges)
+        L.append(f"✅ **Completion**: Excellent - all issues completed ({closed_issues} closed)")
     else:
-        return "Here's how it went for your plan and process:\n- ✨ Excellent workflow! Perfect balance of planning and execution."
+        L.append("🎯 **Completion**: No issues to track completion yet")
+
+    if closing_references == 0 and closed_issues > 0:
+        L.append(f"⚡ **Automation**: Use closing keywords like 'Fixes # 1' to automate workflow ({closing_references}/{closed_issues} issues properly closed)")
+    elif closing_references > 0 and closed_issues > 0:
+        pct = int((closing_references / closed_issues) * 100)
+        if pct >= 80:
+            L.append(f"⚡ **Automation**: Perfect use of closing keywords ({closing_references}/{closed_issues} issues, {pct}%)")
+        else:
+            L.append(f"⚡ **Automation**: Good start, use closing keywords more often ({closing_references}/{closed_issues} issues, {pct}%)")
+    else:
+        L.append("⚡ **Automation**: Complete some issues to practice using closing keywords")
+    return L
+
+
+def planning_line_v1(a, expected):
+    issues = a['issues']
+    if issues == 0:
+        return f"📝 **Planning**: Create issues for each exercise to track progress ({issues}/{expected} issues)"
+    elif issues < expected:
+        return f"📝 **Planning**: Nice that you've made your own plan, but try making more issues ({issues}/{expected}, default: ~{expected})"
+    elif issues > expected + 2:
+        return f"📝 **Planning**: Good issue tracking! ({issues}/{expected})"
+    return f"📝 **Planning**: Well-balanced issue planning ({issues}/{expected} issues)"
+
+
+def generate_nudge_message(a, task_name, expected):
+    """v1 message body (2025)."""
+    lines = [planning_line_v1(a, expected)] + coding_completion_automation_lines(a)
+    return "Here's how it went for your plan and process:\n" + "\n".join(f"- {n}" for n in lines)
+
 
 def format_distribution_summary(classification_counts, user_classification):
-    """Format distribution summary showing where the student fits"""
-    total_students = sum(classification_counts.values())
-    if total_students <= 1:
+    """v1 cohort block: the five-rung class distribution."""
+    total = sum(classification_counts.values())
+    if total <= 1:
         return ""
-    
-    distribution_parts = []
-    categories = ["🌟 Workflow Master", "🚀 Strong Practitioner", "📈 Developing Process", 
-                 "🌱 Learning Workflow", "🎯 Getting Started"]
-    
-    for category in categories:
+    parts = []
+    for category in CATEGORIES:
         count = classification_counts.get(category, 0)
         if count > 0:
-            percentage = int(count / total_students * 100)
-            if category == user_classification:
-                distribution_parts.append(f"**{category}: {percentage}%** (<< you)")
-            else:
-                distribution_parts.append(f"{category}: {percentage}%")
-    
-    # Format as markdown list
-    distribution_list = "\n\n📊 **Class Distribution**:\nHere's how the rest of the course did:\n" + "\n".join(f"- {part}" for part in distribution_parts)
-    return distribution_list
+            pct = int(count / total * 100)
+            parts.append(f"**{category}: {pct}%** (<< you)" if category == user_classification else f"{category}: {pct}%")
+    return "\n\n📊 **Class Distribution**:\nHere's how the rest of the course did:\n" + "\n".join(f"- {p}" for p in parts)
 
-def write_nudges_csv(nudges_data, output_file):
-    """Write nudges data to CSV file"""
-    fieldnames = ['author', 'commits', 'issues', 'open_issues', 'closed_issues', 
-                 'references', 'closing_references', 'classification', 'nudge_message', 'issue_created']
-    
-    with open(output_file, 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in nudges_data:
-            writer.writerow(row)
+
+# ----------------------------------------------------------------------------- v2 (2026)
+def plan_breadth(p, expected):
+    """(real_issues, covered, units, narrow): a plan is narrow when it is a single issue that
+    covers less than half of the exercises, i.e. most of the task was done without a plan."""
+    real = int(p['issues']) - int(p['warmup_issues'])
+    covered = int(p['covered'])
+    units = max(real, covered)
+    narrow = real < 2 and covered < expected / 2
+    return real, covered, units, narrow
+
+
+def plan_components_v2(a, p, expected):
+    """(plan_score, penalty) for the v2 model from effort row `a` and plan row `p`.
+
+    A plan that is *used* (at least one issue referenced from a commit, or closed) counts as a
+    full plan whatever its style, provided it has some breadth: two or more issues, or coverage
+    of at least half the exercises. A single used issue for one exercise gets partial credit
+    (0.6) without the penalty. An unused plan scores by coverage of the exercises, and the 50%
+    underplanning penalty applies only when it covers less than half of them. No plan: 0.
+    """
+    style = p['plan_style']
+    real, covered, units, narrow = plan_breadth(p, expected)
+    coverage = min(units / expected, 1.0) if expected > 0 else 0
+    used = int(p['linked_issues']) > 0 or a['closed_issues'] > 0
+    if style == 'none' or real <= 0:
+        return 0.0, 0.5
+    if style == 'default-complete':
+        return 1.0, 1.0
+    if used:
+        return (max(coverage, 0.6), 1.0) if narrow else (1.0, 1.0)
+    return coverage, (0.5 if units < expected / 2 else 1.0)
+
+
+def workflow_score_v2(a, p, expected):
+    commits, issues = a['commits'], a['issues']
+    closed_issues, closing_references = a['closed_issues'], a['closing_references']
+    plan_score, penalty = plan_components_v2(a, p, expected)
+    commit_score = min(commits / max(issues, 1), 1.0) if issues > 0 else (1.0 if commits > 0 else 0)
+    closing_score = closing_references / max(closed_issues, 1) if closed_issues > 0 else 0
+    return (plan_score * 0.45 + commit_score * 0.25 + closing_score * 0.3) * penalty
+
+
+def planning_line_v2(p, expected):
+    style = p['plan_style']
+    real, covered, units, narrow = plan_breadth(p, expected)
+    s = 's' if real != 1 else ''
+    if style == 'none':
+        return (f"📝 **Planning**: No plan yet. The {expected} exercise links give you a ready-made one, "
+                f"or write your own issues, whichever suits you.")
+    cov = f", covering {covered} of the {expected} exercises" if covered else ""
+    if style == 'own' and narrow:
+        return (f"📝 **Planning**: You made your own plan: {real} issue{s}{cov}. Your own issues are welcome; "
+                f"the rest of the task ran without one, so next time give the other exercises an issue too and your progress will show.")
+    if style == 'own':
+        return (f"📝 **Planning**: You made your own plan: {real} issue{s}{cov}. "
+                f"That's the idea, the default links are only a suggestion.")
+    if style == 'mixed' and narrow:
+        return (f"📝 **Planning**: One link and a plan of your own ({real} issue{s}{cov}). Good start; "
+                f"most of the task ran without an issue, so next time give the other exercises one too.")
+    if style == 'mixed':
+        return (f"📝 **Planning**: A mix of the default links and your own issues ({real} issue{s}, "
+                f"{covered} of {expected} exercises covered). Good, the plan is yours to shape.")
+    if style == 'default-complete':
+        return f"📝 **Planning**: You used the default plan, one issue per exercise ({expected} of {expected})."
+    return (f"📝 **Planning**: You used {real} of the {expected} default links. If that's the plan you needed, fine. "
+            f"If exercises got done without an issue, next time either open the link first or write one issue that covers them.")
+
+
+def movement_reason(a, p, prev):
+    """One clause naming the component that changed most since the previous task (v2)."""
+    if not prev:
+        return ""
+    def comps(a_, p_):
+        expected = int(p_['expected']) or 1
+        plan, pen = plan_components_v2(a_, p_, expected)
+        issues = a_['issues']
+        commit = min(a_['commits'] / max(issues, 1), 1.0) if issues > 0 else (1.0 if a_['commits'] > 0 else 0)
+        closing = a_['closing_references'] / max(a_['closed_issues'], 1) if a_['closed_issues'] > 0 else 0
+        return {'plan': plan * pen, 'commit': commit, 'closing': closing}
+    now, before = comps(a, p), comps(prev['effort'], prev['plan'])
+    key = max(now, key=lambda k: abs(now[k] - before[k]))
+    delta = now[key] - before[key]
+    if abs(delta) < 0.1:
+        return "small changes across the board" if a is not None and prev else "same footing as last week"
+    up = delta > 0
+    if key == 'plan':
+        return "your plan covered the whole task this week" if up else "the plan covered less of the task this week"
+    if key == 'commit':
+        return "you made at least one commit per issue" if up else "several issues had no commit this week"
+    c, n = a['closing_references'], a['closed_issues']
+    return (f"you closed {min(c, n)} of {n} issues with keywords" if up
+            else f"fewer issues were closed with keywords ({min(c, n)} of {n})")
+
+
+def where_you_are_v2(classification, counts, previous_classification, reason, streak):
+    total = sum(counts.values()) or 1
+    pct = {c: round(100 * counts.get(c, 0) / total) for c in CATEGORIES}
+    top, upper, low = pct[CATEGORIES[0]], pct[CATEGORIES[0]] + pct[CATEGORIES[1]], pct[CATEGORIES[4]]
+    head = "\n\n📊 **Where you are**\n"
+    if previous_classification is None:
+        return (head + f"You start in **{classification}**. This week {top}% of the class reached Workflow Master, "
+                f"{upper}% are at Strong Practitioner or above, and {low}% are still Getting Started. "
+                f"Next week's feedback will show how you moved.")
+    if classification == previous_classification:
+        if classification == CATEGORIES[0] and streak >= 2:
+            line = f"**{classification}**, {streak} weeks running. {top}% of the class are here with you."
+        else:
+            line = f"**{classification}**, as last week ({reason})."
+            line += f" Class this week: {top}% Workflow Master, {upper}% Strong Practitioner or above, {low}% Getting Started."
+        return head + line
+    arrow = f"**{previous_classification} → {classification}** since last week ({reason})."
+    return head + arrow + f"\nClass this week: {top}% Workflow Master, {upper}% Strong Practitioner or above, {low}% Getting Started."
+
+
+# ----------------------------------------------------------------------------- driver
+def previous_task(cohort, task):
+    n = int(task.split('-')[1])
+    prev = f'task-{n - 1}'
+    return prev if n > 1 and cohort.task(prev) is not None else None
+
+
+def load_previous(cohort, task):
+    """{author: {'classification', 'streak', 'effort', 'plan'}} from the previous task, or {}."""
+    prev = previous_task(cohort, task)
+    if not prev:
+        return {}
+    d = cohort.task_data_dir(prev)
+    if not (d / 'nudges.csv').exists():
+        return {}
+    out = {}
+    plan_rows = {r['author']: r for r in read_csv(d / 'plan.csv')} if (d / 'plan.csv').exists() else {}
+    effort_rows = {r['author']: r for r in read_effort_data(d / 'effort.csv')} if (d / 'effort.csv').exists() else {}
+    for r in read_csv(d / 'nudges.csv'):
+        a = r['author']
+        streak = int(r.get('streak', 1) or 1)
+        out[a] = {'classification': r['classification'], 'streak': streak,
+                  'effort': effort_rows.get(a), 'plan': plan_rows.get(a)}
+    return out
+
+
+def build_nudges(effort_data, task, expected, model='v1', plan_rows=None, previous=None):
+    plan_rows = plan_rows or {}
+    previous = previous or {}
+    rows = []
+    counts = {}
+    for a in effort_data:
+        p = plan_rows.get(a['author'])
+        s1 = workflow_score(a, expected)
+        if model == 'v2' and p:
+            s = workflow_score_v2(a, p, expected)
+        else:
+            s = s1
+        c = classify_score(s)
+        counts[c] = counts.get(c, 0) + 1
+        rows.append((a, p, s1, s, c))
+
+    out = []
+    for a, p, s1, s, c in rows:
+        prev = previous.get(a['author'])
+        prev_c = prev['classification'] if prev else None
+        streak = (prev['streak'] + 1) if prev and prev_c == c else 1
+        if model == 'v2' and p:
+            body = "Here's how it went for your plan and process:\n" + "\n".join(
+                f"- {l}" for l in [planning_line_v2(p, expected)] + coding_completion_automation_lines(a))
+            reason = movement_reason(a, p, prev if prev and prev.get('effort') and prev.get('plan') else None)
+            if reason == "small changes across the board" and prev_c == c:
+                reason = "same footing as last week"
+            block = where_you_are_v2(c, counts, prev_c, reason, streak)
+            message = body + block + GUIDE_NOTE
+        else:
+            message = generate_nudge_message(a, task, expected) + format_distribution_summary(counts, c) + GUIDE_NOTE
+        out.append({
+            'author': a['author'], 'commits': a['commits'], 'issues': a['issues'],
+            'open_issues': a['open_issues'], 'closed_issues': a['closed_issues'],
+            'references': a['references'], 'closing_references': a['closing_references'],
+            'plan_style': p['plan_style'] if p else '', 'covered': p['covered'] if p else '',
+            'linked_issues': p['linked_issues'] if p else '',
+            'score_v1': round(s1, 4), 'classification_v1': classify_score(s1),
+            'score': round(s, 4), 'classification': c,
+            'previous_classification': prev_c or '', 'streak': streak,
+            'nudge_message': message, 'issue_created': False, 'issue_url': '',
+        })
+    return out, counts
+
+
+def run(task, cohort, quiet=False):
+    expected = cohort.expected_exercises(task)
+    model = cohort.raw.get('nudge_model', 'v1')
+    if cohort.task(task) is None:
+        print(f"[nudges] WARNING: {task} not in cohorts/{cohort.year}.json, using {expected} expected exercises")
+    elif cohort.is_provisional(task):
+        print(f"[nudges] WARNING: exercise count for {task} is PROVISIONAL ({expected}) - verify against the task README")
+    d = cohort.task_data_dir(task)
+    effort_file = d / 'effort.csv'
+    if not effort_file.exists():
+        raise SystemExit(f"[nudges] missing {effort_file}; run effort.py first")
+    effort_data = read_effort_data(effort_file)
+
+    plan_rows = {}
+    if model == 'v2':
+        import plan
+        plan_rows = {r['author']: r for r in plan.run(task, cohort, quiet=True)}
+    previous = load_previous(cohort, task) if model == 'v2' else {}
+
+    rows, counts = build_nudges(effort_data, task, expected, model, plan_rows, previous)
+    out = d / 'nudges.csv'
+    if out.exists():  # keep what has already been posted
+        posted = {r['author']: r for r in read_csv(out) if str(r.get('issue_created', '')).lower() == 'true'}
+        for r in rows:
+            if r['author'] in posted:
+                r['issue_created'] = True
+                r['issue_url'] = posted[r['author']].get('issue_url', '')
+        if posted:
+            print(f"[nudges] {len(posted)} students already posted; flags kept (use feedback.py --edit to update their issue)")
+    write_csv(out, rows, FIELDS)
+    print(f"[nudges] {cohort.year}/{task}: {len(rows)} students, model {model}, expected exercises {expected}"
+          + (f", previous task {previous_task(cohort, task)} ({len(previous)} students)" if previous else "") + f" -> {out}")
+    total = sum(counts.values()) or 1
+    for c in CATEGORIES:
+        if counts.get(c):
+            print(f"  {c}: {counts[c]} ({int(counts[c] / total * 100)}%)")
+    if not quiet:
+        for r in rows:
+            print(f"  {r['author']} ({r['classification']}): {r['nudge_message'][:60]}...")
+    return out
+
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate workflow-focused nudge messages for authors')
-    parser.add_argument('task', help='Task name (e.g., task-1, task-2)')
-    parser.add_argument('--data-dir', default='data', help='Directory containing effort CSV file')
-    
-    args = parser.parse_args()
-    
-    # Get task information
-    if args.task not in tasks:
-        print(f"Warning: Task {args.task} not found in context.py, using default exercise count of 5")
-        expected_exercises = 5
-    else:
-        expected_exercises = tasks[args.task]['number_of_exercises']
-    
-    # Define file paths
-    script_dir = Path(__file__).parent
-    base_dir = script_dir.parent
-    effort_file = base_dir / args.data_dir / args.task / "effort.csv"
-    output_file = base_dir / args.data_dir / args.task / "nudges.csv"
-    
-    print(f"Analyzing effort data for {args.task}")
-    print(f"Reading effort from: {effort_file}")
-    
-    # Read effort data
-    effort_data = read_effort_data(effort_file)
-    if not effort_data:
-        return 1
-    
-    print(f"Found effort data for {len(effort_data)} authors")
-    print(f"Expected exercises for {args.task}: {expected_exercises}")
-    
-    # First pass: classify all students to get distribution
-    classifications = {}
-    classification_counts = {}
-    
-    for author_data in effort_data:
-        classification = classify_workflow_performance(author_data, expected_exercises)
-        classifications[author_data['author']] = classification
-        classification_counts[classification] = classification_counts.get(classification, 0) + 1
-    
-    # Second pass: generate nudges with distribution context
-    nudges_data = []
-    for author_data in effort_data:
-        author = author_data['author']
-        classification = classifications[author]
-        base_nudge = generate_nudge_message(author_data, args.task, expected_exercises)
-        distribution_summary = format_distribution_summary(classification_counts, classification)
-        
-        # Feedback issues are posted to student repositories, so keep the guide
-        # reference repo-agnostic instead of linking to this repo directly.
-        guide_note = "\n\nSee `ice-guide.md` in the ICE repository for the full workflow guide."
-        full_message = base_nudge + distribution_summary + guide_note
-        
-        nudges_data.append({
-            'author': author,
-            'commits': author_data['commits'],
-            'issues': author_data['issues'],
-            'open_issues': author_data['open_issues'],
-            'closed_issues': author_data['closed_issues'],
-            'references': author_data['references'],
-            'closing_references': author_data['closing_references'],
-            'classification': classification,
-            'nudge_message': full_message,
-            'issue_created': False
-        })
-    
-    # Write results
-    write_nudges_csv(nudges_data, output_file)
-    print(f"Nudges generated! Results written to: {output_file}")
-    
-    # Show classification distribution
-    print("\nClassification Distribution:")
-    total = sum(classification_counts.values())
-    for classification, count in classification_counts.items():
-        percentage = int(count / total * 100)
-        print(f"  {classification}: {count} students ({percentage}%)")
-    
-    print("\nNudge Summary:")
-    for data in nudges_data:
-        classification = data['classification']
-        print(f"  {data['author']} ({classification}): {data['nudge_message'][:60]}...")
-    
-    return 0
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument('task', help='task name, e.g. task-1')
+    p.add_argument('-q', '--quiet', action='store_true')
+    context.add_cohort_arg(p)
+    args = p.parse_args()
+    run(args.task, context.load(args.cohort), args.quiet)
 
-if __name__ == "__main__":
-    exit(main())
+
+if __name__ == '__main__':
+    main()
