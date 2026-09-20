@@ -85,7 +85,8 @@ def classify_workflow_performance(a, expected_exercises):
 
 def coding_completion_automation_lines(a, plural=False):
     """The three lines shared by both models (2025 wording). With plural=True (v2, IMP-25)
-    the commit/issue counts are pluralised correctly ("1 commit"); v1 keeps the 2025 text."""
+    the commit/issue counts are pluralised correctly ("1 commit") and "Perfect use of closing
+    keywords" is kept for 100% (IMP-28; 80-99% reads "Good use"); v1 keeps the 2025 text."""
     commits, issues = a['commits'], a['issues']
     open_issues, closed_issues, closing_references = a['open_issues'], a['closed_issues'], a['closing_references']
     n_commits = f"{commits} commit" + ("" if plural and commits == 1 else "s")
@@ -113,7 +114,9 @@ def coding_completion_automation_lines(a, plural=False):
         L.append(f"⚡ **Automation**: Use closing keywords like 'Fixes # 1' to automate workflow ({closing_references}/{closed_issues} issues properly closed)")
     elif closing_references > 0 and closed_issues > 0:
         pct = int((closing_references / closed_issues) * 100)
-        if pct >= 80:
+        if pct >= 80 and plural and closing_references < closed_issues:   # v2 (IMP-28): "Perfect" only at 100%
+            L.append(f"⚡ **Automation**: Good use of closing keywords ({closing_references}/{closed_issues} issues, {pct}%)")
+        elif pct >= 80:
             L.append(f"⚡ **Automation**: Perfect use of closing keywords ({closing_references}/{closed_issues} issues, {pct}%)")
         else:
             L.append(f"⚡ **Automation**: Good start, use closing keywords more often ({closing_references}/{closed_issues} issues, {pct}%)")

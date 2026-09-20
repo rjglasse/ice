@@ -42,8 +42,23 @@
     },
     "task-3": {
       "deadline": "2026-09-19",
-      "exercises": 6,
-      "provisional": true
+      "exercises": 5,
+      "exercise_date": "2026-09-18",
+      "exercise_list": [
+        "3.0 A Triangle, worked for you",
+        "3.1 The three types of Triangles",
+        "3.2 Triangle.getArea()",
+        "3.3 Reverse Engineering",
+        "3.4 Returning a boolean expression"
+      ],
+      "link_titles": [
+        "Exercise 3.0 -- A Triangle, worked for you",
+        "Exercise 3.1 -- The three types of Triangles",
+        "Exercise 3.2 -- Triangle.getArea()",
+        "Exercise 3.3 -- Reverse Engineering",
+        "Exercise 3.4 -- Returning a boolean expression"
+      ],
+      "discovered": "2026-09-20 from 179 local READMEs (majority vote)"
     },
     "task-4": {
       "deadline": "2026-09-26",
