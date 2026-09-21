@@ -62,3 +62,8 @@ attributed.
 
 Run `python3 scripts/compare.py --all --cohort 2025 --baseline 2025 --as-delivered -q` for the
 per-task 2025 tables; the paper's headline figures are in `paper/figures/`.
+
+## Interim notes
+
+Dated readings of the results while the course runs are kept in `docs/interim-notes.md`
+(private working copy only, not published).
