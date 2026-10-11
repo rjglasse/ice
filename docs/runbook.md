@@ -55,6 +55,7 @@ Every step is a script that takes the task name and `--cohort NAME` (default: th
 | compare | `compare.py task-N [--baseline YEAR]` / `compare.py --all` | `compare.md`, `reports/` |
 | history | `history.py --tasks task-1 ... task-N` | `reports/history-commits.md` |
 | post | `feedback.py task-N [--post] [--student U] [--limit N]` | issues in student repos |
+| fidelity | `fidelity.py [task-N ...] [--skip-issues]` (read-only; gh; javac + JUnit 4 from `~/.m2`) | `fidelity.csv`, `reports/fidelity.md` (worked-example variants, tasks 1-3 so far) |
 
 ## Setup on a new machine
 

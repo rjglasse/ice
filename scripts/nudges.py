@@ -251,7 +251,11 @@ def movement_reason(a, p, prev):
         return "small changes across the board" if a is not None and prev else "same footing as last week"
     up = delta > 0
     if key == 'plan':
-        return "your plan covered the whole task this week" if up else "the plan covered less of the task this week"
+        if not up:
+            return "the plan covered less of the task this week"
+        expected = int(p['expected']) or 1
+        whole = p['plan_style'] == 'default-complete' or plan_breadth(p, expected)[2] >= expected
+        return "your plan covered the whole task this week" if whole else "your plan covered more of the task this week"
     if key == 'commit':
         return "you made at least one commit per issue" if up else "several issues had no commit this week"
     c, n = a['closing_references'], a['closed_issues']
